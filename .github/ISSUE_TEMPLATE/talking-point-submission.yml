@@ -1,0 +1,117 @@
+name: Talking Point Submission
+description: Submit a talking point or narrative claim for review
+title: "[SUBMISSION] "
+labels: ["status: triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to submit a talking point, narrative claim, or coordinated framing you've observed.
+        
+        **Do not include personally identifying information about private individuals.**
+        All submissions enter a mod review queue before becoming part of the approved database.
+
+  - type: textarea
+    id: verbatim
+    attributes:
+      label: Verbatim claim
+      description: Paste the exact wording as you saw it. Quote it precisely.
+      placeholder: '"[Person] covered up [X] because he profits from [Y]"'
+    validations:
+      required: true
+
+  - type: textarea
+    id: normalized
+    attributes:
+      label: Normalized version (optional)
+      description: If the verbatim is highly specific, restate the general claim it represents.
+      placeholder: "Target is accused of financially motivated complicity in [X]"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform observed
+      options:
+        - X / Twitter
+        - Discord (public server)
+        - Discord (leaked / shared logs)
+        - Twitch chat
+        - YouTube chat
+        - Stream donation / superchat
+        - Reddit
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL or screenshot reference
+      description: Link to post, or describe where a screenshot can be found. If no URL, describe the context.
+      placeholder: "https://x.com/..."
+    validations:
+      required: false
+
+  - type: input
+    id: first_seen
+    attributes:
+      label: Date first seen (YYYY-MM-DD)
+      placeholder: "2025-05-20"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: narrative_cluster
+    attributes:
+      label: Narrative cluster (optional)
+      description: Does this belong to a known narrative cluster?
+      options:
+        - Lawsuit narrative
+        - Sexual misconduct narrative
+        - Financial corruption narrative
+        - Association / complicity narrative
+        - Platform manipulation narrative
+        - Uncategorized / new cluster
+    validations:
+      required: false
+
+  - type: dropdown
+    id: tactic_tag
+    attributes:
+      label: Tactic tag (optional)
+      description: If this maps to a known tactic, select it. Leave blank if unsure.
+      options:
+        - "1 - Always on offense"
+        - "2 - Isolated demands for rigor"
+        - "3 - Schrodinger's joke"
+        - "4 - Unilateral principles"
+        - "5 - No-win framing"
+        - "6 - Victim reversal (DARVO)"
+        - "7 - Moving goalposts"
+        - "8 - Permission structures"
+        - "9 - Maximize yours, minimize theirs"
+        - "10 - Fragmentation"
+        - "11 - Narrative laundering"
+        - "Unsure / multiple"
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else relevant — spread pattern, accounts involved, timing relative to events, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission checklist
+      options:
+        - label: I have not included private personal information about individuals
+          required: true
+        - label: I have verified this is a real observation, not speculation
+          required: true

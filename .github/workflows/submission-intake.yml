@@ -1,0 +1,85 @@
+name: Submission Intake
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'status: triage')
+
+    steps:
+      - name: Add platform label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body || '';
+            const labels = [];
+
+            // Platform detection
+            if (body.includes('X / Twitter')) labels.push('platform: twitter');
+            else if (body.includes('Discord (public')) labels.push('platform: discord-public');
+            else if (body.includes('Discord (leaked')) labels.push('platform: discord-leaked');
+            else if (body.includes('Twitch')) labels.push('platform: twitch');
+            else if (body.includes('YouTube')) labels.push('platform: youtube');
+            else if (body.includes('Reddit')) labels.push('platform: reddit');
+
+            // Narrative cluster detection
+            if (body.includes('Lawsuit narrative')) labels.push('cluster: lawsuit');
+            else if (body.includes('Sexual misconduct')) labels.push('cluster: sexual-misconduct');
+            else if (body.includes('Financial corruption')) labels.push('cluster: financial');
+            else if (body.includes('Association')) labels.push('cluster: association');
+            else if (body.includes('Platform manipulation')) labels.push('cluster: platform-manipulation');
+            else if (body.includes('Uncategorized')) labels.push('cluster: uncategorized');
+
+            // Tactic detection
+            const tacticMatch = body.match(/### Tactic tag[\s\S]*?\n([^\n]+)/);
+            if (tacticMatch) {
+              const tactic = tacticMatch[1].trim();
+              if (tactic.startsWith('1')) labels.push('tactic: always-on-offense');
+              else if (tactic.startsWith('2')) labels.push('tactic: isolated-rigor');
+              else if (tactic.startsWith('3')) labels.push('tactic: schroedingers-joke');
+              else if (tactic.startsWith('4')) labels.push('tactic: unilateral-principles');
+              else if (tactic.startsWith('5')) labels.push('tactic: no-win-framing');
+              else if (tactic.startsWith('6')) labels.push('tactic: victim-reversal');
+              else if (tactic.startsWith('7')) labels.push('tactic: moving-goalposts');
+              else if (tactic.startsWith('8')) labels.push('tactic: permission-structures');
+              else if (tactic.startsWith('9')) labels.push('tactic: maximize-minimize');
+              else if (tactic.startsWith('10')) labels.push('tactic: fragmentation');
+              else if (tactic.startsWith('11')) labels.push('tactic: narrative-laundering');
+            }
+
+            if (labels.length > 0) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.issue.number,
+                labels: labels
+              });
+            }
+
+      - name: Post triage checklist comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: `## Mod Review Checklist
+            
+            - [ ] Verbatim claim is specific enough to be useful
+            - [ ] Source URL or screenshot confirmed (or flagged as unverified)
+            - [ ] Date plausible / cross-checked
+            - [ ] Narrative cluster correct
+            - [ ] Tactic tag correct or updated
+            - [ ] Not a duplicate of existing approved entry
+            - [ ] No private personal information included
+            
+            **Actions:**
+            - Approve → add \`status: approved\` label, close issue, add to \`data/approved.csv\`
+            - Reject → add \`status: rejected\` label, close issue with reason
+            - Needs info → add \`status: needs-info\` label, comment on issue
+            `
+            });

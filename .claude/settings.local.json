@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-Content \"C:\\\\Users\\\\User\\\\dev\\\\snark-summer\\\\transcripts\\\\whicktv-destiny-v-snarkers-1.txt\")",
+      "Bash(Measure-Object -Line)",
+      "Bash(Select-Object -ExpandProperty Lines)",
+      "PowerShell(Get-Content *)",
+      "PowerShell(Set-Content *)"
+    ]
+  }
+}
