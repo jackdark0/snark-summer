@@ -241,5 +241,6 @@ Do not read raw transcripts unless explicitly asked to process them.
 - [x] Ingest `destiny+dan-v-chud+shamoo+kuihman-2026MAY14.txt` — EX-0032–EX-0037 documented
 - [x] Ingest `conor-dooby-2025MAY22.txt` — EX-0038–EX-0040 documented (note: filename year is a typo; content is 2026-05-18/22/23)
 - [x] Ingest `jstlk-mrow-kuihman-v-stale.txt` — EX-0041–EX-0045 documented
-- [ ] Clip and verify all TIMESTAMP examples
+- [x] Generate clip URLs for all examples — all 37 at CLIP status
+- [ ] Verify all CLIP examples (watch clips, confirm timestamps match entries)
 - [ ] Push to GitHub repo and wire up Actions workflows
