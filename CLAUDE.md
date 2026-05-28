@@ -17,6 +17,8 @@ classifier training data.
 ## File Structure
 
 ```
+counter-insurgency.md        # Public-facing community guide; clip URLs in example bank link here
+
 docs/
   counter-tactics-guide.md   # Master taxonomy: 13 tactics with counter-moves
   tactic-example-bank.md     # Living example catalog keyed to taxonomy (EX-####)
@@ -97,7 +99,7 @@ Each entry in `tactic-example-bank.md` follows this format:
 **Source:** [Stream/platform/account]
 **Date:** YYYY-MM-DD
 **Timestamp:** HH:MM:SS or N/A
-**Clip URL:** [URL or PENDING]
+**Clip URL:** `https://youtu.be/[VIDEO_ID]&t=[seconds]` — or PENDING if video ID not yet in transcript header
 **Status:** TIMESTAMP / CLIP / VERIFIED
 
 **What happened:** [1-3 sentences]
@@ -107,7 +109,7 @@ Each entry in `tactic-example-bank.md` follows this format:
 
 Status progression: `TIMESTAMP` → `CLIP` → `VERIFIED`
 
-When adding examples, assign the next available `EX-####` ID. Current highest: `EX-0015`.
+When adding examples, assign the next available `EX-####` ID. Current highest: `EX-0045`.
 
 ---
 
@@ -144,6 +146,24 @@ When given a new transcript:
 
 **Do not modify raw transcripts.** Work from processed copies only.
 
+### Clip URL generation
+
+Processed transcript headers should include a `video_id:` line, e.g.:
+
+```
+video_id: dQw4w9WgXcQ
+```
+
+When writing EX entries, convert the timestamp to seconds and generate:
+`https://youtu.be/[VIDEO_ID]&t=[seconds]`
+
+Conversion: `H:MM:SS` → `H×3600 + M×60 + S`; `M:SS` → `M×60 + S`
+
+Examples: `42:29` → 2549 → `https://youtu.be/ABC123&t=2549`  
+`1:13:35` → 4415 → `https://youtu.be/ABC123&t=4415`
+
+If no `video_id:` line is present, use `PENDING`. Status stays `TIMESTAMP` until a clip URL is added.
+
 ---
 
 ## Context Reading Pattern
@@ -173,24 +193,53 @@ Do not read raw transcripts unless explicitly asked to process them.
 
 ## Current Status
 
-**Transcripts ingested:** 3
-- Wick TV debate (2026-05-20) — EX-0001–EX-0007 documented; EX-0008–EX-0015 pending
-- Chudlogic post-debate reaction stream (2026-05-14) — EX-0016, EX-0018, EX-0021 retained
+**Transcripts ingested:** 7
+- Wick TV debate (2026-05-20) — EX-0001–EX-0015 documented
+- Chudlogic post-debate reaction stream (2026-05-14) — EX-0018, EX-0021, EX-0032–EX-0037 documented
+- Destiny v Dooby on Wick TV (2025-12-18) — EX-0026–EX-0031 documented
+- Conor stream: snark coverage + Dooby debate (2026-05-18/22) — EX-0038–EX-0040 documented
+- JSTLK/Kuihman/Mrow react to Stale 2000 (2026-05-19) — EX-0041–EX-0045 documented
 
-**Active examples:** EX-0001–EX-0007, EX-0016, EX-0018, EX-0021 (10 total)
-**Retired IDs (do not reuse):** EX-0017, EX-0019, EX-0020, EX-0022–EX-0025
+**Active examples:** EX-0001–EX-0015, EX-0018, EX-0021, EX-0026–EX-0045 (37 total)
+**Retired IDs (do not reuse):** EX-0016, EX-0017, EX-0019, EX-0020, EX-0022–EX-0025
+**Next available ID:** EX-0046
 
-**Tactics with examples:** 1 (Always on Offense), 2 (Isolated Demands for Rigor), 3 (Schrodinger's Joke), 4 (Unilateral Principles), 5 (No-Win Framing), 7 (Moving Goalposts), 8 (Permission Structures), 10 (Fragmentation), 11 (Narrative Laundering), 12 (Cross-Community Infiltration)
-**Tactics pending first adversary-perspective example:** 6 (Victim Reversal/DARVO), 9 (Maximize Yours/Minimize Theirs), 13 (Paint Them as Crazy)
+**Tactic coverage** (target: 3 per tactic):
+
+| # | Tactic | Count | Status |
+|---|---|---|---|
+| 1 | Always on Offense | 3 | ✓ |
+| 2 | Isolated Demands for Rigor | 4 | ✓ |
+| 3 | Schrodinger's Joke | 3 | ✓ |
+| 4 | Unilateral Principles | 3 | ✓ |
+| 5 | No-Win Framing | 2 | needs 1 |
+| 6 | Victim Reversal (DARVO) | 2 | needs 1 |
+| 7 | Moving Goalposts | 3 | ✓ |
+| 8 | Permission Structures | 3 | ✓ |
+| 9 | Maximize Yours, Minimize Theirs | 4 | ✓ |
+| 10 | Fragmentation | 3 | ✓ |
+| 11 | Narrative Laundering | 2 | needs 1 |
+| 12 | Cross-Community Infiltration | 2 | needs 1 |
+| 13 | Paint Them as Crazy | 3 | ✓ |
 
 **Approved talking points:** 1 (TP-0001 — `association` cluster)
+
+**Known actors:**
+- Coordinators (adversary): JSTLK (JTO), Nikandros (Nick Andros/Shimu), Kuihman (Queman)
+- Targets (team-adjacent): LonerBox, Hutch, Stardust, Whick
+- Adversary debate participants: Dooby (Dec 2025 Wick TV), Aiden Underground, Dickers (May 2026 Wick TV), Chudlogic (May 2026 reaction stream)
 
 ---
 
 ## What's Next
 
-- [ ] Backfill EX-0008–EX-0015 from `whicktv-destiny-v-snarkers-1.txt` (adversary perspective only)
-- [ ] Find examples for Tactics 6, 9, 13 from adversary behavior (not team members)
-- [ ] Ingest `destiny-v-dooby-2025DEC18.txt` if/when content is available
+- [x] Backfill EX-0008–EX-0015 from `whicktv-destiny-v-snarkers-1.txt` (adversary perspective only)
+- [x] Find examples for Tactics 6, 9, 13 from adversary behavior (not team members)
+- [x] Ingest `destiny-v-dooby-2025DEC18.txt`
+- [ ] Write processed transcript for `destiny-v-dooby-2025DEC18.txt` to `transcripts/processed/`
+- [x] Review EX-0016 — retired (LonerBox/Hutch/Stardust confirmed targets/team side)
+- [x] Ingest `destiny+dan-v-chud+shamoo+kuihman-2026MAY14.txt` — EX-0032–EX-0037 documented
+- [x] Ingest `conor-dooby-2025MAY22.txt` — EX-0038–EX-0040 documented (note: filename year is a typo; content is 2026-05-18/22/23)
+- [x] Ingest `jstlk-mrow-kuihman-v-stale.txt` — EX-0041–EX-0045 documented
 - [ ] Clip and verify all TIMESTAMP examples
 - [ ] Push to GitHub repo and wire up Actions workflows
