@@ -27,6 +27,18 @@ docs/
 data/
   approved.csv               # Canonical approved talking points database (auto-updated)
 
+agentic/
+  roles/                     # Agent role prompts
+  packets/                   # Generated transcript packets for scout agents
+  candidates/                # Scout-agent JSONL candidate records
+  reports/                   # Duplicate, score, clip, and merge reports
+
+scripts/agentic/
+  make_packets.py            # Split processed transcripts into scout packets
+  validate_candidates.py     # Validate scout JSONL before review/merge
+  validate_bank.py           # Check bank/audit consistency
+  validate_clips.py          # Verify local MP4 clip quality
+
 transcripts/
   raw/                       # Raw auto-caption transcripts (do not modify)
   processed/                 # Cleaned transcripts ready for analysis
@@ -152,6 +164,20 @@ When given a new transcript:
 
 If a duplicate is found after an EX entry was added, keep the ID retired in place. Add a short `RETIRED — duplicate of EX-####` note to the bank, remove it from active earmarked coverage, and list the ID under retired IDs in this file. Do not reuse retired IDs.
 
+### Agentic review workflow
+
+Use `docs/agentic-workflow.md` for parallel review. The short version:
+
+1. Generate scout packets with `python scripts\agentic\make_packets.py --glob "<processed transcript glob>"`
+2. Send packets to scout agents using `agentic/roles/scout.md`
+3. Save scout output as JSONL in `agentic/candidates/`
+4. Validate with `python scripts\agentic\validate_candidates.py agentic\candidates\*.jsonl`
+5. Run duplicate and score review before any bank edit
+6. Let only the merge editor apply accepted candidates to `docs/tactic-example-bank.md` and `docs/tactic-example-score-audit.md`
+7. Run `validate_bank.py`, `validate_clips.py`, and `git diff --check` before commit
+
+Semantic work can be parallelized. Bank edits are serialized through the merge editor.
+
 ### Clip URL generation
 
 Processed transcript headers should include a `video_id:` line, e.g.:
@@ -175,7 +201,9 @@ If no `video_id:` line is present, use `PENDING`. Status stays `TIMESTAMP` until
 
 ### Physical clip quality
 
-For local MP4 clips, maximize quality unless the user asks for small files. Use the clipper's best-available format selector (`bv*+ba/b`) and make sure `ffmpeg` is on PATH so yt-dlp can merge best video plus best audio instead of falling back to low-resolution combined streams. Existing local clips sampled in `clips/test-run/` and `clips/ryle-kittenhouse/` are 640x360 reference clips; replace them with max-quality clips before treating them as archival.
+For local MP4 clips, maximize quality unless the user asks for small files. Use split best video plus best audio, not the low-resolution combined fallback. Preferred MP4 selector: `bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]/bv*+ba/b`. If output container is not constrained to MP4, `bv*+ba/b` is acceptable. Always provide `ffmpeg` through PATH or `--ffmpeg-location` so yt-dlp can merge streams.
+
+For short sections from long YouTube archives, `yt-dlp --download-sections` can hang on split high-quality streams. In that case, download the unique source video once with the preferred selector, cut clips locally with `ffmpeg -ss <start> -i <source> -t <duration> -map 0:v:0 -map 0:a:0? -c copy -movflags +faststart`, verify resolution with `ffprobe`, then delete the temporary source. Do not treat 640x360 clips as archival when a higher source exists.
 
 ---
 
@@ -188,6 +216,7 @@ For tasks that need project context but not full file reads:
 3. For example/duplicate checks → `docs/tactic-example-bank.md`
 4. For talking point checks → `data/approved.csv`
 5. For transcript work → `transcripts/processed/[file]`
+6. For parallel review setup → `docs/agentic-workflow.md`
 
 Do not read raw transcripts unless explicitly asked to process them.
 
@@ -221,6 +250,8 @@ Do not read raw transcripts unless explicitly asked to process them.
 **Retired IDs (do not reuse):** EX-0016, EX-0017, EX-0019, EX-0020, EX-0022–EX-0025 (removed); EX-0052, EX-0058, EX-0080 (flagged in place as duplicates of EX-0004, EX-0010, EX-0039 respectively)
 **Next available ID:** EX-0091
 **Score audit:** `docs/tactic-example-score-audit.md`
+**Alias register:** `docs/actor-aliases.md`
+**Coordinator consistency tracker:** `docs/coordinator-consistency.md`
 
 **Score-3+ earmarked tactic coverage** (soft cap: 6-7 per tactic):
 
@@ -243,7 +274,7 @@ Do not read raw transcripts unless explicitly asked to process them.
 **Approved talking points:** 1 (TP-0001 — `association` cluster)
 
 **Known actors:**
-- Coordinators (adversary): JSTLK (JTO), Nikandros (Nick Andros/Shimu), Kuihman (Queman)
+- Coordinators (adversary): JSTLK (aliases: JTO/Jtock/Jaystalk), Kuihman (auto-caption variants: Queman/Queenman), Nikandros (Nick Andros; do not collapse Shimu without source confirmation)
 - Targets (team-adjacent): LonerBox, Hutch, Stardust, Whick
 - Adversary debate participants: Dooby (Dec 2025 Wick TV), Aiden Underground, Dickers (May 2026 Wick TV), Chudlogic (May 2026 reaction stream)
 
@@ -265,5 +296,6 @@ Do not read raw transcripts unless explicitly asked to process them.
 - [x] Ingest MrowLive/Liquid Sonic filtered channel scan — EX-0088–EX-0090 documented; Liquid Sonic yielded no bank additions after filtering
 - [x] Generate clip URLs for all active examples — all 79 active examples at CLIP status
 - [ ] Verify all CLIP examples (watch clips, confirm timestamps match entries)
-- [ ] Replace legacy 640x360 local MP4s with max-quality clips once `ffmpeg` is available on PATH
+- [x] Replace legacy 640x360 local MP4s with max-quality clips (49 existing clips verified at 1920x1080)
+- [x] Build agentic review scaffold for packetized transcript scans, candidate JSONL, and validation gates
 - [ ] Push to GitHub repo and wire up Actions workflows

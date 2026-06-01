@@ -16,6 +16,24 @@ Mod review (checklist comment posted automatically)
 Approved database (data/approved.csv — auto-updated on approval)
 ```
 
+## Agentic review workflow
+
+For channel/transcript scans, use the scaffold in `agentic/`:
+
+```powershell
+python scripts\agentic\make_packets.py --glob "transcripts\ryle-kittenhouse\processed\*.txt"
+python scripts\agentic\validate_candidates.py agentic\candidates\*.jsonl
+python scripts\agentic\validate_bank.py
+python scripts\agentic\validate_clips.py --min-height 1080
+```
+
+Scouts write candidate JSONL; duplicate/score reviewers write reports; only the
+merge editor updates the example bank. See
+[`docs/agentic-workflow.md`](docs/agentic-workflow.md). Use
+[`docs/actor-aliases.md`](docs/actor-aliases.md) for canonical names and
+[`docs/coordinator-consistency.md`](docs/coordinator-consistency.md) for the
+dated coordinator pattern tracker.
+
 ---
 
 ## Submitting a talking point
@@ -48,7 +66,7 @@ New clusters can be proposed via Issue.
 
 ## Tactic taxonomy
 
-Submissions can optionally be tagged to one of 11 documented tactics. See [docs/counter-tactics-guide.md](docs/counter-tactics-guide.md) for full descriptions and counter-moves.
+Submissions can optionally be tagged to one of 13 documented tactics. See [docs/counter-tactics-guide.md](docs/counter-tactics-guide.md) for full descriptions and counter-moves.
 
 | # | Tactic |
 |---|---|
@@ -63,6 +81,8 @@ Submissions can optionally be tagged to one of 11 documented tactics. See [docs/
 | 9 | Maximize yours, minimize theirs |
 | 10 | Fragmentation |
 | 11 | Narrative laundering |
+| 12 | Cross-community infiltration |
+| 13 | Paint them as crazy |
 
 ---
 

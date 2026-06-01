@@ -74,7 +74,7 @@ They speculate freely, share screenshots out of context, and repeat things they 
 
 > *"The use that information to harass them component I just... where you're getting that. Are you like pulling it out of your ass?"* — Aiden, demanding proof of harassment intent from OSINT tool evidence, while freely asserting the server was "carefully vetted" with "verified creators" — no documentation offered (→ EX-0009)
 
-> *"I'm going to make the assumption that Nick Andros probably didn't do anything that bad. That Shimu probably didn't do anything that bad."* [then, to a critic:] *"Dude, the facts are there. Just go watch the debate. Look into it."* — JTO, extending total charity to his allies with no evidence while demanding opponents research his side's claims (→ EX-0042)
+> *"I'm going to make the assumption that Nick Andros probably didn't do anything that bad. That Shimu probably didn't do anything that bad."* [then, to a critic:] *"Dude, the facts are there. Just go watch the debate. Look into it."* — JSTLK, extending total charity to his allies with no evidence while demanding opponents research his side's claims (→ EX-0042)
 
 **Why it works:**
 
@@ -100,7 +100,7 @@ They make a serious accusation — sexual misconduct, pedophilia, fraud — wrap
 
 > *"I would have to actually — I don't think I've ever called you a pedophile. Wait, no. I think I did once as a meme."* — Dooby, self-admitting the accusation while retroactively framing it as a joke (→ EX-0039)
 
-> *"I know it's a joke. I know he's never doxed anybody. I know he's not at risk of doxing somebody."* — JTO, on a server member who had threatened to come to a target's house, claimed to have CSAM of them, and threatened to publish their personal information (→ EX-0030)
+> *"I know it's a joke. I know he's never doxed anybody. I know he's not at risk of doxing somebody."* — JSTLK, on a server member who had threatened to come to a target's house, claimed to have CSAM of them, and threatened to publish their personal information (→ EX-0030)
 
 **Why it works:**
 
@@ -127,7 +127,7 @@ They demand you hold yourself to standards they don't apply to themselves. You m
 
 > *"He posted the URL which had her name in it. So that would be dox. You'd be posting like their private name."* — Chudlogic, while spending two hours defending Nick Andros's OSINT compilation of a target's real-world identity as categorically non-doxing (→ EX-0036)
 
-> *"There's a big difference between just mass reporting someone you don't like and then mass reporting someone who's causing like actual tangible harm."* — JTO, framing his own coordinated mass reporting as principled while admitting he didn't publicize it because "I don't want to get mass reporting back" (→ EX-0043)
+> *"There's a big difference between just mass reporting someone you don't like and then mass reporting someone who's causing like actual tangible harm."* — JSTLK, framing his own coordinated mass reporting as principled while admitting he didn't publicize it because "I don't want to get mass reporting back" (→ EX-0043)
 
 **Why it works:**
 
@@ -179,7 +179,7 @@ They provoke, harass, or escalate. When you react, they become the victim. Your 
 
 > *"Given the fact that Destiny is going on this crazy doxing campaign against all the people in Jay Dog's community, I'm just going to say I don't know what these guys are doing, but I don't want to get involved."* — Aiden, when asked about Wick's dox being celebrated in the Snark server; the provocation that caused Destiny's response was the entire subject of the debate (→ EX-0014)
 
-> *"He makes up that I've had some hand in it or I've done something back to him... literally no evidence of it."* [immediately followed by:] *"I do think he should be banned. I think he should be demonetized."* — JTO, in the same stream where he admitted organizing mass reporting campaigns (→ EX-0044)
+> *"He makes up that I've had some hand in it or I've done something back to him... literally no evidence of it."* [immediately followed by:] *"I do think he should be banned. I think he should be demonetized."* — JSTLK, in the same stream where he admitted organizing mass reporting campaigns (→ EX-0044)
 
 **Why it works:**
 
@@ -260,7 +260,7 @@ Anything done to you is framed in the worst possible light. Anything they do is 
 
 > Darius walking up to Lauren on a sidewalk for a minute: treated as "clearly and obviously harassment" throughout the debate. Sabosexual sending 19+ emails to a trafficking victim and her family to compel her testimony: *"these were not harassing emails. I think he was trying to be helpful."* — Dooby, applying opposite standards to identical conduct (→ EX-0026)
 
-> Dan's retracted factual error: *"Another lie. You lied to me. Never trusted you. Boldfaced lie."* Queman's two-year mischaracterization of an OSINT tool as a "League of Legends username checker," only conceded under live questioning: *"he made one mistake which he admitted to as soon as he got on the stream."* — Chudlogic, identical category of error assessed by opposite standards (→ EX-0033)
+> Dan's retracted factual error: *"Another lie. You lied to me. Never trusted you. Boldfaced lie."* Kuihman's two-year mischaracterization of an OSINT tool as a "League of Legends username checker," only conceded under live questioning: *"he made one mistake which he admitted to as soon as he got on the stream."* — Chudlogic, identical category of error assessed by opposite standards (→ EX-0033)
 
 **Why it works:**
 
@@ -312,7 +312,7 @@ Talking points are workshopped in private coordination spaces, then released int
 
 > *"You and six other people from that server all tweeted at the same time trying to blame Unfuck America... did you just happen to do that random?"* / *"I mean, depends on the definition of coordinated."* — Destiny/Dickers, Wick TV debate (→ EX-0011)
 
-> *"Now it's attached to this and I can get that message out to more people that Destiny was basically threatening Pisco's community as well."* — JTO, describing in real time how he packages a talking point and seeds it into a current controversy for wider reach (→ EX-0041)
+> *"Now it's attached to this and I can get that message out to more people that Destiny was basically threatening Pisco's community as well."* — JSTLK, describing in real time how he packages a talking point and seeds it into a current controversy for wider reach (→ EX-0041)
 
 **Why it works:**
 
@@ -337,9 +337,9 @@ Don't assume organic-seeming consensus is organic. Verify provenance before enga
 
 A small server or content creator runs an op that primarily benefits a larger network. Proximate targets — whose behavior is documented or whose logs are leaked — serve as vehicles to reach the actual targets. The beneficiary claims clean hands.
 
-> When the Snark Left server leak dropped, no post-debate activity targeted Shimu or Nick Andros — whose logs were actually leaked. All tweets and follow-up pressure went at Chudlogic, Queman, and JTO. Chudlogic: *"They want to use these logs and smear Nick Andros and I in order to hit these other people. It's kind of like collateral damage."* (→ EX-0018)
+> When the Snark Left server leak dropped, no post-debate activity targeted Shimu or Nick Andros — whose logs were actually leaked. All tweets and follow-up pressure went at Chudlogic, Kuihman, and JSTLK. Chudlogic: *"They want to use these logs and smear Nick Andros and I in order to hit these other people. It's kind of like collateral damage."* (→ EX-0018)
 
-> Aiden called on "the entire commentary community to come together" to defend the Snark server — a server he admitted he knew almost nothing about, including its moderators, vetting criteria, and specific incidents. When Destiny asked "did somebody tell you that?", it later emerged Queman had been in Aiden's DMs before the debate. (→ EX-0010)
+> Aiden called on "the entire commentary community to come together" to defend the Snark server — a server he admitted he knew almost nothing about, including its moderators, vetting criteria, and specific incidents. When Destiny asked "did somebody tell you that?", it later emerged Kuihman had been in Aiden's DMs before the debate. (→ EX-0010)
 
 **Why it works:**
 
@@ -364,7 +364,7 @@ Don't address only the proximate actor. Engaging them alone lets the actual netw
 
 When someone presents pattern evidence of coordination — timestamps, co-occurrence, identical phrasing — the response isn't to engage the evidence. It's to characterize the presenter as paranoid, obsessed, or mentally unstable.
 
-> *"How am I supposed to disprove that insinuation? You just make unfalsifiable claims and you know that there is no possible way I can disprove it and people are just going to run with it."* — Aiden, when Destiny presented pattern evidence linking Queman's community to a specific Kiwi Farms doxer (→ EX-0012)
+> *"How am I supposed to disprove that insinuation? You just make unfalsifiable claims and you know that there is no possible way I can disprove it and people are just going to run with it."* — Aiden, when Destiny presented pattern evidence linking Kuihman's community to a specific Kiwi Farms doxer (→ EX-0012)
 
 > *"You're insane. You're totally fucking insane... you sound psychotic."* / *"You guys are delusional."* — Dickers, as Destiny continued pressing Blav/Kiwi Farms coordination evidence (→ EX-0013)
 

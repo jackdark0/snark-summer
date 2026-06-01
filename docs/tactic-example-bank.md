@@ -137,7 +137,7 @@
 **Status:** CLIP
 
 **What happened:** Destiny asked Aiden directly: "you put out a whole call for the entire commentary community to come together to fight against us based on the horrible accusations we made. And this is about a server that now over the course of the past 2 hours, you've admitted to knowing next to nothing about. Why the fuck would you do that? Did somebody tell you that?" Aiden justified the mobilization by saying he'd assessed the evidence himself and found it insufficient — despite admitting throughout the debate that he didn't know the server's moderators, vetting process, or specific incidents, and having joined the debate with fully-formed talking points he couldn't independently source.  
-**Why it fits:** Community-wide mobilization call issued by a person who admitted knowing almost nothing about the server being defended. Consistent with externally-fed framing rather than independent evaluation. Destiny's question — "did somebody tell you that?" — is answered implicitly at 3:17:19 when Aiden is asked to check his DMs from Queman.  
+**Why it fits:** Community-wide mobilization call issued by a person who admitted knowing almost nothing about the server being defended. Consistent with externally-fed framing rather than independent evaluation. Destiny's question — "did somebody tell you that?" — is answered implicitly at 3:17:19 when Aiden is asked to check his DMs from Kuihman.
 **Notes:** narrative_cluster: `association`
 
 ---
@@ -149,7 +149,7 @@
 **Clip URL:** https://www.youtube.com/live/ppPlQ0Xs2co?t=10440
 **Status:** CLIP
 
-**What happened:** Destiny revealed that Dickers, Queman, and approximately six others all tweeted the same video at the same time attempting to blame Unfuck America for the Charlie Kirk shooting attempt. Destiny: "you and six other people from that server all tweeted at the same time trying to blame Unfuck America... did you just happen to do that random?" Dickers: "I mean, depends on the definition of coordinated... multiple people... that saw the same thing at the same time."  
+**What happened:** Destiny revealed that Dickers, Kuihman, and approximately six others all tweeted the same video at the same time attempting to blame Unfuck America for the Charlie Kirk shooting attempt. Destiny: "you and six other people from that server all tweeted at the same time trying to blame Unfuck America... did you just happen to do that random?" Dickers: "I mean, depends on the definition of coordinated... multiple people... that saw the same thing at the same time."
 **Why it fits:** Identical content simultaneously amplified by multiple independent-seeming voices; Dickers' deflection ("depends on the definition") is textbook laundering: refuse to call it coordination so the organic appearance holds.  
 **Notes:** narrative_cluster: `association`
 
@@ -162,7 +162,7 @@
 **Clip URL:** https://www.youtube.com/live/ppPlQ0Xs2co?t=10757
 **Status:** CLIP
 
-**What happened:** When Destiny presented evidence that Queman's chat was regularly praising a specific Kiwi Farms poster ("Blav") who had doxed people around Destiny — and used this pattern to argue coordination — Aiden responded: "how am I supposed to disprove that insinuation? You just make unfalsifiable claims and you know that there is no possible way I can disprove it and people are just going to run with it."  
+**What happened:** When Destiny presented evidence that Kuihman's chat was regularly praising a specific Kiwi Farms poster ("Blav") who had doxed people around Destiny — and used this pattern to argue coordination — Aiden responded: "how am I supposed to disprove that insinuation? You just make unfalsifiable claims and you know that there is no possible way I can disprove it and people are just going to run with it."
 **Why it fits:** Characterizing pattern evidence as inherently "unfalsifiable" is the core move for framing coordination documentation as paranoid conspiracy thinking. The response doesn't engage the evidence; it dismisses the entire evidentiary methodology as incapable of ever producing a valid claim.  
 **Notes:** narrative_cluster: `association`
 
@@ -201,8 +201,8 @@
 **Clip URL:** https://www.youtube.com/live/ppPlQ0Xs2co?t=6540
 **Status:** CLIP
 
-**What happened:** At ~1:49, Aiden accused Destiny of applying asymmetric standards: "he provides so much additional charity to himself in comparison to when he's talking about someone he doesn't like. Malice is inserted, but with him it's actually just like a 5D chess move." The immediate context: Destiny's error about the Snark server's creation date ("2 years" vs. ~8 months) was characterized as "obviously an intentional lie to build a narrative." Queman's two-year false claim that the OSINT tool was a "League of Legends archiver" — only conceded after direct confrontation in a live debate — had been characterized as "he made one mistake that he immediately conceded on."  
-**Why it fits:** The asymmetric standard is applied in both directions simultaneously: Destiny's minor factual error = deliberate deception; Queman's sustained lie = honest one-time mistake. Aiden deploys the accusation of unequal treatment to deflect from his own unequal treatment of the exact same category of error.  
+**What happened:** At ~1:49, Aiden accused Destiny of applying asymmetric standards: "he provides so much additional charity to himself in comparison to when he's talking about someone he doesn't like. Malice is inserted, but with him it's actually just like a 5D chess move." The immediate context: Destiny's error about the Snark server's creation date ("2 years" vs. ~8 months) was characterized as "obviously an intentional lie to build a narrative." Kuihman's two-year false claim that the OSINT tool was a "League of Legends archiver" — only conceded after direct confrontation in a live debate — had been characterized as "he made one mistake that he immediately conceded on."
+**Why it fits:** The asymmetric standard is applied in both directions simultaneously: Destiny's minor factual error = deliberate deception; Kuihman's sustained lie = honest one-time mistake. Aiden deploys the accusation of unequal treatment to deflect from his own unequal treatment of the exact same category of error.
 **Notes:** narrative_cluster: `association`
 
 ---
@@ -216,8 +216,8 @@
 **Clip URL:** https://www.youtube.com/live/H4osPsuDjKk?t=1547
 **Status:** CLIP
 
-**What happened:** The Snark Left server leak was deployed primarily to harm Chudlogic, Queman, and JTO — creators Loner Box/Hutch/Stardust and DGG-adjacent accounts had multi-year beef with. Shimu and Nick Andros, whose logs were actually leaked, were "collateral damage." After the debate, no post-stream activity targeted Shimu or Andros; all tweets went at Queenman, JTO, and Chudlogic. Chud: "they want to use these logs and smear Nick Andros and I in order to hit these other people. It's kind of like collateral damage."  
-**Why it fits:** Classic cross-community pattern: proximate targets (Shimu, Andros) served as a vehicle to harm the real targets (Chudlogic, Queman, JTO). The operation's benefit flowed to the larger DGG-adjacent network.  
+**What happened:** The Snark Left server leak was deployed primarily to harm Chudlogic, Kuihman, and JSTLK — creators Loner Box/Hutch/Stardust and DGG-adjacent accounts had multi-year beef with. Shimu and Nick Andros, whose logs were actually leaked, were "collateral damage." After the debate, no post-stream activity targeted Shimu or Andros; all tweets went at Kuihman, JSTLK, and Chudlogic. Chud: "they want to use these logs and smear Nick Andros and I in order to hit these other people. It's kind of like collateral damage."
+**Why it fits:** Classic cross-community pattern: proximate targets (Shimu, Andros) served as a vehicle to harm the real targets (Chudlogic, Kuihman, JSTLK). The operation's benefit flowed to the larger DGG-adjacent network.
 **Notes:** narrative_cluster: `association`
 
 ---
@@ -235,7 +235,7 @@
 
 ---
 
-> **Note:** EX-0026–EX-0031 are from `destiny-v-dooby-2025DEC18.txt` (Destiny v Dooby debate on Wick TV, 2025-12-18). Dooby and JTO are tactic actors throughout.
+> **Note:** EX-0026–EX-0031 are from `destiny-v-dooby-2025DEC18.txt` (Destiny v Dooby debate on Wick TV, 2025-12-18). Dooby and JSTLK are tactic actors throughout.
 
 ---
 
@@ -298,7 +298,7 @@
 **Clip URL:** https://youtu.be/gjZAA0GtGd8?t=4415
 **Status:** CLIP
 
-**What happened:** ZipZip reported that JTO's server member "Morale" had told him he had a video of ZipZip "fucking a child," threatened to come to ZipZip's house, and said he would make a Google Doc with ZipZip's personal information. JTO's response: "I know it's a joke. I know he's never doxed anybody. I know he's not at risk of doxing somebody." JTO confirmed he banned Morale but framed it as: "if you feel like it was a sincere threat, he's been warned about this conduct in my server... I'm fine with leaving him perma banned" — not because the threat was real, but to manage ZipZip's feelings. When ZipZip confirmed he genuinely felt threatened, JTO: "I don't believe you."  
+**What happened:** ZipZip reported that JSTLK's server member "Morale" had told him he had a video of ZipZip "fucking a child," threatened to come to ZipZip's house, and said he would make a Google Doc with ZipZip's personal information. JSTLK's response: "I know it's a joke. I know he's never doxed anybody. I know he's not at risk of doxing somebody." JSTLK confirmed he banned Morale but framed it as: "if you feel like it was a sincere threat, he's been warned about this conduct in my server... I'm fine with leaving him perma banned" — not because the threat was real, but to manage ZipZip's feelings. When ZipZip confirmed he genuinely felt threatened, JSTLK: "I don't believe you."
 **Why it fits:** CSAM accusation + explicit threat to come to the target's house + threat to publish personal information — all dismissed as "shock jock humor" from someone who "has never doxed anybody." The ban is framed as a courtesy to ZipZip rather than acknowledgment that the conduct warranted action. The joke frame holds regardless of recipient's documented experience of the threat.  
 **Notes:** narrative_cluster: `sexual-misconduct`
 
@@ -341,8 +341,8 @@
 **Clip URL:** https://www.youtube.com/live/H4osPsuDjKk?t=8068
 **Status:** CLIP
 
-**What happened:** Dan made one error during the debate — incorrectly stating the Steam username was different from the Twitter username — and explicitly retracted it: "I'm sorry, in your case I could say I'm mistaken." Chudlogic's response at ~2:14:28: "Another lie. You lied to me. Never trusted you. Typical." and "it was a boldfaced lie." Queman had told Chudlogic the LOL Archiver tool was a "League of Legends username checker" — a characterization he maintained through the run-up to the debate, only conceding after direct confrontation on the live stream. Chudlogic at ~2:15:44: "he made one mistake which he admitted to as soon as he got on the stream... logically there's no reason to even lie about that."  
-**Why it fits:** One acknowledged factual error by Dan = "boldfaced lie" and "never trusted you." Queman's sustained false characterization of an OSINT tool, only dropped under live pressure = "honest mistake he immediately conceded." Identical category (factual error in the run-up to a debate) assessed by opposite standards depending on which side committed it. See also EX-0015 (same tactic, same Queman claim, applied by Aiden in the Wick TV debate six days later).  
+**What happened:** Dan made one error during the debate — incorrectly stating the Steam username was different from the Twitter username — and explicitly retracted it: "I'm sorry, in your case I could say I'm mistaken." Chudlogic's response at ~2:14:28: "Another lie. You lied to me. Never trusted you. Typical." and "it was a boldfaced lie." Kuihman had told Chudlogic the LOL Archiver tool was a "League of Legends username checker" — a characterization he maintained through the run-up to the debate, only conceding after direct confrontation on the live stream. Chudlogic at ~2:15:44: "he made one mistake which he admitted to as soon as he got on the stream... logically there's no reason to even lie about that."
+**Why it fits:** One acknowledged factual error by Dan = "boldfaced lie" and "never trusted you." Kuihman's sustained false characterization of an OSINT tool, only dropped under live pressure = "honest mistake he immediately conceded." Identical category (factual error in the run-up to a debate) assessed by opposite standards depending on which side committed it. See also EX-0015 (same tactic, same Kuihman claim, applied by Aiden in the Wick TV debate six days later).
 **Notes:** narrative_cluster: `association`
 
 ---
@@ -443,7 +443,7 @@
 
 ---
 
-> **Note:** EX-0041–EX-0045 are from `jstlk-mrow-kuihman-v-stale.txt` (JTO/Kuihman/Mrow react to Stale 2000 video, 2026-05-19).
+> **Note:** EX-0041–EX-0045 are from `jstlk-mrow-kuihman-v-stale.txt` (JSTLK/Kuihman/Mrow react to Stale 2000 video, 2026-05-19).
 
 ---
 
@@ -454,8 +454,8 @@
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=740
 **Status:** CLIP
 
-**What happened:** JTO describes his process for getting the "Destiny threatens to wipe communities off the internet" talking point into wider circulation: "I put out the segment today where I can put that up and walk through like how Destiny's talking about... how he says these communities all need to be wiped off the internet. Peace goes included... now it's attached to this and I can get that message out to more people that Destiny was basically threatening Pisco's community as well."  
-**Why it fits:** JTO narrates his own narrative laundering operation in real time — a pre-packaged talking point is seeded into the current controversy to maximize reach, with explicit awareness of the distribution strategy.  
+**What happened:** JSTLK describes his process for getting the "Destiny threatens to wipe communities off the internet" talking point into wider circulation: "I put out the segment today where I can put that up and walk through like how Destiny's talking about... how he says these communities all need to be wiped off the internet. Peace goes included... now it's attached to this and I can get that message out to more people that Destiny was basically threatening Pisco's community as well."
+**Why it fits:** JSTLK narrates his own narrative laundering operation in real time — a pre-packaged talking point is seeded into the current controversy to maximize reach, with explicit awareness of the distribution strategy.
 **Notes:** narrative_cluster: `association`
 
 ---
@@ -467,7 +467,7 @@
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=2155
 **Status:** CLIP
 
-**What happened:** JTO says: "I'm going to make the assumption that Nick Andros probably didn't do anything that bad. That Shimu probably didn't do anything that bad." He extends total charity to his own allies with zero supporting evidence, then in the same breath demands that Stale 2000 engage with evidence against the adversary side: "dude, the facts are there. Just go watch the debate. Look into it."  
+**What happened:** JSTLK says: "I'm going to make the assumption that Nick Andros probably didn't do anything that bad. That Shimu probably didn't do anything that bad." He extends total charity to his own allies with zero supporting evidence, then in the same breath demands that Stale 2000 engage with evidence against the adversary side: "dude, the facts are there. Just go watch the debate. Look into it."
 **Why it fits:** No evidence required for allies; opponents must present proof. The asymmetric evidentiary standard is stated explicitly and applied in both directions in consecutive sentences.  
 **Notes:** narrative_cluster: `association`
 
@@ -480,8 +480,8 @@
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=1226
 **Status:** CLIP
 
-**What happened:** JTO: "I don't like there's there's a big difference between just mass reporting someone you don't like and then mass reporting someone who's causing like actual tangible harm." He frames his own coordinated mass flagging of Destiny as the principled kind while dismissing any reciprocal reporting as unjustified — and earlier in the stream admits he didn't want to do it publicly because "I don't want to get mass reporting back."  
-**Why it fits:** The same action (mass reporting) is legitimate when JTO does it and illegitimate when Destiny might do it back. The principle applies to opponents but not to the speaker.  
+**What happened:** JSTLK: "I don't like there's there's a big difference between just mass reporting someone you don't like and then mass reporting someone who's causing like actual tangible harm." He frames his own coordinated mass flagging of Destiny as the principled kind while dismissing any reciprocal reporting as unjustified — and earlier in the stream admits he didn't want to do it publicly because "I don't want to get mass reporting back."
+**Why it fits:** The same action (mass reporting) is legitimate when JSTLK does it and illegitimate when Destiny might do it back. The principle applies to opponents but not to the speaker.
 **Notes:** narrative_cluster: `platform-manipulation`
 
 ---
@@ -493,7 +493,7 @@
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=1861
 **Status:** CLIP
 
-**What happened:** JTO: "He makes up that I've had some hand in it or I've done something back to him or that something like untoward has happened because of me. Literally no ev no literally no evidence of it." He then immediately pivots to: "I do think he should be banned. I think he should be demonetized. I don't think he should have a platform where he's making money." This is said in the same stream where JTO admits organizing mass reporting campaigns (see EX-0043, EX-0045).  
+**What happened:** JSTLK: "He makes up that I've had some hand in it or I've done something back to him or that something like untoward has happened because of me. Literally no ev no literally no evidence of it." He then immediately pivots to: "I do think he should be banned. I think he should be demonetized. I don't think he should have a platform where he's making money." This is said in the same stream where JSTLK admits organizing mass reporting campaigns (see EX-0043, EX-0045).
 **Why it fits:** Classic DARVO: deny wrongdoing ("literally no evidence"), position self as victim of fabricated accusations, then go on offense by calling for deplatforming. The denial and attack are delivered in consecutive sentences with no acknowledgment of his own admitted actions.  
 **Notes:** narrative_cluster: `platform-manipulation`
 
@@ -506,8 +506,8 @@
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=754
 **Status:** CLIP
 
-**What happened:** The stream is ostensibly JTO's response to Stale 2000's video criticizing JTO's mass reporting campaign. Rather than addressing the accusations, JTO immediately pivots to offense: "I can get that message out to more people that Destiny was basically threatening Pisco's community as well. He's made again Destiny has said explicitly like, you know, I will harass report everything to just get rid of you. So, it's like if he's doing things in that process that are not just to but actively harmful, what is the argument against reporting him? There's none." Every question about JTO's conduct becomes a Destiny accusation.  
-**Why it fits:** The entire stream structure follows the Always on Offense pattern: no direct response to the criticism at hand, every defense reframed as an attack on the target. JTO's own accountability is made structurally unreachable.  
+**What happened:** The stream is ostensibly JSTLK's response to Stale 2000's video criticizing JSTLK's mass reporting campaign. Rather than addressing the accusations, JSTLK immediately pivots to offense: "I can get that message out to more people that Destiny was basically threatening Pisco's community as well. He's made again Destiny has said explicitly like, you know, I will harass report everything to just get rid of you. So, it's like if he's doing things in that process that are not just to but actively harmful, what is the argument against reporting him? There's none." Every question about JSTLK's conduct becomes a Destiny accusation.
+**Why it fits:** The entire stream structure follows the Always on Offense pattern: no direct response to the criticism at hand, every defense reframed as an attack on the target. JSTLK's own accountability is made structurally unreachable.
 **Notes:** narrative_cluster: `platform-manipulation`
 
 ---
@@ -536,7 +536,7 @@
 **Clip URL:** https://youtu.be/Cjmf97AGdTI?t=4157
 **Status:** CLIP
 
-**What happened:** In a discussion about alleged doxing and threats, JTO says that going to YouTube or sending packets to future political collaborators would be justified by the target's conduct, while also saying he had not really thought it through and was anti-flagging in general (auto-caption approximate). The same segment frames the escalation as a response to an insane extent of prior conduct.
+**What happened:** In a discussion about alleged doxing and threats, JSTLK says that going to YouTube or sending packets to future political collaborators would be justified by the target's conduct, while also saying he had not really thought it through and was anti-flagging in general (auto-caption approximate). The same segment frames the escalation as a response to an insane extent of prior conduct.
 **Why it fits:** The segment does not need to issue a direct instruction. It establishes the moral license: platform complaints and reputational packets become reasonable once the target has been framed as dangerous enough. The disavowal of ordinary flagging functions as a brake-release - this is exceptional, so the escalation becomes fair game.
 **Notes:** narrative_cluster: `platform-manipulation`; `association`
 
@@ -549,7 +549,7 @@
 **Clip URL:** https://youtu.be/Z31osFs0rCk?t=305
 **Status:** CLIP
 
-**What happened:** Responding to WillyMac's claim that JTO retweeted dox information, JTO narrows the conduct to retweeting criticism of doxing that happened to sit near alleged dox material, emphasizes that he is broadly against doxing, and redirects blame toward Destiny because Destiny's earlier quote-tweet allegedly had much larger reach (auto-caption approximate).
+**What happened:** Responding to WillyMac's claim that JSTLK retweeted dox information, JSTLK narrows the conduct to retweeting criticism of doxing that happened to sit near alleged dox material, emphasizes that he is broadly against doxing, and redirects blame toward Destiny because Destiny's earlier quote-tweet allegedly had much larger reach (auto-caption approximate).
 **Why it fits:** A chain of amplification is split into micro-acts: retweet, quote-tweet, background video, intent to criticize, and comparative reach. Each fragment can be defended in isolation, preventing the audience from evaluating the full spread path while redirecting the pattern back onto someone else.
 **Notes:** narrative_cluster: `association`
 
@@ -562,8 +562,8 @@
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=866
 **Status:** CLIP
 
-**What happened:** In response to criticism of a reporting or mass-flagging campaign, JTO restates the critic's anti-reporting position as a demand that everyone "live by his standards." He then asks: "if you don't report no matter what, but then how do you stop people from doing this to you?" and answers that the only way is "engaging the same tactics." He says he acted once Destiny "went after my community explicitly."
-**Why it fits:** The frame removes the neutral option. Opposing the reporting campaign can be cast as indifference to community harm; accepting the reporting campaign validates JTO's escalation. Either response serves the same conclusion: JTO's platform pressure was necessary.
+**What happened:** In response to criticism of a reporting or mass-flagging campaign, JSTLK restates the critic's anti-reporting position as a demand that everyone "live by his standards." He then asks: "if you don't report no matter what, but then how do you stop people from doing this to you?" and answers that the only way is "engaging the same tactics." He says he acted once Destiny "went after my community explicitly."
+**Why it fits:** The frame removes the neutral option. Opposing the reporting campaign can be cast as indifference to community harm; accepting the reporting campaign validates JSTLK's escalation. Either response serves the same conclusion: JSTLK's platform pressure was necessary.
 **Notes:** narrative_cluster: `platform-manipulation`
 
 ---
@@ -575,8 +575,8 @@
 **Clip URL:** https://youtu.be/E7lH52HZzAg?t=2040
 **Status:** CLIP
 
-**What happened:** During a discussion of whether calling reports is platform weaponization, JTO rejects that label and frames the reporting target as someone who admitted malice, threatened to dox people, and was trying to harm JTO's community, livelihood, and safety (auto-caption approximate). The segment recasts mass reporting as a defensive response to an attack on his community.
-**Why it fits:** The criticism of JTO's reporting campaign is inverted: the campaign becomes protection from Destiny's aggression. The person targeted by the reporting is positioned as the true aggressor, while JTO and his community become the injured party.
+**What happened:** During a discussion of whether calling reports is platform weaponization, JSTLK rejects that label and frames the reporting target as someone who admitted malice, threatened to dox people, and was trying to harm JSTLK's community, livelihood, and safety (auto-caption approximate). The segment recasts mass reporting as a defensive response to an attack on his community.
+**Why it fits:** The criticism of JSTLK's reporting campaign is inverted: the campaign becomes protection from Destiny's aggression. The person targeted by the reporting is positioned as the true aggressor, while JSTLK and his community become the injured party.
 **Notes:** narrative_cluster: `platform-manipulation`; `association`; source wording auto-caption approximate
 
 ---
@@ -588,7 +588,7 @@
 **Clip URL:** https://youtu.be/uZ5Fe_k-xfQ?t=1527
 **Status:** CLIP
 
-**What happened:** While reacting to allegations about Snark Discord coordination, JTO describes a pipeline where tweets are workshopped, posted, boosted through retweets and engagement, and paired with talking points for people who argue the line elsewhere (auto-caption approximate). He then mocks the charge by comparing it to ordinary community boosting.
+**What happened:** While reacting to allegations about Snark Discord coordination, JSTLK describes a pipeline where tweets are workshopped, posted, boosted through retweets and engagement, and paired with talking points for people who argue the line elsewhere (auto-caption approximate). He then mocks the charge by comparing it to ordinary community boosting.
 **Why it fits:** The clip captures the laundering mechanism itself: message development in a coordination space, coordinated amplification, and independent-looking advocates carrying the argument into other venues. The sarcasm supplies plausible deniability by recoding the same conduct as normal audience participation.
 **Notes:** narrative_cluster: `association`; source wording auto-caption approximate
 
@@ -620,7 +620,7 @@
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=770
 **Status:** CLIP
 
-**What happened:** JTO argues that if Destiny is doing things that are not merely against TOS but "actively harmful," then "what is the argument against reporting him? There's none."
+**What happened:** JSTLK argues that if Destiny is doing things that are not merely against TOS but "actively harmful," then "what is the argument against reporting him? There's none."
 **Why it fits:** The move does not need to order anyone to report. It establishes that reporting becomes morally licensed once the target has been framed as harmful enough.
 **Notes:** narrative_cluster: `platform-manipulation`
 
@@ -633,8 +633,8 @@
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=866
 **Status:** CLIP
 
-**What happened:** JTO rejects a critic's anti-reporting position by saying the critic "expects us all to live by his standards." He then says the practical response is "engaging the same tactics."
-**Why it fits:** The opponent's principle is dismissed as a personal standard that should not bind JTO, while JTO's own exception for reciprocal reporting is imposed as the governing standard. The principle changes depending on whose escalation is being judged.
+**What happened:** JSTLK rejects a critic's anti-reporting position by saying the critic "expects us all to live by his standards." He then says the practical response is "engaging the same tactics."
+**Why it fits:** The opponent's principle is dismissed as a personal standard that should not bind JSTLK, while JSTLK's own exception for reciprocal reporting is imposed as the governing standard. The principle changes depending on whose escalation is being judged.
 **Notes:** narrative_cluster: `platform-manipulation`
 
 ---
@@ -659,8 +659,8 @@
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=847
 **Status:** CLIP
 
-**What happened:** Responding to criticism of his reporting campaign, JTO says he did not flag Destiny when only he or a few people were targeted. He says the line was crossed when Destiny "went after my community explicitly."
-**Why it fits:** The criticism of JTO's escalation is inverted into a self-defense story. The reporting campaign becomes a reaction to community harm, while the target of reporting becomes the aggressor.
+**What happened:** Responding to criticism of his reporting campaign, JSTLK says he did not flag Destiny when only he or a few people were targeted. He says the line was crossed when Destiny "went after my community explicitly."
+**Why it fits:** The criticism of JSTLK's escalation is inverted into a self-defense story. The reporting campaign becomes a reaction to community harm, while the target of reporting becomes the aggressor.
 **Notes:** narrative_cluster: `platform-manipulation`
 
 ---
@@ -672,14 +672,14 @@
 **Clip URL:** https://www.youtube.com/live/ppPlQ0Xs2co?t=5529
 **Status:** CLIP
 
-**What happened:** During the discussion of Queman's messages, Destiny describes Queman as trying to "pump Chud with a narrative" to fight Destiny and Dan on the Snark-server front. Dickers then says they should look at "the narrative that Queman was trying to pump with Dan."
+**What happened:** During the discussion of Kuihman's messages, Destiny describes Kuihman as trying to "pump Chud with a narrative" to fight Destiny and Dan on the Snark-server front. Dickers then says they should look at "the narrative that Queman was trying to pump with Dan."
 **Why it fits:** The framing is moved through private DMs into public creator discourse. A prepared line can then appear as independent commentary from people outside the original coordination space.
 **Notes:** narrative_cluster: `association`; overlaps EX-0010 from the cross-community angle (was EX-0058, retired)
 
 ---
 
 ### EX-0058 | Cross-Community Infiltration
-> **RETIRED — duplicate of EX-0010.** Same Wick TV Aiden-mobilization + Queman→Chud incident and same tactic (overlapping timestamp 2:14:43); EX-0010 is the richer original. Kept for reference; do not cite separately.
+> **RETIRED — duplicate of EX-0010.** Same Wick TV Aiden-mobilization + Kuihman→Chud incident and same tactic (overlapping timestamp 2:14:43); EX-0010 is the richer original. Kept for reference; do not cite separately.
 
 **Source:** Whick TV - Destiny vs the Snarkers / YouTube Live
 **Date:** 2026-05-20
@@ -687,8 +687,8 @@
 **Clip URL:** https://www.youtube.com/live/ppPlQ0Xs2co?t=7543
 **Status:** RETIRED (was CLIP)
 
-**What happened:** Destiny asks whether Aiden had called for "the entire community" to align against Destiny, Dan, and Ethan; Aiden says yes. Destiny then points to Queman messaging Chudlogic talking points to defend a server Chud was not part of. Later, Destiny asks why Aiden mobilized the commentary community for a server he had admitted knowing almost nothing about.
-**Why it fits:** The public defense is carried by adjacent creators and communities, while the talking points and benefit flow back to the Snark-server/JTO/Queman side. The visible actors appear independent, but the information chain points back to the campaign network.
+**What happened:** Destiny asks whether Aiden had called for "the entire community" to align against Destiny, Dan, and Ethan; Aiden says yes. Destiny then points to Kuihman messaging Chudlogic talking points to defend a server Chud was not part of. Later, Destiny asks why Aiden mobilized the commentary community for a server he had admitted knowing almost nothing about.
+**Why it fits:** The public defense is carried by adjacent creators and communities, while the talking points and benefit flow back to the Snark-server/JSTLK/Kuihman side. The visible actors appear independent, but the information chain points back to the campaign network.
 **Notes:** narrative_cluster: `association`; related to EX-0010
 
 ---
@@ -825,7 +825,7 @@
 **Clip URL:** https://youtu.be/5P--7ZRZaz8?t=2411
 **Status:** CLIP
 
-**What happened:** When Whick names JTO's mass-reporting of different targets, Kuihman immediately narrows the target list to Destiny and explains it through Destiny's alleged "active doxing campaign." He later says critics should engage with JTO's reason for reporting: that Destiny wanted to destroy JTO's community by doxing active members.
+**What happened:** When Whick names JSTLK's mass-reporting of different targets, Kuihman immediately narrows the target list to Destiny and explains it through Destiny's alleged "active doxing campaign." He later says critics should engage with JSTLK's reason for reporting: that Destiny wanted to destroy JSTLK's community by doxing active members.
 **Why it fits:** The conduct under discussion is not assessed directly. The answer redirects to the target's alleged worse behavior and makes that alleged behavior the real subject.
 **Notes:** narrative_cluster: `platform-manipulation`; `association`; source wording auto-caption approximate
 
@@ -916,7 +916,7 @@
 **Clip URL:** https://youtu.be/iaGkqiDHY24?t=5391
 **Status:** CLIP
 
-**What happened:** A claim is read that JTO, Dooby, Queman, and others have been infiltrating communities by repeating the same talking points for months. Kuihman responds that even if he had done that, critics should explain the problem and how it differs from what Destiny did to Hasan, then recasts it as arguing what one thinks in Discord servers.
+**What happened:** A claim is read that JSTLK, Dooby, Kuihman, and others have been infiltrating communities by repeating the same talking points for months. Kuihman responds that even if he had done that, critics should explain the problem and how it differs from what Destiny did to Hasan, then recasts it as arguing what one thinks in Discord servers.
 **Why it fits:** The movement of talking points across communities is normalized as ordinary argument. The cross-community operation is made to look like normal participation in adjacent spaces.
 **Notes:** narrative_cluster: `association`; source wording auto-caption approximate; includes quoted claim and response
 
@@ -959,8 +959,8 @@
 **Clip URL:** https://youtu.be/I697f4pNk48?t=2311
 **Status:** CLIP
 
-**What happened:** When the discussion turns to JTO's conduct, the exchange pivots back to Destiny's conduct and personal life. One speaker says, in effect, that even if JTO were worse, the question remains what that has to do with Destiny; the reaction then frames Destiny as flailing and doing DARVO.
-**Why it fits:** The original allegation about JTO is not resolved on its own terms. The conversation is pushed back onto the target's alleged wrongdoing, keeping the defensive side on offense.
+**What happened:** When the discussion turns to JSTLK's conduct, the exchange pivots back to Destiny's conduct and personal life. One speaker says, in effect, that even if JSTLK were worse, the question remains what that has to do with Destiny; the reaction then frames Destiny as flailing and doing DARVO.
+**Why it fits:** The original allegation about JSTLK is not resolved on its own terms. The conversation is pushed back onto the target's alleged wrongdoing, keeping the defensive side on offense.
 **Notes:** narrative_cluster: `association`; source wording auto-caption approximate; speaker attribution should be checked against audio
 
 ---
@@ -1078,7 +1078,7 @@
 **Clip URL:** https://youtu.be/I697f4pNk48?t=4001
 **Status:** CLIP
 
-**What happened:** When the discussion turns to fears that a JTO fan could show up at someone's house, Kuihman calls the claim detached from reality and "insane." He later says it is a "deranged, schizophrenic narrative" to pitch.
+**What happened:** When the discussion turns to fears that a JSTLK fan could show up at someone's house, Kuihman calls the claim detached from reality and "insane." He later says it is a "deranged, schizophrenic narrative" to pitch.
 **Why it fits:** The concern is not first answered with evidence about risk or capability. It is recoded as psychological dysfunction, making the person raising it look irrational before the claim is assessed.
 **Notes:** narrative_cluster: `association`; source wording auto-caption approximate
 
@@ -1121,6 +1121,6 @@
 **Clip URL:** https://youtu.be/aNIhgJ0DtHk?t=6854
 **Status:** CLIP
 
-**What happened:** During a discussion of JTO, Ryle, and related communities, the speaker says JTO was banned from YouTube early and that Ryle effectively became the YouTube outlet by taking JTO hate streams and publishing them to YouTube. The same section describes cross-pollination among the related chats.
+**What happened:** During a discussion of JSTLK, Ryle, and related communities, the speaker says JSTLK was banned from YouTube early and that Ryle effectively became the YouTube outlet by taking JSTLK hate streams and publishing them to YouTube. The same section describes cross-pollination among the related chats.
 **Why it fits:** The material is relayed from one stream/community into another channel and platform, making a coordinated stream-to-YouTube pipeline look like separate organic uploads. This is not just commentary on the same event; it describes the distribution mechanic.
-**Notes:** narrative_cluster: `platform-manipulation`; `association`; source wording auto-caption approximate; added for explicit JTO-to-Ryle distribution description, not as a duplicate of earlier Ryle-channel examples
+**Notes:** narrative_cluster: `platform-manipulation`; `association`; source wording auto-caption approximate; added for explicit JSTLK-to-Ryle distribution description, not as a duplicate of earlier Ryle-channel examples

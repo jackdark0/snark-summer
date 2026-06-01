@@ -81,7 +81,7 @@ Earmark rule: preserve every example scored 3 or higher for possible future use,
 | EX-0065 | Maximize Yours, Minimize Theirs | 4 | Direct same-category asymmetry around Snark-server PII versus DGG doxing culture; capped until audio verification. |
 | EX-0066 | Schrodinger's Joke | 4 | Direct joke-frame defense plus crashout framing of the objection; capped until audio verification. |
 | EX-0067 | Victim Reversal (DARVO) | 4 | Moderation request recoded as an implicit threat and personal betrayal; capped until audio verification. |
-| EX-0068 | Always on Offense | 4 | Direct redirect from JTO reporting criticism to Destiny's alleged doxing campaign; capped until audio verification. |
+| EX-0068 | Always on Offense | 4 | Direct redirect from JSTLK reporting criticism to Destiny's alleged doxing campaign; capped until audio verification. |
 | EX-0069 | No-Win Framing | 4 | Direct frame where target's reaction becomes evidence against them; capped until audio verification. |
 | EX-0070 | Unilateral Principles | 4 | Direct coordination standard applied differently based on whether the speaker frames the content as false or justified; capped until audio verification. |
 | EX-0071 | Moving Goalposts | 4 | Doxing definition narrows across the exchange to exclude each challenged action; capped until audio verification and speaker attribution check. |
@@ -91,7 +91,7 @@ Earmark rule: preserve every example scored 3 or higher for possible future use,
 | EX-0075 | Cross-Community Infiltration | 4 | Cross-community talking-point movement recoded as normal Discord argument; capped until audio verification. |
 | EX-0076 | Paint Them as Crazy | 4 | Coordination claim recoded as crying and psycho-conspiratorial thinking; capped until audio verification. |
 | EX-0077 | Always on Offense | 4 | Acknowledges the immediate harm only to pivot back to Destiny's alleged worse conduct; capped until audio verification. |
-| EX-0078 | Always on Offense | 4 | Direct pivot from JTO conduct back to Destiny's alleged conduct; capped until audio verification and speaker attribution check. |
+| EX-0078 | Always on Offense | 4 | Direct pivot from JSTLK conduct back to Destiny's alleged conduct; capped until audio verification and speaker attribution check. |
 | EX-0079 | Isolated Demands for Rigor | 4 | Evidence demand persists after the underlying dox incident is acknowledged; capped until audio verification. |
 | ~~EX-0080~~ | Schrodinger's Joke | — | RETIRED (duplicate of EX-0039). |
 | EX-0081 | Unilateral Principles | 4 | Anti-lawsuit/speech principle becomes optional once the targets are framed as enemies; capped until audio verification. |
@@ -103,7 +103,7 @@ Earmark rule: preserve every example scored 3 or higher for possible future use,
 | EX-0087 | Paint Them as Crazy | 4 | Safety concern is recoded as detached-from-reality/deranged narrative; capped until audio verification. |
 | EX-0088 | Schrodinger's Joke | 4 | Ambiguous hostile line is defended as joke while ambiguity itself is treated as part of the joke; capped until audio verification and speaker attribution check. |
 | EX-0089 | Schrodinger's Joke | 4 | Extreme campaign slogan is called a joke/meme while preserving the serious punishment demand; capped until audio verification and speaker attribution check. |
-| EX-0090 | Cross-Community Infiltration | 4 | Direct JTO-stream-to-Ryle-YouTube distribution mechanic plus chat cross-pollination; capped until audio verification. |
+| EX-0090 | Cross-Community Infiltration | 4 | Direct JSTLK-stream-to-Ryle-YouTube distribution mechanic plus chat cross-pollination; capped until audio verification. |
 
 ## Score-5 Coverage
 
