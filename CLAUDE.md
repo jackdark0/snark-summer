@@ -96,10 +96,10 @@ Each entry in `tactic-example-bank.md` follows this format:
 
 ```
 ### EX-#### | [Tactic Name]
-**Source:** [Stream/platform/account]
+**Source:** [Channel] - [Video title] / [Platform]
 **Date:** YYYY-MM-DD
 **Timestamp:** HH:MM:SS or N/A
-**Clip URL:** `https://youtu.be/[VIDEO_ID]&t=[seconds]` — or PENDING if video ID not yet in transcript header
+**Clip URL:** `https://youtu.be/[VIDEO_ID]?t=[seconds]` (or `https://www.youtube.com/live/[VIDEO_ID]?t=[seconds]` for livestream IDs) — or PENDING if video ID not yet in transcript header
 **Status:** TIMESTAMP / CLIP / VERIFIED
 
 **What happened:** [1-3 sentences]
@@ -109,7 +109,11 @@ Each entry in `tactic-example-bank.md` follows this format:
 
 Status progression: `TIMESTAMP` → `CLIP` → `VERIFIED`
 
-When adding examples, assign the next available `EX-####` ID. Current highest: `EX-0045`.
+Source naming rule: prefer metadata when available. Use the channel/uploader name and exact video title for source captures, e.g. `Whick TV - Destiny vs the Snarkers / YouTube Live`. Put contextual actor notes in `**Notes:**` rather than the source label.
+
+Duplicate handling rule: many later videos are review streams or clip reviews of earlier videos. Treat those as secondhand by default. Do not add a new EX entry when the underlying event, tactic, and key wording are already covered. Prefer the canonical source with the clearest evidence: original/primary footage first, then earliest upload, then best audio/transcript quality. A review video can become a separate example only if it adds a distinct tactic move, such as new permission framing, narrative laundering, audience routing, minimization, or a separate denial/reversal. In that case, note the relationship in `**Notes:**`, e.g. `secondhand review of EX-####; added for new laundering frame`.
+
+When adding examples, assign the next available `EX-####` ID. Current highest: `EX-0090`.
 
 ---
 
@@ -139,12 +143,14 @@ When given a new transcript:
 1. Clean timestamps and auto-caption artifacts if raw (store cleaned version in `transcripts/processed/`)
 2. Read `docs/counter-tactics-guide.md` to orient against the taxonomy
 3. Scan for tactic instances — note timestamp, speaker, verbatim quote
-4. Check `docs/tactic-example-bank.md` for existing examples before adding new ones
-5. Add new examples using the `EX-####` schema, incrementing from current highest ID
+4. Check `docs/tactic-example-bank.md` for existing examples before adding new ones. Search distinctive names, claims, phrases, and timestamps, especially when the source is reacting to or replaying another video.
+5. Add new examples using the `EX-####` schema, incrementing from current highest ID, and fill `**Source:**` from metadata when available
 6. Flag any talking points for `data/approved.csv` if they meet the bar: specific, sourced, dateable
 7. Note any tactic instances that don't fit existing taxonomy as Tactic candidates
 
 **Do not modify raw transcripts.** Work from processed copies only.
+
+If a duplicate is found after an EX entry was added, keep the ID retired in place. Add a short `RETIRED — duplicate of EX-####` note to the bank, remove it from active earmarked coverage, and list the ID under retired IDs in this file. Do not reuse retired IDs.
 
 ### Clip URL generation
 
@@ -154,15 +160,22 @@ Processed transcript headers should include a `video_id:` line, e.g.:
 video_id: dQw4w9WgXcQ
 ```
 
+If available, also preserve metadata for source naming: `channel:`, `title:`, and `platform:`. Example bank entries should use `Channel - Video title / Platform`.
+
 When writing EX entries, convert the timestamp to seconds and generate:
-`https://youtu.be/[VIDEO_ID]&t=[seconds]`
+- Normal video IDs: `https://youtu.be/[VIDEO_ID]?t=[seconds]`
+- Headers stored as `live/[VIDEO_ID]`: `https://www.youtube.com/live/[VIDEO_ID]?t=[seconds]`
 
 Conversion: `H:MM:SS` → `H×3600 + M×60 + S`; `M:SS` → `M×60 + S`
 
-Examples: `42:29` → 2549 → `https://youtu.be/ABC123&t=2549`  
-`1:13:35` → 4415 → `https://youtu.be/ABC123&t=4415`
+Examples: `42:29` → 2549 → `https://youtu.be/ABC123?t=2549`
+`1:13:35` → 4415 → `https://youtu.be/ABC123?t=4415`
 
 If no `video_id:` line is present, use `PENDING`. Status stays `TIMESTAMP` until a clip URL is added.
+
+### Physical clip quality
+
+For local MP4 clips, maximize quality unless the user asks for small files. Use the clipper's best-available format selector (`bv*+ba/b`) and make sure `ffmpeg` is on PATH so yt-dlp can merge best video plus best audio instead of falling back to low-resolution combined streams. Existing local clips sampled in `clips/test-run/` and `clips/ryle-kittenhouse/` are 640x360 reference clips; replace them with max-quality clips before treating them as archival.
 
 ---
 
@@ -193,34 +206,39 @@ Do not read raw transcripts unless explicitly asked to process them.
 
 ## Current Status
 
-**Transcripts ingested:** 7
+**Transcripts ingested:** 10 batches
 - Wick TV debate (2026-05-20) — EX-0001–EX-0015 documented
 - Chudlogic post-debate reaction stream (2026-05-14) — EX-0018, EX-0021, EX-0032–EX-0037 documented
 - Destiny v Dooby on Wick TV (2025-12-18) — EX-0026–EX-0031 documented
 - Conor stream: snark coverage + Dooby debate (2026-05-18/22) — EX-0038–EX-0040 documented
 - JSTLK/Kuihman/Mrow react to Stale 2000 (2026-05-19) — EX-0041–EX-0045 documented
+- Ryle Kittenhouse YouTube channel scan (available archive found back to 2025-04-08; 40 captions pulled so far) — EX-0046–EX-0051 documented
+- Score-5 coverage pass across processed corpus — EX-0052–EX-0058 documented
+- KuihmanLive YouTube channel scan (55 captions pulled from filtered recent/title-matched set) — EX-0059–EX-0087 documented
+- MrowLive/Liquid Sonic filtered channel scan (17 accessible captions pulled; Liquid Sonic Whick video age-gated without cookies) — EX-0088–EX-0090 documented
 
-**Active examples:** EX-0001–EX-0015, EX-0018, EX-0021, EX-0026–EX-0045 (37 total)
-**Retired IDs (do not reuse):** EX-0016, EX-0017, EX-0019, EX-0020, EX-0022–EX-0025
-**Next available ID:** EX-0046
+**Active examples:** EX-0001–EX-0015, EX-0018, EX-0021, EX-0026–EX-0090 minus the 3 duplicates below (79 active)
+**Retired IDs (do not reuse):** EX-0016, EX-0017, EX-0019, EX-0020, EX-0022–EX-0025 (removed); EX-0052, EX-0058, EX-0080 (flagged in place as duplicates of EX-0004, EX-0010, EX-0039 respectively)
+**Next available ID:** EX-0091
+**Score audit:** `docs/tactic-example-score-audit.md`
 
-**Tactic coverage** (target: 3 per tactic):
+**Score-3+ earmarked tactic coverage** (soft cap: 6-7 per tactic):
 
 | # | Tactic | Count | Status |
 |---|---|---|---|
-| 1 | Always on Offense | 3 | ✓ |
-| 2 | Isolated Demands for Rigor | 4 | ✓ |
-| 3 | Schrodinger's Joke | 3 | ✓ |
-| 4 | Unilateral Principles | 3 | ✓ |
-| 5 | No-Win Framing | 2 | needs 1 |
-| 6 | Victim Reversal (DARVO) | 2 | needs 1 |
-| 7 | Moving Goalposts | 3 | ✓ |
-| 8 | Permission Structures | 3 | ✓ |
-| 9 | Maximize Yours, Minimize Theirs | 4 | ✓ |
-| 10 | Fragmentation | 3 | ✓ |
-| 11 | Narrative Laundering | 2 | needs 1 |
-| 12 | Cross-Community Infiltration | 2 | needs 1 |
-| 13 | Paint Them as Crazy | 3 | ✓ |
+| 1 | Always on Offense | 6 | cap-soon |
+| 2 | Isolated Demands for Rigor | 6 | cap-soon |
+| 3 | Schrodinger's Joke | 6 | cap-soon |
+| 4 | Unilateral Principles | 6 | cap-soon |
+| 5 | No-Win Framing | 6 | cap-soon |
+| 6 | Victim Reversal (DARVO) | 6 | cap-soon |
+| 7 | Moving Goalposts | 6 | cap-soon |
+| 8 | Permission Structures | 7 | cap |
+| 9 | Maximize Yours, Minimize Theirs | 6 | cap-soon |
+| 10 | Fragmentation | 6 | cap-soon |
+| 11 | Narrative Laundering | 6 | cap-soon |
+| 12 | Cross-Community Infiltration | 6 | cap-soon |
+| 13 | Paint Them as Crazy | 6 | cap-soon |
 
 **Approved talking points:** 1 (TP-0001 — `association` cluster)
 
@@ -241,6 +259,11 @@ Do not read raw transcripts unless explicitly asked to process them.
 - [x] Ingest `destiny+dan-v-chud+shamoo+kuihman-2026MAY14.txt` — EX-0032–EX-0037 documented
 - [x] Ingest `conor-dooby-2025MAY22.txt` — EX-0038–EX-0040 documented (note: filename year is a typo; content is 2026-05-18/22/23)
 - [x] Ingest `jstlk-mrow-kuihman-v-stale.txt` — EX-0041–EX-0045 documented
-- [x] Generate clip URLs for all examples — all 37 at CLIP status
+- [x] Ingest Ryle Kittenhouse YouTube channel scan — EX-0046–EX-0051 documented
+- [x] Score current examples and add higher-scored coverage examples — EX-0049–EX-0058 added/promoted; audit in `docs/tactic-example-score-audit.md`
+- [x] Ingest KuihmanLive filtered channel scan — EX-0059–EX-0087 documented
+- [x] Ingest MrowLive/Liquid Sonic filtered channel scan — EX-0088–EX-0090 documented; Liquid Sonic yielded no bank additions after filtering
+- [x] Generate clip URLs for all active examples — all 79 active examples at CLIP status
 - [ ] Verify all CLIP examples (watch clips, confirm timestamps match entries)
+- [ ] Replace legacy 640x360 local MP4s with max-quality clips once `ffmpeg` is available on PATH
 - [ ] Push to GitHub repo and wire up Actions workflows

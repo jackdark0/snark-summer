@@ -17,6 +17,8 @@ as such, counters are not meant to convince a snarker; they’re aimed at convin
 it’s often more valuable to highlight the tactic than countering the specific claim. *”you’re dodging the question”* puts it on the record that they aren’t engaging in good faith without having to win the argument. 
 ### calm is strategic.
 strong emotional reactions don’t play well, even when justified. the audience can’t regularly discern between “righteous anger” & “instability”; they just feed into “sycophantic cultist” framings. stay focused & precise. 
+### consistency is your only real defense against unilateral principles
+if you hold a standard clearly and apply it symmetrically, demands that you apply it inconsistently don’t stick. define your standard publicly before you need to defend it.
 ### documentation is crucial.
 if you encounter an unfamiliar talking point, ask for proof, and archive it immediately. many of them are using the same clips from the same source, so, when possible, try to trace the origin. the more account clusters we can identify, the better. 
 
@@ -286,11 +288,6 @@ apparent consensus is persuasive. if everyone seems to believe something indepen
 
 **what to avoid:**
 don’t assume organic-seeming consensus is organic. verify provenance before engaging the substance.
-
-## meta.
-### consistency is your only real defense against unilateral principles
-
-if you hold a standard clearly and apply it symmetrically, demands that you apply it inconsistently don’t stick. define your standard publicly before you need to defend it.
 
 -----
 
