@@ -1,3 +1,7 @@
 clips/
 __pycache__/
 *.pyc
+
+# Bulk source/generated transcript data (kept local, not versioned)
+transcripts/
+agentic/packets/
