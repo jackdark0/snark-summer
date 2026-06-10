@@ -27,5 +27,6 @@ only be earmarked.
 - Score 4 when the example is strong but depends on surrounding timeline,
   comparison, or attribution.
 - Score 3 when useful but inferential or contextual.
-- Keep the soft cap of 6-7 earmarked examples per tactic unless the user asks
-  to expand it.
+- Do not apply a fixed per-tactic cap. Prioritize higher scores, source
+  diversity, non-duplicate events, and examples that add a distinct tactic
+  angle.

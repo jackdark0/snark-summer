@@ -9,6 +9,7 @@ from pathlib import Path
 DEFAULT_OUT_DIR = Path("agentic/packets")
 DEFAULT_BANK = Path("docs/tactic-example-bank.md")
 DEFAULT_TAXONOMY = Path("docs/counter-tactics-guide.md")
+DEFAULT_ACTORS = Path("docs/actor-aliases.md")
 
 
 def read_text(path: Path) -> str:
@@ -56,6 +57,7 @@ def build_packet(
     header: str,
     chunk: str,
     bank_text: str,
+    actor_text: str,
 ) -> str:
     return f"""# Transcript Scout Packet
 
@@ -71,12 +73,22 @@ Use `agentic/roles/scout.md`.
 - Scan only this packet.
 - Identify candidate tactic examples using `docs/counter-tactics-guide.md`.
 - Check likely duplicates against the existing examples summary below.
+- Use the actor/entity register below for canonical names and classifications.
+- If a new or ambiguous actor/entity appears and its role matters, include an
+  `actor_classification_requests` array in the candidate JSON object rather than
+  assigning a role silently.
 - Return JSONL only, following `docs/agentic-workflow.md`.
 - Do not edit files.
 
 ## Existing Example Summary
 
 {bank_summary(bank_text)}
+
+## Actor and Entity Register
+
+```markdown
+{actor_text}
+```
 
 ## Transcript Header
 
@@ -98,6 +110,7 @@ def main() -> int:
     parser.add_argument("--out-dir", default=str(DEFAULT_OUT_DIR), help="Directory for generated packets.")
     parser.add_argument("--max-lines", type=int, default=450, help="Maximum transcript lines per packet.")
     parser.add_argument("--bank", default=str(DEFAULT_BANK), help="Example bank path.")
+    parser.add_argument("--actors", default=str(DEFAULT_ACTORS), help="Actor/entity register path.")
     args = parser.parse_args()
 
     paths = sorted(Path(path) for path in glob.glob(args.glob, recursive=True))
@@ -107,6 +120,7 @@ def main() -> int:
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     bank_text = read_text(Path(args.bank))
+    actor_text = read_text(Path(args.actors))
 
     written = 0
     for source_path in paths:
@@ -123,6 +137,7 @@ def main() -> int:
                 header=header,
                 chunk=chunk,
                 bank_text=bank_text,
+                actor_text=actor_text,
             )
             out_path = out_dir / f"{source_stem}.part-{index:03d}-of-{total:03d}.md"
             out_path.write_text(packet, encoding="utf-8")

@@ -155,10 +155,11 @@ When given a new transcript:
 1. Clean timestamps and auto-caption artifacts if raw (store cleaned version in `transcripts/processed/`)
 2. Read `docs/counter-tactics-guide.md` to orient against the taxonomy
 3. Scan for tactic instances — note timestamp, speaker, verbatim quote
-4. Check `docs/tactic-example-bank.md` for existing examples before adding new ones. Search distinctive names, claims, phrases, and timestamps, especially when the source is reacting to or replaying another video.
-5. Add new examples using the `EX-####` schema, incrementing from current highest ID, and fill `**Source:**` from metadata when available
-6. Flag any talking points for `data/approved.csv` if they meet the bar: specific, sourced, dateable
-7. Note any tactic instances that don't fit existing taxonomy as Tactic candidates
+4. Check actor/entity names against `docs/actor-aliases.md`. If a new or ambiguous actor/entity appears and its role matters, ask the user for classification before using it in authored analysis. If a batch run cannot stop cleanly, add it to `docs/actor-classification-queue.md` and mark it `unknown / needs-classification`.
+5. Check `docs/tactic-example-bank.md` for existing examples before adding new ones. Search distinctive names, claims, phrases, and timestamps, especially when the source is reacting to or replaying another video.
+6. Add new examples using the `EX-####` schema, incrementing from current highest ID, and fill `**Source:**` from metadata when available
+7. Flag any talking points for `data/approved.csv` if they meet the bar: specific, sourced, dateable
+8. Note any tactic instances that don't fit existing taxonomy as Tactic candidates
 
 **Do not modify raw transcripts.** Work from processed copies only.
 
@@ -177,6 +178,11 @@ Use `docs/agentic-workflow.md` for parallel review. The short version:
 7. Run `validate_bank.py`, `validate_clips.py`, and `git diff --check` before commit
 
 Semantic work can be parallelized. Bank edits are serialized through the merge editor.
+
+Actor classification gate: `Snark Server` is a coordination hub where
+coordinators coordinate, not a person. Do not assign hub-level activity to a
+specific coordinator unless the source identifies that person or an accepted
+example documents the relationship.
 
 ### Clip URL generation
 
@@ -250,8 +256,10 @@ Do not read raw transcripts unless explicitly asked to process them.
 **Retired IDs (do not reuse):** EX-0016, EX-0017, EX-0019, EX-0020, EX-0022–EX-0025 (removed); EX-0052, EX-0058, EX-0080 (flagged in place as duplicates of EX-0004, EX-0010, EX-0039 respectively)
 **Next available ID:** EX-0091
 **Score audit:** `docs/tactic-example-score-audit.md`
-**Alias register:** `docs/actor-aliases.md`
+**Actor/entity register:** `docs/actor-aliases.md`
+**Actor classification queue:** `docs/actor-classification-queue.md`
 **Coordinator consistency tracker:** `docs/coordinator-consistency.md`
+**Coordinator contradiction pass:** `docs/coordinator-contradictions.md`
 
 **Score-3+ earmarked tactic coverage** (soft cap: 6-7 per tactic):
 
@@ -275,6 +283,7 @@ Do not read raw transcripts unless explicitly asked to process them.
 
 **Known actors:**
 - Coordinators (adversary): JSTLK (aliases: JTO/Jtock/Jaystalk), Kuihman (auto-caption variants: Queman/Queenman), Nikandros (Nick Andros; do not collapse Shimu without source confirmation)
+- Coordination hubs: Snark Server (aliases: Snark Discord, Snark Left, secret Snark Discord)
 - Targets (team-adjacent): LonerBox, Hutch, Stardust, Whick
 - Adversary debate participants: Dooby (Dec 2025 Wick TV), Aiden Underground, Dickers (May 2026 Wick TV), Chudlogic (May 2026 reaction stream)
 

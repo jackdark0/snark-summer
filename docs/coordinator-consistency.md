@@ -3,7 +3,8 @@
 This tracker summarizes repeated coordinator-side patterns across accepted
 examples. It is not a complete allegation ledger. It only cites examples already
 in `docs/tactic-example-bank.md`; retired duplicates are not counted as primary
-evidence.
+evidence. For internal position conflicts, see
+`docs/coordinator-contradictions.md`.
 
 ## Method
 

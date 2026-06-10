@@ -22,3 +22,15 @@ best candidates.
 5. Run duplicate/score review.
 6. Merge only the approved examples into the bank and audit.
 7. Run bank and clip validators before commit.
+
+## Actor Classification
+
+Use `docs/actor-aliases.md` for canonical names and classifications. If a new
+or ambiguous actor/entity appears and its role matters, ask the user for
+classification. During batch work, add unresolved items to
+`docs/actor-classification-queue.md` and keep the role as
+`unknown / needs-classification`.
+
+`Snark Server` is classified as a coordination hub. Do not attribute hub-level
+activity to a specific coordinator unless the source identifies that person or
+an accepted example documents the relationship.

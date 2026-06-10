@@ -1,6 +1,6 @@
 # Tactic Example Score Audit
 
-**Date:** 2026-05-31
+**Date:** 2026-06-04
 
 This scores the example bank for evidentiary strength, not moral severity.
 
@@ -16,7 +16,7 @@ This scores the example bank for evidentiary strength, not moral severity.
 
 Unverified YouTube auto-caption examples are capped at 4 until checked against audio.
 
-Earmark rule: preserve every example scored 3 or higher for possible future use, even if the expanded coverage pass prefers score-5 examples first. Current earmarked total: 79 examples. Current below-threshold total: 0.
+Earmark rule: preserve every example scored 3 or higher for possible future use. The bank is uncapped; prefer higher scores, non-duplicate events, source diversity, and distinct tactic angles over quota-filling. Current earmarked total: 85 examples. Current below-threshold total: 0.
 
 ## Scores
 
@@ -104,6 +104,12 @@ Earmark rule: preserve every example scored 3 or higher for possible future use,
 | EX-0088 | Schrodinger's Joke | 4 | Ambiguous hostile line is defended as joke while ambiguity itself is treated as part of the joke; capped until audio verification and speaker attribution check. |
 | EX-0089 | Schrodinger's Joke | 4 | Extreme campaign slogan is called a joke/meme while preserving the serious punishment demand; capped until audio verification and speaker attribution check. |
 | EX-0090 | Cross-Community Infiltration | 4 | Direct JSTLK-stream-to-Ryle-YouTube distribution mechanic plus chat cross-pollination; capped until audio verification. |
+| EX-0091 | Always on Offense | 4 | Direct hypocrisy-hunt pivot from dox-spread harm to Destiny comparison; capped until audio verification. |
+| EX-0092 | Fragmentation | 4 | Direct one-chatter/one-post/moderation split around Spicy Chat conduct; capped until audio verification. |
+| EX-0093 | Paint Them as Crazy | 4 | Direct cahoots/infinite-victim framing of coordination claims; capped until audio verification. |
+| EX-0094 | Permission Structures | 4 | Direct "I understand why" validation frame for retaliation against alleged harassers; capped until audio verification. |
+| EX-0095 | Victim Reversal (DARVO) | 4 | Witness/contact exposure is framed as justified response to alleged harassment; capped until audio verification. |
+| EX-0096 | Cross-Community Infiltration | 4 | Creator-to-audience reporting signal moves a dispute into platform enforcement; capped until audio verification. |
 
 ## Score-5 Coverage
 
@@ -127,27 +133,29 @@ Earmark rule: preserve every example scored 3 or higher for possible future use,
 
 | Tactic | Earmarked examples |
 |---|---|
-| Always on Offense | EX-0002 (5), EX-0031 (5), EX-0045 (5), EX-0068 (4), EX-0077 (4), EX-0078 (4) |
+| Always on Offense | EX-0002 (5), EX-0031 (5), EX-0045 (5), EX-0068 (4), EX-0077 (4), EX-0078 (4), EX-0091 (4) |
 | Isolated Demands for Rigor | EX-0001 (4), EX-0009 (5), EX-0029 (5), EX-0042 (5), EX-0062 (4), EX-0079 (4) |
 | Schrodinger's Joke | EX-0004 (4), EX-0030 (5), EX-0039 (5), EX-0066 (4), EX-0088 (4), EX-0089 (4) |
 | Unilateral Principles | EX-0006 (4), EX-0036 (5), EX-0043 (5), EX-0054 (5), EX-0070 (4), EX-0081 (4) |
 | No-Win Framing | EX-0007 (5), EX-0028 (5), EX-0049 (5), EX-0055 (5), EX-0069 (4), EX-0082 (4) |
-| Victim Reversal (DARVO) | EX-0014 (5), EX-0044 (5), EX-0050 (4), EX-0056 (5), EX-0067 (4), EX-0084 (4) |
+| Victim Reversal (DARVO) | EX-0014 (5), EX-0044 (5), EX-0050 (4), EX-0056 (5), EX-0067 (4), EX-0084 (4), EX-0095 (4) |
 | Moving Goalposts | EX-0005 (5), EX-0027 (5), EX-0032 (5), EX-0060 (4), EX-0071 (4), EX-0083 (4) |
-| Permission Structures | EX-0021 (3), EX-0037 (5), EX-0038 (5), EX-0047 (4), EX-0053 (5), EX-0059 (4), EX-0064 (4) |
+| Permission Structures | EX-0021 (3), EX-0037 (5), EX-0038 (5), EX-0047 (4), EX-0053 (5), EX-0059 (4), EX-0064 (4), EX-0094 (4) |
 | Maximize Yours, Minimize Theirs | EX-0008 (4), EX-0015 (5), EX-0026 (5), EX-0033 (5), EX-0065 (4), EX-0072 (4) |
-| Fragmentation | EX-0003 (5), EX-0035 (5), EX-0040 (5), EX-0048 (3), EX-0063 (4), EX-0073 (4) |
+| Fragmentation | EX-0003 (5), EX-0035 (5), EX-0040 (5), EX-0048 (3), EX-0063 (4), EX-0073 (4), EX-0092 (4) |
 | Narrative Laundering | EX-0011 (5), EX-0041 (5), EX-0051 (4), EX-0057 (5), EX-0074 (4), EX-0085 (4) |
-| Cross-Community Infiltration | EX-0010 (5), EX-0018 (5), EX-0046 (3), EX-0075 (4), EX-0086 (4), EX-0090 (4) |
-| Paint Them as Crazy | EX-0012 (5), EX-0013 (5), EX-0034 (5), EX-0061 (4), EX-0076 (4), EX-0087 (4) |
+| Cross-Community Infiltration | EX-0010 (5), EX-0018 (5), EX-0046 (3), EX-0075 (4), EX-0086 (4), EX-0090 (4), EX-0096 (4) |
+| Paint Them as Crazy | EX-0012 (5), EX-0013 (5), EX-0034 (5), EX-0061 (4), EX-0076 (4), EX-0087 (4), EX-0093 (4) |
 
 ## Upgrade Decisions
 
 - Added EX-0052-EX-0058 to bring every tactic to at least three score-5 examples where the processed corpus supports it.
-- Added EX-0059-EX-0067 from the KuihmanLive scan as score-4 earmarked examples under the expanded 6-7 example cap.
-- Added EX-0068-EX-0077 from the KuihmanLive scan to raise all under-cap tactics to at least five score-3+ examples, with Maximize and Fragmentation now at six.
+- Added EX-0059-EX-0067 from the KuihmanLive scan as score-4 earmarked examples under the earlier expanded coverage pass.
+- Added EX-0068-EX-0077 from the KuihmanLive scan to raise all lower-coverage tactics to at least five score-3+ examples, with Maximize and Fragmentation at six.
 - Added EX-0078-EX-0087 from the KuihmanLive scan so every tactic now has at least six score-3+ earmarked examples, with Permission Structures at seven.
 - Added EX-0088-EX-0090 from the MrowLive scan to refill Schrodinger's Joke and Cross-Community Infiltration after duplicate retirements.
+- Removed the 6-7 example soft cap; future merges should remain uncapped while prioritizing high-score, non-duplicate, distinct-angle examples.
+- Added EX-0091-EX-0096 from the Purple Parry Gaming triage pass as score-4 source-diversity examples.
 - Earmarked every score-3+ example for retention or later clipping/reference use.
 - Promoted EX-0007, EX-0010, EX-0011, EX-0018, EX-0034, EX-0035, EX-0040, EX-0045, and EX-0049 after checking surrounding transcript windows.
 - Kept EX-0021, EX-0046, EX-0048, EX-0050, and EX-0051 as contextual examples, but marked them as replacement candidates or audio-verification candidates.

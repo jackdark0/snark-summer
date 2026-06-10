@@ -39,6 +39,14 @@ Each line in `agentic/candidates/*.jsonl` is one candidate object:
   "quote": "Exact words from the transcript packet.",
   "what_happened": "One to three sentences describing the exchange.",
   "why_it_fits": "One to two sentences tying the exchange to the tactic.",
+  "actors": [
+    {
+      "name": "Snark Server",
+      "classification": "coordination hub",
+      "role_in_candidate": "Hub where the discussed coordination allegedly happened."
+    }
+  ],
+  "actor_classification_requests": [],
   "duplicate_check": {
     "status": "new",
     "related_examples": [],
@@ -54,6 +62,21 @@ Allowed `duplicate_check.status` values:
 - `possible_duplicate`
 - `duplicate`
 - `secondhand_new_frame`
+
+`actors` and `actor_classification_requests` are optional for validator
+purposes, but required by workflow whenever actor/entity roles affect the
+analysis. Use classifications from `docs/actor-aliases.md`. If a meaningful
+actor/entity is missing or ambiguous, add an `actor_classification_requests`
+entry instead of guessing:
+
+```json
+{
+  "observed_name": "Example Name",
+  "source_context": "Where and how the name appeared.",
+  "proposed_classification": "unknown / needs-classification",
+  "why_it_matters": "Why the role affects the analysis."
+}
+```
 
 ## Commands
 
@@ -104,8 +127,16 @@ git diff --check -- CLAUDE.md docs\tactic-example-bank.md docs\tactic-example-sc
 - Duplicate checks happen before scoring decisions are merged.
 - Review streams are secondhand by default.
 - Score-3+ examples are preserved for possible future use.
-- The soft cap is 6-7 earmarked examples per tactic unless the user expands it.
+- The bank is uncapped. Prioritize higher scores, source diversity,
+  non-duplicate events, and examples that add a distinct tactic angle.
 - Use `docs/actor-aliases.md` canonical names in authored prose. Preserve source
   wording inside direct quotes, transcript excerpts, titles, filenames, and URLs.
+- Treat `Snark Server` as a coordination hub, not a person. Do not attribute
+  hub-level activity to a specific coordinator unless the source identifies that
+  person or an accepted example documents the relationship.
+- If an unregistered actor/entity comes up and the classification matters, ask
+  the user. If a batch run cannot stop cleanly, add it to
+  `docs/actor-classification-queue.md` and keep the role as
+  `unknown / needs-classification`.
 - Clip quality is mechanical: best split video/audio, `ffmpeg` merge, `ffprobe`
   verification.

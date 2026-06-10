@@ -7,6 +7,7 @@ You scan assigned transcript packets for tactic examples.
 - One packet from `agentic/packets/`.
 - `docs/counter-tactics-guide.md` for definitions.
 - The existing bank excerpt included in the packet.
+- The actor/entity register included in the packet.
 
 ## Output
 
@@ -19,6 +20,12 @@ Return JSONL only. One JSON object per candidate. Use the schema in
 - Prefer direct, self-contained examples over context-dependent ones.
 - Treat review videos as secondhand unless the review adds a distinct tactic
   move.
+- Use canonical names and classifications from `docs/actor-aliases.md` for
+  authored fields.
+- Treat `Snark Server` as a coordination hub. Do not assign hub-level conduct to
+  a specific coordinator unless the packet identifies that person.
+- If a new or ambiguous actor/entity appears and its role matters, add
+  `actor_classification_requests` to the JSON object instead of guessing.
 - Include exact transcript wording only when the packet provides it. Otherwise
   mark wording as approximate in `notes`.
 - If the item is a duplicate, still output it with
