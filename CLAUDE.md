@@ -125,7 +125,7 @@ Source naming rule: prefer metadata when available. Use the channel/uploader nam
 
 Duplicate handling rule: many later videos are review streams or clip reviews of earlier videos. Treat those as secondhand by default. Do not add a new EX entry when the underlying event, tactic, and key wording are already covered. Prefer the canonical source with the clearest evidence: original/primary footage first, then earliest upload, then best audio/transcript quality. A review video can become a separate example only if it adds a distinct tactic move, such as new permission framing, narrative laundering, audience routing, minimization, or a separate denial/reversal. In that case, note the relationship in `**Notes:**`, e.g. `secondhand review of EX-####; added for new laundering frame`.
 
-When adding examples, assign the next available `EX-####` ID. Current highest: `EX-0090`.
+When adding examples, assign the next available `EX-####` ID. Current highest: `EX-0097`.
 
 ---
 
@@ -241,7 +241,7 @@ Do not read raw transcripts unless explicitly asked to process them.
 
 ## Current Status
 
-**Transcripts ingested:** 10 batches
+**Transcripts ingested:** 11 batches
 - Wick TV debate (2026-05-20) — EX-0001–EX-0015 documented
 - Chudlogic post-debate reaction stream (2026-05-14) — EX-0018, EX-0021, EX-0032–EX-0037 documented
 - Destiny v Dooby on Wick TV (2025-12-18) — EX-0026–EX-0031 documented
@@ -251,33 +251,19 @@ Do not read raw transcripts unless explicitly asked to process them.
 - Score-5 coverage pass across processed corpus — EX-0052–EX-0058 documented
 - KuihmanLive YouTube channel scan (55 captions pulled from filtered recent/title-matched set) — EX-0059–EX-0087 documented
 - MrowLive/Liquid Sonic filtered channel scan (17 accessible captions pulled; Liquid Sonic Whick video age-gated without cookies) — EX-0088–EX-0090 documented
+- Purple Parry Gaming triage pass — EX-0091–EX-0096 documented (bank declared **uncapped** at this point)
+- **Local high-fidelity re-transcription + verification pass (2026-06-16):** all 54 live KuihmanLive videos re-transcribed via the youtube-clipper whisper+diarize pipeline (outputs in `transcripts/kuihman-live/_transcripts/`, gitignored). Bank entries from the auto-caption scans are being verified verbatim against these local transcripts and carry "wording verified" notes as checked (so far: gi1M, I697f4pNk48, hPba9Hu2ltg, iaGkqiDHY24, 5P--7ZRZaz8 → 27 entries). **Correction made:** EX-0081 had a wrong timestamp (16:41 → 58:30) and a fabricated "deserve to sweat" quote, both fixed. Net-new scan of the rest of the channel yielded no new entries (off-topic DeOrio/H3/commentary drama or already covered).
 
-**Active examples:** EX-0001–EX-0015, EX-0018, EX-0021, EX-0026–EX-0090 minus the 3 duplicates below (79 active)
+**Active examples:** EX-0001–EX-0015, EX-0018, EX-0021, EX-0026–EX-0097 minus the 3 duplicates below (86 active)
 **Retired IDs (do not reuse):** EX-0016, EX-0017, EX-0019, EX-0020, EX-0022–EX-0025 (removed); EX-0052, EX-0058, EX-0080 (flagged in place as duplicates of EX-0004, EX-0010, EX-0039 respectively)
-**Next available ID:** EX-0091
+**Next available ID:** EX-0098
 **Score audit:** `docs/tactic-example-score-audit.md`
 **Actor/entity register:** `docs/actor-aliases.md`
 **Actor classification queue:** `docs/actor-classification-queue.md`
 **Coordinator consistency tracker:** `docs/coordinator-consistency.md`
 **Coordinator contradiction pass:** `docs/coordinator-contradictions.md`
 
-**Score-3+ earmarked tactic coverage** (soft cap: 6-7 per tactic):
-
-| # | Tactic | Count | Status |
-|---|---|---|---|
-| 1 | Always on Offense | 6 | cap-soon |
-| 2 | Isolated Demands for Rigor | 6 | cap-soon |
-| 3 | Schrodinger's Joke | 6 | cap-soon |
-| 4 | Unilateral Principles | 6 | cap-soon |
-| 5 | No-Win Framing | 6 | cap-soon |
-| 6 | Victim Reversal (DARVO) | 6 | cap-soon |
-| 7 | Moving Goalposts | 6 | cap-soon |
-| 8 | Permission Structures | 7 | cap |
-| 9 | Maximize Yours, Minimize Theirs | 6 | cap-soon |
-| 10 | Fragmentation | 6 | cap-soon |
-| 11 | Narrative Laundering | 6 | cap-soon |
-| 12 | Cross-Community Infiltration | 6 | cap-soon |
-| 13 | Paint Them as Crazy | 6 | cap-soon |
+**Tactic coverage:** The bank is **uncapped** (as of the Purple Parry pass, EX-0091+). New examples are accepted when they add distinct source/event coverage, not to fill a per-tactic quota; the old 6–7 "soft cap" no longer applies. Per-tactic counts and scoring live in `docs/tactic-example-score-audit.md`.
 
 **Approved talking points:** 1 (TP-0001 — `association` cluster)
 
@@ -285,7 +271,8 @@ Do not read raw transcripts unless explicitly asked to process them.
 - Coordinators (adversary): JSTLK (aliases: JTO/Jtock/Jaystalk), Kuihman (auto-caption variants: Queman/Queenman), Nikandros (Nick Andros; do not collapse Shimu without source confirmation)
 - Coordination hubs: Snark Server (aliases: Snark Discord, Snark Left, secret Snark Discord)
 - Targets (team-adjacent): LonerBox, Hutch, Stardust, Whick
-- Adversary debate participants: Dooby (Dec 2025 Wick TV), Aiden Underground, Dickers (May 2026 Wick TV), Chudlogic (May 2026 reaction stream)
+- Adversary debate participants: Dooby (Dec 2025 Wick TV), Aiden Underground, Dickers (May 2026 Wick TV), Chudlogic (May 2026 reaction stream), Counterpoints/Conor (former Destiny friend "lost to the snarkers," classified 2026-06-16; tactic actor in EX-0062/0067/0078)
+- Actors pending classification (queued, see `docs/actor-classification-queue.md`): DeOrio, BigBunjeee, Beckett, TurkeyTom, CameronF305, Anisa Jomha, Alex Novell — mostly the intra-commentary-community "DeOrio drama," whose relevance to the Destiny-harassment thesis is unresolved
 
 ---
 

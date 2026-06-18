@@ -705,7 +705,7 @@
 
 **What happened:** While reacting to Whick describing astroturfed narratives and manufactured talking points, Kuihman recasts the same behavior as normal creator practice: "it's actually fine and good to make tweets and get your friends to boost them." He describes clipping impactful stream moments and having friends retweet them, then summarizes: "That's the game. That's how the game's played. If you're not doing that, you're falling behind."
 **Why it fits:** The segment licenses coordinated clipping and boosting by recoding it as ordinary creator promotion. It does not direct a specific action; it supplies the permission frame that makes coordinated amplification seem normal and necessary.
-**Notes:** narrative_cluster: `platform-manipulation`; `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `platform-manipulation`; `association`; wording verified verbatim vs local whisper transcript (2026-06-16); Kuihman (SPEAKER_12): "it's actually fine and good to make tweets and get your friends to boost them."
 
 ---
 
@@ -718,7 +718,7 @@
 
 **What happened:** After the Snark-side position is described as "we don't dox people" and "we have no doxes in our server," Kuihman says anyone claiming "there's no doxes whatsoever" without seeing every message is wrong. The defense then shifts to: "Every Discord server has some PII post at some point" and the real measure is "how it's handled."
 **Why it fits:** The standard moves from categorical denial ("no doxes") to universal normalization ("every Discord has PII") to process defense ("how it is handled"). Each step preserves the server defense after the prior claim becomes harder to maintain.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; wording verified verbatim vs local whisper transcript (2026-06-16); Kuihman (SPEAKER_12): "anyone that said definitively without seeing literally every single message [is wrong]," vs the snark-side "we don't dox people."
 
 ---
 
@@ -731,7 +731,7 @@
 
 **What happened:** Kuihman mocks the idea that the server is a coordination hub by calling it "everyone's personal villain" and asking whether it is "orchestrating the downfall of Destiny's life," a "DeOrio GayOps server," or an "anti-Ethan Klein terrorist cell." He ends the riff with "please, can we decide on a narrative here?"
 **Why it fits:** The coordination claim is not answered on the merits. It is converted into a parody of paranoia and overreach, making the audience evaluate the claim as absurd before the evidence is examined.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; wording verified verbatim against local whisper transcript (2026-06-15): "is it the server that's orchestrating the downfall of Destiny's life, is it a 24-7 DeOrio gay op server, or is it an anti Ethan Klein terrorist cell? Please can we decide on a narrative here?" Speaker is Kuihman (channel host).
 
 ---
 
@@ -742,9 +742,9 @@
 **Clip URL:** https://youtu.be/I697f4pNk48?t=1821
 **Status:** CLIP
 
-**What happened:** The speaker rejects the request to keep snarkers out of a community by saying the underlying claim "never happened in my community," there is "no evidence," and critics are "making this up whole cloth." Minutes later, when Destiny joins, he says evidence was produced and "that evidence exists"; the response keeps pressing whether a direct dox occurred.
+**What happened:** Counterpoints/Conor rejects the request to keep snarkers out of his community: "the simple ask of don't allow snarkers in your community in order to endlessly fucking shit talk me, that never happened in my fucking community, there's no fucking evidence that it ever happened in my community, they're making this shit up whole cloth." When Destiny joins (~32:29), a Kuihman-side speaker says "produce evidence — you may not have found it sufficient but that evidence exists, I can confirm some of it exists"; the response keeps pressing whether a direct dox occurred.
 **Why it fits:** The burden is raised from evidence of the community pattern to a narrower demand for direct proof of a specific dox. Evidence can exist and still be dismissed as insufficient because the demanded proof standard keeps narrowing.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; wording verified verbatim against local whisper transcript (2026-06-15). Tactic actor is **Counterpoints/Conor** (active participant, adversary-aligned — former Destiny friend "lost to the snarkers," classified 2026-06-16), pressed to stop hosting snarkers.
 
 ---
 
@@ -757,7 +757,7 @@
 
 **What happened:** When Whick describes harassment as doxing plus endless replies, quote-tweets, and chat pressure, Kuihman separates the doxing component from the rest: "what's the problem with people replying to you on Twitter?" He then frames replies and quote-tweets as ordinary "people talking" and says doxing can be handled separately if a specific instance appears.
 **Why it fits:** The compound pressure pattern is broken into individually defensible pieces. Once separated, non-dox components are dismissed as ordinary discourse and the broader harassment architecture disappears.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; wording verified verbatim vs local whisper transcript (2026-06-16); Kuihman (SPEAKER_12): "what's the problem with people replying to you on Twitter? ... you just don't want people talking about you."
 
 ---
 
@@ -770,7 +770,7 @@
 
 **What happened:** In a discussion of "doxing wars," the exchange frames participation as making someone "fair game." One speaker says: "if you engage in doxing, you can be doxed"; when challenged, the defense becomes that this is "the world he's creating."
 **Why it fits:** The segment establishes reciprocal doxing as an understandable consequence of entering the conflict. The moral brake is released by assigning responsibility for the escalation to the target's side.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate; speaker attribution from captions unclear
+**Notes:** narrative_cluster: `association`; wording verified verbatim against local whisper transcript (2026-06-16): "if you're going to be involved in... doxing wars... then you're fair game as well" / "you engage in doxing you can be doxed, even if you're not engaged in doxing you're likely to get doxed" / "my position is that if this is the world he's creating." Multi-speaker Kuihman-side panel exchange (the line is split across panelists; not a single named speaker).
 
 ---
 
@@ -783,7 +783,7 @@
 
 **What happened:** A dox/PII incident in the Snark server is minimized as something that "happens in every Discord of a certain size," where the only real question is whether moderators handled it. Later, DGG-linked doxing is described as a year-and-a-half pattern where people "spammed doxes" endlessly, making it a cultural issue.
 **Why it fits:** The same category of behavior is interpreted in opposite directions: Snark-side PII becomes an ordinary moderation problem; DGG-side doxing becomes a persistent culture. The scale and meaning of the conduct changes depending on whose side is being assessed.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; minimization wording verified verbatim against local whisper transcript (2026-06-16): "it doesn't make it a doxxing server, you know, this happens in every [Discord]..." (Kuihman, ~3:34). The paired DGG "year-and-a-half / spammed doxes" comparison (~8:25) was not separately re-confirmed verbatim.
 
 ---
 
@@ -796,7 +796,7 @@
 
 **What happened:** As Whick objects to the treatment he is receiving, Kuihman replies: "You are literally crashing out over jokes." When Whick says he is being attacked and drama-farmed, the response keeps the joke frame in place.
 **Why it fits:** The underlying conduct is insulated by calling it jokes, while the target's objection becomes the real problem: a "crashout." If the audience accepts the joke, the attack lands; if challenged, the objection is recoded as oversensitivity.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; wording verified verbatim vs local whisper transcript (2026-06-16); Kuihman (SPEAKER_12): "you are literally crashing out over jokes, though, Wick."
 
 ---
 
@@ -807,9 +807,9 @@
 **Clip URL:** https://youtu.be/I697f4pNk48?t=1808
 **Status:** CLIP
 
-**What happened:** The request to stop hosting snarkers is reframed as an "implicit threat." The speaker turns the moderation ask into "kick these two people from your community or else we don't hang out anymore," then emphasizes the personal injury: "I've been hanging out with Steven for six goddamn years. I deserve more than that."
+**What happened:** Counterpoints/Conor reframes the request to stop hosting snarkers as an "implicit threat": "I'm not gonna accept the implicit threat of what's being said... the implication is kick these two people from your community or else we don't hang out anymore. I've been hanging out with [St]even for six goddamn years, I deserve more than that. And if he doesn't like it then he can fuck off."
 **Why it fits:** The original complaint about anti-Destiny activity in the community is displaced by the injury of being asked to moderate it. The requested accountability becomes coercion against the person receiving the request.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate; overlaps EX-0062 from the burden-of-proof angle
+**Notes:** narrative_cluster: `association`; wording verified verbatim against local whisper transcript (2026-06-15); same passage as EX-0062 (~30:05). Tactic actor is **Counterpoints/Conor** (active participant, adversary-aligned — classified 2026-06-16). Overlaps EX-0062 from the burden-of-proof angle.
 
 ---
 
@@ -826,7 +826,7 @@
 
 **What happened:** When Whick names JSTLK's mass-reporting of different targets, Kuihman immediately narrows the target list to Destiny and explains it through Destiny's alleged "active doxing campaign." He later says critics should engage with JSTLK's reason for reporting: that Destiny wanted to destroy JSTLK's community by doxing active members.
 **Why it fits:** The conduct under discussion is not assessed directly. The answer redirects to the target's alleged worse behavior and makes that alleged behavior the real subject.
-**Notes:** narrative_cluster: `platform-manipulation`; `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `platform-manipulation`; `association`; wording verified verbatim vs local whisper transcript (2026-06-16); Kuihman (SPEAKER_12): "Destiny was on an active doxing campaign where he explicitly stated he's got docs [on] the most active members of [JSTLK]'s community."
 
 ---
 
@@ -839,7 +839,7 @@
 
 **What happened:** When Whick explains that a target's reaction can be used as evidence against them, Kuihman says that is sometimes legitimate. He says that if someone responds to being mocked by "freaking out" and describing a "psycho doxers insane campaign," the reaction itself becomes evidence against them. When Whick points back to doxing and harassment, Kuihman says the incident was handled and asks what more can be done.
 **Why it fits:** The target cannot cleanly object: reacting strongly becomes proof of instability, while accepting the narrow remediation makes the broader pattern disappear.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; wording verified verbatim vs local whisper transcript (2026-06-16); Kuihman (SPEAKER_12): "if your response to being mocked is to freak the fuck out, [make] up a bunch of lies and [push] them as part of like some psycho doxers insane [campaign]..."
 
 ---
 
@@ -852,7 +852,7 @@
 
 **What happened:** Kuihman says anyone would agree that coordinating to boost a false narrative with out-of-context clips is wrong. He then says what is not wrong is coordinating to boost clips where someone is criticizing you or making a mean joke about you, calling that normal community behavior because "the thing that is wrong there is not the boosting" but the lying.
 **Why it fits:** The principle against coordinated amplification is applied only after Kuihman decides the amplified claim is false. Coordination is condemned for opponents but treated as normal when the content is framed as true criticism or joking.
-**Notes:** narrative_cluster: `platform-manipulation`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `platform-manipulation`; wording verified verbatim vs local whisper transcript (2026-06-16); Kuihman (SPEAKER_12): "anyone would agree coordinating to boost a false narrative using o[ut-of-context clips is wrong]" — contrasted with boosting genuine criticism/jokes as normal.
 
 ---
 
@@ -863,9 +863,9 @@
 **Clip URL:** https://youtu.be/gi1M_KDbAbU?t=1107
 **Status:** CLIP
 
-**What happened:** In the doxing debate, the challenged behavior is first defended as not shown by the evidence. The definition then narrows to "publishing for the purpose of harassment." When the discussion reaches looking up an account and sending information to an involved party, the defense becomes that it is still not doxing if it is not published for harassment.
+**What happened:** In the doxing debate, Kuihman narrows the definition of doxing each time a specific act is challenged. First: "I've always been specific about my definition of doxing... Publishing for the purpose of harassment. That is what I say. Every time I'm specific." Then, on merely looking an account up: "You can look into whatever you want on your own time... privately, you can look up what you like" / "You can look it up as long as you don't publish stuff, Dan" / "No, you wouldn't be doxing if you don't publish it, would you?" When pressed that he had planned to send the unmasking results to an involved party, the defense becomes (~19:43): "to the relevant party to be used in a legal case, not published for the [purpose] of harassment."
 **Why it fits:** Each challenge produces a narrower standard that excludes the specific act being discussed. The endpoint shifts from whether private information was investigated to whether it was publicly posted for harassment.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate; debate speaker attribution should be checked against audio
+**Notes:** narrative_cluster: `association`; wording verified verbatim against local whisper transcript (2026-06-15); speaker is Kuihman (snark-side debater / channel host). A second snark-side participant ("Shemue"/Shimu) is also present in the exchange.
 
 ---
 
@@ -878,7 +878,7 @@
 
 **What happened:** Kuihman says no content creator has an interest in wasting time harassing Whick. He reframes the conduct as creators pursuing money and clout, says making fun of Whick's eating is funny, and describes Whick as a "good content source."
 **Why it fits:** The target's harassment claim is minimized into normal creator incentives, jokes, and content farming. The same conduct is treated as ordinary when it benefits the speaker's side, while the opposing side's conduct is described elsewhere as coordinated doxing and harassment.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; wording verified verbatim vs local whisper transcript (2026-06-16); Kuihman (SPEAKER_12): "literally no content creator gives a fuck about harassing you" (Whick, SPEAKER_10, just before: "did you really spend an hour on stream talking about the way I eat? You're obsessed").
 
 ---
 
@@ -891,7 +891,7 @@
 
 **What happened:** After Whick describes coordinated clipping and pressure as a system, Kuihman separates creators from chatters. He says no content creator cares about harassing Whick; at most, some chatters may do stupid things, and those get moderated if they break platform rules.
 **Why it fits:** The coordinated pattern is split into defensible creator incentives and isolated chatter misconduct. Once the pieces are separated, the broader harassment architecture is harder to discuss.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; wording verified verbatim vs local whisper transcript (2026-06-16); Kuihman (SPEAKER_12): "no content creator gives a fuck about harassing you, there might be some [chatters who] do stupid things" — creators split from chatters. Same passage as EX-0072 (different lens).
 
 ---
 
@@ -904,7 +904,7 @@
 
 **What happened:** After Whick describes clips being sent to other streamers as part of the machine, Kuihman asks how that differs from trying to get content covered by other people. He says he will tell another creator to cover something, then argue if that creator disagrees, and concludes that creators should try to get their clips out there.
 **Why it fits:** Pushing clips and framing into another creator's coverage is normalized as ordinary promotion. A line generated inside one community can then surface as independent coverage by someone else.
-**Notes:** narrative_cluster: `platform-manipulation`; `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `platform-manipulation`; `association`; wording verified verbatim vs local whisper transcript (2026-06-16); Kuihman (SPEAKER_12), re clips sent to streamers reacting: "how is this any different... how is this not just try to get your con[tent] out there."
 
 ---
 
@@ -917,7 +917,7 @@
 
 **What happened:** A claim is read that JSTLK, Dooby, Kuihman, and others have been infiltrating communities by repeating the same talking points for months. Kuihman responds that even if he had done that, critics should explain the problem and how it differs from what Destiny did to Hasan, then recasts it as arguing what one thinks in Discord servers.
 **Why it fits:** The movement of talking points across communities is normalized as ordinary argument. The cross-community operation is made to look like normal participation in adjacent spaces.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate; includes quoted claim and response
+**Notes:** narrative_cluster: `association`; wording verified verbatim against local whisper transcript (2026-06-16). Kuihman reads Destiny's reddit post ("jay stalk, doobie, queeman etc have been infiltrating and turning several communities against me by repeatedly debating... for months and months") then responds: "I have not done that. Now even if I had — explain the problem, explain how it's different to what you did to Hassan, explain how that's outside the bounds of reasonable behavior to just argue what you think about someone in discord servers." Speaker is Kuihman.
 
 ---
 
@@ -930,7 +930,7 @@
 
 **What happened:** Kuihman says most examples are not harassment and that critics can "cry about that" or paint it badly, but it will not stop. He then calls Whick's presentation a "psycho conspiratorial opinion" and says Whick is drawing associations he cannot substantiate.
 **Why it fits:** The coordination claim is converted into emotional overreaction and conspiracy thinking. The focus shifts from the pattern evidence to the sanity and motives of the person describing it.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; wording verified verbatim vs local whisper transcript (2026-06-16); Kuihman/co-host (SPEAKER_06): "look at Wick ranting... giving his psycho conspiratorial opinion."
 
 ---
 
@@ -943,7 +943,7 @@
 
 **What happened:** Whick describes the deflection as "all he did was dox you" followed by "but Destiny has done so much worse." Kuihman answers by affirming that Destiny doxed innocent people, saying harms to Whick were handled, and returning to what Destiny continues to do.
 **Why it fits:** The immediate conduct is acknowledged only long enough to minimize it and move back to Destiny's alleged greater wrongdoing. The response keeps the speaker on offense instead of addressing the original harm.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; wording verified verbatim vs local whisper transcript (2026-06-16); Kuihman (SPEAKER_12): "he doxxed a bunch of innocent people, yes Wick... people have done bad things to you too, [it's] been firmly dealt with, meanwhile Destiny [continues]..."
 
 ---
 
@@ -958,9 +958,9 @@
 **Clip URL:** https://youtu.be/I697f4pNk48?t=2311
 **Status:** CLIP
 
-**What happened:** When the discussion turns to JSTLK's conduct, the exchange pivots back to Destiny's conduct and personal life. One speaker says, in effect, that even if JSTLK were worse, the question remains what that has to do with Destiny; the reaction then frames Destiny as flailing and doing DARVO.
+**What happened:** When Destiny presses on JSTLK's conduct, Counterpoints/Conor pivots back to Destiny: "Why are we even talking about JSTOCK? ... even if JSTOCK's worse than you — let's say Jay Stock's a fucking rapist — what does that have to do with you?" Kuihman's surrounding commentary frames Destiny as flailing/doing DARVO.
 **Why it fits:** The original allegation about JSTLK is not resolved on its own terms. The conversation is pushed back onto the target's alleged wrongdoing, keeping the defensive side on offense.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate; speaker attribution should be checked against audio
+**Notes:** narrative_cluster: `association`; wording verified verbatim against local whisper transcript (2026-06-15, ~38:31/38:50). The in-debate pivot is by **Counterpoints/Conor** (active participant, adversary-aligned — classified 2026-06-16); the "flailing/DARVO" framing is Kuihman commentary.
 
 ---
 
@@ -973,7 +973,7 @@
 
 **What happened:** Whick says people had sworn there was no doxing in the server, but he was shown evidence and the server later confirmed the incident. The response accepts that the server statement exists but keeps asking why Whick will not provide the evidence or logs, even censored. Whick points out that the demand continues despite the admission that it happened.
 **Why it fits:** The burden is narrowed from "did the dox incident happen?" to "will the target personally reveal the proof in a form the critic can inspect?" The standard remains elevated for the target even after the underlying fact is acknowledged.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; wording verified verbatim vs local whisper transcript (2026-06-16); a panelist (SPEAKER_02) presses Whick: "why not provide the evidence that you were doxed and just censor the [name]?" — demand persists after the server already confirmed the incident.
 
 ---
 
@@ -995,13 +995,13 @@
 ### EX-0081 | Unilateral Principles
 **Source:** Kuihman - Beckett Can't Keep Sweeping For DeOrio... / YouTube
 **Date:** 2026-05-12
-**Timestamp:** 16:41 / 16:56
-**Clip URL:** https://youtu.be/hPba9Hu2ltg?t=1001
+**Timestamp:** 58:30
+**Clip URL:** https://youtu.be/hPba9Hu2ltg?t=3510
 **Status:** CLIP
 
-**What happened:** Kuihman says he may disagree with a lawsuit on principle, but that principle does not require him to defend people who he says have slandered him. He says he can abstain from the conversation and then adds that those people "deserve to sweat."
+**What happened:** Kuihman says: "My principle says I might not agree with this lawsuit; my principle doesn't say I have to defend people who are completely fucking slandering me. It just means I'd abstain from the conversation if I don't support it."
 **Why it fits:** The anti-lawsuit or speech-protective principle is applied only up to the point where it would protect enemies. Once the target is framed as a bad actor, the principle becomes optional.
-**Notes:** narrative_cluster: `lawsuit`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `lawsuit`; wording verified verbatim against local whisper transcript (2026-06-16); speaker is Kuihman. **CORRECTION:** the auto-caption scan had the wrong timestamp (16:41/16:56 → actually ~58:30) and a "deserve to sweat" line that does not appear anywhere in the audio; both fixed here.
 
 ---
 
@@ -1014,7 +1014,7 @@
 
 **What happened:** Whick describes a trap where waiting for more evidence is framed as hiding, responding is framed as spiraling, and providing evidence is framed as crashing out. Immediately after that description, Kuihman says Whick is "literally crashing out over jokes." The section continues with the claim that no matter what action is taken, it will be painted as negative.
 **Why it fits:** Each available response is pre-labeled as a loss. The target cannot wait, answer, or document the issue without the response itself becoming the attack.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate; overlaps EX-0066 and EX-0069 but captures the no-win setup directly
+**Notes:** narrative_cluster: `association`; wording verified verbatim vs local whisper transcript (2026-06-16): Whick's no-win description is read back ("the fifth tactic, no-win framing — anything you do that isn't furthering their goals is painted [badly]," SPEAKER_06, ~1:08:18), then Kuihman (SPEAKER_12) immediately: "you are literally crashing out over jokes." Overlaps EX-0066 and EX-0069 but captures the no-win setup directly.
 
 ---
 
@@ -1025,9 +1025,9 @@
 **Clip URL:** https://youtu.be/gi1M_KDbAbU?t=1701
 **Status:** CLIP
 
-**What happened:** The speaker summarizes the defense as: gathering private information and unmasking anonymous accounts to pass the information to someone else is not doxing. The line then becomes that passing it for a legitimate purpose is not doxing, while publicizing it for harassment is doxing.
+**What happened:** In his post-debate address to his own audience, Kuihman sarcastically restates and endorses the snark-side definition of doxing: "It's not doxing. We're just gathering private information, unmasking anonymous accounts, passing our information to someone else. Correct, that's not doxing... If you pass it to someone else for a legitimate purpose, that's not doxing. If you publicize it for the purpose of harassment, that's doxing. What do people not understand here? The line is very clear."
 **Why it fits:** The definition keeps narrowing to exclude the specific conduct under review. The standard moves from private information gathering to publication, then to publicized harassment.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate; debate speaker attribution should be checked against audio
+**Notes:** narrative_cluster: `association`; wording verified verbatim against local whisper transcript (2026-06-15); speaker is Kuihman (channel host, post-debate audience address). Companion to EX-0071 (same debate, mid-exchange).
 
 ---
 
@@ -1040,7 +1040,7 @@
 
 **What happened:** A request not to permit people in a community to endlessly attack Destiny is recast as an unreasonable demand backed by clout and disassociation. Kuihman says the "implicit threat" beneath the reasonable ask was later executed.
 **Why it fits:** The original accountability ask becomes coercion against the person receiving it. The alleged aggressor becomes the party under threat, and the moderation request becomes the offense.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; wording verified verbatim against local whisper transcript (2026-06-16). Kuihman: "I shouldn't permit people in my community to endlessly shit talk Destiny — unreasonable ask, since I, Destiny, have a disproportionate amount of clout and power... it is safer to ban snarkers entirely so you do not warrant my wrath and disassociation. Mootin confirmed that this was the implicit threat underneath the reasonable ask, [and] Destiny fulfilled the unreasonable ask today... Destiny came on and executed this threat." Speaker is Kuihman (sarcastic restatement). Same theme as EX-0067 (Conor, two days later).
 
 ---
 
@@ -1051,9 +1051,9 @@
 **Clip URL:** https://youtu.be/gi1M_KDbAbU?t=1513
 **Status:** CLIP
 
-**What happened:** At the end of the debate, after insulting the opposing side, a speaker says the clips are going to be great and that they will be boosted heavily.
+**What happened:** At the end of the debate, immediately after telling the opposing side "you do not deserve any more [air time] for this shit... you're going to prison," Kuihman says: "the clips, this is gonna be great, trust me, we gotta boost those like crazy."
 **Why it fits:** The debate moment is immediately converted into downstream clip strategy. The line shows how a conflict exchange becomes material for coordinated amplification outside the original conversation.
-**Notes:** narrative_cluster: `platform-manipulation`; source wording auto-caption approximate; speaker attribution should be checked against audio
+**Notes:** narrative_cluster: `platform-manipulation`; wording verified verbatim against local whisper transcript (2026-06-15); speaker is the channel host (Kuihman, the post-debate "just to explain to you what was going on there, guys" voice).
 
 ---
 
@@ -1066,7 +1066,7 @@
 
 **What happened:** While reading lawsuit-filing material, the video describes an H3 Snark moderator DMing Denims on January 21, 2025 to advertise around the content nuke and time viewers into Denims' stream so they would not boost Ethan's release. A later line says a screenshot from H3 Snark was sent on Denims' Discord server with instructions to watch through Denims or other creators.
 **Why it fits:** A snark-side moderator is described moving audience behavior and messaging into another creator's channel. The visible engagement would appear as another creator's audience response, while the coordination originates in the snark network.
-**Notes:** narrative_cluster: `platform-manipulation`; `association`; source wording auto-caption approximate; filing/source claim should be checked against the underlying document if used as legal evidence
+**Notes:** narrative_cluster: `platform-manipulation`; `association`; wording verified verbatim against local whisper transcript (2026-06-16): Kuihman reads the filing — "communicated with Denims on their intent to create a market replacement... on the 21st of January 2025 the H3 Snark mod with the Discord username Dartois sent Denims [the screenshot/instructions]." Speaker is Kuihman reading lawsuit-filing material; the underlying filing claim should still be checked against the source document if used as legal evidence.
 
 ---
 
@@ -1079,7 +1079,7 @@
 
 **What happened:** When the discussion turns to fears that a JSTLK fan could show up at someone's house, Kuihman calls the claim detached from reality and "insane." He later says it is a "deranged, schizophrenic narrative" to pitch.
 **Why it fits:** The concern is not first answered with evidence about risk or capability. It is recoded as psychological dysfunction, making the person raising it look irrational before the claim is assessed.
-**Notes:** narrative_cluster: `association`; source wording auto-caption approximate
+**Notes:** narrative_cluster: `association`; wording verified verbatim against local whisper transcript (2026-06-15): as Destiny raises that "a justical fan showed up at my house and murdered me," Kuihman responds "This is so detached from reality. It's fucking insane. He's legitimately pitching the idea that a Jay Stalk fan might show up at his house and kill him." Speaker is Kuihman (channel host).
 
 ---
 
@@ -1205,3 +1205,20 @@
 **What happened:** Purple Parry accuses NotSoErudite of "manufacturing consent" in her audience against another creator and says she is signaling the audience to report him, comparing it to a prior IO incident.
 **Why it fits:** The dispute is moved from one creator's criticism into audience-level platform enforcement. A claim generated in one community is turned into a reporting posture aimed at another creator.
 **Notes:** narrative_cluster: `platform-manipulation`; `association`; source wording auto-caption approximate; candidate `cand-purple-parry-20260604-0011`; needs audio verification
+
+---
+
+> **Note:** EX-0097 is from the MrowLive channel **local re-transcription pass** (2026-06-16, whisper+diarize). Wording verified against the local transcript; speaker attribution noted but should be re-listened before use as legal evidence (heated crosstalk).
+
+---
+
+### EX-0097 | Unilateral Principles
+**Source:** MrowLive - WillyMacShow LIES, Calls Kuihman a DOXXER / YouTube
+**Date:** 2025-08-11
+**Timestamp:** 42:03 / 43:18 / 43:47
+**Clip URL:** https://youtu.be/j6xAXe5In74?t=2523
+**Status:** CLIP
+
+**What happened:** After being called a doxxer/hypocrite on-stream (by commentator Augie), Mrow defends his own practice of "calling out" critics' tweets while condemning doxing in others. Mrow (channel host): "If Queeman pulled up my docs and only said 'bad empanada sucks for this,' I wouldn't care. It's the dog whistle **call to action** that's the problem... It's as if context matters. Me calling out a tweet that already has 100,000 views doesn't add any negative effect." A participant on his own panel pushes back: "it's just doxing and a shit thing to do to someone whose worst crime is being annoying on the internet... here he is doing it a third time — I had to tell him, dude, delete this."
+**Why it fits:** Mrow runs a channel that repeatedly accuses Destiny and others of doxing/harassment, but applies a self-exempting standard to his own conduct: amplifying a critic's tweet to his audience is reframed as harmless "calling out" (judged by context/reach), while the same category of act by opponents is doxing. The principle binds opponents, not the speaker — and an ally in his own chat names the inconsistency in real time.
+**Notes:** narrative_cluster: `association`; wording verified verbatim against local whisper transcript (2026-06-16); speaker is Mrow (MrowLive host, SPEAKER_03 — confirmed via donation-reads). **Re-listen before citing as evidence:** heated multi-speaker crosstalk, and the "third time / delete this" rebuttal (SPEAKER_10) may reference a third party rather than Mrow. First MrowLive-channel bank example beyond the prior caption scan (EX-0088–0090).
