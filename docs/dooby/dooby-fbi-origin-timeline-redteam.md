@@ -1,6 +1,8 @@
 # dooby-fbi-origin-timeline — claims red-team
 
-`/analyze-claims` pass (claude mode) over `dooby-fbi-origin-timeline.md`. Grades the load-bearing *truth-claims* (not the verbatim quotes — those are mechanically checked by `scripts/agentic/verify_quotes_clips.py`, currently 0-FAIL). Advisory only; source doc unchanged.
+`/analyze-claims` pass (claude mode) over `dooby-fbi-origin-timeline.md`. Grades the load-bearing *truth-claims* (not the verbatim quotes — those are mechanically checked by `scripts/agentic/verify_quotes_clips.py`, currently 0-FAIL).
+
+**Status (2026-06-24): all 🔴/🟡 fixes + the 🟢 nits below were folded into the source doc** (C2 scoped to "undocumented/non-standard," Markle/CCleaner downgraded, police→FBI reframed as observed-pattern + inference, H1 possession-in-fact qualifier). This file is kept as the rationale record.
 
 **teal;deer:** the doc is strong where it's **quote-grounded** (H1/H3/H4 descriptions) or **primary-sourced** (H2 pipeline mechanics, 764 reality) — those are A/B. Every attackable seam is the *same shape*: **inferring fabrication or intent from absence of evidence** (Markle "embellishment," CCleaner "implausible," police→FBI "escalation," "no FBI portal exists"). None are wrong, but each overstates a notch past what the evidence licenses. Fix = downgrade absence-of- evidence from "likely false" to "unverified/unsupported," and label intent-reads as inferences. Do that & the doc is unembarrassable.
 
