@@ -1,16 +1,8 @@
 # dooby-fbi-origin-timeline — claims red-team
 
-`/analyze-claims` pass (claude mode) over `dooby-fbi-origin-timeline.md`. Grades the load-bearing
-*truth-claims* (not the verbatim quotes — those are mechanically checked by
-`scripts/agentic/verify_quotes_clips.py`, currently 0-FAIL). Advisory only; source doc unchanged.
+`/analyze-claims` pass (claude mode) over `dooby-fbi-origin-timeline.md`. Grades the load-bearing *truth-claims* (not the verbatim quotes — those are mechanically checked by `scripts/agentic/verify_quotes_clips.py`, currently 0-FAIL). Advisory only; source doc unchanged.
 
-**teal;deer:** the doc is strong where it's **quote-grounded** (H1/H3/H4 descriptions) or
-**primary-sourced** (H2 pipeline mechanics, 764 reality) — those are A/B. Every attackable seam is
-the *same shape*: **inferring fabrication or intent from absence of evidence** (Markle
-"embellishment," CCleaner "implausible," police→FBI "escalation," "no FBI portal exists"). None are
-wrong, but each overstates a notch past what the evidence licenses. Fix = downgrade absence-of-
-evidence from "likely false" to "unverified/unsupported," and label intent-reads as inferences.
-Do that & the doc is unembarrassable.
+**teal;deer:** the doc is strong where it's **quote-grounded** (H1/H3/H4 descriptions) or **primary-sourced** (H2 pipeline mechanics, 764 reality) — those are A/B. Every attackable seam is the *same shape*: **inferring fabrication or intent from absence of evidence** (Markle "embellishment," CCleaner "implausible," police→FBI "escalation," "no FBI portal exists"). None are wrong, but each overstates a notch past what the evidence licenses. Fix = downgrade absence-of- evidence from "likely false" to "unverified/unsupported," and label intent-reads as inferences. Do that & the doc is unembarrassable.
 
 ## triage
 - 🔴 high-risk (fix before deploying): **C2** (H2 "no FBI secure portal — is not a thing")
@@ -64,9 +56,4 @@ Do that & the doc is unembarrassable.
 ---
 
 ## systemic pattern
-Every 🟡/🔴 is **absence-of-evidence dressed as positive disproof**. The doc's *factual* spine
-(verified quotes + NCMEC/FBI primary sources + 764 reality) is genuinely strong — so don't let the
-weakest links be over-stated inferences an opponent can flip into "you also overclaim." One global
-edit pass — *downgrade "likely false / isn't a thing / is escalating" → "unverified / undocumented /
-observed pattern,"* and tag plausibility-reads `(inference)` — closes every seam without weakening
-the real case. The mechanics (H2) and the behavior (H1/H3/H4) carry it; the speculation doesn't need to.
+Every 🟡/🔴 is **absence-of-evidence dressed as positive disproof**. The doc's *factual* spine (verified quotes + NCMEC/FBI primary sources + 764 reality) is genuinely strong — so don't let the weakest links be over-stated inferences an opponent can flip into "you also overclaim." One global edit pass — *downgrade "likely false / isn't a thing / is escalating" → "unverified / undocumented / observed pattern,"* and tag plausibility-reads `(inference)` — closes every seam without weakening the real case. The mechanics (H2) and the behavior (H1/H3/H4) carry it; the speculation doesn't need to.

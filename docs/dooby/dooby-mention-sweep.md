@@ -1,7 +1,6 @@
 # Dooby cross-channel mention sweep
 
-Offline sweep of the local snark-summer archive (metadata + YouTube autocaptions / local transcripts already on disk). No new YouTube requests.
-`O` = the video's Dooby mentions co-occur with origin-story keywords (FBI / CSAM / pedophile / 764 / infiltrate / sextortion / hoard) — priority for the CSAM/FBI hole-finding thread.
+Offline sweep of the local snark-summer archive (metadata + YouTube autocaptions / local transcripts already on disk). No new YouTube requests. `O` = the video's Dooby mentions co-occur with origin-story keywords (FBI / CSAM / pedophile / 764 / infiltrate / sextortion / hoard) — priority for the CSAM/FBI hole-finding thread.
 
 ## whick-tv — 70 videos mention Dooby (2 with origin-story signal)
 
