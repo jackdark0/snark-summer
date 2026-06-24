@@ -125,7 +125,7 @@ Source naming rule: prefer metadata when available. Use the channel/uploader nam
 
 Duplicate handling rule: many later videos are review streams or clip reviews of earlier videos. Treat those as secondhand by default. Do not add a new EX entry when the underlying event, tactic, and key wording are already covered. Prefer the canonical source with the clearest evidence: original/primary footage first, then earliest upload, then best audio/transcript quality. A review video can become a separate example only if it adds a distinct tactic move, such as new permission framing, narrative laundering, audience routing, minimization, or a separate denial/reversal. In that case, note the relationship in `**Notes:**`, e.g. `secondhand review of EX-####; added for new laundering frame`.
 
-When adding examples, assign the next available `EX-####` ID. Current highest: `EX-0097`.
+When adding examples, assign the next available `EX-####` ID. Current highest: `EX-0098`.
 
 ---
 
@@ -256,7 +256,7 @@ Do not read raw transcripts unless explicitly asked to process them.
 
 **Active examples:** EX-0001–EX-0015, EX-0018, EX-0021, EX-0026–EX-0097 minus the 3 duplicates below (86 active)
 **Retired IDs (do not reuse):** EX-0016, EX-0017, EX-0019, EX-0020, EX-0022–EX-0025 (removed); EX-0052, EX-0058, EX-0080 (flagged in place as duplicates of EX-0004, EX-0010, EX-0039 respectively)
-**Next available ID:** EX-0098
+**Next available ID:** EX-0099
 **Score audit:** `docs/tactic-example-score-audit.md`
 **Actor/entity register:** `docs/actor-aliases.md`
 **Actor classification queue:** `docs/actor-classification-queue.md`

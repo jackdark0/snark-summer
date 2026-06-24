@@ -110,6 +110,8 @@ Earmark rule: preserve every example scored 3 or higher for possible future use.
 | EX-0094 | Permission Structures | 4 | Direct "I understand why" validation frame for retaliation against alleged harassers; capped until audio verification. |
 | EX-0095 | Victim Reversal (DARVO) | 4 | Witness/contact exposure is framed as justified response to alleged harassment; capped until audio verification. |
 | EX-0096 | Cross-Community Infiltration | 4 | Creator-to-audience reporting signal moves a dispute into platform enforcement; capped until audio verification. |
+| EX-0097 | Unilateral Principles | 4 | Verified-wording self-exempting standard on "calling out" vs doxing; crosstalk caveat (score backfilled 2026-06-24 — adjust if desired). |
+| EX-0098 | Narrative Laundering | 3 | Verified speaker/wording, but indirect: Dooby launders snark-chat chatter against a Destiny-adjacent target (ZipZip) while disclaiming it; defensive recount, earmark-level not flagship. |
 
 ## Score-5 Coverage
 
@@ -136,14 +138,14 @@ Earmark rule: preserve every example scored 3 or higher for possible future use.
 | Always on Offense | EX-0002 (5), EX-0031 (5), EX-0045 (5), EX-0068 (4), EX-0077 (4), EX-0078 (4), EX-0091 (4) |
 | Isolated Demands for Rigor | EX-0001 (4), EX-0009 (5), EX-0029 (5), EX-0042 (5), EX-0062 (4), EX-0079 (4) |
 | Schrodinger's Joke | EX-0004 (4), EX-0030 (5), EX-0039 (5), EX-0066 (4), EX-0088 (4), EX-0089 (4) |
-| Unilateral Principles | EX-0006 (4), EX-0036 (5), EX-0043 (5), EX-0054 (5), EX-0070 (4), EX-0081 (4) |
+| Unilateral Principles | EX-0006 (4), EX-0036 (5), EX-0043 (5), EX-0054 (5), EX-0070 (4), EX-0081 (4), EX-0097 (4) |
 | No-Win Framing | EX-0007 (5), EX-0028 (5), EX-0049 (5), EX-0055 (5), EX-0069 (4), EX-0082 (4) |
 | Victim Reversal (DARVO) | EX-0014 (5), EX-0044 (5), EX-0050 (4), EX-0056 (5), EX-0067 (4), EX-0084 (4), EX-0095 (4) |
 | Moving Goalposts | EX-0005 (5), EX-0027 (5), EX-0032 (5), EX-0060 (4), EX-0071 (4), EX-0083 (4) |
 | Permission Structures | EX-0021 (3), EX-0037 (5), EX-0038 (5), EX-0047 (4), EX-0053 (5), EX-0059 (4), EX-0064 (4), EX-0094 (4) |
 | Maximize Yours, Minimize Theirs | EX-0008 (4), EX-0015 (5), EX-0026 (5), EX-0033 (5), EX-0065 (4), EX-0072 (4) |
 | Fragmentation | EX-0003 (5), EX-0035 (5), EX-0040 (5), EX-0048 (3), EX-0063 (4), EX-0073 (4), EX-0092 (4) |
-| Narrative Laundering | EX-0011 (5), EX-0041 (5), EX-0051 (4), EX-0057 (5), EX-0074 (4), EX-0085 (4) |
+| Narrative Laundering | EX-0011 (5), EX-0041 (5), EX-0051 (4), EX-0057 (5), EX-0074 (4), EX-0085 (4), EX-0098 (3) |
 | Cross-Community Infiltration | EX-0010 (5), EX-0018 (5), EX-0046 (3), EX-0075 (4), EX-0086 (4), EX-0090 (4), EX-0096 (4) |
 | Paint Them as Crazy | EX-0012 (5), EX-0013 (5), EX-0034 (5), EX-0061 (4), EX-0076 (4), EX-0087 (4), EX-0093 (4) |
 

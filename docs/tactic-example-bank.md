@@ -1222,3 +1222,20 @@
 **What happened:** After being called a doxxer/hypocrite on-stream (by commentator Augie), Mrow defends his own practice of "calling out" critics' tweets while condemning doxing in others. Mrow (channel host): "If Queeman pulled up my docs and only said 'bad empanada sucks for this,' I wouldn't care. It's the dog whistle **call to action** that's the problem... It's as if context matters. Me calling out a tweet that already has 100,000 views doesn't add any negative effect." A participant on his own panel pushes back: "it's just doxing and a shit thing to do to someone whose worst crime is being annoying on the internet... here he is doing it a third time — I had to tell him, dude, delete this."
 **Why it fits:** Mrow runs a channel that repeatedly accuses Destiny and others of doxing/harassment, but applies a self-exempting standard to his own conduct: amplifying a critic's tweet to his audience is reframed as harmless "calling out" (judged by context/reach), while the same category of act by opponents is doxing. The principle binds opponents, not the speaker — and an ally in his own chat names the inconsistency in real time.
 **Notes:** narrative_cluster: `association`; wording verified verbatim against local whisper transcript (2026-06-16); speaker is Mrow (MrowLive host, SPEAKER_03 — confirmed via donation-reads). **Re-listen before citing as evidence:** heated multi-speaker crosstalk, and the "third time / delete this" rebuttal (SPEAKER_10) may reference a third party rather than Mrow. First MrowLive-channel bank example beyond the prior caption scan (EX-0088–0090).
+
+---
+
+> **Note:** EX-0098 is from the WhickTV call-in **local re-transcription** (2026-06-23, whisper+diarize). Wording verified against the local transcript; speaker confirmed via Wick addressing "Doobie" by name. Predates the Dec-2025 Whick debate (EX-0026–0031) — earliest Dooby snark example in the bank.
+
+---
+
+### EX-0098 | Narrative Laundering
+**Source:** WhickTV - Call ins! Come get it off your chest! / YouTube
+**Date:** 2025-08-26
+**Timestamp:** 1:02:55
+**Clip URL:** https://youtu.be/jfS7TyBZOKg?t=3775
+**Status:** CLIP
+
+**What happened:** Asked by Wick to state his actual accusation against ZipZip (a Destiny-side caller who had attended plaintiff Pixie's court hearing), Dooby relays it as unverified community chatter rather than a claim of his own: "what I heard about this guy was just what people in chat were saying, which is that he sat right behind Pixie to like make her uncomfortable. I don't know if that's true, that's just what people said... someone said, oh this is a guy that went to the hearing with Pixie to like take notes for Destiny." He then revives his own prior insinuation — "I made a joke about him coming in the car" — without standing behind it as a factual charge. ZipZip (SPEAKER_08) responds that the whole Pisco server was "making wacky accusations... that I was coordinating with Destiny... taking notes for him so he could humiliate her."
+**Why it fits:** A serious accusation — that a Destiny supporter attended Destiny's accuser's hearing to intimidate/creep on her and was "coordinating with Destiny to humiliate her" — is amplified on-stream while its authorship is disclaimed ("I don't know if it's true, that's just what people said"). The snark-server chatter is laundered into a live accusation against Destiny's side, with a deniable "it was just a joke" (the car insinuation) riding along so it can be walked back if challenged.
+**Notes:** narrative_cluster: `association`; `sexual-misconduct`. Speaker = Dooby (SPEAKER_11) — confirmed: Wick addresses "Doobie" at 1:02:43 and he answers; Dooby is thanked off the call at ~1:13:56 (relevant: a later "Destiny is guilty / viewer-boost" caller at ~1:28 is SPEAKER_15, **not** Dooby). Wording verified against local whisper transcript. Related: EX-0030 (ZipZip/Morale); carries a Tactic 3 (Schrödinger's Joke) element via the car insinuation. See `docs/dooby/dooby-fbi-origin-timeline.md` for the broader Dooby thread.
