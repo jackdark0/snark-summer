@@ -70,6 +70,23 @@ VID1 is a 3-hour audit of his server for *under*-moderation, running the whole t
 
 ---
 
+## the deniability engine (why none of it is checkable — by design)
+
+The capstone, and the strongest structural point: an identifier-mining pass over all five transcripts (2026-06-25) found that **his arrest/vigilante claims carry zero verifiable identifiers** — no perp names, no case numbers, no dates, nothing past "the UK" and "their own countries" (Markle claim, the "105-year" perp, the 2022 "terroristic threats" arrests, the PDF case, the 12-year-old case). Every falsifiable specific is systematically withheld, and the withholding is self-justified with an unfalsifiable safety rationale. That's H2 + H3 unified: you can't be asked to disprove what's engineered to be undisprovable.
+
+The structure, every time: **assert a specific outcome → withhold every checkable detail → justify the withholding with self-protection → pre-empt even redacted proof.** The cluster is densest in VID2, where he insists proof *exists* but each reason he can't show any of it is safety:
+- VID2 ~13:58: *"No, I don't trust you guys... I saw this guy in DGG talk about how he has access to these reports and he could use the access to track me down."* [clip](https://youtu.be/DDvOvz1IAoQ?t=838)
+- VID2 ~15:44: *"I don't see any benefit to myself, my family, and risking any kind of exposure... that might put them at risk."* [clip](https://youtu.be/DDvOvz1IAoQ?t=944)
+- VID2 ~17:50: *"I can't tell you off the top of my head because I don't have it on this PC"* — the wipe software. [clip](https://youtu.be/DDvOvz1IAoQ?t=1070)
+- VID2 ~19:37: *"what do I need to redact for this crazy person not to be able to track it back to me."* [clip](https://youtu.be/DDvOvz1IAoQ?t=1177)
+- VID2 ~21:12: *"if I just showed you like an email that was like 99 redacted, I don't think you'd be satisfied... they'll say oh you just fake that."* [clip](https://youtu.be/DDvOvz1IAoQ?t=1272)
+
+**the catch:** this isn't a single falsifiable lie — it's the mechanism that makes every claim unfalsifiable. The safety rationale is real-sounding (these groups *do* dox people), which is exactly what lets it double as a permanent excuse to never produce one checkable fact.
+
+**exceptions noted (so nobody thinks the mine missed them):** the only two concrete names Dooby drops are *not* tied to his arrest claims — **"Nikolai"** (VID3 ~1:10) is a server-ban accusation (a user he calls a 49-yr-old pedophile), and **"Elderdrazi"** (VID3 ~3:36) is a *third-party* doxing he attributes to Queeman (PayPal linked to a Twitch channel exposed the name + city), not a perp Dooby reported. Neither is a verifiable hook into his own vigilante record.
+
+---
+
 ## external verification (checked 2026-06-23 against primary sources)
 
 **Headline: the central mechanism in H2 is backwards / unsupported.** The two specific, named services he leans on do the *opposite* of what he describes, and the "FBI analyst hands a civilian a secure portal to upload CSAM directly" relationship isn't a documented or standard intake path. The villains (764) are real; the parts where *he personally* gets credit don't check out.
