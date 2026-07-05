@@ -24,3 +24,13 @@ Per Jack, Saiba is the person who **harassed a sex-trafficking victim** — the 
 ## Mrow
 
 Retired the standalone `mrow-dirt-scan.md` (ad hoc task, complete). Bottom line from that scan: **no self-incriminating shock content** from Mrow — the graphic/CSAM-adjacent language all belonged to clips he reacts to or people he exposes. The genuine Mrow-attributable material (doxing double-standard, content-farming candor, grave-dancing tone) landed in the example bank as **EX-0088 / EX-0089 / EX-0090 / EX-0097**. Re-transcripts remain in `transcripts/mrow-live/_transcripts/` (gitignored) for any deeper dig.
+
+**Update (2026-07-04) — the "thin on Mrow" conclusion is SUPERSEDED.** The earlier scan missed that **"Morale" is a whisper/caption mangle of Mrow** (user-confirmed; recorded in `docs/actor-aliases.md`). With that re-attribution, two concrete personal hits now attach to him:
+- **CSAM-smear + house threat + doxing threat against ZipZip — EX-0030.** As "Morale," Mrow told ZipZip he had a video of him "fucking a child," threatened to come to his house, and said he'd make a doxing Google Doc. JSTLK/JTO banned him but dismissed it as a "joke." Already in the bank and clip-verified (DGG Analyst Desk, 2025-12-18) — the only new thing is the correct name.
+- **Solicited a 17-year-old for nudes; Aiden defended it.** From Whick + North's *Fall of Counterpoints* summary doc (~2:24, `transcripts/whick-tv/_transcripts/-bZ-l2TxcAE.diarized.txt`). **UNVERIFIED single-source** (Whick's assertion reading his own doc) — stand up the underlying source before any outward use.
+
+## Dooby
+
+**Self-described handling of CSAM (his own recorded account).** Source: `The Fall of Counterpoints` (whick-tv, 2026-07-03, https://youtu.be/-bZ-l2TxcAE), **~2:11–2:15**, inside a VC recording North plays (recorded with Dooby's consent). Dooby's own account: roughly 6–7 years ago a 12-year-old on an adjacent server was being groomed by several adult men; Dooby says he took over the child's account and, in the course of "reporting" it, **screenshotted the CSAM she had not deleted onto his own device**. North's on-record critique: putting CSAM on your own device is "not how you report to the FBI."
+- **Status: UNVERIFIED / SENSITIVE.** A serious, self-incriminating-sounding claim relayed via an adversary (North) playing a clip. Do **not** repeat outward without the actual recording, its full surrounding context, and legal caution. Logged here as a pointer only — no graphic detail reproduced.
+- Related: Dooby is tracked in `docs/dooby/` and EX-0098 (Narrative Laundering).
