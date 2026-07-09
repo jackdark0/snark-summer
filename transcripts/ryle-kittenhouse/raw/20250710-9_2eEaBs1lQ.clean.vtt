@@ -1,0 +1,5272 @@
+WEBVTT
+
+00:00:00.080 --> 00:00:03.200
+that like by the way that picture of his poll requests into the
+
+00:00:03.360 --> 00:00:06.640
+Monero repo was infinitely like a thousand times more consequential
+
+00:00:07.440 --> 00:00:09.679
+than every single book he just spent like a minute pulling out.
+
+00:00:10.160 --> 00:00:12.960
+It is I can't transport my knowledge into other people's brains.
+
+00:00:13.599 --> 00:00:15.759
+So I want to make sure that this is as readable. We're going to
+
+00:00:15.839 --> 00:00:17.920
+come up with a language, you know, we're going to speak the same
+
+00:00:18.080 --> 00:00:20.800
+language to each other. Wild guess this video is going to be
+
+00:00:20.960 --> 00:00:25.119
+dog. I straight up don't trust a dude who has C++ experience
+
+00:00:25.519 --> 00:00:28.960
+in the quantitative trading space. I don't believe anybody in
+
+00:00:29.199 --> 00:00:32.000
+that space gives a about coding structure. You could still use
+
+00:00:32.160 --> 00:00:34.559
+alarms by for loop instead of manually setting alt to zero with
+
+00:00:34.719 --> 00:00:36.800
+eight lines. Those were set to zero because it was ending the
+
+00:00:37.040 --> 00:00:39.360
+alarms. By setting them to zero, you're actually setting the
+
+00:00:39.520 --> 00:00:42.480
+alarm to off. You would know that if you've ever used game maker.
+
+00:00:43.280 --> 00:00:44.079
+Yeah, but they were literally
+
+00:00:47.200 --> 00:00:49.520
+Uh we all know the background. Okay. Pirate Software is a Nepo
+
+00:00:49.920 --> 00:00:55.120
+baby narcissist. Okay. Tried to stop games. Tried to break Lucari's
+
+00:00:55.680 --> 00:00:57.840
+spirit and only fangs. He is just a piece of [&nbsp;__&nbsp;]
+
+00:00:58.399 --> 00:01:01.840
+Okay. Lied to Dr. K. Couldn't couldn't see his own faults. We
+
+00:01:02.000 --> 00:01:03.680
+know everything about this guy. We can just skip to the code
+
+00:01:03.840 --> 00:01:07.040
+review. Okay. Why Pirate Software? Now, why am I picking on for
+
+00:01:07.200 --> 00:01:09.680
+here in particular? Well, Thor has not only what appears to be
+
+00:01:09.840 --> 00:01:12.240
+lied about his experience or at the very minimum played it off
+
+00:01:12.400 --> 00:01:14.000
+as something that it's really not, but he's also misrepresented
+
+00:01:14.640 --> 00:01:17.840
+the initiative and has doubled and tripled down in that So, the
+
+00:01:18.080 --> 00:01:20.000
+funny thing about this is probably not going to be this part,
+
+00:01:20.320 --> 00:01:23.280
+guys. Okay? It's probably going to be his responses because I'm
+
+00:01:23.439 --> 00:01:26.479
+guessing this guy will have like I'm guessing this guy will have
+
+00:01:26.640 --> 00:01:29.600
+things to say and Thor's response is I'm guessing [&nbsp;__&nbsp;]
+
+00:01:30.560 --> 00:01:32.079
+for something we want to start converse to legislation and these
+
+00:01:32.240 --> 00:01:33.280
+are the reasons for not only can I agree with the initiative
+
+00:01:33.600 --> 00:01:35.280
+but I can't agree with you and I won't agree with Ross. There's
+
+00:01:35.439 --> 00:01:37.520
+no way around that. I think this is gross to sum it all up. No,
+
+00:01:37.680 --> 00:01:39.759
+I will not be supporting the initiative stop games cryptically
+
+00:01:40.320 --> 00:01:42.880
+wishing for the movement to So I'm gonna be honest with you.
+
+00:01:43.600 --> 00:01:46.799
+That's not cryptic. What do you mean cryptic? That's direct.
+
+00:01:47.200 --> 00:01:49.040
+That's directly being I don't support that. That seems weird.
+
+00:01:49.280 --> 00:01:50.640
+This seems bad. I will not support it. Hi.
+
+00:01:52.079 --> 00:01:55.119
+No crypticness. You know this guy's names per chance? He looks
+
+00:01:55.280 --> 00:01:58.560
+like someone I just went to school with. Uh, no. No idea. Aim's
+
+00:01:58.799 --> 00:02:00.719
+just coding Jesus, bro. I hope that your initiative gets everything
+
+00:02:00.880 --> 00:02:03.520
+you asked for, but nothing you wanted. I don't know why you do
+
+00:02:03.680 --> 00:02:06.399
+that, but he decided to do so. He doesn't even have to agree
+
+00:02:06.560 --> 00:02:08.239
+with the movement. He just needs to admit that he misrepresented
+
+00:02:08.959 --> 00:02:13.040
+it. Now, other creators have reviewed this drama to no end and
+
+00:02:13.200 --> 00:02:15.599
+have gone over his employment history and timeline. Developer
+
+00:02:16.000 --> 00:02:17.840
+exam is pirate software part one job history and development
+
+00:02:18.239 --> 00:02:18.239
+hell.
+
+00:02:19.440 --> 00:02:22.000
+Yeah, we went over this his LinkedIn. What I want to do that
+
+00:02:22.239 --> 00:02:25.599
+I guess would make this video unique is go over his actual code
+
+00:02:26.160 --> 00:02:29.360
+from his developer live streams and analyze whether this guy
+
+00:02:29.520 --> 00:02:33.200
+has the skills that he claims he has as a 20-year veteran and
+
+00:02:33.519 --> 00:02:37.360
+game developer working for Blizzard and other game publishers,
+
+00:02:38.239 --> 00:02:42.000
+etc. My name is Jason Thor. What does he What does he say? Because
+
+00:02:42.239 --> 00:02:44.560
+this is be pretty scummy too and something that I haven't noticed
+
+00:02:44.959 --> 00:02:47.200
+but he probably does, right? where he sort of he's a game developer
+
+00:02:47.519 --> 00:02:49.840
+now and he worked at Blizzard, but he never mentions that he
+
+00:02:50.000 --> 00:02:53.280
+was not even close to like video games or working on video games
+
+00:02:53.519 --> 00:02:56.800
+at Blizzard. He did like network stuff. I think he did like uh
+
+00:02:57.040 --> 00:03:00.560
+exploits and GMing at Blizzard, right? And then he did like physical
+
+00:03:01.040 --> 00:03:05.360
+on-site security, not like not like security in the games. I
+
+00:03:05.599 --> 00:03:07.519
+don't even think he he might not have even done I think he ran
+
+00:03:07.760 --> 00:03:11.360
+just like um antiche stuff like he he was like somebody who used
+
+00:03:11.599 --> 00:03:14.159
+the antiche software. I don't believe he even coded the anti-che
+
+00:03:14.640 --> 00:03:16.239
+software if I remember correctly. Also known as pirate software
+
+00:03:16.480 --> 00:03:18.400
+online. I've been in the gaming industry for No, not a badge
+
+00:03:18.720 --> 00:03:20.560
+checker, but he would have been one of the people who set up
+
+00:03:20.720 --> 00:03:22.959
+like the like he would have been it kind 20 years. I used to
+
+00:03:23.040 --> 00:03:24.800
+work at Blizzard Entertainment, then Amazon Game Studios, and
+
+00:03:24.959 --> 00:03:26.800
+now I own my own studio, Pirate Software by the same name, which
+
+00:03:26.959 --> 00:03:28.560
+is an indie studio, and I've been here for about 8 years now.
+
+00:03:29.120 --> 00:03:31.519
+Now, why should you guys listen to me about any of this? Well,
+
+00:03:31.760 --> 00:03:34.799
+I'm a C++ developer with 5 years of experience in the quantitative
+
+00:03:35.360 --> 00:03:39.120
+trading space. I've read dozens of books on C++ and over half
+
+00:03:39.280 --> 00:03:39.440
+a doz.
+
+00:03:40.959 --> 00:03:44.000
+Okay. Uh, wild guess. This video is going to be dog.
+
+00:03:45.519 --> 00:03:49.599
+I straight up don't trust a dude who has C++ experience in the
+
+00:03:49.920 --> 00:03:53.200
+quantitative trading space. I don't believe anybody in that space
+
+00:03:53.440 --> 00:03:56.720
+gives a about coding structure. I you will get people who like
+
+00:03:56.879 --> 00:03:56.879
+format
+
+00:03:58.239 --> 00:04:02.080
+5 years a 5 years is okay. You can be a really good coder after
+
+00:04:02.319 --> 00:04:05.360
+5 years. You can have like solid opinions after 5 years. But
+
+00:04:05.680 --> 00:04:08.319
+can can he sync his audio? His audio gets fixed apparently pretty
+
+00:04:08.560 --> 00:04:12.560
+close. But I just don't believe that a C++ coder of five years
+
+00:04:12.879 --> 00:04:16.479
+in a nonsoftware space I I just I don't believe that this will
+
+00:04:16.560 --> 00:04:20.400
+be like a sensical code review. We'll see. He really just critiques
+
+00:04:21.759 --> 00:04:24.160
+Yeah, but I could I could try to critique other things. C++ design.
+
+00:04:25.680 --> 00:04:29.840
+This means nothing. I literally have never once met somebody
+
+00:04:30.479 --> 00:04:32.639
+who actually knows what they're doing who is like, well, I read
+
+00:04:32.800 --> 00:04:35.680
+this book and this book and this book. This is already major
+
+00:04:36.080 --> 00:04:39.360
+red flags. Okay, BB Poison. You ever meet a really good coder
+
+00:04:39.600 --> 00:04:42.000
+who's like, "Hey, you should check out this book on coding styles,
+
+00:04:42.400 --> 00:04:45.360
+right? On on style guides, it'll really help you with style guides.
+
+00:04:46.160 --> 00:04:49.360
+I've never ever What animals were on the cover of your books?"
+
+00:04:49.840 --> 00:04:52.800
+Oh, this is like O'Reilly books and all of O'Reilly books just
+
+00:04:52.960 --> 00:04:54.800
+have like an animal on the cover. They're pretty famous. No,
+
+00:04:55.040 --> 00:04:57.840
+the books aren't necessarily bad. The books can actually be good.
+
+00:04:58.400 --> 00:05:01.759
+Especially you're picking up a new language. Okay. Oh, man. You
+
+00:05:01.919 --> 00:05:04.320
+guys ever seen um you guys ever seen Learn You a Haskell?
+
+00:05:05.840 --> 00:05:08.320
+This is cool. This is like a fun book that somebody made for
+
+00:05:08.479 --> 00:05:12.080
+free online. Learn you a Haskell for for great good. This is
+
+00:05:12.320 --> 00:05:14.880
+actually a really good book for learning a functional programming
+
+00:05:15.280 --> 00:05:16.320
+language. If you want to start with Haskell,
+
+00:05:17.759 --> 00:05:21.759
+um this is a really good book. Okay, it's fun. Okay, it's fun.
+
+00:05:22.240 --> 00:05:25.360
+It's cool. And it's got little little drawings and doodles all
+
+00:05:25.520 --> 00:05:28.080
+over it. Okay, and they're actually informative and helpful.
+
+00:05:29.199 --> 00:05:31.680
+This is basically one of the only programming books I've ever
+
+00:05:31.919 --> 00:05:34.880
+found super helpful. I took a functional programming class in
+
+00:05:35.120 --> 00:05:39.280
+university. I used this guide to learn Haskell and I was like
+
+00:05:39.440 --> 00:05:42.320
+miles ahead of everybody else. It was like insane. Destiny tried
+
+00:05:42.479 --> 00:05:45.680
+to learn C++ on stream. Apparently there's good memes there at
+
+00:05:45.919 --> 00:05:50.080
+JTO. I heard he failed Hello World. I I'm probably not going
+
+00:05:50.160 --> 00:05:54.000
+to find it super meaningful to be honest. Now learn some Go.
+
+00:05:54.880 --> 00:05:55.360
+I know Go.
+
+00:05:58.000 --> 00:06:01.440
+I can abs I could co code Go right now almost certainly after
+
+00:06:01.680 --> 00:06:02.639
+not doing it for like two years.
+
+00:06:04.639 --> 00:06:07.280
+Uh, I wrote, what did I write? I wrote like a transcript grabber
+
+00:06:08.160 --> 00:06:08.160
+and
+
+00:06:09.759 --> 00:06:12.880
+I had that pipe over to like a log searcher because I was trying
+
+00:06:12.960 --> 00:06:15.600
+to make like a YouTube log search thing kind of like um I was
+
+00:06:15.680 --> 00:06:18.160
+just trying to make like filot basically. I basically made Filot,
+
+00:06:19.280 --> 00:06:21.840
+right? And the back end for that that I was running like mostly
+
+00:06:22.160 --> 00:06:24.960
+to do stuff was in Go and it wasn't even like a it shouldn't
+
+00:06:25.120 --> 00:06:27.840
+have even been a Go application. It was like um just using Cobra
+
+00:06:28.160 --> 00:06:29.520
+to bring it build a command line for myself.
+
+00:06:30.960 --> 00:06:33.600
+Anyway, nobody knows what that means, but I do. Good luck. Then
+
+00:06:33.840 --> 00:06:35.600
+one or two programming languages should be able to pick up any
+
+00:06:35.759 --> 00:06:39.039
+language relatively quickly. And well, I think declarative languages
+
+00:06:39.600 --> 00:06:41.919
+instead of imperative languages, right? Declarative languages,
+
+00:06:42.400 --> 00:06:44.960
+if you can learn a declarative language, I feel like these are
+
+00:06:45.120 --> 00:06:47.759
+very very helpful for just understanding abstract concepts,
+
+00:06:49.520 --> 00:06:52.560
+right? If you can learn a declarative language and actually write
+
+00:06:52.720 --> 00:06:56.560
+a like some even like remotely sensical programs in them, declarative
+
+00:06:57.199 --> 00:07:00.479
+languages are like um I don't even know how to describe the difference.
+
+00:07:01.120 --> 00:07:04.720
+It's basically like you set up definitions and then the the compiler
+
+00:07:05.199 --> 00:07:07.919
+like infers from those definitions all the things you basically
+
+00:07:08.160 --> 00:07:10.720
+say like here are the rules of the program I'm writing and it's
+
+00:07:11.039 --> 00:07:14.160
+like it works whereas um imperative languages you basically write
+
+00:07:14.400 --> 00:07:16.319
+individual instructions you go this is what I want you to do
+
+00:07:16.880 --> 00:07:20.319
+if this then that is an imperative language in a lot of ways
+
+00:07:20.800 --> 00:07:24.479
+right that's almost certainly too simplified but um but declarative
+
+00:07:25.039 --> 00:07:28.160
+languages are different they're goofy man I took I took a class
+
+00:07:28.240 --> 00:07:31.039
+on this in school and I never got to do the compilers class.
+
+00:07:31.440 --> 00:07:34.240
+I wish I would have cuz I think all compilers essentially are
+
+00:07:34.400 --> 00:07:37.039
+written in declarative languages. Usually not Haskell though.
+
+00:07:37.360 --> 00:07:39.440
+None of you know what I'm talking about. None of you care. None
+
+00:07:39.599 --> 00:07:42.080
+of you are interested. It's just me yapping to myself and like
+
+00:07:42.240 --> 00:07:44.639
+five other coders in the chat. But that's okay. That's okay.
+
+00:07:44.960 --> 00:07:48.000
+That's okay. Anyway, back to the video. Influencers on in the
+
+00:07:48.160 --> 00:07:52.160
+space to professors to people that also have YouTube channels
+
+00:07:52.639 --> 00:07:55.599
+to time and I think I read this book. Yeah, I read this book.
+
+00:07:55.919 --> 00:07:58.639
+Parts of this book at least. This is like good if you're doing
+
+00:07:58.800 --> 00:08:00.560
+like um like basically like
+
+00:08:01.919 --> 00:08:04.479
+large scale Java and took time.
+
+00:08:05.840 --> 00:08:08.080
+Books are pretty bad. Yeah, BB Poison. I don't know if you just
+
+00:08:08.160 --> 00:08:10.479
+heard me rant about this is like the only book I've ever used
+
+00:08:10.800 --> 00:08:12.960
+like to any substantial degree to learn a language or anything
+
+00:08:13.280 --> 00:08:13.280
+coding
+
+00:08:15.120 --> 00:08:17.599
+Books are basically like you're learning stuff that's so old
+
+00:08:17.759 --> 00:08:20.560
+if you're in books that you don't really care or it's like it's
+
+00:08:20.800 --> 00:08:21.440
+just outdated knowledge.
+
+00:08:23.360 --> 00:08:25.680
+Books are like the worst medium to carry like programming knowledge.
+
+00:08:26.560 --> 00:08:26.560
+Anyway,
+
+00:08:29.680 --> 00:08:33.599
+contested and trusted books. I've read a lot. And while I'm not
+
+00:08:33.760 --> 00:08:38.080
+an authority, the art of writing, dude, this is like the worst.
+
+00:08:38.479 --> 00:08:40.560
+I don't know if you were here, BB Poison. I said like this is
+
+00:08:41.200 --> 00:08:43.680
+this is actually like the worst credentials. He's just showing
+
+00:08:43.919 --> 00:08:47.200
+me all of the books he read and why he can like do this video,
+
+00:08:47.680 --> 00:08:51.600
+but nobody cares. Also, he works in finance. I just know his
+
+00:08:51.760 --> 00:08:55.600
+code's going to be awful. in C++. I'm pretty likely to be somebody
+
+00:08:55.760 --> 00:08:59.600
+that can sus out a bad practice if I see one. At least I hope.
+
+00:09:00.160 --> 00:09:03.760
+I also have a bunch of open source contributions in C++ on pro.
+
+00:09:04.160 --> 00:09:07.600
+Oh, this is way better. projects that I find interesting like
+
+00:09:07.920 --> 00:09:07.920
+Monero.
+
+00:09:09.279 --> 00:09:13.440
+Now, when I was that like, by the way, that picture of his pull
+
+00:09:13.680 --> 00:09:16.640
+requests into the Monero repo was infinitely like a thousand
+
+00:09:17.040 --> 00:09:19.760
+times more consequential than every single book he just spent
+
+00:09:19.920 --> 00:09:22.800
+like a minute pulling out. Just to be clear with everybody
+
+00:09:24.000 --> 00:09:27.040
+that's Did he Did he Were any of those purple? Were any of those
+
+00:09:27.200 --> 00:09:31.120
+merged? Yeah, he's got one, two, three, four merges. though five
+
+00:09:31.360 --> 00:09:34.480
+merges on projects that I find interesting like
+
+00:09:36.080 --> 00:09:41.200
+Now when I was making notes for this but commits into the core
+
+00:09:41.360 --> 00:09:44.640
+of Monero even not going to convince me you write C++ with solid
+
+00:09:45.279 --> 00:09:48.080
+video cuz I like to come prepared. I thought I need to go through
+
+00:09:48.640 --> 00:09:52.480
+dozens of his pull request into the Monero repo. Monero is a
+
+00:09:52.640 --> 00:09:54.880
+cryptocurrency. Okay, Monero is a cryptocurrency.
+
+00:09:56.640 --> 00:10:00.800
+Um this is GitHub. This is what you would call a version control
+
+00:10:01.279 --> 00:10:05.839
+system. Okay. So this is basically how you add and replace lines
+
+00:10:06.160 --> 00:10:10.160
+of text in files in code files. Okay. And you can do so in a
+
+00:10:10.320 --> 00:10:12.640
+way that it keeps a history of all changes that have ever been
+
+00:10:12.720 --> 00:10:15.120
+made to a program. And then there's a website called GitHub where
+
+00:10:15.279 --> 00:10:17.839
+you can host this version control stuff and host your repository
+
+00:10:18.320 --> 00:10:22.399
+of like some program. Okay. Monero cryptocurrency. So he has
+
+00:10:22.560 --> 00:10:25.440
+basically submitted changes to this cryptocurrency and how it
+
+00:10:25.600 --> 00:10:26.240
+works and
+
+00:10:28.959 --> 00:10:32.079
+Yeah. So, and it seems like some of them were accepted by the
+
+00:10:32.240 --> 00:10:34.079
+broader community that works on this on this
+
+00:10:36.000 --> 00:10:40.720
+Now, there wallet RPCs. Uh, this seems like fine. What does coding
+
+00:10:41.040 --> 00:10:43.600
+have to do with pirate being a Oh, this is a this is like a review
+
+00:10:43.839 --> 00:10:46.720
+of his like a review of all of his subjects that I find interesting
+
+00:10:47.440 --> 00:10:47.680
+like Monero.
+
+00:10:49.040 --> 00:10:53.200
+Now when I was oh and pull request is so when you go to submit
+
+00:10:53.600 --> 00:10:57.200
+some new update to the code you'll update basically in like a
+
+00:10:57.360 --> 00:11:00.480
+patch file which basically says okay I removed these lines I
+
+00:11:00.560 --> 00:11:04.079
+modified these lines I added these lines and the patch file will
+
+00:11:04.399 --> 00:11:06.480
+be merged into the system which it'll basically
+
+00:11:08.000 --> 00:11:10.480
+it'll update every line you've changed or if there have been
+
+00:11:10.640 --> 00:11:13.519
+changes to those lines since you last pulled since you last like
+
+00:11:13.680 --> 00:11:16.720
+downloaded the the entire codebase it'll tell you where there's
+
+00:11:16.880 --> 00:11:19.680
+conflicts right so it's so multiple people can work on the same
+
+00:11:19.760 --> 00:11:22.399
+set of text files at the same time. So pull request is saying
+
+00:11:22.640 --> 00:11:25.600
+hey I have like a patch that I want to apply here would you review
+
+00:11:26.079 --> 00:11:29.279
+all of the changes other people and so that we can get this accepted
+
+00:11:29.680 --> 00:11:32.720
+and put into the main codebase. I think that that's somewhat
+
+00:11:32.959 --> 00:11:34.480
+close to an explanation. It probably doesn't work for everybody
+
+00:11:34.720 --> 00:11:37.440
+but making notes for this video because I like to come prepared.
+
+00:11:38.079 --> 00:11:41.279
+I thought I need to go through dozens of different developer
+
+00:11:41.839 --> 00:11:45.440
+streams. But what I found out really quickly is that I can only
+
+00:11:45.680 --> 00:11:49.360
+find two developer streams that Thor actually brings up code
+
+00:11:49.600 --> 00:11:54.800
+on the screen in. And in those developer streams, he one does
+
+00:11:55.040 --> 00:11:57.680
+not actually do any coding. The code is just visually there on
+
+00:11:57.839 --> 00:12:00.880
+the screen. And 90 Honestly, it might be funnier watching JST
+
+00:12:01.360 --> 00:12:04.079
+react to Chud watching this video trying to understand coding
+
+00:12:04.480 --> 00:12:07.519
+and making his best guess for the sake of the content. No, I'm
+
+00:12:07.760 --> 00:12:11.680
+good. I'll watch this. 8% of the actual stream is him looking
+
+00:12:11.839 --> 00:12:14.800
+at his subscribers, looking at his tip jar as to how much money
+
+00:12:14.959 --> 00:12:18.480
+people have sent him, and also looking at videos about games,
+
+00:12:18.800 --> 00:12:22.000
+but never actually doing any game development in a dev stream.
+
+00:12:22.480 --> 00:12:25.440
+Without further ado, let's actually take a look at some of his
+
+00:12:25.680 --> 00:12:28.720
+code. All right, so I'm going to be linking these VODs in the
+
+00:12:28.880 --> 00:12:32.480
+description box below. I recommend people actually download the
+
+00:12:33.120 --> 00:12:35.760
+Is this actually C++ or is this going to be like Game Maker language?
+
+00:12:36.800 --> 00:12:39.279
+before he takes them down because honestly if I was claiming
+
+00:12:39.519 --> 00:12:42.320
+I'm a game developer with 20 years of experience oh you actually
+
+00:12:42.480 --> 00:12:44.399
+went to school with this this would be embarrassing to have
+
+00:12:46.720 --> 00:12:48.880
+what's really wrong about this and I don't even need to be a
+
+00:12:48.959 --> 00:12:52.160
+game dev to understand that when you look at the code here what
+
+00:12:52.320 --> 00:12:56.240
+do you see you see a lot of magic numbers that's an industry
+
+00:12:56.720 --> 00:12:57.279
+term for numbers
+
+00:12:58.480 --> 00:13:01.519
+that don't have any description or explanation as to what they
+
+00:13:01.680 --> 00:13:04.639
+are or why they exist and you also have a lot of true or false
+
+00:13:04.959 --> 00:13:08.079
+which is not descript descriptive at all when you look at any
+
+00:13:08.800 --> 00:13:11.040
+Oh, he's going to do he's going to do a bunch of things that
+
+00:13:12.079 --> 00:13:15.600
+he's going to do like a bunch of here where I don't magic numbers.
+
+00:13:16.240 --> 00:13:19.760
+Sure. The magic numbers here may be bad. I don't know. There's
+
+00:13:20.000 --> 00:13:22.800
+a decent chance that the magic numbers here are somewhat descriptive
+
+00:13:25.760 --> 00:13:29.760
+effect drop. Like you might not get anything out of setting up
+
+00:13:29.920 --> 00:13:32.720
+constants for all these things to actual actually script kitty
+
+00:13:33.040 --> 00:13:34.000
+while actually. Yeah. like
+
+00:13:35.519 --> 00:13:38.000
+the whole point of setting up a magic. So basically what he's
+
+00:13:38.160 --> 00:13:40.959
+saying here is when you have like a one here, you don't know
+
+00:13:41.120 --> 00:13:43.120
+why you're using a one there. And so what you would do is you
+
+00:13:43.279 --> 00:13:46.480
+create what you call a constant. And a constant would just be
+
+00:13:46.720 --> 00:13:50.000
+this number would be one, but you'd say it would get a a name.
+
+00:13:50.240 --> 00:13:53.040
+So you could just name a variable to put in this in this place.
+
+00:13:54.320 --> 00:13:56.639
+People say, "Oh, you shouldn't have magic numbers." You can set
+
+00:13:56.720 --> 00:13:59.199
+up style guides where you don't have numbers like this. Cuz basically,
+
+00:14:00.320 --> 00:14:03.120
+if you want to change them, you might want to use So, here's
+
+00:14:03.360 --> 00:14:07.440
+the thing. For for part type size or something, you might want
+
+00:14:07.519 --> 00:14:10.959
+to use this one. Like, let's say this was um Oh, what would be
+
+00:14:11.040 --> 00:14:13.120
+a good one? Let's say like you're writing a calculator and you
+
+00:14:13.279 --> 00:14:16.320
+have like pi, you'd want pi to be something that's named because
+
+00:14:16.480 --> 00:14:18.560
+you wouldn't want to write out as many points of pi as you can
+
+00:14:18.880 --> 00:14:21.680
+everywhere, right? You just want to define pi, put it in a variable
+
+00:14:22.079 --> 00:14:23.839
+that can't change, and then you know it's there.
+
+00:14:25.199 --> 00:14:27.760
+All right. So the idea of a magic number is if you were putting
+
+00:14:27.920 --> 00:14:30.320
+pi everywhere, then if you update pi somewhere, if you were to
+
+00:14:30.399 --> 00:14:32.480
+change it somewhere, that wouldn't update in all the other places
+
+00:14:32.720 --> 00:14:35.040
+you use it. So you have a constant, you have it like referenced
+
+00:14:35.360 --> 00:14:37.120
+from somewhere where you can change it and it will change in
+
+00:14:37.279 --> 00:14:41.440
+like 85 different places. Right now, right here, falling particle,
+
+00:14:42.399 --> 00:14:45.760
+I don't know if particle type size 1. I don't know if you'll
+
+00:14:46.000 --> 00:14:49.279
+ever use the falling particle size anywhere else. So actually
+
+00:14:49.440 --> 00:14:50.959
+the magic numbers here might be totally fine,
+
+00:14:52.639 --> 00:14:56.560
+right? as far as I can tell that like unless you're using going
+
+00:14:56.720 --> 00:15:00.000
+to use this in multiple places like for games and this will throw
+
+00:15:00.320 --> 00:15:02.959
+so many people through a loop because for game making like there's
+
+00:15:03.199 --> 00:15:07.279
+a lot of um like singleton type entities or like entities that
+
+00:15:07.519 --> 00:15:10.639
+are like you're defining stuff and it's only going to be written
+
+00:15:10.880 --> 00:15:13.600
+once and you know it's only going to be written once. Like if
+
+00:15:13.760 --> 00:15:16.320
+you're defining particle effects, yeah, there's probably only
+
+00:15:16.480 --> 00:15:18.240
+going to be the places where those numbers are going to be relevant.
+
+00:15:19.360 --> 00:15:22.160
+So there might not be any reason to go and define constants for
+
+00:15:22.240 --> 00:15:24.000
+all of this. You just look for
+
+00:15:25.760 --> 00:15:28.480
+any function call as another developer, you should understand
+
+00:15:29.040 --> 00:15:31.279
+what's going on without needing to read through the implementation
+
+00:15:31.680 --> 00:15:35.120
+of the actual method itself. So part type sprite, part type.
+
+00:15:36.399 --> 00:15:40.000
+I can infer from context that these are not his, right? Or at
+
+00:15:40.000 --> 00:15:42.639
+least I I feel like there's almost no way these could be his
+
+00:15:42.880 --> 00:15:45.440
+functions. These have to be engine functions, right? Guys, I
+
+00:15:45.600 --> 00:15:47.680
+don't need to read through that to understand what's being passed
+
+00:15:48.000 --> 00:15:51.759
+to it and what it's doing. But that's not what's going on here.
+
+00:15:52.560 --> 00:15:55.279
+I shouldn't need to ask myself what is this number one? What
+
+00:15:55.440 --> 00:15:59.040
+is the zero? What does it signify? Right? Imagine we have a car
+
+00:15:59.279 --> 00:16:03.680
+object and I create the car object by passing. This is like okay,
+
+00:16:04.480 --> 00:16:05.040
+what does it signify?
+
+00:16:06.320 --> 00:16:09.920
+This is like I'll give you an example. Let's say um oh man, there'd
+
+00:16:10.160 --> 00:16:12.320
+be a good mathematical function I could use, but I can't think
+
+00:16:12.399 --> 00:16:15.600
+of one. Basically like a math function. You you don't really
+
+00:16:15.839 --> 00:16:18.639
+you can just use like a max function or a min function, a ceiling
+
+00:16:18.959 --> 00:16:21.120
+function, right? You don't necessarily need all the par all the
+
+00:16:21.440 --> 00:16:26.000
+variables um written down. Oh, let's say uh let's say Malo, right?
+
+00:16:26.240 --> 00:16:30.320
+Malik or Kelloc in see in C. Yeah. Yeah. Allocations. So there
+
+00:16:30.560 --> 00:16:32.480
+would be there would be language specific
+
+00:16:33.759 --> 00:16:37.120
+allocation functions that you would never ever be concerned about
+
+00:16:37.360 --> 00:16:39.360
+not understanding what they mean because you use them all the
+
+00:16:39.600 --> 00:16:42.959
+time, right? So if you have a four parameter function that allows
+
+00:16:43.199 --> 00:16:46.079
+you to allocate memory and see, you're always going to know what
+
+00:16:46.240 --> 00:16:48.720
+those things are. You don't really need to do whatever the [&nbsp;__&nbsp;]
+
+00:16:49.279 --> 00:16:51.360
+is going on here. 96 four false.
+
+00:16:52.880 --> 00:16:56.720
+Do you have any idea about what those numbers mean? No, but that's
+
+00:16:57.519 --> 00:16:59.759
+that's totally different. These are actual language function
+
+00:17:00.079 --> 00:17:02.000
+or sorry, these are I I believe like engine
+
+00:17:03.279 --> 00:17:07.520
+How am I initializing that car? You don't. A step above that
+
+00:17:07.839 --> 00:17:12.319
+a better alternative would be to specify in words what 96 means.
+
+00:17:12.640 --> 00:17:16.799
+for example. Yeah, this would be this would be such a dude. Actually,
+
+00:17:18.400 --> 00:17:21.919
+there's no way everybody got tricked, is there? This isn't Unity.
+
+00:17:22.240 --> 00:17:25.760
+It's game maker language. This guy's already totally This guy's
+
+00:17:26.160 --> 00:17:28.640
+actually already totally out to lunch. This is like actually
+
+00:17:29.360 --> 00:17:29.360
+stupid.
+
+00:17:30.640 --> 00:17:33.120
+This guy's just suggested so many things
+
+00:17:34.559 --> 00:17:38.880
+in like two seconds. This guy is just said so many things. I
+
+00:17:39.200 --> 00:17:42.080
+would argue right now this is not subjective. Okay,
+
+00:17:43.280 --> 00:17:46.400
+I don't think it's subjective. I think he is way overcooking
+
+00:17:47.039 --> 00:17:49.760
+it here. I think this is like absolutely ridiculous at this point.
+
+00:17:50.480 --> 00:17:55.360
+Unsigned 32bit integer horsepower equals 96. Number of doors
+
+00:17:55.679 --> 00:17:59.520
+equals 4. Is automatic equals false. Is electric equals false?
+
+00:18:00.080 --> 00:18:03.200
+And then pass that into the construction of car. That is the
+
+00:18:03.440 --> 00:18:03.760
+bare minimum.
+
+00:18:05.120 --> 00:18:05.120
+That
+
+00:18:06.320 --> 00:18:07.360
+No, it's not the bare. What?
+
+00:18:08.799 --> 00:18:12.720
+Dude, somebody go get me the the code for like Super Hexagon
+
+00:18:13.679 --> 00:18:17.520
+or the code for um somebody go get me the source code for Bellatro.
+
+00:18:18.799 --> 00:18:21.840
+Let's go look at the source code for Batro right now. Okay. I
+
+00:18:23.039 --> 00:18:23.679
+I feel like people
+
+00:18:24.960 --> 00:18:27.760
+a lot of these are all assumptions based on I need my code to
+
+00:18:27.919 --> 00:18:30.160
+be as re human readable for the next person working on it as
+
+00:18:30.320 --> 00:18:32.960
+possible. I'm working on like a 100 person team, right? And I
+
+00:18:33.120 --> 00:18:35.360
+need it to be human readable for all these people. This is a
+
+00:18:35.520 --> 00:18:39.280
+single dev indie game. I don't think there's any argument for
+
+00:18:39.520 --> 00:18:41.679
+this. Didn't people show the blotro dev? Yeah, because they're
+
+00:18:43.520 --> 00:18:47.679
+yes, I can defend the blotro code. Okay, I maybe not how it's
+
+00:18:47.840 --> 00:18:50.880
+organized, but it's not like it's not like up that badly.
+
+00:18:52.240 --> 00:18:54.960
+It's like up way less badly than a lot of people think it is.
+
+00:18:55.919 --> 00:18:58.240
+I don't know coding, but conceptually, would he be more inclined
+
+00:18:58.480 --> 00:19:01.440
+to think this way because he works in finance? No. No. This is
+
+00:19:01.600 --> 00:19:05.600
+just basic like um this is like baby's first style guide basic.
+
+00:19:06.640 --> 00:19:09.039
+This This sounds like a university student who's telling me how
+
+00:19:09.200 --> 00:19:13.120
+I should code is what it sound like. Plus, the only benefit from
+
+00:19:13.280 --> 00:19:15.919
+this guy's points would be only apply if roach software is on
+
+00:19:16.000 --> 00:19:19.440
+a team. Yeah, exactly. Exactly. You place your abstractions at
+
+00:19:19.679 --> 00:19:21.679
+different places to solve different problems. He's not doing
+
+00:19:21.840 --> 00:19:24.480
+any actual analysis, just nitpicking style issues. Yeah, exactly
+
+00:19:25.039 --> 00:19:27.600
+right. And that's that's actually Gucci Jesus's that's I think
+
+00:19:27.760 --> 00:19:31.360
+the big issue with people's criticism of the Blotro code is I
+
+00:19:31.679 --> 00:19:35.200
+think further abstracting things doesn't help. People hate this.
+
+00:19:35.440 --> 00:19:37.919
+There's this concept in video games where you define a lot of
+
+00:19:38.000 --> 00:19:41.760
+like entities a single time, right? And people don't like because
+
+00:19:42.000 --> 00:19:44.320
+a bunch of CC coders do this when they just put it in a massive
+
+00:19:44.640 --> 00:19:48.080
+dictionary. They'll just do or a massive switch statement, right?
+
+00:19:48.960 --> 00:19:50.960
+Like a switch statement is basically just a dictionary. They'll
+
+00:19:51.200 --> 00:19:54.000
+have a massive switch statement and they'll be like, "Oh, for
+
+00:19:54.320 --> 00:19:56.960
+jokers, it's jokers in the Blotro case, right? Oh, I'm going
+
+00:19:57.039 --> 00:19:59.440
+to have like all of my jokers in one massive switch statement."
+
+00:20:00.799 --> 00:20:03.200
+And people will get mad about that. They will get very upset
+
+00:20:03.520 --> 00:20:06.320
+about it. But actually there's no abstraction past the dictionary
+
+00:20:06.799 --> 00:20:09.039
+that really works well for this. You can put your dictionary
+
+00:20:09.360 --> 00:20:11.679
+in different places. You could write it in like a static YAML
+
+00:20:12.080 --> 00:20:14.799
+file. You could write it in an actual dictionary structure. You
+
+00:20:14.960 --> 00:20:18.320
+could write in a switch statement. You could write if this if
+
+00:20:18.720 --> 00:20:22.160
+this then uh if not like you could just write if else for like
+
+00:20:22.480 --> 00:20:23.760
+a ton of if else.
+
+00:20:24.960 --> 00:20:30.159
+If if this else if this else if this you could do that, right?
+
+00:20:30.640 --> 00:20:32.559
+And technically when you go down to the compiler it's all the
+
+00:20:32.720 --> 00:20:36.000
+same thing. And there aren't really super like amazing abstractions
+
+00:20:36.640 --> 00:20:41.200
+past that. But uh I think I think in Batro the um in Bellatro
+
+00:20:41.679 --> 00:20:43.600
+I think it's just that it's a switch statement and people hate
+
+00:20:43.840 --> 00:20:46.400
+that. And I'm like dude that's that's literally if you're if
+
+00:20:46.640 --> 00:20:48.559
+you have a big dictionary full of things that are totally different,
+
+00:20:48.799 --> 00:20:51.360
+don't rely on each other at all. That's the way it goes, bro.
+
+00:20:51.760 --> 00:20:53.360
+That's how she go. Anyway,
+
+00:20:54.799 --> 00:20:57.600
+that's what I would expect out of an intern that's fresh out
+
+00:20:57.840 --> 00:21:01.039
+of school. Taking that a step further, you can implement a concept.
+
+00:21:02.080 --> 00:21:06.799
+Bro, I this is 42,000 views. Oh my god, this is actually so goofy
+
+00:21:07.440 --> 00:21:09.919
+that like I I thought this was like people are saying this is
+
+00:21:10.000 --> 00:21:12.080
+like a massive own on pirate software called
+
+00:21:13.360 --> 00:21:15.360
+I should let the video play which is the most expressive form
+
+00:21:15.600 --> 00:21:15.679
+of instantiation.
+
+00:21:17.120 --> 00:21:20.320
+What we can do in that case is define an alias at the bare minimum
+
+00:21:20.640 --> 00:21:22.559
+or a class and we can call it horsepower
+
+00:21:23.760 --> 00:21:26.320
+and then we can create an Yeah, this is all super
+
+00:21:27.600 --> 00:21:31.840
+he has no he has no idea if any of these will ever be used anywhere
+
+00:21:32.159 --> 00:21:35.919
+else at all and they're all being used for the same types of
+
+00:21:36.080 --> 00:21:37.200
+functions that are all around creating
+
+00:21:39.120 --> 00:21:41.679
+for things like trans. Is this even possible in GML? Is it? I
+
+00:21:41.840 --> 00:21:43.919
+have no idea. But like this is all just [&nbsp;__&nbsp;] around
+
+00:21:44.320 --> 00:21:47.919
+particles mission or fuel. And then we'd alter the car's constructor
+
+00:21:48.720 --> 00:21:53.200
+and pass in that information. Horsepower 98, door number four,
+
+00:21:54.000 --> 00:21:58.720
+transmission automatic, fuel gasoline. So this can be nice and
+
+00:21:58.960 --> 00:22:01.919
+some languages do this for you, right? Where like Python does
+
+00:22:02.080 --> 00:22:05.760
+this where you can name like you basically give it named parameters.
+
+00:22:06.240 --> 00:22:08.480
+Named parameters are nice. If your language doesn't support name
+
+00:22:08.799 --> 00:22:10.240
+parameters and it's like a game making language
+
+00:22:11.440 --> 00:22:11.760
+and that's fine.
+
+00:22:13.840 --> 00:22:16.960
+I would guess that whatever editor this is that it's very expressive.
+
+00:22:17.520 --> 00:22:20.720
+Not here, but if you click on any of these lines that it would
+
+00:22:20.880 --> 00:22:23.600
+probably tell you the parameters, right? You can be a game like
+
+00:22:23.840 --> 00:22:26.000
+you even click on the one here and it's probably going to pop
+
+00:22:26.720 --> 00:22:27.039
+an editor
+
+00:22:28.320 --> 00:22:31.120
+tool tip up and tell you what the developer to know that that's
+
+00:22:31.360 --> 00:22:32.080
+a lot more maintainable
+
+00:22:33.520 --> 00:22:35.039
+than whatever Thor has here.
+
+00:22:36.320 --> 00:22:38.159
+Another really good example of that is at 2556.
+
+00:22:40.000 --> 00:22:40.880
+So if we jump there.
+
+00:22:43.360 --> 00:22:48.640
+Okay. Right here. Alarm zero, alarm one, alarm two. What is that?
+
+00:22:49.039 --> 00:22:52.720
+What are those alarms? Is it an alarm for person A? An alarm
+
+00:22:52.880 --> 00:22:56.240
+for whatever character. An alarm to do what? It's unexpressive.
+
+00:22:57.280 --> 00:23:00.559
+It's I've got no idea what this is. This does look like it's
+
+00:23:00.720 --> 00:23:04.720
+goofy. This does look like but really spaghetti code in my opinion.
+
+00:23:05.200 --> 00:23:09.039
+Okay. as let's go to around 1 hour with a single person project.
+
+00:23:10.000 --> 00:23:14.640
+This is also a complete pirate responds as if he got owned and
+
+00:23:14.720 --> 00:23:17.120
+his answers are strange as dude. I was just going to say somebody
+
+00:23:17.360 --> 00:23:20.400
+said wait until you see pirate's response and I'm like dude if
+
+00:23:20.559 --> 00:23:23.840
+he like is so that he thinks um that he thinks this guy like
+
+00:23:24.080 --> 00:23:26.799
+made good points. Although now that we're getting a little further
+
+00:23:27.840 --> 00:23:31.440
+if question true equals 1 and question asked equals zero. Oh,
+
+00:23:31.760 --> 00:23:35.840
+this does seem very weird a little bit, but I mean again, it's
+
+00:23:36.000 --> 00:23:39.679
+a single mess for a couple of reasons. First of all, Thor is
+
+00:23:39.919 --> 00:23:43.360
+using the incorrect data types. This isn't even getting to some
+
+00:23:43.520 --> 00:23:46.320
+sort of advanced design or design pattern. It's showing a clear
+
+00:23:46.720 --> 00:23:51.360
+complete lack of understanding how to represent information in
+
+00:23:51.600 --> 00:23:54.880
+a program. Okay, what do I mean by that? Well, look at question
+
+00:23:55.360 --> 00:23:59.760
+asked equals zero. Question asked in my opinion is true or false.
+
+00:24:00.400 --> 00:24:03.280
+Has this question been asked? It should be a boolean data type.
+
+00:24:03.919 --> 00:24:06.960
+What does zero mean? Booleans are represented as integers under
+
+00:24:07.200 --> 00:24:11.120
+the hood. So in C++, anything that isn't zero is true. So one
+
+00:24:11.279 --> 00:24:15.120
+is true. But why would you even give another developer the option
+
+00:24:15.360 --> 00:24:20.080
+to write question asked equals 42. In theory, that should be
+
+00:24:20.240 --> 00:24:20.240
+true
+
+00:24:21.440 --> 00:24:24.640
+because anything other than zero is true. But why even allow
+
+00:24:25.120 --> 00:24:28.080
+somebody to write code that can potentially is this guy like
+
+00:24:28.320 --> 00:24:31.120
+not aware that this is Hold on. Oh, it's true false like this.
+
+00:24:31.360 --> 00:24:33.039
+Okay. I was like, dude, why are you
+
+00:24:35.919 --> 00:24:38.559
+Why are you saying this when you don't know? He just didn't know
+
+00:24:38.960 --> 00:24:41.440
+cuz it's possible that a language could represent it that way
+
+00:24:41.760 --> 00:24:44.640
+or like that there may be like in C.
+
+00:24:46.159 --> 00:24:49.600
+I believe I believe true and false are aliases to zero and one,
+
+00:24:50.159 --> 00:24:52.000
+right? Did he just say that? He might have just said that actually.
+
+00:24:52.240 --> 00:24:53.039
+He said under the hood representals.
+
+00:24:54.240 --> 00:24:58.080
+Anyway, in theory, that should be true because anything other
+
+00:24:58.320 --> 00:25:02.000
+than zero is true. But why even allow somebody to write code
+
+00:25:02.320 --> 00:25:05.440
+that can potentially be that confusing? It's just a no-go.
+
+00:25:06.640 --> 00:25:09.600
+Another thing here that I noticed is the absurd amount of comments.
+
+00:25:10.720 --> 00:25:13.120
+Most of the time, you don't need to write comments in your code.
+
+00:25:13.760 --> 00:25:15.520
+That's because your code should be self-documenting.
+
+00:25:16.960 --> 00:25:21.279
+But there is a 1 to 5% case rate in which you should be writing.
+
+00:25:22.159 --> 00:25:23.840
+Maybe, maybe. Okay,
+
+00:25:26.240 --> 00:25:28.640
+I think sometimes things can be complicated and you can
+
+00:25:30.480 --> 00:25:33.600
+my favorite, dude. My favorite comment. Okay, I don't write comments
+
+00:25:33.919 --> 00:25:36.400
+very often, but my favorite comment to put into a PR
+
+00:25:37.840 --> 00:25:40.240
+this is I can't think of like a better way to do it right now,
+
+00:25:40.480 --> 00:25:43.520
+so go ahead and like at me if you fix it. I think I've written
+
+00:25:43.679 --> 00:25:46.400
+that in some places. I'm like not I use like more professional
+
+00:25:46.799 --> 00:25:49.279
+language, but I I know like sometimes I'm like doing something
+
+00:25:49.520 --> 00:25:52.480
+it's like complex and I'm like, "Hey, this is like really bad.
+
+00:25:52.799 --> 00:25:54.640
+If you know a better way to do it, make sure you tell me cuz
+
+00:25:54.799 --> 00:25:55.520
+I actually don't know."
+
+00:25:58.960 --> 00:26:00.559
+Comments only if your code is extreme
+
+00:26:02.320 --> 00:26:06.080
+uh complex and that's not the case here. This is a simple if
+
+00:26:06.400 --> 00:26:08.240
+statement and a simple switch statement.
+
+00:26:09.840 --> 00:26:12.320
+You don't need to add comments here. Having a comment,
+
+00:26:13.520 --> 00:26:17.360
+but we have asked the question and question asks equals one is
+
+00:26:17.679 --> 00:26:21.600
+totally superfluous, a waste of time, a waste of space. I'm not
+
+00:26:21.760 --> 00:26:24.880
+sure what why it was added if if not just to waste time on a
+
+00:26:25.039 --> 00:26:28.000
+dev stream to spend more time pretending you're coding than watching
+
+00:26:28.320 --> 00:26:31.600
+videos. That's actually Hold on. I feel like that's how that
+
+00:26:31.840 --> 00:26:32.000
+got written.
+
+00:26:33.440 --> 00:26:33.840
+I think
+
+00:26:35.120 --> 00:26:39.120
+that I I feel like I believe that this would be him like literally
+
+00:26:39.520 --> 00:26:43.200
+asking questions to himself about like like maybe he was coding
+
+00:26:44.000 --> 00:26:47.120
+on stream and was not getting the result he wanted and so he
+
+00:26:47.279 --> 00:26:50.559
+started like documenting what he was Okay, let's take a look
+
+00:26:50.640 --> 00:26:53.840
+at his second stream because the rest of this stream is reviewing
+
+00:26:54.320 --> 00:26:54.640
+other games,
+
+00:26:56.159 --> 00:26:59.840
+looking at his subscription count. I don't know why he gets so
+
+00:27:00.559 --> 00:27:04.400
+etc. Okay, here he appears to be storing a timeline of events
+
+00:27:05.039 --> 00:27:08.720
+in a flat one-dimensional array with random numbers as the indices
+
+00:27:09.679 --> 00:27:12.159
+in order to represent set event. So
+
+00:27:13.520 --> 00:27:17.600
+literally anything would be an upgrade over what is written here.
+
+00:27:18.640 --> 00:27:21.279
+For example, what he could have done is created a nested structure
+
+00:27:22.080 --> 00:27:25.120
+where all those default values instead of being hard-coded and
+
+00:27:25.279 --> 00:27:28.640
+written in some file can simply be stored in a YAML or configuration
+
+00:27:29.279 --> 00:27:32.480
+file that could be edited. Why? What does that abstraction give
+
+00:27:32.640 --> 00:27:36.480
+you? What that's so this is the most common. This is like every
+
+00:27:36.799 --> 00:27:40.320
+single game developer always gets this criticism and some like
+
+00:27:41.600 --> 00:27:43.520
+three-year developer comes along and goes, "You're going to actually
+
+00:27:43.679 --> 00:27:46.159
+put that in a YAML file." I know you guys have heard me say this
+
+00:27:46.320 --> 00:27:49.039
+to people on stream. Oh, you can actually put that in a YAML
+
+00:27:49.360 --> 00:27:51.840
+file. Why does it matter how you store your dictionary? Why?
+
+00:27:52.320 --> 00:27:54.799
+It's still a dictionary. Every everything there when you write
+
+00:27:54.960 --> 00:27:57.279
+a YAML file, it's going to take that and then put it into memory
+
+00:27:57.600 --> 00:27:59.679
+for you later. You're going to have to read that YAML file. It's
+
+00:27:59.840 --> 00:28:03.279
+it's just outside of the build as to not waste time rebuilding
+
+00:28:03.760 --> 00:28:04.240
+the entire application
+
+00:28:05.600 --> 00:28:07.200
+in a YAML or XML format.
+
+00:28:08.720 --> 00:28:12.080
+That's development 101. You load it in the first week of your
+
+00:28:12.240 --> 00:28:15.840
+new job as either. So that is a good point that you could technically
+
+00:28:16.240 --> 00:28:18.159
+load it from outside of the application. That lets you through
+
+00:28:18.480 --> 00:28:21.039
+version control update it through outside of the outside of the
+
+00:28:21.200 --> 00:28:23.679
+application and do all of that. That's a good point.
+
+00:28:25.039 --> 00:28:27.520
+So you won't have to recompile. I'm trying to think. So that's
+
+00:28:27.760 --> 00:28:29.919
+good for cloud deployments. Really good. I'm trying to think
+
+00:28:30.000 --> 00:28:32.960
+of if I necessarily want to do that in my own program. If I want
+
+00:28:33.039 --> 00:28:35.520
+to load the YAML file. I've never thought so. I thought that
+
+00:28:35.679 --> 00:28:38.000
+didn't really apply to games, but now I'm thinking and that might
+
+00:28:38.159 --> 00:28:40.240
+actually be a better point than I was giving it credit for. I'm
+
+00:28:40.399 --> 00:28:42.080
+trying to think of how long it would take you to recompile in
+
+00:28:42.240 --> 00:28:45.600
+Game Maker. Oh, wait, wait, wait, wait, wait, wait, wait. Hold
+
+00:28:45.840 --> 00:28:48.320
+on. That probably saves you some compile time, but you'll still
+
+00:28:48.480 --> 00:28:51.039
+have to unless you write something that updates it automatically,
+
+00:28:51.600 --> 00:28:54.240
+that's like that's like viewing that YAML file to update, you
+
+00:28:54.399 --> 00:28:56.640
+would still have to rebuild, right? Assuming you pull it in,
+
+00:28:56.960 --> 00:28:59.039
+you'd have to have some system for pulling it in on the fly to
+
+00:28:59.279 --> 00:29:01.840
+like hot swap. Yeah, you're an intern or a junior developer.
+
+00:29:02.480 --> 00:29:06.799
+What's even worse is he now also needs to remember what 419 means.
+
+00:29:07.760 --> 00:29:10.559
+So somewhere in his code, he needs to actually add
+
+00:29:11.840 --> 00:29:16.240
+a comment or something to represent what a 419 is. As you can
+
+00:29:16.320 --> 00:29:19.760
+see here, I found the file that contains all these events which
+
+00:29:20.000 --> 00:29:22.559
+are the association between an object number and some state.
+
+00:29:23.919 --> 00:29:27.520
+It's very obvious that this can get very unwieldy extremely quickly.
+
+00:29:28.320 --> 00:29:31.679
+As you can see here, he has some number associated with 0, one,
+
+00:29:31.919 --> 00:29:35.039
+or even two. And then he needs to detail in a comment what that
+
+00:29:35.279 --> 00:29:38.880
+means. Now imagine a developer accidentally puts two here or
+
+00:29:39.120 --> 00:29:39.919
+three. So
+
+00:29:41.279 --> 00:29:43.679
+what would you do normally? There's like a couple different ways
+
+00:29:43.840 --> 00:29:45.520
+you could do this. Like if you
+
+00:29:47.120 --> 00:29:51.120
+find I'm trying to think of would these work as different. I'm
+
+00:29:51.360 --> 00:29:53.520
+trying to think of if you benefit from some structure here beyond
+
+00:29:53.919 --> 00:29:53.919
+this.
+
+00:29:55.279 --> 00:29:57.760
+There might be some way to benefit from some some structure here.
+
+00:29:58.240 --> 00:30:03.360
+Pool pull. Pool 012 pool 01. No. Yes. I'd have to look more at
+
+00:30:03.520 --> 00:30:06.799
+this to see what's reusable. ing tracking and solving that bug
+
+00:30:07.360 --> 00:30:10.000
+is really going to be a development nightmare. A dictionary would
+
+00:30:10.240 --> 00:30:11.679
+be an improvement. I mean, a dictionary
+
+00:30:13.039 --> 00:30:16.000
+could be an improvements. What do we have for dictionaries here?
+
+00:30:16.480 --> 00:30:19.760
+Hold on. Are you going to be able to Why is this not Thank you.
+
+00:30:20.159 --> 00:30:23.120
+Oh, no. Not working like that. Hold on. Game Maker manual. Let's
+
+00:30:23.360 --> 00:30:26.960
+check it out. Game Maker language. Game Maker code. Game Maker
+
+00:30:27.440 --> 00:30:29.039
+code reference. Data structures.
+
+00:30:30.960 --> 00:30:35.120
+Maps. App index. Key. Oh, I'm not a fan of how these look. So,
+
+00:30:35.279 --> 00:30:37.440
+I was thinking he could have like some structure he defines for
+
+00:30:37.600 --> 00:30:40.080
+each one, like a unique structure for each of the scenes, but
+
+00:30:40.240 --> 00:30:43.520
+it seems like they've got different uh attributes to them. I
+
+00:30:43.760 --> 00:30:46.720
+have to think of how I wanted to do this, right? Honestly, for
+
+00:30:46.960 --> 00:30:49.760
+what you save having these like explicit indices, although that's
+
+00:30:50.080 --> 00:30:52.559
+technically like a speed improvement, you're never going to have
+
+00:30:52.880 --> 00:30:53.279
+enough storylines
+
+00:30:54.640 --> 00:30:56.960
+that that's going to matter, right? Like you have this in like
+
+00:30:57.120 --> 00:30:57.760
+a a tree dict
+
+00:30:59.200 --> 00:31:01.919
+like hashtdict. It's not going to is not going to take you a
+
+00:31:02.080 --> 00:31:04.640
+long time to go through this, right? So, you could all could
+
+00:31:04.799 --> 00:31:05.120
+solve the ARG.
+
+00:31:06.399 --> 00:31:09.919
+What if you forget to type three here and it accidentally type
+
+00:31:10.240 --> 00:31:13.919
+two and start associating coffee cold knowledge with floor 2
+
+00:31:14.159 --> 00:31:17.200
+coffee age? Or even worse, in your code somewhere, instead of
+
+00:31:17.360 --> 00:31:21.600
+typing 213, you type 214 and now need to go back and track why
+
+00:31:22.000 --> 00:31:26.640
+your game is. So, this is probably this is probably a good good
+
+00:31:26.960 --> 00:31:32.000
+point. How could you do this? Um, you could also just define
+
+00:31:33.039 --> 00:31:35.279
+what do you call like constants for each of these, right?
+
+00:31:36.480 --> 00:31:39.760
+In some other place. That's what this is, right? Just do constants.
+
+00:31:40.159 --> 00:31:40.720
+You do your own map.
+
+00:31:42.399 --> 00:31:46.159
+I think constants here would be good so that you basically have
+
+00:31:46.320 --> 00:31:49.279
+this like as a named thing and that when you reference it somewhere
+
+00:31:49.600 --> 00:31:51.600
+else, you make sure you don't [&nbsp;__&nbsp;] it up. Like you
+
+00:31:51.760 --> 00:31:55.840
+said, this is extremely poor practice and can get very messy
+
+00:31:56.240 --> 00:31:56.559
+very quickly.
+
+00:31:57.760 --> 00:31:59.919
+Not only that, but this is going to significantly decrease.
+
+00:32:01.279 --> 00:32:04.080
+So, you could use an enum. Oh, right, right, right. Yeah, obviously
+
+00:32:04.559 --> 00:32:06.159
+use an enim. Yeah, my
+
+00:32:07.679 --> 00:32:10.960
+Oh, where would we have an enum here? Wouldn't be under data
+
+00:32:11.200 --> 00:32:15.360
+structures, right? Can I just search this? You got enimrs for
+
+00:32:15.519 --> 00:32:18.799
+me? You do. You do. You do. You do. You do. Yeah, you got enumerated
+
+00:32:19.440 --> 00:32:22.000
+types. So, you could just do this. Yes, he should have done an
+
+00:32:22.159 --> 00:32:25.840
+enume for this. Yeah, 100%. God, I have not. this would all come
+
+00:32:26.000 --> 00:32:29.200
+back to me, but I have not coded as a job for like since I started
+
+00:32:29.679 --> 00:32:30.240
+like probably
+
+00:32:31.919 --> 00:32:34.240
+like like five months into streaming. Four months into streaming
+
+00:32:34.640 --> 00:32:36.240
+was when I was making enough money that I was like, "Oh, I'll
+
+00:32:36.399 --> 00:32:36.559
+try this."
+
+00:32:37.840 --> 00:32:39.760
+So, I've like Yeah, I've done the velocity of your development
+
+00:32:40.480 --> 00:32:43.039
+because you're going to need to jump between the storyline vars
+
+00:32:43.440 --> 00:32:46.159
+file, find the event you want to reference somewhere else in
+
+00:32:46.399 --> 00:32:48.880
+code, and go back to that line that you'd like to reference the
+
+00:32:49.120 --> 00:32:51.600
+event in. So, you're going to constantly need to be jumping between
+
+00:32:52.000 --> 00:32:54.480
+files, forgetting, potentially mistyping,
+
+00:32:55.760 --> 00:32:59.760
+and it's just a recipe for disaster. Why not use a huge Well,
+
+00:33:00.159 --> 00:33:05.039
+I mean, technically, what is a dictionary if not um if not a
+
+00:33:05.200 --> 00:33:09.279
+map of key value pair, if not like an array where these are just
+
+00:33:09.440 --> 00:33:13.120
+named, right? Where the where the keys are named. That's what
+
+00:33:13.279 --> 00:33:16.559
+a dictionary is, right? That's you you essentially get that thing.
+
+00:33:17.039 --> 00:33:19.519
+dev cycle has changed with AI quite a bit I would imagine. So
+
+00:33:20.480 --> 00:33:23.279
+I was already using AI and before that but like I think I had
+
+00:33:23.519 --> 00:33:26.080
+already started using code pilot and stuff like that. So when
+
+00:33:26.240 --> 00:33:29.039
+it comes to the nested structure though tell me what you think
+
+00:33:29.200 --> 00:33:33.919
+is better what Thor has here or what I have on screen which in
+
+00:33:34.159 --> 00:33:37.440
+my opinion is much more expressive. Now this goes beyond simply
+
+00:33:37.840 --> 00:33:42.000
+liking this is expressive but it like it might just be overkill
+
+00:33:42.480 --> 00:33:45.519
+for a single person project. Like again, you're defining things
+
+00:33:45.679 --> 00:33:49.200
+that seem to be single use. If I I would have to know exactly
+
+00:33:49.519 --> 00:33:52.320
+how this is laid out and how it like tracks to know if there's
+
+00:33:52.559 --> 00:33:55.120
+things that get reused. I don't necessarily like creating stuff
+
+00:33:55.279 --> 00:33:58.159
+like this when there's no reusability and when I don't when I
+
+00:33:58.320 --> 00:34:00.559
+know that there won't be reusability. Like these are states.
+
+00:34:01.840 --> 00:34:04.000
+These are individual states as you progress through his game,
+
+00:34:04.240 --> 00:34:06.799
+right? These are like states for different scenes. It's like
+
+00:34:06.880 --> 00:34:09.200
+a story- based game. You're not going to be re-entering these
+
+00:34:09.440 --> 00:34:11.839
+places a whole bunch or if you do it'll be like you'll reload
+
+00:34:12.079 --> 00:34:14.560
+it for that one scene and it will just be whatever state you
+
+00:34:14.720 --> 00:34:18.639
+had. Code better. What I have on screen is objectively better
+
+00:34:19.119 --> 00:34:21.679
+because it makes it harder for you and others to make mistakes
+
+00:34:22.480 --> 00:34:25.440
+and it's a lot clearer as to what's going on. I don't even need
+
+00:34:25.599 --> 00:34:28.639
+to know how this game is designed to understand that whatever
+
+00:34:28.960 --> 00:34:32.800
+he's doing here is not optimal. I also don't need to re recommend
+
+00:34:33.280 --> 00:34:36.639
+the most optimal data structure because literally anything would
+
+00:34:36.879 --> 00:34:39.599
+be better than this. Another thing that's really really I think
+
+00:34:39.679 --> 00:34:42.960
+as long as you had um like some named key value for each of these
+
+00:34:43.359 --> 00:34:45.520
+cuz he he makes a good point that it just could get confusing
+
+00:34:46.240 --> 00:34:49.280
+or you could like mistype here. You could like accidentally edit
+
+00:34:49.520 --> 00:34:53.359
+this and then it's like not even remotely clear. weird is that
+
+00:34:53.599 --> 00:34:56.720
+he's using these numbers to represent people and now everywhere
+
+00:34:57.280 --> 00:35:00.240
+he writes the number one and when it represents a person he needs
+
+00:35:00.480 --> 00:35:03.359
+to remember that it's Shelly. There's another case for any name
+
+00:35:03.680 --> 00:35:04.880
+which is presumably a game character.
+
+00:35:06.720 --> 00:35:08.800
+Imagine removing all these comments.
+
+00:35:10.160 --> 00:35:13.680
+Would you as a newly added game developer to his game project
+
+00:35:14.079 --> 00:35:15.359
+have any idea that one is Shelly?
+
+00:35:16.720 --> 00:35:20.240
+You would have no idea. This would never ever be allowed in a
+
+00:35:20.400 --> 00:35:21.119
+production repository
+
+00:35:22.320 --> 00:35:25.760
+and like I like I'm I've been hinting it's below what you'd expect
+
+00:35:26.480 --> 00:35:31.119
+of a bottom tier intern. One way to improve this is to write
+
+00:35:31.520 --> 00:35:35.440
+case and then switch on an enumeration. So case character anytime
+
+00:35:35.920 --> 00:35:36.880
+you're using a switch statement,
+
+00:35:38.720 --> 00:35:40.960
+You probably should be using I think this is like actually strictly
+
+00:35:41.280 --> 00:35:44.560
+enforced by some style guides and some like auto style scripts.
+
+00:35:44.960 --> 00:35:48.160
+Like literally if you are or some llinters, right? Like llinters
+
+00:35:48.560 --> 00:35:51.040
+will literally throw an exception and say, "Hey, you're doing
+
+00:35:51.119 --> 00:35:54.720
+a switch without some enumerated type here yourself." Very disturbing
+
+00:35:55.040 --> 00:35:57.760
+when they tell you to give yourself your llinter, you know? Or
+
+00:35:57.920 --> 00:36:02.000
+Shelly, you guys get it. way way better to whatever he has here.
+
+00:36:03.200 --> 00:36:04.960
+Another example is at 159
+
+00:36:06.720 --> 00:36:11.040
+more magic numbers 32. What does message 32 mean? What does message
+
+00:36:11.520 --> 00:36:15.119
+65 mean? What does message 97 mean? And what are these dialogue
+
+00:36:15.520 --> 00:36:20.320
+options 2 5 6 0? These this is a culmination of my past couple
+
+00:36:20.480 --> 00:36:23.599
+of comments all in one steaming pile of. Surprisingly,
+
+00:36:24.800 --> 00:36:28.079
+that is all the code that I can literally if Pirate Software
+
+00:36:28.400 --> 00:36:31.040
+was using enums, I think this entire code base improved significantly
+
+00:36:31.520 --> 00:36:34.400
+with not a lot of not a lot of work to go into it to be
+
+00:36:35.680 --> 00:36:39.359
+Find in these game. We'll see. The enim stuff is good. All of
+
+00:36:39.440 --> 00:36:41.839
+the from the beginning that was dog the enim stuff
+
+00:36:43.280 --> 00:36:46.240
+um or whatever he's talking about using strrus like I I think
+
+00:36:46.400 --> 00:36:48.880
+that's reasonable with the the states that could get confusing
+
+00:36:49.359 --> 00:36:53.119
+and do a lot of jumping back and forth and not good. Let's see
+
+00:36:53.280 --> 00:36:54.160
+how this looks in his
+
+00:36:56.160 --> 00:36:57.520
+Okay, I've got this like one response
+
+00:36:59.280 --> 00:37:01.920
+Okay, this Oh, it's never used Game Maker Studio doesn't know
+
+00:37:02.079 --> 00:37:05.599
+Game Maker language and talked a lot of Oh no. Oh no.
+
+00:37:06.880 --> 00:37:07.119
+Oh no.
+
+00:37:12.720 --> 00:37:15.359
+My workplace has a legacy code base where there are no way where
+
+00:37:15.599 --> 00:37:19.440
+there is no way are no ways to express uh or write key value
+
+00:37:19.680 --> 00:37:22.400
+pairs only arrays. So I get triggered by code overusing/misusing
+
+00:37:23.599 --> 00:37:23.599
+arrays.
+
+00:37:24.800 --> 00:37:28.160
+Yeah. I mean if you have enumerated types and you can and you
+
+00:37:28.320 --> 00:37:30.800
+can like name constants that's to me that's basically like a
+
+00:37:30.960 --> 00:37:35.119
+dictionary. You have like named keys that map onto values right
+
+00:37:35.359 --> 00:37:35.839
+going into your array.
+
+00:37:37.520 --> 00:37:39.200
+Anyway sh was wrong. Pretty funny.
+
+00:37:40.640 --> 00:37:43.119
+Should look at my comment underneath his video. Imagine screaming
+
+00:37:43.520 --> 00:37:46.800
+and we should look at his comment underneath the video. What?
+
+00:37:48.640 --> 00:37:51.520
+Where's it at, bro? Oh, was he? He literally had it pop up here,
+
+00:37:51.680 --> 00:37:53.839
+didn't he? About alarms and Game Maker saying why aren't they?
+
+00:37:54.079 --> 00:37:56.720
+Imagine screaming and about alarms and Game Maker saying Imagine
+
+00:37:57.040 --> 00:38:00.640
+screaming this video. Imagine screaming Oh, it didn't pop up.
+
+00:38:01.520 --> 00:38:03.839
+Am I crazy? I thought it popped up in this video. Pretty funny.
+
+00:38:05.280 --> 00:38:05.680
+Should look at my
+
+00:38:09.359 --> 00:38:11.520
+Oh, no. saying, "Why aren't these renamed when you literally
+
+00:38:12.079 --> 00:38:15.359
+can't rename them?" He shows it later. Okay. Okay. Wild behavior.
+
+00:38:16.480 --> 00:38:19.520
+It's just another like YouTube grifter trying to bite for relevance.
+
+00:38:20.400 --> 00:38:24.079
+It's all that is insane behavior, dude. All too common these
+
+00:38:24.400 --> 00:38:26.480
+days. Think you saw that one? Very strange. Yeah, it's nuts,
+
+00:38:26.800 --> 00:38:29.040
+dude. You could still use alarms by for loop instead of manually
+
+00:38:29.440 --> 00:38:31.520
+setting all to zero with eight lines. Those were set to zero
+
+00:38:31.760 --> 00:38:34.240
+because it was ending the alarms. By setting them to zero, you're
+
+00:38:34.480 --> 00:38:37.200
+actually setting the alarm to off. You would know that if you've
+
+00:38:37.359 --> 00:38:38.000
+ever used Game Maker.
+
+00:38:39.280 --> 00:38:41.520
+And that wasn't all of the alarm. Wait, and
+
+00:38:43.040 --> 00:38:45.760
+it was some of them. So yeah, but they were literally
+
+00:38:47.839 --> 00:38:51.040
+There'd be no reason to set that to a for loop. Can't see your
+
+00:38:51.200 --> 00:38:53.599
+comment. Did he delete it? That'd be even funnier. You deleted
+
+00:38:54.000 --> 00:38:56.640
+the comment. That would be even funnier. No, it's still there.
+
+00:38:56.880 --> 00:38:59.119
+Yeah, I wrote this underneath this video. I said, "It's clear
+
+00:38:59.359 --> 00:39:01.760
+you've never used GameMaker before based on your comments. Here's
+
+00:39:01.920 --> 00:39:04.960
+a quick rundown for you. Uh, Sprite Spark is not a magic number.
+
+00:39:05.280 --> 00:39:07.520
+It's a direct reference to an asset file called Sprite Spark.
+
+00:39:08.000 --> 00:39:11.040
+This is how Game Maker allowed." Yeah, he wasn't using it. Sprite
+
+00:39:11.359 --> 00:39:13.760
+Spark. He wasn't looking at sprite spark as a magic number. Allows
+
+00:39:14.000 --> 00:39:16.880
+you to link sprites and other assets. When you want to use a
+
+00:39:17.119 --> 00:39:20.320
+sprite, sound, or other object, you call it by name. The functions
+
+00:39:20.640 --> 00:39:23.119
+you called out are part type create are built in. Oh, he's lucky.
+
+00:39:23.520 --> 00:39:26.400
+So, pirate software is being on the part where he should be,
+
+00:39:27.200 --> 00:39:30.160
+right? Like those comments about the the magic numbers were stupid.
+
+00:39:30.640 --> 00:39:33.839
+You to define a particle. The functions below this directly reference
+
+00:39:34.400 --> 00:39:37.280
+different aspects of this particle effect. These cannot be modified.
+
+00:39:38.240 --> 00:39:41.040
+No, I think when he says sprite spark, I think that's not really
+
+00:39:41.200 --> 00:39:42.960
+what the guy was pointing to as a magic number. He's pointing
+
+00:39:43.280 --> 00:39:47.119
+to all the ones, zeros, threes that are around in those in those
+
+00:39:47.440 --> 00:39:51.119
+uh particle creation functions. But this one was not I don't
+
+00:39:51.200 --> 00:39:53.119
+think the guy pointed to this as a magic number that sprites,
+
+00:39:53.599 --> 00:39:56.400
+but they can be wrapped. But this wouldn't be efficient. Having
+
+00:39:56.640 --> 00:39:58.960
+them exposed as normal allows you to modify existing particles
+
+00:39:59.440 --> 00:40:02.000
+dynamically, meaning in runtime while the effect is running.
+
+00:40:02.640 --> 00:40:05.440
+Changing this just creates layers of obfiscation without improving
+
+00:40:05.920 --> 00:40:11.040
+you. Oh, wait. Can you hot write code in Game Maker language
+
+00:40:11.599 --> 00:40:12.720
+and it just like auto recompiles
+
+00:40:14.160 --> 00:40:16.720
+while the game is running? Oh, that's kind of neat. That changes
+
+00:40:17.040 --> 00:40:20.400
+a little bit. Usability or performance. Alarms are internal to
+
+00:40:20.640 --> 00:40:23.680
+individual objects and only reference that same object that they're
+
+00:40:23.839 --> 00:40:26.640
+inside of. When you see alarm zero, it's hitting the alarm zero
+
+00:40:26.880 --> 00:40:29.520
+on the left side of the object there. We cannot rename these
+
+00:40:29.839 --> 00:40:35.200
+as as they are tied. I try to put tied to the object they are
+
+00:40:35.359 --> 00:40:38.560
+placed in. Cool typo. Setting an alarm zero causes that alarm
+
+00:40:38.800 --> 00:40:42.560
+to stop. Think of this as a timing or delay function. Uh data
+
+00:40:42.800 --> 00:40:45.280
+types are not defined in Game Maker. You cannot define a boolean.
+
+00:40:45.760 --> 00:40:48.240
+You can use 01 or true false. It will. It doesn't do anything.
+
+00:40:48.800 --> 00:40:51.359
+Wait, there's a Wait, what? None of this matters.
+
+00:40:52.640 --> 00:40:55.200
+Cannot define a boolean. Oh, was he saying define a boolean?
+
+00:40:55.760 --> 00:40:58.800
+There's a there's like a bool type in the language. You could
+
+00:40:58.960 --> 00:40:59.119
+say true,
+
+00:41:00.480 --> 00:41:02.640
+right? I think we looked this up. It's literally a bull type
+
+00:41:03.040 --> 00:41:05.520
+which will attempt to convert a given value to oh no no hold
+
+00:41:05.760 --> 00:41:09.440
+on wait why why does it pop up with that and then it doesn't
+
+00:41:09.599 --> 00:41:09.760
+go to
+
+00:41:11.599 --> 00:41:12.240
+oh maybe there isn't
+
+00:41:14.400 --> 00:41:16.240
+variable is a boolean true or false
+
+00:41:17.680 --> 00:41:20.079
+I mean there are there are booleans in the
+
+00:41:21.760 --> 00:41:24.160
+I don't know you might it might be a dynamically typed language
+
+00:41:24.560 --> 00:41:27.040
+right might just be dynamically typed so you might
+
+00:41:28.720 --> 00:41:30.720
+go on the fly the array of the save files to create a
+
+00:41:34.960 --> 00:41:37.839
+Oh, GML is dynamically typed. So, you just say this thing equals
+
+00:41:38.160 --> 00:41:41.839
+true or false. So, realistically, it doesn't super matter. You're
+
+00:41:42.000 --> 00:41:43.599
+not saving anything technically. But
+
+00:41:45.760 --> 00:41:48.720
+yeah, it's fine. Uh, dynamically typed languages mean when you
+
+00:41:48.880 --> 00:41:51.119
+define a variable, when you define a box to put some piece of
+
+00:41:51.280 --> 00:41:55.119
+data in, it will automatically assume the size and shape of the
+
+00:41:55.440 --> 00:41:58.800
+first thing you put in it. Okay? So, you don't actually define
+
+00:41:59.119 --> 00:42:00.800
+things. You don't actually say what type they are. or you don't
+
+00:42:00.880 --> 00:42:03.760
+say what box the variable is. The first thing you put in the
+
+00:42:03.920 --> 00:42:08.160
+box is how it knows what variable it is. Um as opposed to there
+
+00:42:08.400 --> 00:42:10.560
+are other languages like C, the language this guy writes in,
+
+00:42:10.880 --> 00:42:11.680
+which are statically typed,
+
+00:42:13.040 --> 00:42:16.319
+right? So you define things with that with that type. Um you
+
+00:42:16.480 --> 00:42:18.960
+can still usually define things statically typed in a dynamically
+
+00:42:19.359 --> 00:42:22.319
+typed language, but it doesn't structure for reverse engineer
+
+00:42:23.040 --> 00:42:26.640
+engineers trying to solve the ARG behind the game. It also the
+
+00:42:26.880 --> 00:42:29.280
+way for the save file is to create a workable structure for reverse
+
+00:42:29.599 --> 00:42:32.960
+engineers trying to solve the energy behind the game. Oh.
+
+00:42:34.800 --> 00:42:38.000
+Uh, are people trying to like decompile this to do some like
+
+00:42:38.240 --> 00:42:41.280
+ARG with the game? I mean, I doubt anybody is because it's like
+
+00:42:41.359 --> 00:42:45.119
+a 10-year-old game, but maybe there's some relevancy there.
+
+00:42:47.599 --> 00:42:50.640
+Quintio and coding Jesus mentioned in the policy docs there is
+
+00:42:50.720 --> 00:42:53.839
+a wait, what policy docs? in the response to this. There's a
+
+00:42:54.000 --> 00:42:55.680
+reason to use true false for bull types instead of 01.
+
+00:42:57.040 --> 00:42:59.839
+Well, I would imagine that you when you use 01, you probably
+
+00:43:00.000 --> 00:43:03.359
+default to like a 16 bit integer and when you use true false,
+
+00:43:03.599 --> 00:43:06.240
+you probably defi default to like an 8 bit integer or something
+
+00:43:06.400 --> 00:43:08.800
+even smaller. Whatever the word size, whatever the word size
+
+00:43:09.040 --> 00:43:12.800
+would be probably still I think I think C usually defines them
+
+00:43:12.880 --> 00:43:17.040
+as eight like uh unates, right? Check the data types page. There's
+
+00:43:17.280 --> 00:43:19.280
+documentation on boolean there. Okay, hold on.
+
+00:43:23.760 --> 00:43:26.240
+Wait, did I There we go. Game maker manual. Let's go.
+
+00:43:27.440 --> 00:43:31.200
+Let's go. Okay, hold on. Data types. Data types. Data types.
+
+00:43:32.480 --> 00:43:36.800
+Code reference. Not variable functions. Data structures. Do we
+
+00:43:36.880 --> 00:43:40.000
+have a type thing here that I just missed? A functions. Code
+
+00:43:40.319 --> 00:43:40.319
+overview.
+
+00:43:41.520 --> 00:43:42.079
+Oh, data types.
+
+00:43:43.520 --> 00:43:46.240
+Boolean. True or false? And the game maker will interpret a real
+
+00:43:46.400 --> 00:43:49.520
+number equal to or below 0.5 as false value. and any real number
+
+00:43:49.760 --> 00:43:52.560
+greater than 0.5 as being true. This does not mean however that
+
+00:43:52.720 --> 00:43:55.599
+you should be checking one or zero one and zero or any other
+
+00:43:55.839 --> 00:43:58.640
+real number for true and false as you are provided with the constants
+
+00:43:59.040 --> 00:44:00.960
+true and false which should always be used in your code to prevent
+
+00:44:01.200 --> 00:44:03.760
+any issues should real boolean data types be added in a future
+
+00:44:04.000 --> 00:44:07.599
+update. You can convert any real oh so this doesn't say that
+
+00:44:07.760 --> 00:44:09.680
+you have to do it. It's saying if we ever actually introduce
+
+00:44:10.000 --> 00:44:13.680
+a boolean type that's not just a wrapped integer, then you shouldn't
+
+00:44:14.000 --> 00:44:16.800
+actually use zero or one because then later on when we switch
+
+00:44:17.040 --> 00:44:20.079
+all this uh it won't behave the same. But like realistically,
+
+00:44:22.000 --> 00:44:25.680
+I don't know that I care super badly about that. It's although
+
+00:44:26.160 --> 00:44:28.400
+working on Pirate Software's timelines, maybe he does have to
+
+00:44:28.560 --> 00:44:31.440
+care about that. Like I I don't know how much Game Maker gets
+
+00:44:31.680 --> 00:44:32.079
+updated, but
+
+00:44:33.359 --> 00:44:36.000
+like they say they say, "Oh, you shouldn't do this." But it's
+
+00:44:36.240 --> 00:44:39.040
+it's just surface level. It really I don't know. I didn't see
+
+00:44:39.200 --> 00:44:42.079
+people failing and doing bad abstractions to this out in the
+
+00:44:42.240 --> 00:44:44.319
+exact same order in the save file. You can read about the ARG
+
+00:44:45.119 --> 00:44:48.160
+here. It's does it work? Here's the issue. His doesn't work.
+
+00:44:48.880 --> 00:44:52.880
+His broken for a lot of reasons. Mostly because he's But I don't
+
+00:44:53.040 --> 00:44:55.359
+think I don't think the true or false is zero or one fails to
+
+00:44:55.599 --> 00:44:59.040
+work. Yeah, I I don't see why it would fail to work. We'll see
+
+00:44:59.119 --> 00:45:01.839
+what the response says. Maybe I I don't see from this. I see
+
+00:45:02.000 --> 00:45:04.480
+it say don't do it, but I don't see it saying it doesn't work.
+
+00:45:05.200 --> 00:45:08.240
+See it saying it does work right now. And um but you shouldn't
+
+00:45:14.480 --> 00:45:17.920
+Anyway, we continue. We continue with you. Maximus, thank you
+
+00:45:17.920 --> 00:45:19.839
+for the This is the game I work on. So hard. Now, understand
+
+00:45:20.079 --> 00:45:22.160
+something before I send you this link. Do not buy my game.
+
+00:45:24.400 --> 00:45:28.400
+Watch my short. Why? Understand something. As a programmer, every
+
+00:45:29.200 --> 00:45:33.040
+language is all of them are they're all bad. And that's why we
+
+00:45:33.200 --> 00:45:37.440
+use so many of them because they're bad. No. Oh, dude. Why would
+
+00:45:37.520 --> 00:45:40.560
+you link me this? I sent this to I saw this. I sent this to Rita.
+
+00:45:40.960 --> 00:45:42.800
+I like had a meltdown. This is like the uh
+
+00:45:46.720 --> 00:45:49.280
+We're just a bunch of wizards with weirdass spells that sometimes
+
+00:45:49.680 --> 00:45:58.960
+work. We perform magic. No, no, no, no, no, no, no, no, no. You
+
+00:45:59.200 --> 00:46:02.560
+choose a language based on what it's good at. You are not a you're
+
+00:46:02.800 --> 00:46:05.440
+not magic. You pick it entirely like logically. You literally
+
+00:46:06.240 --> 00:46:09.200
+there's not there should be no magic involved. Sometimes that
+
+00:46:09.440 --> 00:46:12.640
+magic goes wrong. Sometimes we don't know why. Sometimes we do
+
+00:46:12.800 --> 00:46:14.960
+know why. Sometimes it goes right. Sometimes we don't know why.
+
+00:46:15.200 --> 00:46:17.920
+Sometimes we do know why. And that's just how it
+
+00:46:19.359 --> 00:46:24.000
+No, that is not even remotely what if you if you feel this way,
+
+00:46:24.240 --> 00:46:27.119
+you should find a different career. Well, I don't know. Maybe
+
+00:46:27.359 --> 00:46:30.400
+you I don't know what the job landscape is for coders. Okay.
+
+00:46:30.640 --> 00:46:34.000
+It might not be great. It might be quite bad out there. It's
+
+00:46:34.240 --> 00:46:37.440
+hard for me to say. It's just a bunch of disingenuous arguments
+
+00:46:37.839 --> 00:46:40.720
+put up in bad faith trying to make me look like I might need
+
+00:46:40.880 --> 00:46:45.040
+to re the cool typo. Setting an alarm zero causes that alarm
+
+00:46:45.359 --> 00:46:48.240
+to stop. Think of this as a timing or delay function. That's
+
+00:46:48.480 --> 00:46:51.760
+like fine. It doesn't mean the way you did that was good at all.
+
+00:46:52.000 --> 00:46:54.480
+Uh data types are not defined in Game Maker. You cannot define
+
+00:46:54.800 --> 00:46:57.920
+a boolean. You can use 01 or true false. It will doesn't do anything.
+
+00:46:58.319 --> 00:47:01.680
+None of this matters in this language. the array of I I understand
+
+00:47:02.000 --> 00:47:04.800
+in the documentation they say don't do that. I
+
+00:47:06.240 --> 00:47:10.400
+get so stupid. It's actually so dumb that I agree with them.
+
+00:47:10.560 --> 00:47:12.400
+I don't want to agree with him. I don't like agreeing with him.
+
+00:47:12.720 --> 00:47:17.520
+Okay. It upsets To create a workable structure for I don't think
+
+00:47:17.680 --> 00:47:21.040
+that necessarily matters. His code looks like dog. Like I I don't
+
+00:47:21.200 --> 00:47:24.000
+think I'd like reading his code. I wouldn't write code like that
+
+00:47:24.640 --> 00:47:27.760
+Reverse engineer engineers trying to solve the ARG behind the
+
+00:47:27.920 --> 00:47:31.440
+game. It also saves this out in the exact same order in the save
+
+00:47:31.680 --> 00:47:34.800
+file. You can read about the ARG here. It's just a bunch of disingenuous
+
+00:47:35.440 --> 00:47:38.079
+arguments put up in bad faith trying to make me look like a bad
+
+00:47:38.400 --> 00:47:41.040
+programmer. And in reality, this guy has never used the engine
+
+00:47:41.280 --> 00:47:43.200
+that I'm working in, never used the language that I'm working
+
+00:47:43.359 --> 00:47:46.640
+with, and all of his points are moot as a result, you know. But
+
+00:47:46.720 --> 00:47:46.720
+he's
+
+00:47:48.160 --> 00:47:51.520
+bro that that that array that's just numbers. That seems like
+
+00:47:52.640 --> 00:47:55.839
+like probably I think the Batro guy at least used some enumems
+
+00:47:56.400 --> 00:47:59.839
+to uh define like things in his switch statement, right? I think
+
+00:48:00.000 --> 00:48:02.880
+so. I don't remember for sure, but I think so. Sick internet.
+
+00:48:03.280 --> 00:48:05.920
+Cutting Jesus released a 15-minute video reviewing you. Do you
+
+00:48:06.079 --> 00:48:08.079
+see it by any chance? Yeah. And I wrote a gigantic comment on
+
+00:48:08.160 --> 00:48:10.400
+it. We actually just went over it. Um Cutting Jesus obviously
+
+00:48:10.640 --> 00:48:12.800
+has never worked in GameMaker Studio or with GameMaker language.
+
+00:48:13.280 --> 00:48:15.599
+And he made a bunch of wild assumptions about the language and
+
+00:48:15.839 --> 00:48:18.000
+things that should be changed or shouldn't be changed. And it's
+
+00:48:18.240 --> 00:48:20.800
+very clear he doesn't know what he's talking about. So, I put
+
+00:48:20.960 --> 00:48:23.520
+a large comment underneath this, but it got buried. Some of the
+
+00:48:23.680 --> 00:48:26.960
+stuff was gross and myriad of other comments that you can see
+
+00:48:27.119 --> 00:48:29.520
+here. Uh, so if you want to screenshot that, you can go and read
+
+00:48:29.680 --> 00:48:31.599
+it yourself. We just went over it on stream. I don't want to
+
+00:48:31.680 --> 00:48:34.640
+do this all stream to be honest with you. But yeah, uh, he's
+
+00:48:35.119 --> 00:48:38.319
+obviously never worked in this language ever. So, even down to
+
+00:48:38.400 --> 00:48:41.040
+like weird stuff like why are alarms named this way with magic
+
+00:48:41.359 --> 00:48:44.880
+numbers? They're they're not they cannot be changed. The engine
+
+00:48:45.119 --> 00:48:45.760
+won't allow you to.
+
+00:48:47.040 --> 00:48:50.000
+Yeah. Wait, why are alarms named? I don't think he I think he
+
+00:48:50.240 --> 00:48:52.960
+said probably there should be some structure. That would be another
+
+00:48:53.200 --> 00:48:56.079
+case where you could use enums in that specific case. You don't
+
+00:48:56.319 --> 00:48:59.839
+have to, but whatever. Am I just Python brain? Why would you
+
+00:49:00.000 --> 00:49:03.359
+ever do if myvar equals equals false if if myvar Well, I have
+
+00:49:03.440 --> 00:49:06.160
+no idea how conditionals work. I don't know if you can do conditionals
+
+00:49:06.559 --> 00:49:08.720
+that way in Game Maker Studio. So, we'll just see expression
+
+00:49:09.680 --> 00:49:10.720
+this will work. example
+
+00:49:12.480 --> 00:49:15.920
+expression statement. But it looks like it looks like it's actually
+
+00:49:16.240 --> 00:49:18.240
+testing true false like these would return
+
+00:49:19.599 --> 00:49:22.000
+because they don't have a boolean type. You might actually have
+
+00:49:22.160 --> 00:49:25.440
+to use the equals equals to imply that it's an expression, right?
+
+00:49:25.920 --> 00:49:28.960
+So they don't have a boolean type in in this language. They have
+
+00:49:29.040 --> 00:49:31.920
+like a wrapped thing. They have like a they have like constants
+
+00:49:32.319 --> 00:49:35.760
+for true and false, but those constants for true and false are
+
+00:49:35.920 --> 00:49:37.920
+like zero and one. They don't have a boolean structure. So I'm
+
+00:49:38.160 --> 00:49:41.440
+guessing to make it an expression you have to use some um boolean
+
+00:49:41.920 --> 00:49:43.280
+operator equals equals
+
+00:49:45.200 --> 00:49:47.440
+um greater than less than greater than equal. Yeah,
+
+00:49:49.040 --> 00:49:52.319
+it looks like this is basically well this is hold on this is
+
+00:49:52.480 --> 00:49:54.480
+using like a would just be condition
+
+00:49:57.920 --> 00:50:00.480
+seems to be doing it though. So it seems to be evaluating a here
+
+00:50:00.720 --> 00:50:03.359
+just properly. So maybe you can and it just
+
+00:50:06.160 --> 00:50:08.480
+can be values true or false target condition will be removed
+
+00:50:08.720 --> 00:50:11.760
+from the code. Yeah, that's fine. That doesn't matter. Value
+
+00:50:12.000 --> 00:50:14.480
+that is less than or equal to zero will evaluate as false while
+
+00:50:14.720 --> 00:50:17.599
+any value that's greater than zero will evaluate as true. I don't
+
+00:50:17.760 --> 00:50:21.359
+I don't actually know cuz they keep doing this and they're not
+
+00:50:21.440 --> 00:50:24.000
+doing if tests. So I'm assuming you you need the equals equals.
+
+00:50:24.480 --> 00:50:28.079
+But then the the other conditions although this just says condition
+
+00:50:28.480 --> 00:50:30.720
+instead of expression, right? These are expressions up here.
+
+00:50:31.119 --> 00:50:33.359
+So I'm guessing for it to qualify as an expression. Yeah. Yes.
+
+00:50:33.680 --> 00:50:36.000
+Okay. I'm guessing that's what it is. Very cool.
+
+00:50:37.760 --> 00:50:40.079
+What was the language you said? GML. It's called Game Maker language.
+
+00:50:40.720 --> 00:50:43.359
+It is built in for Game Maker. Game Maker does not allow you
+
+00:50:43.520 --> 00:50:45.920
+to use other languages. Fact that you didn't open GPT is how
+
+00:50:46.079 --> 00:50:49.440
+I know you don't code anymore. Hacks. So as a result of this,
+
+00:50:49.920 --> 00:50:52.640
+he doesn't know what he's talking about and he's about that is
+
+00:50:52.880 --> 00:50:54.160
+not changeable inside of Game
+
+00:50:55.920 --> 00:50:56.720
+I didn't get that impression.
+
+00:50:57.920 --> 00:51:00.319
+You go back to the alarm section and see. I would expect a little
+
+00:51:00.400 --> 00:51:03.359
+bit better from someone named coding Jesus. Hold on. Let let
+
+00:51:03.440 --> 00:51:04.079
+me give you 2550
+
+00:51:05.440 --> 00:51:05.839
+isn't zero.
+
+00:51:07.359 --> 00:51:08.240
+You guys get the five.
+
+00:51:09.920 --> 00:51:11.119
+I missed the alarm. Here it is.
+
+00:51:13.680 --> 00:51:17.440
+Whatever character an alarm to do what? So these alarms here
+
+00:51:17.839 --> 00:51:21.520
+start talking fade out. So you could have some way of tying I'm
+
+00:51:21.760 --> 00:51:21.760
+guessing.
+
+00:51:24.000 --> 00:51:27.119
+Oh man. So he's using these alarms here setting them to zero.
+
+00:51:27.760 --> 00:51:30.880
+You could have an enum to say what these are. I tend to feel
+
+00:51:31.040 --> 00:51:35.760
+like this actually looks not as bad. You could use this might
+
+00:51:36.000 --> 00:51:40.240
+be defensible. This may be defensible. Yeah, Supreme. I I want
+
+00:51:40.319 --> 00:51:43.359
+to say that I just like knowing things. It's just the easiest
+
+00:51:43.680 --> 00:51:47.280
+way to do things. It's just look it up um without using something
+
+00:51:47.440 --> 00:51:50.079
+that asks without asking something. We'll know instantly. I'm
+
+00:51:50.400 --> 00:51:53.440
+good. If you don't if you don't like going looking manuals, gay,
+
+00:51:53.920 --> 00:51:57.359
+that's fine. I tend to think like here's here's how this looks
+
+00:51:57.520 --> 00:52:00.800
+in the code, right? Is he has this in the ID. I tend to feel
+
+00:52:00.960 --> 00:52:05.520
+like on a oneperson project that actually is okay, right? This
+
+00:52:05.760 --> 00:52:07.920
+might actually not be as bad as I thought it was the first time.
+
+00:52:08.319 --> 00:52:12.079
+I think so. Oh man, that's it's a tough one cuz I I thought maybe
+
+00:52:12.240 --> 00:52:14.240
+he could name these things, but you literally have alarm zero
+
+00:52:14.559 --> 00:52:16.720
+is start talking. So it's like you're not going to necessarily
+
+00:52:18.000 --> 00:52:20.720
+forget this. If you could somehow have this defined in code,
+
+00:52:21.280 --> 00:52:24.720
+that would be nice, maybe. But uh feels like there should be
+
+00:52:24.800 --> 00:52:27.839
+some way to define alarms on objects and like access this through
+
+00:52:28.000 --> 00:52:30.480
+the code or something. I don't know. But I I again I don't know
+
+00:52:30.559 --> 00:52:31.200
+the language. So
+
+00:52:33.440 --> 00:52:36.559
+but I've got the ego, right? Very cool. Is he a webdev or something?
+
+00:52:36.720 --> 00:52:38.720
+I have no idea. But he clearly doesn't know this language.
+
+00:52:40.079 --> 00:52:42.480
+You can review languages. Many concepts concepts are transferable.
+
+00:52:43.520 --> 00:52:46.240
+Concepts can be transferable but specifics are not. And that's
+
+00:52:46.480 --> 00:52:48.800
+the problem. person called out a bunch of specifics
+
+00:52:50.160 --> 00:52:53.119
+as they would in another language that are not correct in this
+
+00:52:53.280 --> 00:52:56.400
+language. So no, you cannot code review correctly in a language
+
+00:52:56.720 --> 00:52:59.680
+you don't know. To be fair, you haven't seen the array, but it
+
+00:52:59.760 --> 00:53:01.359
+was the one solution you thought of off the top of your head.
+
+00:53:01.680 --> 00:53:03.839
+Depending on how Yeah, but you would still have that problem.
+
+00:53:04.160 --> 00:53:07.440
+Emer, right? I don't think that problem goes away if you delete
+
+00:53:07.680 --> 00:53:11.119
+it and that like it flips things. How would how would having
+
+00:53:11.280 --> 00:53:13.760
+an enum when it's not tied to like that list? How would that
+
+00:53:13.920 --> 00:53:16.960
+even help? like unless there's a way to actually use those alarms.
+
+00:53:17.440 --> 00:53:18.319
+I mean, we could just look it up.
+
+00:53:19.839 --> 00:53:22.240
+One dimensional array is used to get the current value for any
+
+00:53:22.640 --> 00:53:25.839
+alarms that the instance may have or it can be used to set those
+
+00:53:26.000 --> 00:53:28.240
+alarms. There are 12 alarms built into each instance of an object
+
+00:53:28.640 --> 00:53:30.960
+and each one has its own event that will run when the variable
+
+00:53:31.280 --> 00:53:33.760
+reaches zero. Alarms are counted down at the start of each step.
+
+00:53:34.240 --> 00:53:37.599
+Blah blah blah blah blah. Zero equals game get speed game speed.
+
+00:53:38.160 --> 00:53:41.040
+Um, so this is doing like a cool down. Okay. I just wonder if
+
+00:53:41.119 --> 00:53:43.119
+the alarm isn't running. Well, he's pausing the alarms. So, I
+
+00:53:43.200 --> 00:53:45.599
+wonder who's not setting it to minus one. I tend to think that
+
+00:53:45.920 --> 00:53:48.800
+like this is probably making sense and him setting them all to
+
+00:53:48.960 --> 00:53:50.800
+zero could make sense. I don't know if zero is the right thing.
+
+00:53:51.760 --> 00:53:54.079
+But this actually might be totally fine, but you only have to
+
+00:53:54.240 --> 00:53:58.480
+change one place. Wait, there. So, this alarm thing is like a
+
+00:53:58.640 --> 00:54:02.240
+built-in, right? You can't rename this alarm thing. What would
+
+00:54:02.400 --> 00:54:04.640
+you want to do here? You'd set it to like a reference or something
+
+00:54:05.760 --> 00:54:08.000
+and you'd use the reference in other places. I don't know if
+
+00:54:08.160 --> 00:54:12.400
+you can do pointers to pointers like that in Game Maker. I don't
+
+00:54:12.559 --> 00:54:15.200
+think I don't know if that necessarily works. Zero would be false.
+
+00:54:15.680 --> 00:54:17.760
+How he does it, I'm guessing. No, it's not false.
+
+00:54:19.119 --> 00:54:21.440
+What do you mean? These alarms are like they're like counting
+
+00:54:21.760 --> 00:54:23.920
+down from some number. What you talking
+
+00:54:25.760 --> 00:54:27.440
+The thing you change is the enume if at
+
+00:54:28.800 --> 00:54:31.119
+Yeah, but these are all just on like an instance, right? You're
+
+00:54:31.280 --> 00:54:34.079
+writing this on the script for an instance. Like, are you doing
+
+00:54:34.240 --> 00:54:37.599
+a bunch of other really like uh complicated logic on these same
+
+00:54:37.839 --> 00:54:38.880
+things? I don't even know
+
+00:54:41.680 --> 00:54:44.160
+an enim for a key, but that would only matter if they could get
+
+00:54:44.319 --> 00:54:47.359
+reordered. Um, yeah, I guess you'd have to look and see when
+
+00:54:47.599 --> 00:54:51.040
+you delete what happens if it keeps the list the same way. But
+
+00:54:51.119 --> 00:54:53.680
+then the enum would just have to be updated, right? Like you'd
+
+00:54:54.000 --> 00:54:56.079
+have to go and delete from the enim as well. It'sive
+
+00:54:57.520 --> 00:54:59.520
+and delete from the enum as well. You'd still have to do it in
+
+00:54:59.680 --> 00:55:03.119
+two places now. Two places instead of potentially like eight
+
+00:55:03.440 --> 00:55:06.720
+places. I guess I'm guessing alarms given that this is how the
+
+00:55:06.880 --> 00:55:08.960
+documentation looks. I don't know if the alarms would be that
+
+00:55:09.200 --> 00:55:11.839
+that way, but like you'd have to be using it in multiple places,
+
+00:55:12.160 --> 00:55:14.800
+right? You'd have to see the rest of the code here to know how
+
+00:55:15.040 --> 00:55:17.359
+the alarms are used to know that it would be valuable to even
+
+00:55:17.520 --> 00:55:22.079
+do it. Really spaghetti code in my opinion. Okay, let's go to
+
+00:55:22.240 --> 00:55:26.240
+around 1 hour. So, I'd say that shockingly I I didn't like this
+
+00:55:26.400 --> 00:55:29.599
+either, but shockingly I I didn't look up the reference. I was
+
+00:55:29.680 --> 00:55:30.800
+like, maybe.
+
+00:55:32.400 --> 00:55:36.079
+But I think this is maybe fine. I I think I'm pretty good pretty
+
+00:55:36.319 --> 00:55:39.599
+good to go here with this being fine. GPT just tells you even
+
+00:55:39.839 --> 00:55:44.240
+less. Go use chat GPT. Go over this stuff yourself. I'm I'm good
+
+00:55:44.400 --> 00:55:47.839
+with my process right now. I'm good. Good luck. I want to slap
+
+00:55:48.079 --> 00:55:50.319
+you. You just were totally confused. How do you fix something
+
+00:55:50.559 --> 00:55:53.359
+you haven't seen before? Stop it. Literally part of the problem.
+
+00:55:53.760 --> 00:55:57.280
+God damn, dude. That's even funnier. You can see the comments.
+
+00:55:57.680 --> 00:56:00.559
+Some people can't see it. Some people can see Times it tells
+
+00:56:00.720 --> 00:56:03.440
+you the wrong answer. I I'll be honest. I haven't coded with
+
+00:56:03.839 --> 00:56:07.040
+AI since LM's like it's got to be a year and a half ago or something,
+
+00:56:07.280 --> 00:56:10.960
+right? So, I'm guessing LMS have gotten a lot better, but yes,
+
+00:56:11.359 --> 00:56:14.000
+when I was coding with Copilot before, it would just hallucinate
+
+00:56:14.559 --> 00:56:17.440
+functions that didn't exist. I had not used pandas a lot before
+
+00:56:17.599 --> 00:56:19.839
+and it would hallucinate functions that didn't exist at all.
+
+00:56:20.640 --> 00:56:21.200
+It was very goofy.
+
+00:56:22.640 --> 00:56:25.119
+It was kind of annoying. I'm guessing it's better about it, but
+
+00:56:25.359 --> 00:56:27.200
+maybe not always better. It's not going to be up at the top.
+
+00:56:27.440 --> 00:56:28.960
+You're going to have to search for it because it only has 16
+
+00:56:29.280 --> 00:56:32.319
+likes and I can't give you a direct link to it. So you can you
+
+00:56:32.480 --> 00:56:35.359
+could shadowban people. Yeah. When you ban somebody on YouTube,
+
+00:56:35.680 --> 00:56:39.440
+it does like weird sneaky. It's called hiding them from the channel,
+
+00:56:39.760 --> 00:56:42.480
+which we don't really know what that does, so I wouldn't be surprised.
+
+00:56:43.040 --> 00:56:46.720
+Sort by newest and it's around 5 hours ago. Okay. Either way,
+
+00:56:47.280 --> 00:56:50.240
+video's dumb. Dude probably should have reached out instead of
+
+00:56:52.480 --> 00:56:52.880
+Yeah, probably.
+
+00:56:54.240 --> 00:56:56.480
+All right. I think I think it's just funny that more people are
+
+00:56:56.640 --> 00:56:58.640
+drawing attention to the fact that you don't code on stream and
+
+00:56:58.799 --> 00:57:01.760
+your code is dog. Even if you're a single developer, right? Your
+
+00:57:01.920 --> 00:57:03.839
+code is dog and you make a bunch of comments on other people's
+
+00:57:04.160 --> 00:57:06.640
+like coding work or their their development jobs explicitly.
+
+00:57:08.079 --> 00:57:10.720
+Like I think that's funny to point out. Even if this guy's criticisms
+
+00:57:11.119 --> 00:57:15.599
+are all garbage, the rest of us do actually see the rest of us
+
+00:57:15.839 --> 00:57:19.520
+actually see like what what's going on with you. So even though
+
+00:57:19.839 --> 00:57:21.520
+his attacks may have been like stupid,
+
+00:57:22.799 --> 00:57:24.799
+it still just draws more attention to Pirate Software stuff and
+
+00:57:24.960 --> 00:57:26.960
+then him responding draws more attention to his stuff. I don't
+
+00:57:27.119 --> 00:57:31.119
+know. Read the public docs for Game Maker. Wild dude was You'll
+
+00:57:31.359 --> 00:57:33.599
+end up eating your hat when you watch the follow-up possibly.
+
+00:57:34.400 --> 00:57:37.280
+I'm saying I don't see any reason and I'll I'll just watch in
+
+00:57:37.440 --> 00:57:39.599
+the next one. They might have good points, right?
+
+00:57:40.880 --> 00:57:43.760
+Like his his global array in the thing that has to be wrong.
+
+00:57:44.079 --> 00:57:45.520
+That has to be there has to be a way to like
+
+00:57:46.799 --> 00:57:49.280
+if even if it's just an enim for the key, there has to be a way
+
+00:57:49.359 --> 00:57:53.359
+to like not make it quite that spaghetti the CJ dude. Yeah. Like
+
+00:57:53.520 --> 00:57:55.599
+I said, you're going to see a whole lot of people on YouTube
+
+00:57:56.079 --> 00:57:56.880
+trying to pick at me
+
+00:57:58.400 --> 00:58:01.599
+to get their 15 minutes of fame. Yep. Do you make a link to it?
+
+00:58:02.000 --> 00:58:04.240
+You have to click on the little six hours edited.
+
+00:58:05.680 --> 00:58:09.119
+Aha. So, that doesn't seem to do it. Oh, do I have to right click
+
+00:58:09.280 --> 00:58:12.880
+on this and then copy link address and then do that? Is that
+
+00:58:13.040 --> 00:58:15.839
+what does this? Ah, it does highlighted comment. There we go.
+
+00:58:16.160 --> 00:58:19.839
+Boop. There's my comment on it. Enjoy. And I also have a a whole
+
+00:58:20.000 --> 00:58:21.920
+argument with a whole bunch of people in the replies in there
+
+00:58:22.079 --> 00:58:26.559
+so they can see what's going on with it. Um I I talked them through
+
+00:58:26.799 --> 00:58:29.520
+the entire thing of why I did flu. That
+
+00:58:30.880 --> 00:58:33.599
+that's kind of true. I think that's what happens. I don't know
+
+00:58:33.680 --> 00:58:36.319
+if that was his point. His point was look, I have like all of
+
+00:58:36.400 --> 00:58:38.799
+these bonafides to criticize this and then like his first criticism
+
+00:58:39.200 --> 00:58:42.799
+is removed. Like actually totally removed. did that all in an
+
+00:58:42.880 --> 00:58:45.359
+array because that is not normal practice to do that and it's
+
+00:58:45.599 --> 00:58:48.240
+specifically so that you guys can reverse engineer the game and
+
+00:58:48.480 --> 00:58:52.400
+solve the ARG. Sometimes doing bad practice has meaning which
+
+00:58:52.640 --> 00:58:54.960
+is why I did it in that case so that you guys could do those
+
+00:58:55.119 --> 00:58:58.480
+ARG components. And I've been saying that for years I don't know
+
+00:58:58.720 --> 00:59:01.280
+man I don't know about this one. Also
+
+00:59:02.799 --> 00:59:05.599
+you could have an enum. It doesn't affect the ARG. The enum the
+
+00:59:05.760 --> 00:59:08.720
+enum in in the compiler will be the exact same thing. Right?
+
+00:59:08.799 --> 00:59:11.359
+Right? If you had an enum naming all of those keys and then you
+
+00:59:11.599 --> 00:59:15.119
+just like had them with those named keys that it's the same in
+
+00:59:15.280 --> 00:59:17.280
+the compiler. They're just constants defined to those numbers.
+
+00:59:17.760 --> 00:59:20.559
+Like it would look that when it compiles down into actual uh
+
+00:59:20.720 --> 00:59:22.880
+like bite code or something, those will be the same statements.
+
+00:59:24.319 --> 00:59:26.240
+There will be no difference. So it's when it's getting reversed.
+
+00:59:26.559 --> 00:59:29.520
+I and I say that as somebody who's not worked in Game Maker and
+
+00:59:29.760 --> 00:59:33.839
+doesn't know how it compiles down at all, but like it's an array.
+
+00:59:34.160 --> 00:59:36.720
+You'd still be filling it with numbers, the exact same numbers.
+
+00:59:37.119 --> 00:59:40.079
+In fact, it would just be enumerated so that you could have a
+
+00:59:40.319 --> 00:59:44.400
+like a actual variable name to it. Anyway, the ARG solving community
+
+00:59:44.720 --> 00:59:48.160
+around the game knows this. That's why it's done. So, it's not
+
+00:59:48.319 --> 00:59:52.319
+a gotcha. It's just stupid. Yep. So, anyway, enjoy. When in the
+
+00:59:52.400 --> 00:59:54.720
+world do you sleep? I haven't slept since 9:00 a.m. yesterday.
+
+00:59:55.200 --> 00:59:56.720
+I've been working on Heartbound all day.
+
+00:59:58.079 --> 01:00:00.640
+Nobody believes you. Nobody believes you. Nobody believes you.
+
+01:00:00.880 --> 01:00:02.960
+Nobody believes you. Nobody believes you. Nobody believes you.
+
+01:00:03.200 --> 01:00:05.839
+Nobody. Nobody. Nobody. Nobody. Nobody believes you. This game
+
+01:00:05.920 --> 01:00:08.319
+is 10 years in progress and it's basically like a demo for the
+
+01:00:08.720 --> 01:00:09.760
+engine. It's
+
+01:00:14.079 --> 01:00:18.000
+Okay, check out Jesus review. Guys, in today's video, I want
+
+01:00:18.079 --> 01:00:21.440
+to review the top contentions that not only Pirate Software had,
+
+01:00:22.000 --> 01:00:25.119
+but a lot of his fanboys had with my video yesterday in which
+
+01:00:25.280 --> 01:00:29.760
+I Okay, he has to eat on the magic number thing. He has to eat
+
+01:00:29.920 --> 01:00:31.920
+[&nbsp;__&nbsp;] on the magic number thing. If he doesn't eat
+
+01:00:32.240 --> 01:00:36.559
+on the magic number thing, he is like pirate software. He's brown
+
+01:00:36.880 --> 01:00:39.680
+pirate software. Okay, please don't be brown pirate software.
+
+01:00:40.079 --> 01:00:42.160
+Just eat on the magic number thing and the rest of your critiques
+
+01:00:42.640 --> 01:00:46.400
+are fine, it seems. Ah, the alarm thing. Also, you could maybe
+
+01:00:46.880 --> 01:00:49.040
+go, "Oh, yeah, I don't know about that one." reviewed the code
+
+01:00:49.359 --> 01:00:52.880
+that he wrote for his game Heartbound. Now, while the video was
+
+01:00:53.040 --> 01:00:55.599
+a stunning success in terms of can we watch the soggy serial
+
+01:00:56.000 --> 01:01:00.400
+video next? Uh maybe there was a couple of themes that kept repeating
+
+01:01:01.040 --> 01:01:03.599
+from detractors that I think are worth addressing in a separate
+
+01:01:04.000 --> 01:01:07.920
+video. So let's get into it. The first claim that I saw time
+
+01:01:08.240 --> 01:01:11.200
+and time again is that your code quality shouldn't matter if
+
+01:01:11.440 --> 01:01:13.280
+you're a solo game dev and that code
+
+01:01:14.640 --> 01:01:18.079
+um I would say it matters way less and that honestly if you're
+
+01:01:18.240 --> 01:01:20.720
+spending if all of the time saved by adding an
+
+01:01:23.040 --> 01:01:27.119
+um if all the time saved by adding subtraction if you save x
+
+01:01:27.440 --> 01:01:28.799
+amount of time by adding some abstraction
+
+01:01:30.559 --> 01:01:33.200
+and then the amount of time it took you to actually add it is
+
+01:01:33.520 --> 01:01:35.920
+larger than x. So more time. You take more time to add that abstraction
+
+01:01:36.400 --> 01:01:38.880
+than it takes then you save that. There's no reason to do it.
+
+01:01:39.440 --> 01:01:42.000
+God, that was really [&nbsp;__&nbsp;] up for me to talk there.
+
+01:01:42.480 --> 01:01:46.400
+What am I doing my life? H the sleep is catching up. The sleep
+
+01:01:46.559 --> 01:01:51.520
+is catching up. I got up really early this morning. It's up today.
+
+01:01:51.839 --> 01:01:53.440
+Okay, but what I'm saying is
+
+01:01:54.799 --> 01:01:57.760
+just mute. What do you mean just mute? Obviously,
+
+01:01:59.520 --> 01:02:02.160
+I don't want to take, you know, 10 minutes adding some abstraction
+
+01:02:02.640 --> 01:02:05.359
+in, adding an enum in or adding magic, you know, or constants
+
+01:02:05.760 --> 01:02:06.160
+in like named
+
+01:02:07.760 --> 01:02:10.000
+if I'm not going to ever save time if I'm never going to reuse
+
+01:02:10.240 --> 01:02:11.839
+it. If if I know I'm never going to reuse it.
+
+01:02:13.599 --> 01:02:16.559
+We have 24 hours coding in Game Maker. No, I was not. Anyway,
+
+01:02:17.520 --> 01:02:21.280
+quality only somehow matters if you work in a team. Now, you'd
+
+01:02:21.520 --> 01:02:24.480
+think that if you're working on a passion project, you'd be interested
+
+01:02:25.040 --> 01:02:28.000
+in holding yourself to the highest possible standard since
+
+01:02:30.880 --> 01:02:32.799
+you'd be interested in getting your passion project working.
+
+01:02:33.200 --> 01:02:35.440
+Now, I don't think he's interested in that either, so that's
+
+01:02:35.680 --> 01:02:38.480
+confusing. But you just be interested in getting it working.
+
+01:02:39.119 --> 01:02:42.960
+Can make your own decisions free of any corporate timeline and
+
+01:02:43.200 --> 01:02:47.520
+not subject to demands of this. This guy's got terminal autism.
+
+01:02:48.240 --> 01:02:51.760
+You know, they say this with such confidence as if poor code
+
+01:02:52.400 --> 01:02:54.720
+is not going to hold you back in your own development process
+
+01:02:55.119 --> 01:02:58.240
+and you're somehow impervious to the effects of your poor decisions
+
+01:02:59.040 --> 01:03:01.119
+as long as you make those bad decisions yourself.
+
+01:03:02.480 --> 01:03:05.280
+Usually, when you work with a team, you can get away with poorer
+
+01:03:05.760 --> 01:03:08.319
+code because you won't need to deal with the consequences
+
+01:03:09.520 --> 01:03:12.799
+of that code as you pawn it off to somebody else and work on
+
+01:03:13.040 --> 01:03:16.480
+something totally separate. But as a solo developer, you need
+
+01:03:16.640 --> 01:03:16.799
+to deal
+
+01:03:19.119 --> 01:03:24.319
+This guy directly with all the tradeoffs. No, no, no, no, idiot.
+
+01:03:24.720 --> 01:03:28.319
+As you scale, the of your code scales with the size of your organization.
+
+01:03:28.799 --> 01:03:31.119
+If you got a 100 people who might look at that code path, the
+
+01:03:31.760 --> 01:03:33.920
+your code is the more time it takes away from everybody else.
+
+01:03:35.599 --> 01:03:37.440
+You are taking time away from the organization. You are burning
+
+01:03:37.760 --> 01:03:42.319
+money for the organization. what huh that you make as you make
+
+01:03:42.480 --> 01:03:46.400
+those decisions while you code your game or your project or your
+
+01:03:46.720 --> 01:03:50.160
+whatever. In other words, every decision you make will either
+
+01:03:50.480 --> 01:03:54.400
+make life easier for you or harder for you down the line. As
+
+01:03:54.799 --> 01:03:58.160
+technical debt accumulates, you bear the entire burden of that
+
+01:03:58.400 --> 01:04:02.240
+debt, which slows down development. Now, for those of you who
+
+01:04:02.400 --> 01:04:06.160
+aren't technical, technical debt is a term that refers to this
+
+01:04:06.400 --> 01:04:06.640
+is literally
+
+01:04:10.160 --> 01:04:14.400
+dude. This guy. I'm sorry. You guys think that this is I need
+
+01:04:14.559 --> 01:04:15.599
+to do I need to skip this section.
+
+01:04:18.240 --> 01:04:21.680
+There has to be better [&nbsp;__&nbsp;] than this. This is This
+
+01:04:21.839 --> 01:04:26.000
+is dog. This is dog. This is dog. This dog the extra work you're
+
+01:04:26.240 --> 01:04:29.599
+going to need to put in down the line because you currently made
+
+01:04:29.760 --> 01:04:34.160
+a decision that was not ideal. So you are effect delivering something
+
+01:04:34.559 --> 01:04:38.720
+faster today only to slow down future delivery tomorrow the day
+
+01:04:38.799 --> 01:04:41.839
+after the week after the month after etc. It's kind of like a
+
+01:04:42.079 --> 01:04:46.240
+ball. Now this probably applies to pirate software because he
+
+01:04:46.480 --> 01:04:49.039
+is so bad at programming andor setting himself on a timeline
+
+01:04:49.520 --> 01:04:52.240
+that he is 10 years into his like three year or twoear development
+
+01:04:52.640 --> 01:04:55.359
+indie game and he's not even close to finishing it. Right? So
+
+01:04:55.520 --> 01:04:57.599
+it probably does apply where pirate software has no idea what
+
+01:04:57.760 --> 01:05:01.119
+he's written in anywhere at any given time. That's probably the
+
+01:05:01.440 --> 01:05:04.640
+problem here. Right. But this guy is not making good criticisms.
+
+01:05:05.520 --> 01:05:08.480
+I disagree agree with you that this is dog, but I also don't
+
+01:05:08.640 --> 01:05:12.240
+work in the field. So he is basically arguing that like his argument
+
+01:05:12.559 --> 01:05:15.599
+here, the argument about like oh actually you should hold yourself
+
+01:05:15.839 --> 01:05:17.440
+to a higher standard because you're not working with the team.
+
+01:05:17.599 --> 01:05:19.680
+No, the whole point of the standard is that you are going to
+
+01:05:19.839 --> 01:05:23.039
+waste the team's time if you don't apply the standard. That is
+
+01:05:23.119 --> 01:05:26.079
+the point of the standard. It is I can't transport my knowledge
+
+01:05:26.319 --> 01:05:30.079
+into other people's brains. So I want to I want to make sure
+
+01:05:30.240 --> 01:05:32.160
+that this is as readable. We're going to come up with a language,
+
+01:05:32.640 --> 01:05:34.559
+you know, we're going to speak the same language to each other
+
+01:05:35.039 --> 01:05:37.039
+so we all understand the same things from the same symbols.
+
+01:05:39.200 --> 01:05:41.920
+I kill myself. Oh, I had this guy on my team. I had I had a guy
+
+01:05:42.079 --> 01:05:44.640
+like this. The issue with guys like this is while they're annoying,
+
+01:05:45.280 --> 01:05:48.400
+this guy probably I'm guessing based on the fact that he's got
+
+01:05:48.480 --> 01:05:51.359
+like the Monero pull requests, probably gets a lot of work done.
+
+01:05:52.480 --> 01:05:54.160
+I'm guessing he might get a lot of work done. Okay.
+
+01:05:56.400 --> 01:05:59.359
+So, you you deal with autist like this because they get a lot
+
+01:05:59.440 --> 01:05:59.680
+of work done.
+
+01:06:01.359 --> 01:06:05.280
+all in chain that's tied around your leg and every step you take
+
+01:06:05.440 --> 01:06:09.119
+forward that ball grows and grows and grows which decreases the
+
+01:06:09.280 --> 01:06:13.520
+velocity of your development. Now, the fact that Heartbound has
+
+01:06:13.839 --> 01:06:17.440
+taken over 8 years to development and is still in early access
+
+01:06:18.400 --> 01:06:21.119
+bro like the other the arguments you could have here. There are
+
+01:06:21.280 --> 01:06:24.160
+arguments you could have. Oh, you should write following some
+
+01:06:24.400 --> 01:06:26.799
+style guide because if you don't follow some style guide, if
+
+01:06:26.960 --> 01:06:29.440
+you're trying to get a job eventually, you're not going to write
+
+01:06:29.760 --> 01:06:32.400
+efficient code or effective code, sorry, for that job, right?
+
+01:06:32.720 --> 01:06:34.240
+You're not going to write stuff that other people could read
+
+01:06:34.480 --> 01:06:37.599
+and that would be a problem for you. Despite the fact that the
+
+01:06:37.760 --> 01:06:41.680
+game took inspiration from Undertale, which took less time to
+
+01:06:41.920 --> 01:06:45.440
+make and provided more content, is a reflection of the fact that
+
+01:06:45.760 --> 01:06:48.240
+code quality is important. Wait, go read the code for Undertale
+
+01:06:50.559 --> 01:06:54.240
+and it will stifle your development if you do not take it seriously.
+
+01:06:55.039 --> 01:06:57.839
+And it's it's it's kind of ironic because the same people that
+
+01:06:58.079 --> 01:07:01.440
+are trying to make excuses for poor code are the same people
+
+01:07:02.480 --> 01:07:05.359
+that actually play the game and are expecting features to be
+
+01:07:05.520 --> 01:07:09.119
+delivered. I don't care if his code's poor in the sense that
+
+01:07:09.280 --> 01:07:12.000
+it doesn't impact me directly. Yeah, I might care from a technical
+
+01:07:12.319 --> 01:07:15.280
+perspective to try to reconcile his game development experience
+
+01:07:15.760 --> 01:07:19.760
+or his game industry experience with who he claims to be and
+
+01:07:20.160 --> 01:07:23.359
+what he produces, but I'm not going to play his game. I don't
+
+01:07:23.520 --> 01:07:26.559
+care for his game. And the same people that do care for his game
+
+01:07:26.880 --> 01:07:30.640
+are the same people that say that it's okay for the game code
+
+01:07:30.880 --> 01:07:34.640
+to be slopp in fact they're waiting on those same features that
+
+01:07:34.960 --> 01:07:37.920
+require the game code to be clean in order to develop and do
+
+01:07:38.079 --> 01:07:42.000
+so quickly. Now, I think that my views here can really be summarized
+
+01:07:42.960 --> 01:07:46.559
+in I think this guy has not looked at a lot of game like a lot
+
+01:07:46.640 --> 01:07:48.400
+of um like indie studio game code
+
+01:07:49.680 --> 01:07:53.200
+in a dialogue that I had with Quintio when I jumped on his stream
+
+01:07:53.440 --> 01:07:56.880
+yesterday and talked a bit more about the video. The practices
+
+01:07:57.280 --> 01:08:00.799
+that he's employed so far are practices that I'd expect from
+
+01:08:01.119 --> 01:08:05.200
+somebody that watched K. This guy looks like five years old.
+
+01:08:05.440 --> 01:08:07.440
+Are we taking this guy's Does this guy at least work somewhere
+
+01:08:07.760 --> 01:08:07.760
+cool?
+
+01:08:09.119 --> 01:08:10.880
+Tell me this guy at least works at like Google or something.
+
+01:08:11.200 --> 01:08:13.680
+Okay, please tell me this guy at least works at Google or something
+
+01:08:14.480 --> 01:08:17.520
+because he looks 5 years old. Why am I taking this guy's opinion?
+
+01:08:18.319 --> 01:08:20.960
+Academy for a week. Not somebody that's been working on a project
+
+01:08:21.199 --> 01:08:21.359
+for eight
+
+01:08:22.560 --> 01:08:25.359
+Claims to This guy's just a content creator that doesn't code,
+
+01:08:25.600 --> 01:08:25.839
+isn't he?
+
+01:08:27.040 --> 01:08:29.040
+Yeah, this guy is just a content creator that doesn't code.
+
+01:08:31.120 --> 01:08:34.799
+Oh, no. Hold. I have to ask. who, you know, worked at Blizzard
+
+01:08:35.199 --> 01:08:38.319
+and been around game devs or at some certain points claimed that
+
+01:08:38.400 --> 01:08:41.199
+he's a game dev. If he just came and said, "This is what I produced.
+
+01:08:41.839 --> 01:08:45.040
+I learned gamedev for one or two weeks, Khan Academy. I spent
+
+01:08:45.279 --> 01:08:47.839
+two an hour or two every day." I'd say that's actually good progress.
+
+01:08:48.799 --> 01:08:50.880
+But to come and claim that you're some like authority in the
+
+01:08:51.040 --> 01:08:54.239
+space, you know, this is the code you've produced. To me, there's
+
+01:08:54.560 --> 01:08:57.679
+a massive disconnect between Well, this code does look like sure
+
+01:08:58.000 --> 01:09:00.080
+what you say you're capable of based off your background and
+
+01:09:00.319 --> 01:09:03.279
+what you've produced. Does that make sense? Yes. And I think
+
+01:09:03.520 --> 01:09:06.719
+that really comes down to the heart of this. Dude, I have to
+
+01:09:06.799 --> 01:09:09.920
+look at some of the comments. My CS professor gave us a a quote
+
+01:09:10.159 --> 01:09:12.319
+I live by to this day. You're always working on a group project.
+
+01:09:12.880 --> 01:09:15.120
+Sometimes you're working with a 100 people or one other with
+
+01:09:15.279 --> 01:09:18.080
+one other person. Sometimes you're working with you and you in
+
+01:09:18.239 --> 01:09:20.480
+the future and you in the past. And don't let you in the past
+
+01:09:20.640 --> 01:09:23.120
+write awful code. You in the present can't work with. Even by
+
+01:09:23.279 --> 01:09:25.759
+yourself, you're always working on a group project. Simple as.
+
+01:09:26.719 --> 01:09:31.440
+Uh I don't believe this would be the case. So there there's some
+
+01:09:31.600 --> 01:09:35.679
+argument here for this given it's been 10 years. Okay. Like like
+
+01:09:35.920 --> 01:09:38.080
+it can be good to write self-documented code. I would say the
+
+01:09:38.239 --> 01:09:42.719
+better idea here is probably it's like um if you wanted to be
+
+01:09:42.799 --> 01:09:43.359
+a professional bodybuilder,
+
+01:09:44.719 --> 01:09:46.960
+you wouldn't like just because you're hanging out by yourself,
+
+01:09:47.279 --> 01:09:50.799
+you don't just eat like hot dogs all the time, right? You're
+
+01:09:51.040 --> 01:09:53.440
+not around other people. Like you you you commit to like certain
+
+01:09:53.759 --> 01:09:56.560
+levels, certain standards. You you want to you're like looking
+
+01:09:56.719 --> 01:09:58.800
+for a job in that field. So, you want to write good code so that
+
+01:09:58.960 --> 01:10:01.600
+other people can look at it and and basically say, "Okay, I want
+
+01:10:01.760 --> 01:10:04.159
+to hire this guy." This the video that Pirate responded to in
+
+01:10:04.320 --> 01:10:06.719
+the comments or no, no, no, the other one was where you responded
+
+01:10:07.199 --> 01:10:09.920
+unically said on Discord, "You're on the side of explaining the
+
+01:10:10.159 --> 01:10:12.960
+code, which is dog practice of self-explaining code, which which
+
+01:10:13.120 --> 01:10:17.199
+is dog practice." Oh, that's a comment. No, self-documenting
+
+01:10:18.080 --> 01:10:21.440
+code is a fantastic way to operate and you should be able to
+
+01:10:21.520 --> 01:10:24.800
+do What is up? I just clicked off the video. God damn it. Game
+
+01:10:25.120 --> 01:10:27.360
+Maker Studio seems kind of dog though. I'll be real delivered.
+
+01:10:28.000 --> 01:10:31.280
+I don't care if his code's poor in the sense that it doesn't
+
+01:10:31.440 --> 01:10:34.080
+impact me directly. Yeah, I might care from a technical perspective
+
+01:10:34.560 --> 01:10:38.080
+to try to reconcile his game development experience or industry
+
+01:10:38.719 --> 01:10:42.239
+to an hour or two every day, I'd say that's actually good but
+
+01:10:42.400 --> 01:10:44.480
+to come and claim that you're some like authority in the space,
+
+01:10:44.880 --> 01:10:48.000
+you know, this is the code you've produced. To me, there is a
+
+01:10:48.159 --> 01:10:51.600
+massive disconnect between what you say you're capable of based
+
+01:10:51.840 --> 01:10:54.000
+off your background and what you've produced. Does that make
+
+01:10:54.159 --> 01:10:57.760
+sense? Yes. And I think that really comes down to the heart of
+
+01:10:57.920 --> 01:11:00.480
+this critique of that claim. And that is that Pirate Software
+
+01:11:00.880 --> 01:11:04.000
+is constantly portraying himself as this sort of expert authority
+
+01:11:04.400 --> 01:11:05.760
+on everything that's wrong about nothing
+
+01:11:07.040 --> 01:11:10.080
+and uses all this hyperbolic language and associations
+
+01:11:11.520 --> 01:11:16.560
+when in reality that's true. What he's tangibly produced is below
+
+01:11:17.040 --> 01:11:19.840
+what you'd expect from a junior developer or even an intern.
+
+01:11:20.239 --> 01:11:22.880
+People call me the Bob Ross of programming, which I think is
+
+01:11:23.120 --> 01:11:26.080
+a pretty big honor because I like Bob Ross' stuff. Here, for
+
+01:11:26.159 --> 01:11:30.239
+example, he didn't say directly, I'm Bob Ross. He said, "Everybody
+
+01:11:31.040 --> 01:11:34.159
+thinks I'm Bob Ross of programming." What does that mean? It's
+
+01:11:34.400 --> 01:11:37.440
+trying to paint the picture that there's a broad consensus that
+
+01:11:37.760 --> 01:11:41.040
+you are the best developer out there and you are the go-to guy
+
+01:11:41.280 --> 01:11:44.159
+for anything related to game programming, which is his niche.
+
+01:11:44.880 --> 01:11:47.120
+You're a hacker. Like, that's that's where you like kind of start.
+
+01:11:47.440 --> 01:11:50.000
+Actual hacker. An actual hacker. Not like a I'm a hacker type.
+
+01:11:50.159 --> 01:11:53.120
+No, you're Yeah. Is gay that he represents himself as an actual
+
+01:11:53.360 --> 01:11:54.000
+coder when he sucks.
+
+01:11:55.360 --> 01:11:57.040
+Like an actual hacker. Yeah. My my last job was hacking power
+
+01:11:57.199 --> 01:11:58.560
+plants for the federal government. I worked for the United States
+
+01:11:58.719 --> 01:12:02.159
+Department of Energy. So dude, yeah. Yeah. He's a total fraud.
+
+01:12:02.400 --> 01:12:05.199
+We've covered this. Total fraud. And you lean over to Who's that
+
+01:12:05.440 --> 01:12:09.360
+guy? Well, that's the hacker from the That's the hacker. Three
+
+01:12:09.520 --> 01:12:12.159
+to four man teams, man. So like we've got a team of Oh, you had
+
+01:12:12.239 --> 01:12:14.800
+a fleet. You had like a team of dudes in suits holding laptops,
+
+01:12:15.520 --> 01:12:19.120
+walking into restricted areas. Okay. When he says things like
+
+01:12:19.360 --> 01:12:24.000
+this, what he's trying to paint in your mind as a viewer is that
+
+01:12:24.239 --> 01:12:28.560
+he's some sort of unit 8200 MSAD agent riding zeroday exploits
+
+01:12:29.360 --> 01:12:34.560
+on USBs that are snuck into Iranian nuclear facilities and that
+
+01:12:34.880 --> 01:12:38.880
+infest and shut down the entire technical operation of that nuclear
+
+01:12:39.280 --> 01:12:42.239
+power plant. When in reality, if you look at his LinkedIn and
+
+01:12:42.480 --> 01:12:45.679
+reconcile it against his skill set, what he did was social engineering.
+
+01:12:47.199 --> 01:12:51.280
+Yes, obviously. Yes, obviously. Yes, not a programmer. We've
+
+01:12:51.520 --> 01:12:54.560
+covered this and tried to gain access to credentials and user
+
+01:12:54.880 --> 01:12:57.280
+systems. We covered this. He was basically like So, all this
+
+01:12:57.440 --> 01:13:00.640
+really culminates in the disconnect between who Thor plays himself
+
+01:13:01.120 --> 01:13:04.159
+up to be and then what he can produce. It shouldn't be a surprise
+
+01:13:04.400 --> 01:13:07.360
+to anybody that his GitHub is also totally empty. It's empty
+
+01:13:07.600 --> 01:13:10.480
+cuz he has nothing to show for his 20 years of experience as
+
+01:13:10.800 --> 01:13:14.800
+a veteran in the space. Now, Pirate himself also responded and
+
+01:13:15.040 --> 01:13:17.840
+he got a bit hung up on the fact that my mouse had some variable
+
+01:13:18.239 --> 01:13:20.880
+highlighted despite the fact that I never talked about that variable.
+
+01:13:21.360 --> 01:13:24.400
+It's actually quite funny because I refer to this magic number
+
+01:13:24.719 --> 01:13:27.360
+critique is every variable other than the one that he referred
+
+01:13:28.000 --> 01:13:32.880
+Yeah. Yeah. I I pointed this out too. I pointed this out. Okay.
+
+01:13:33.679 --> 01:13:36.960
+He He didn't even mention the sprite spark thing. Why' you Why'
+
+01:13:37.280 --> 01:13:40.320
+you highlight the one variable that was like a a named thing?
+
+01:13:41.280 --> 01:13:44.800
+the one the only one it didn't apply to referred to in his reply.
+
+01:13:45.920 --> 01:13:49.679
+But skipping over that, he makes the claim that you can't define
+
+01:13:49.920 --> 01:13:54.159
+a boolean in Game Maker because Game Maker itself doesn't have
+
+01:13:54.320 --> 01:13:56.880
+a native boolean type in its scripting language. In other words,
+
+01:13:57.280 --> 01:14:00.320
+it interprets Wait, he No, he didn't. He didn't say that. No,
+
+01:14:00.480 --> 01:14:03.040
+no, no, no, no. He didn't say that. He said it doesn't matter.
+
+01:14:03.760 --> 01:14:06.480
+He didn't say you couldn't. He said it doesn't matter. He said
+
+01:14:06.640 --> 01:14:06.960
+it's the same.
+
+01:14:12.159 --> 01:14:15.679
+Sorry, I'm arguing with somebody in DMs reals as booleans. Now,
+
+01:14:15.920 --> 01:14:18.719
+to reconcile the fact that he used a boolean in his code with
+
+01:14:19.040 --> 01:14:22.080
+what he said, I decided to do what any developer would do, and
+
+01:14:22.239 --> 01:14:25.120
+that is I consulted the documentation. So, if you go to data
+
+01:14:25.440 --> 01:14:29.440
+types in Game Maker, oh, look at that. You are also provided
+
+01:14:29.840 --> 01:14:32.800
+with constants, true and false, which can always be used in your
+
+01:14:32.880 --> 01:14:36.000
+code to prevent Oh, this is like Yeah, I literally looked this
+
+01:14:36.159 --> 01:14:38.719
+up and I said, I don't care. Yeah, I don't I literally don't
+
+01:14:38.960 --> 01:14:44.000
+care, right? This a gay critique. I I literally don't care. The
+
+01:14:44.239 --> 01:14:47.040
+manual says, "This works perfectly, but don't do it because what
+
+01:14:47.199 --> 01:14:50.080
+if we add a boolean type in the future?" Your language sucks.
+
+01:14:50.880 --> 01:14:54.719
+You're never adding that type. You issues. Should the native
+
+01:14:55.120 --> 01:14:58.239
+boolean type? I don't think he said you couldn't. I think he
+
+01:14:58.400 --> 01:15:01.040
+said there was no type so it didn't matter. Hold on. We'll just
+
+01:15:01.199 --> 01:15:03.360
+go We'll just go look at his response What was the language you
+
+01:15:03.520 --> 01:15:05.920
+said? GML. It's called Game Maker. obviously never worked in
+
+01:15:06.000 --> 01:15:08.640
+this language ever want to do this all stream to be honest with
+
+01:15:08.800 --> 01:15:12.000
+you but yeah uh he's obviously never worked in this language
+
+01:15:12.480 --> 01:15:15.520
+or with bad programmer and in reality the array of the save files
+
+01:15:15.920 --> 01:15:18.960
+to create a workable structure high improving you a particle
+
+01:15:19.600 --> 01:15:23.760
+I try to put delay function you can use 01 maker you cannot define
+
+01:15:24.000 --> 01:15:27.199
+a boolean you can use 01 or true false it will doesn't do anything
+
+01:15:27.520 --> 01:15:30.239
+none of this matters in this language the array of say you cannot
+
+01:15:30.480 --> 01:15:33.679
+define a boolean so this is okay he says you cannot define a
+
+01:15:33.840 --> 01:15:36.480
+boolean what he means means is is you can't say this is a boolean.
+
+01:15:37.199 --> 01:15:41.199
+You can't say you can't statically type a boolean, but you can
+
+01:15:41.360 --> 01:15:44.080
+dynamically type a boolean. You have the constants. It will dynamically
+
+01:15:44.560 --> 01:15:48.480
+type it to a real number, which is weird to me. I don't know
+
+01:15:48.560 --> 01:15:50.000
+how they're right. This is weird as
+
+01:15:51.360 --> 01:15:53.440
+right, but it's a it's a dynamically typed language.
+
+01:15:55.600 --> 01:15:58.000
+Just read the document. I read the documentation. I know exactly
+
+01:15:58.239 --> 01:16:02.000
+what the documentation says. It says that don't use zero and
+
+01:16:02.159 --> 01:16:05.280
+one even though they work perfectly because what if we add boolean
+
+01:16:05.679 --> 01:16:07.600
+types in the future? You should use the constants because then
+
+01:16:07.920 --> 01:16:10.320
+when you assign those when you dynamically type something with
+
+01:16:10.640 --> 01:16:13.199
+true or false right we'll be able to dynamically type it to the
+
+01:16:13.280 --> 01:16:15.199
+new updated boolean type and everything else will behave correctly.
+
+01:16:16.159 --> 01:16:19.440
+Now he should do that but it doesn't matter. Doesn't make a difference
+
+01:16:20.159 --> 01:16:22.000
+and he'd probably have to update to a new version of the language
+
+01:16:22.560 --> 01:16:25.920
+right and then he'd have some to fix but it literally doesn't
+
+01:16:26.159 --> 01:16:29.040
+matter. I I don't care. I think it's a pretty low-grade criticism
+
+01:16:29.600 --> 01:16:32.320
+overall. To create a workable structure for reverse engineer
+
+01:16:32.960 --> 01:16:36.560
+engineers trying to solve the ARG behind the game. It also saves
+
+01:16:37.040 --> 01:16:39.600
+this out in the exact same order in the save file. You can read
+
+01:16:39.760 --> 01:16:41.760
+about the ARG here. Oh, hold on.
+
+01:16:43.120 --> 01:16:46.239
+Okay. It's an interpreted language. So, but it would still compile
+
+01:16:46.640 --> 01:16:47.440
+down when you're building an executable.
+
+01:16:48.880 --> 01:16:52.800
+It's just, bro, I hate pirate software. I hate pirate software.
+
+01:16:53.440 --> 01:16:55.920
+I think this is like maybe if these are the best critiques you
+
+01:16:56.159 --> 01:16:58.960
+have, you you suck. This isn't the best critique. Yeah. Probably
+
+01:16:59.199 --> 01:17:01.679
+the readability of the array and some of the stuff he does around
+
+01:17:01.920 --> 01:17:04.320
+like big arrays is bad. Yeah. Why would you hate someone?
+
+01:17:05.520 --> 01:17:08.960
+Ah, cuz this guy is like useless and doesn't know it and a bunch
+
+01:17:09.120 --> 01:17:11.440
+of people are like this guy's an expert in things. It's annoying
+
+01:17:12.080 --> 01:17:14.000
+cuz I know some of the things he talks about and he sounds like
+
+01:17:14.080 --> 01:17:16.800
+a this there's nothing more triggering than that short I watched.
+
+01:17:17.679 --> 01:17:22.400
+Type be define later. So, GML defines constants true as one and
+
+01:17:22.640 --> 01:17:26.880
+false as zero. And the documentation itself even recommends that
+
+01:17:26.960 --> 01:17:30.320
+you use true and false instead of reals in case that association
+
+01:17:31.040 --> 01:17:34.960
+between a boolean and a real ever gets changed to a boolean and
+
+01:17:35.199 --> 01:17:38.640
+some other native definition of a boolean. So, in other words,
+
+01:17:39.040 --> 01:17:42.719
+if they ever replace the aliasing of bulls for reals with bulls
+
+01:17:43.360 --> 01:17:46.000
+for actual bulls, they recommend that you use true and false.
+
+01:17:46.640 --> 01:17:49.280
+But we know he's not going to concede on this point or admit
+
+01:17:49.600 --> 01:17:52.320
+the fact that he was wrong given his track record. So, let's
+
+01:17:52.560 --> 01:17:53.199
+move on to the next
+
+01:17:54.480 --> 01:17:56.800
+I would just say it literally doesn't matter. I don't I don't
+
+01:17:56.960 --> 01:18:01.440
+care. Um, he should do it probably, but who cares? Another comment
+
+01:18:01.679 --> 01:18:05.679
+that I've seen is that you've never worked with Game Maker, so
+
+01:18:05.840 --> 01:18:08.719
+you must not know what you're talking Another equally absurd
+
+01:18:09.120 --> 01:18:12.640
+variant of this what he's writing is not seen. But I would say
+
+01:18:12.800 --> 01:18:15.040
+that in some of these cases, you should actually go and look
+
+01:18:15.199 --> 01:18:18.800
+up what the thing is to to like actually know
+
+01:18:20.239 --> 01:18:23.199
+what's going on, right? Like you should you should uh the alarms
+
+01:18:23.520 --> 01:18:26.560
+thing I think the alarms thing is a good example where the alarms
+
+01:18:26.880 --> 01:18:28.880
+thing now that I've looked it up and I see how the ID looks and
+
+01:18:29.040 --> 01:18:32.400
+how you write code in Game Maker. The alarms thing I'm like I
+
+01:18:32.640 --> 01:18:34.719
+don't I don't think that's anywhere near as bad as this guy
+
+01:18:36.880 --> 01:18:39.520
+Maybe you could do you instead of writing five lines, you could
+
+01:18:39.600 --> 01:18:44.640
+write three three or four lines to do a for right? I guess. But
+
+01:18:44.800 --> 01:18:46.800
+then that assumes that you'd never need to get rid of one of
+
+01:18:46.880 --> 01:18:52.159
+the ones in the middle. C++ or anybody who has worked with technology
+
+01:18:53.280 --> 01:18:56.320
+or more than one programming language understands that languages
+
+01:18:56.880 --> 01:19:00.640
+are just toolkits. Each toolkit is uniquely positioned to solve
+
+01:19:00.880 --> 01:19:03.920
+a given problem. Now, while there might be unique features in
+
+01:19:04.159 --> 01:19:08.239
+every toolkit, essentially there's a lot of overlap. Yeah, but
+
+01:19:08.480 --> 01:19:12.719
+you Pirates offer should have a criticism here where you actually
+
+01:19:13.280 --> 01:19:16.080
+explicitly failed to evaluate how this looks in GameMaker Studio
+
+01:19:16.880 --> 01:19:20.159
+why it's like good, right? So, here, hold on.
+
+01:19:23.280 --> 01:19:25.600
+I'm also having an argument in on the side as well.
+
+01:19:26.960 --> 01:19:30.400
+So, like here, as you can see, you've got these alarms up here.
+
+01:19:30.640 --> 01:19:33.840
+These alarms all correspond to the exact things over here. You
+
+01:19:34.000 --> 01:19:36.640
+set them with a for loop and then you delete one of these, right?
+
+01:19:37.199 --> 01:19:40.080
+Suddenly your code's wonky as, right?
+
+01:19:41.760 --> 01:19:43.360
+Like it might be it might be nice.
+
+01:19:44.800 --> 01:19:45.440
+Oh, actually
+
+01:19:46.880 --> 01:19:49.440
+I wonder how this works. If you delete one of these, how if you
+
+01:19:49.520 --> 01:19:51.280
+delete one of these, somebody was saying this earlier, that might
+
+01:19:51.440 --> 01:19:54.960
+be the the real the real real right here. If you delete four,
+
+01:19:55.280 --> 01:19:58.239
+what happens? Do these reumber or do they stay where they are?
+
+01:19:58.719 --> 01:20:00.480
+Because if they stay where they are, then this is superior.
+
+01:20:01.760 --> 01:20:04.480
+IMO. All right. Arguing with Riy? No, I'm arguing with Rita.
+
+01:20:04.960 --> 01:20:09.120
+This is also a complete this. But this one, this is actually
+
+01:20:09.360 --> 01:20:10.159
+like not a very good criticism
+
+01:20:11.440 --> 01:20:14.080
+because the alarms map on one to one. I don't think there's any
+
+01:20:14.320 --> 01:20:16.719
+advantage to going in and you like name these on the object.
+
+01:20:17.280 --> 01:20:19.840
+I don't think there's any advantage to doing it any other way.
+
+01:20:20.080 --> 01:20:22.960
+Why does Rita never chat? I have no idea what Rita's doing. I
+
+01:20:23.199 --> 01:20:25.760
+just asked Rita hates Pirate Software. So I was just asking if
+
+01:20:25.840 --> 01:20:29.360
+he saw this stuff and I I don't think the okay an integer in
+
+01:20:29.520 --> 01:20:31.520
+one language is going to be very similar to an integer in another.
+
+01:20:32.080 --> 01:20:35.760
+Every language is going to have for loops etc etc. So while the
+
+01:20:36.000 --> 01:20:39.920
+actual toolkit might be different the same principles, patterns
+
+01:20:40.960 --> 01:20:45.679
+and design decisions should apply in large part to any problem
+
+01:20:45.840 --> 01:20:48.320
+that you're trying to solve. The only difference is the tools
+
+01:20:48.560 --> 01:20:51.199
+that you use to solve that problem are going to be a little different.
+
+01:20:51.760 --> 01:20:54.400
+What does that look like in practice? Take that code snippet.
+
+01:20:54.880 --> 01:20:57.120
+Alarm 0 equals 0. Alarm 1 equals 0.
+
+01:20:59.280 --> 01:21:02.159
+Oh no. You don't need to copy and paste that code every single
+
+01:21:02.480 --> 01:21:06.080
+time. I'd expect an intern or somebody learning code in Khan
+
+01:21:06.320 --> 01:21:10.080
+Academy to copy and paste. You can simply replace that all with
+
+01:21:10.159 --> 01:21:12.880
+a for loop. So what does it say about somebody that they haven't
+
+01:21:13.120 --> 01:21:15.600
+even considered to use a for loop for something as simple as
+
+01:21:15.920 --> 01:21:20.239
+this? If there's something that I bro, I that could possibly
+
+01:21:20.640 --> 01:21:23.120
+be valid. I don't think that's valid though. I don't think that's
+
+01:21:23.360 --> 01:21:25.520
+like really super valid. I don't think this guy's like super
+
+01:21:25.760 --> 01:21:29.280
+valid in this criticism. Not even joking. I don't think so. It's
+
+01:21:29.520 --> 01:21:32.719
+not being able to provide more substantive feedback. If you look
+
+01:21:32.880 --> 01:21:35.840
+at plenty of my other videos where I do a code review, I go into
+
+01:21:36.480 --> 01:21:38.080
+line by line the GitHub repository
+
+01:21:39.360 --> 01:21:43.280
+and break it down for my viewers, both saying what went well
+
+01:21:43.520 --> 01:21:46.800
+and what didn't go well and how can it be improved. But Thor
+
+01:21:47.120 --> 01:21:50.080
+didn't give me or really anybody the chance to do that with his
+
+01:21:50.400 --> 01:21:52.960
+code because all he does is share snippets and screenshots.
+
+01:21:54.239 --> 01:21:57.600
+You also shouldn't be representing any This guy saying that he
+
+01:21:57.840 --> 01:21:58.560
+should open source his
+
+01:22:00.960 --> 01:22:04.080
+bro. I He definitely can't open source his codebase in any way,
+
+01:22:04.719 --> 01:22:08.320
+right? Because you know what would be so funny is if he open
+
+01:22:08.560 --> 01:22:12.639
+sourced his codebase and people yo the assets and just finished
+
+01:22:12.880 --> 01:22:15.840
+the game for him and wrote like some gay story where he his dog.
+
+01:22:16.239 --> 01:22:18.800
+I would put time into that. I would literally donate free dev
+
+01:22:19.040 --> 01:22:22.639
+hours to that project. Okay. He open sources his code and we
+
+01:22:22.800 --> 01:22:24.800
+rewrite the story. Okay. You might be able to do that anyway.
+
+01:22:25.920 --> 01:22:29.520
+Just write it where he his dog. Boom. It's actually it's going
+
+01:22:29.600 --> 01:22:31.760
+to be the hidden ending. Okay. You saw the ARG. It's actually
+
+01:22:31.920 --> 01:22:33.920
+going to pop out. you'll realize we were working together the
+
+01:22:34.159 --> 01:22:36.960
+whole time. No, no, no, no. The guy in the the guy in the story
+
+01:22:37.199 --> 01:22:37.520
+has a dog.
+
+01:22:38.880 --> 01:22:41.280
+The the dude in the story has a dog. It's not a ferret in the
+
+01:22:41.440 --> 01:22:45.920
+story. An entire entity made up of health, position, maybe whether
+
+01:22:46.159 --> 01:22:49.280
+they're dead or alive, their ID, their inventory as a number
+
+01:22:50.080 --> 01:22:53.280
+or an index into some array. That's not how you present character
+
+01:22:53.679 --> 01:22:56.560
+models or entities in game design. And I don't even need to be
+
+01:22:56.639 --> 01:22:59.520
+a game developer to understand that. I just watch one or two
+
+01:22:59.760 --> 01:23:03.040
+videos of the Cherno and I already know that's the case. So hopefully
+
+01:23:03.360 --> 01:23:06.480
+you guys found this video informative or interesting. I'm going
+
+01:23:06.560 --> 01:23:10.080
+to now move on to other news. So unless anything new comes out
+
+01:23:10.239 --> 01:23:12.800
+that I think I can bring my unique perspective to, I'm going
+
+01:23:12.880 --> 01:23:15.120
+to put Pirate Software behind me and just keep moving forward.
+
+01:23:16.480 --> 01:23:19.840
+By the way, uh the entire purpose of writing like clean code
+
+01:23:20.480 --> 01:23:23.199
+is to clear up understanding to make it more understandable for
+
+01:23:23.440 --> 01:23:26.639
+other people. This does not get more understandable with a for
+
+01:23:26.880 --> 01:23:30.480
+loop. It just saves time, right? Should you do a for loop? Probably.
+
+01:23:31.760 --> 01:23:35.760
+I'd probably do a for loop here, right? I'd probably I I don't
+
+01:23:35.920 --> 01:23:38.960
+know if you could pass if you could pass pointers somehow, you
+
+01:23:39.040 --> 01:23:40.960
+could write like some function that you would just do this on,
+
+01:23:41.280 --> 01:23:43.520
+right? There's probably a way to do it that you could write a
+
+01:23:43.679 --> 01:23:45.920
+function. You could just say clear alarms at like these indices
+
+01:23:46.880 --> 01:23:49.120
+or something. You pass like a list of indices in or some
+
+01:23:50.400 --> 01:23:52.400
+I don't know if there's uh oh, what do you call it?
+
+01:23:53.679 --> 01:23:56.400
+Like spled. Can you spllay arrays or something? No, I don't know.
+
+01:23:56.880 --> 01:23:58.560
+What do you call when you like dot dot dot in some
+
+01:24:00.000 --> 01:24:03.040
+You know how you like an array in go in Golang? What is that
+
+01:24:03.280 --> 01:24:05.440
+called? You basically say like flatten this.
+
+01:24:06.719 --> 01:24:07.280
+That's doesn't matter.
+
+01:24:09.360 --> 01:24:13.840
+You like uh a uh it's like a variable length array. You take
+
+01:24:14.880 --> 01:24:16.480
+what is it called? Go function
+
+01:24:18.080 --> 01:24:22.159
+haram dot dot dot. Uh dot dot dot dot. Is it just variable length
+
+01:24:22.320 --> 01:24:24.080
+arguments? I think it's just called a variable length argument,
+
+01:24:24.560 --> 01:24:28.400
+right? Variatic parameters. Variatic parameters. Good lord.
+
+01:24:30.560 --> 01:24:33.600
+Yes. Variatic parameters. You guys don't know what I'm talking
+
+01:24:33.679 --> 01:24:37.040
+about. It's fine. I'm talking to myself and I don't mind talking
+
+01:24:37.280 --> 01:24:41.360
+to myself. Okay. What does he say about this now? Oh video, guys.
+
+01:24:42.159 --> 01:24:44.400
+Dude, the for loop the for loop criticism is like nothing.
+
+01:24:45.679 --> 01:24:48.800
+It's like actually nothing. I think Thor like obviously won't
+
+01:24:49.040 --> 01:24:52.000
+take criticism, but this is not a good criticism video. Shockingly,
+
+01:24:53.440 --> 01:24:58.159
+it's like actually just not um except possibly possibly the last
+
+01:24:58.400 --> 01:25:00.159
+criticism where it's like, "Oh, you just have a flattened drain."
+
+01:25:00.400 --> 01:25:03.440
+He's like, "Well, I needed to I needed to um decompile correctly."
+
+01:25:04.400 --> 01:25:06.320
+I don't think there's any indication that he even knows how it
+
+01:25:06.480 --> 01:25:06.480
+decompiles.
+
+01:25:08.719 --> 01:25:11.600
+Jesus. I don't think that's a real thing. I think he's like lying
+
+01:25:12.159 --> 01:25:12.159
+basically.
+
+01:25:13.440 --> 01:25:16.320
+Lying maliciously. Okay. Soggy cereal was better.
+
+01:25:17.520 --> 01:25:20.960
+Okay. Who is Soggy Cereal? Isn't this guy a loser? Didn't this
+
+01:25:21.120 --> 01:25:24.639
+guy do this guy do like some content cop? Hold on. This guy was
+
+01:25:24.800 --> 01:25:27.280
+like uh this guy did like an Idubbbz video and it sucked, right?
+
+01:25:29.600 --> 01:25:33.440
+We did it on Mr. Beast. Oh, dog. No, this guy didn't suck. No,
+
+01:25:33.679 --> 01:25:36.400
+this guy didn't suck, right? He's kind of gay, but whatever.
+
+01:25:38.159 --> 01:25:40.960
+as a game developer who worked as game engine and tool swear
+
+01:25:41.199 --> 01:25:44.239
+to god I'm going to go that I just had to because I grew up my
+
+01:25:44.960 --> 01:25:48.480
+receive new content to keep need to make works as a strategy
+
+01:25:49.280 --> 01:25:51.120
+when to boy pretentiously mocking
+
+01:25:52.719 --> 01:25:53.679
+angrily voice
+
+01:25:56.159 --> 01:25:58.800
+does he talk about the code anywhere or is this just a but then
+
+01:25:59.920 --> 01:26:02.080
+this isn't like about the coding where's the stuff about the
+
+01:26:02.239 --> 01:26:02.239
+code
+
+01:26:05.360 --> 01:26:08.719
+special interest in YouTube's in game developer community. While
+
+01:26:08.880 --> 01:26:11.199
+learning C++ programming, I watched the churno. Then he was my
+
+01:26:11.280 --> 01:26:13.840
+go-to for game design. And for math physics, I just smashed my
+
+01:26:14.000 --> 01:26:16.960
+head into a wall. However, one I always avoided was pirate software.
+
+01:26:17.600 --> 01:26:20.960
+No, no, not the practice or like very guys. Now,
+
+01:26:22.320 --> 01:26:24.080
+he sucks. He sucks. If you don't know him from any of that, then
+
+01:26:24.239 --> 01:26:27.360
+you might know him as a guy who worked at Blizzard. I'm just
+
+01:26:27.520 --> 01:26:28.080
+kidding. Now having
+
+01:26:29.920 --> 01:26:30.239
+maple pepper
+
+01:26:32.000 --> 01:26:32.639
+I thought this would be about
+
+01:26:34.960 --> 01:26:37.840
+the entire with stop killing games need to make every single
+
+01:26:38.719 --> 01:26:39.280
+consumer and
+
+01:26:40.560 --> 01:26:43.280
+we aren't that with this vague language it would ruin live service
+
+01:26:43.520 --> 01:26:45.760
+games we have to sunset live service games as a single player
+
+01:26:46.000 --> 01:26:48.560
+experience the idea that suddenly you need to make every single
+
+01:26:48.800 --> 01:26:52.080
+live service game playable single player offline no dude uh correct
+
+01:26:55.840 --> 01:26:55.840
+yeah
+
+01:26:57.120 --> 01:27:01.679
+I dude dude Ross looks so goofy. Uh, apparently all you wanted
+
+01:27:01.920 --> 01:27:04.239
+was like basically a way to like view your game assets offline.
+
+01:27:06.560 --> 01:27:08.719
+There wasn't much code to talk about. Yeah, but this this video
+
+01:27:08.880 --> 01:27:11.440
+is just a hit piece of all the stuff we've already watched, right?
+
+01:27:12.239 --> 01:27:14.880
+Yeah, this guy sucks. This guy sucks. This
+
+01:27:16.159 --> 01:27:18.800
+I Yeah, I just don't I don't super care. I want to talk about
+
+01:27:18.960 --> 01:27:21.280
+the coding stuff, but I actually don't think the coding stuff
+
+01:27:21.440 --> 01:27:24.080
+is anywhere near as bad as anyone made it out to be. like in
+
+01:27:24.239 --> 01:27:26.480
+terms of time saved or in terms of like how confusing the code
+
+01:27:26.639 --> 01:27:29.360
+is. I think a bunch of people I think this is totally like propped
+
+01:27:29.760 --> 01:27:29.760
+up.
+
+01:27:31.840 --> 01:27:32.159
+Too bad.
+
+01:27:35.679 --> 01:27:39.120
+The the last one the his defense for like oh the de the decompilation
+
+01:27:39.760 --> 01:27:44.000
+is used for an ARG that is possibly totally fake. It's an exert
+
+01:27:44.320 --> 01:27:46.639
+of a G. Yeah, link that link that right now. See you later
+
+01:27:49.040 --> 01:27:50.000
+Link that. No,
+
+01:27:51.360 --> 01:27:52.560
+give me that right now.
+
+01:27:58.400 --> 01:28:01.120
+Doc say the alarms isn't back alarms isn't backed by a real array.
+
+01:28:01.440 --> 01:28:05.040
+I can't link docs. Okay, so that means isn't backed by a real
+
+01:28:05.199 --> 01:28:07.679
+array. But if you don't have pointers, then there's no way to
+
+01:28:07.840 --> 01:28:11.679
+pass this object into like a function to update it, right? So
+
+01:28:11.840 --> 01:28:14.000
+like I just Yeah, I feel like there's just nothing.
+
+01:28:15.440 --> 01:28:18.080
+It does not hold a real GML array. So you cannot run any array
+
+01:28:18.400 --> 01:28:20.960
+function on it or serialize it, convert it to a string. The only
+
+01:28:21.120 --> 01:28:24.159
+operation you can run on is accessing uh a value at an index.
+
+01:28:24.639 --> 01:28:27.679
+Yeah. So this is like some thing that's just only on this instance.
+
+01:28:28.320 --> 01:28:32.080
+So I again I don't think this is actually bad other than maybe
+
+01:28:32.320 --> 01:28:35.280
+the for loop. But the for loop is not oh spaghetti code. We don't
+
+01:28:35.440 --> 01:28:37.280
+understand this. We understand exactly what's going on here.
+
+01:28:37.600 --> 01:28:38.400
+This is not confusing code.
+
+01:28:40.719 --> 01:28:43.120
+Can't send it in chat. Send it in uh stream chat. discord.gg/jstlk.
+
+01:28:45.840 --> 01:28:48.800
+Giveimme gimme gimme gimme. You go to stream chat. Send it there.
+
+01:28:49.199 --> 01:28:51.280
+I'm looking. I'm looking. And I'm looking is the last thing we
+
+01:28:51.440 --> 01:28:54.960
+do and then I go to bed. Immediately go to bed. Probably not
+
+01:28:55.120 --> 01:28:56.880
+actually go to bed. Probably like do some other
+
+01:28:58.159 --> 01:29:02.320
+but get it to me. Hope all is well with you and yours. Uh yeah,
+
+01:29:02.480 --> 01:29:04.400
+it's pretty pretty good. Thank you. Say bye.
+
+01:29:06.080 --> 01:29:07.520
+Hope all is well with you and yours, my
+
+01:29:09.679 --> 01:29:13.199
+Have caffeine two hours ago. True, but I'm zombie mode.
+
+01:29:18.719 --> 01:29:21.199
+Yeah, like Gucci Jesus. I just don't know. It'll depend on how
+
+01:29:21.360 --> 01:29:23.600
+you delete these. If you delete these and they disappear, it's
+
+01:29:23.760 --> 01:29:23.920
+not good.
+
+01:29:29.040 --> 01:29:32.639
+But so if you if you delete alarm four and they reumber, then
+
+01:29:32.960 --> 01:29:36.239
+this is like this in a for loop would be bad, right? You'd be
+
+01:29:36.320 --> 01:29:38.320
+trying to get rid of like alarm four so it doesn't proc here
+
+01:29:39.679 --> 01:29:40.960
+I can't imagine that's the way it works,
+
+01:29:46.000 --> 01:29:48.159
+stream game and VC. I don't know if I'm going to be keep sitting
+
+01:29:48.400 --> 01:29:49.840
+at my computer. I might go do something else.
+
+01:29:51.520 --> 01:29:52.239
+We'll see. We'll see.
+
+01:29:57.040 --> 01:30:01.120
+I'm waiting on this guy to link. Oh, nice. He linked base. Thank
+
+01:30:01.280 --> 01:30:01.600
+you very much.
+
+01:30:03.040 --> 01:30:03.040
+Okay.
+
+01:30:05.600 --> 01:30:08.239
+I examine pirates officers code. Yeah. Yes, it is worse than
+
+01:30:08.400 --> 01:30:10.880
+you think. This will be a long thread. Okay. Global storyline
+
+01:30:11.280 --> 01:30:14.800
+array. This is goofy as obviously. Wait, why does he reset it
+
+01:30:14.960 --> 01:30:17.360
+to zero? This is the most widely known snip snippet. Decompilations
+
+01:30:18.000 --> 01:30:20.960
+don't preserve comments. So, I also included what I what look
+
+01:30:21.280 --> 01:30:24.480
+what it looks like in the actual code. So, why is this bad? Because
+
+01:30:24.639 --> 01:30:26.800
+every time you want to use or change one of these values, you
+
+01:30:26.960 --> 01:30:29.040
+have to go back to this file and look at which each of these
+
+01:30:29.199 --> 01:30:31.360
+values can take uh take and use them accordingly.
+
+01:30:32.639 --> 01:30:35.440
+You just use strings instead. You can just read what it says.
+
+01:30:36.000 --> 01:30:39.199
+Hold on. What could this be? Yeah. Yeah. So, we just use uh we
+
+01:30:39.360 --> 01:30:42.480
+just use enums. Yeah. Exactly. Boom. That's what you should do.
+
+01:30:42.960 --> 01:30:45.679
+Look at this. Unless you've memorized all these functions. They're
+
+01:30:45.920 --> 01:30:48.159
+they're Game Maker built-ins. Then it'll be a real pain in the
+
+01:30:48.239 --> 01:30:51.600
+ass to read this. Oh, he This guy thinks the magic number is
+
+01:30:51.840 --> 01:30:55.280
+bad. Hold on. Okay. Color could be a good one. Color could be
+
+01:30:55.440 --> 01:30:56.800
+a good one to have. Although,
+
+01:30:58.239 --> 01:31:00.800
+why wouldn't Game Maker just have these defined as colors?
+
+01:31:03.199 --> 01:31:03.679
+Okay, hold on.
+
+01:31:05.600 --> 01:31:09.360
+Oh, you guys can't see these. Hold on. Let me go back to this
+
+01:31:09.760 --> 01:31:12.800
+instead of having it on the side there. Magic variables. Us programmers
+
+01:31:13.199 --> 01:31:15.840
+want to be able to read our own code. For that, we should avoid
+
+01:31:16.159 --> 01:31:19.040
+putting random numbers and values all over all around with no
+
+01:31:19.199 --> 01:31:21.280
+explanation or labeling. Look at this. Unless you've memorized
+
+01:31:21.679 --> 01:31:23.840
+all these functions, their GameMaker built-ins, then it'll be
+
+01:31:24.000 --> 01:31:26.239
+pain in the ass to read this. Of course, this is also a shortcoming
+
+01:31:26.560 --> 01:31:29.040
+of Game Makers. It pushes you towards this. And even the examples
+
+01:31:29.440 --> 01:31:32.880
+they use are like that for the particle system. Yeah, cuz these
+
+01:31:33.120 --> 01:31:34.800
+would all be different. Accelerate, thank you for the gifted
+
+01:31:35.120 --> 01:31:38.960
+sub. The whole point of having the named uh values would be to
+
+01:31:39.120 --> 01:31:41.440
+reuse them somewhere, but there probably is no point in reusing
+
+01:31:41.840 --> 01:31:45.120
+them. Oh, this is this is just I as soon as I see the magic number
+
+01:31:45.360 --> 01:31:48.159
+thing, I think you're I think you're immediately stupid. Here's
+
+01:31:48.480 --> 01:31:50.880
+the piracy check, by the way. Pretty basic. And if you could,
+
+01:31:51.040 --> 01:31:53.520
+of course, remove this part from demp. It's not too hard to conventionally
+
+01:31:53.920 --> 01:31:56.239
+bypass either. This guy's 50 years of industry experience, by
+
+01:31:56.400 --> 01:31:59.360
+the way. Okay, whatever. Don't get me wrong. Blah blah blah.
+
+01:32:00.239 --> 01:32:02.960
+All the code I've been shown is 100% made up by me. None of it
+
+01:32:03.199 --> 01:32:05.600
+actually exists. I totally just wrote all of it to show my
+
+01:32:06.880 --> 01:32:09.520
+uh all the code shown by myself. Please store Thor, release my
+
+01:32:09.679 --> 01:32:11.520
+parents. I won't publish the source code for your dumb game ever
+
+01:32:11.760 --> 01:32:14.480
+again. Wait, was this the like day after or something? [&nbsp;__&nbsp;]
+
+01:32:18.159 --> 01:32:20.800
+Hope this check is a real joke or a late April fool from the
+
+01:32:20.960 --> 01:32:20.960
+devs.
+
+01:32:22.639 --> 01:32:27.040
+Got him. Yeah, like Okay, you could like actually I think this
+
+01:32:27.199 --> 01:32:28.320
+is the only real one that I consider
+
+01:32:29.600 --> 01:32:29.920
+is the enums
+
+01:32:32.239 --> 01:32:34.719
+the array. You enum the array up and then it's all good.
+
+01:32:36.239 --> 01:32:38.480
+Wait, it's worse than you think. Going to be a long thread and
+
+01:32:38.719 --> 01:32:42.080
+you make like 10 posts. What? I'll drop more stuff here as time
+
+01:32:42.239 --> 01:32:45.199
+goes on. Like, make no mistake. This guy almost certainly like
+
+01:32:45.760 --> 01:32:49.760
+sucks, right? Almost certainly sucks. But whatever. Oh, what
+
+01:32:49.920 --> 01:32:52.560
+is this? Hold on. Hold on. Yes, we have to be more verbose. And
+
+01:32:52.719 --> 01:32:54.560
+this is a good thing actually. It means we can look at a piece
+
+01:32:54.719 --> 01:32:56.960
+of code that uses these and immediately tell what's going on.
+
+01:32:57.280 --> 01:32:58.960
+Don't believe me? Just look at this code and tell me what it
+
+01:32:59.120 --> 01:33:00.639
+does. Actually, don't. It's obviously unreadable.
+
+01:33:02.239 --> 01:33:05.760
+Yeah. Uh, anytime you use, again, I've had llinters that just
+
+01:33:05.840 --> 01:33:09.840
+enforce this. Like a llinter is a thing that you run over your
+
+01:33:10.080 --> 01:33:12.400
+code to make sure you're following a style guide. So, I've had
+
+01:33:12.560 --> 01:33:15.679
+I've had like basically, you know, scripted style guide checkers
+
+01:33:16.719 --> 01:33:19.040
+that will say, "Oh, you're using like a switch statement without
+
+01:33:19.280 --> 01:33:20.880
+an enumerated type." Probably a mistake.
+
+01:33:22.320 --> 01:33:24.239
+You can like suppress the warning, but it's probably a mistake.
+
+01:33:29.840 --> 01:33:30.960
+Like are very fun, by the way. Cool.
+
+01:33:33.600 --> 01:33:36.080
+yesterday's secret stream was the best. Dude, people are like
+
+01:33:36.159 --> 01:33:39.199
+trying to on this guy. This is like boring. Oh, 22 years old.
+
+01:33:39.440 --> 01:33:39.760
+Yeah. Okay.
+
+01:33:42.159 --> 01:33:44.320
+I'm sorry. You just won't find a lot of like older devs being
+
+01:33:44.480 --> 01:33:47.840
+like super mad about most things except this stupid huge array.
+
+01:33:48.880 --> 01:33:51.440
+This is like probably totally unacceptable. This like totally
+
+01:33:53.199 --> 01:33:55.520
+And then his cope about how it decompiles is almost certainly
+
+01:33:55.760 --> 01:33:57.120
+just cope. Anyway, all right.
+
+01:34:00.800 --> 01:34:03.360
+think it's for the energy. Yeah, it seems kind of dumb. Yeah,
+
+01:34:03.600 --> 01:34:06.320
+sure. The heavenlies are I mean, yeah, I'm just saying that this
+
+01:34:06.560 --> 01:34:10.480
+is like this is how you can tell. Okay, we're starting to reach
+
+01:34:10.719 --> 01:34:14.159
+the end times with the Pirate Software content. Okay, because
+
+01:34:14.320 --> 01:34:17.280
+I I think these I can see these criticisms. I see people like
+
+01:34:17.440 --> 01:34:19.920
+swinging going whole hog on this. I do not think they're very
+
+01:34:20.080 --> 01:34:24.800
+valid criticisms. It's like uh sorry, this one is, but the magic
+
+01:34:25.120 --> 01:34:26.400
+number thing for the particles is not.
+
+01:34:27.600 --> 01:34:30.159
+The alarm's one is not. I don't know. Any movie recommendations?
+
+01:34:30.719 --> 01:34:32.639
+I'm going to try to watch Eyes Wide Shut at some point. Maybe
+
+01:34:32.880 --> 01:34:35.760
+I'll watch it tonight. It's possible. Oh, card. I forgot about
+
+01:34:36.000 --> 01:34:38.400
+card posting. I was going to watch the card posting video of
+
+01:34:38.560 --> 01:34:41.679
+Pirate Software DMCing. Also, there's a Will Stansel video that
+
+01:34:42.080 --> 01:34:44.239
+Shimu made, but I'll probably just save that stuff for tomorrow.
+
+01:34:44.719 --> 01:34:48.480
+I think we uh we didn't reach any of our goals. We have four
+
+01:34:48.639 --> 01:34:50.719
+minutes. No, don't reach that. I'm not I'm not doing it. I'm
+
+01:34:50.880 --> 01:34:53.199
+not doing it. I'm not doing it. Don't watch more or don't donate
+
+01:34:53.679 --> 01:34:56.800
+for more time. I'm not doing more time right now. Okay. I'm just
+
+01:34:56.880 --> 01:35:01.840
+not going to do it. Just not going to do it. Okay. No way. But
+
+01:35:02.000 --> 01:35:04.480
+it was a good stream. I enjoyed the stream. I had fun. Might
+
+01:35:04.719 --> 01:35:07.679
+check out some a little bit later. Or not. I have no idea. We'll
+
+01:35:07.920 --> 01:35:10.639
+see. We'll see. We'll see. We'll see. We'll see. Yeah. I don't
+
+01:35:10.719 --> 01:35:14.800
+know if anybody disagrees even. Oh, I think I think the stop
+
+01:35:15.360 --> 01:35:16.960
+Gabes criticism is good.
+
+01:35:18.239 --> 01:35:20.639
+Talked about the cherry stuff much. No, we were going to do one
+
+01:35:20.800 --> 01:35:22.639
+stream. We did it the first day and then we weren't going to
+
+01:35:22.719 --> 01:35:26.080
+do more streams on it. So, good luck. Okay. Good luck. Yeah,
+
+01:35:26.239 --> 01:35:29.520
+no problem. Gucci Jesus, you're welcome. I don't code, so I don't
+
+01:35:29.600 --> 01:35:31.600
+care. I just think it's funny. I'm guessing that a lot of people
+
+01:35:31.760 --> 01:35:34.560
+who um I'm guessing there's a lot of people who watch this stuff.
+
+01:35:34.800 --> 01:35:36.639
+They just don't really It's like not a big deal, right?
+
+01:35:37.840 --> 01:35:40.800
+Which is kind of fair, but I don't know. These things are like
+
+01:35:40.960 --> 01:35:45.040
+such low-grade problems. And again, the magic number thing, that's
+
+01:35:45.280 --> 01:35:47.600
+like for other devs. I don't think you're slowing down your your
+
+01:35:48.000 --> 01:35:51.120
+speed that much. You might be like, realistically, the funny
+
+01:35:51.360 --> 01:35:55.679
+thing is, okay, hold on. The realistic very funny thing is is
+
+01:35:55.920 --> 01:35:57.360
+this might actually be
+
+01:35:58.560 --> 01:36:01.440
+the one example where in a solo project they could be correct
+
+01:36:02.000 --> 01:36:04.639
+because I'm guessing this guy takes so long between any coding
+
+01:36:04.960 --> 01:36:07.120
+session to get to the next one that he probably forgets every
+
+01:36:07.360 --> 01:36:10.480
+single thing he wrote completely right there's just no shared
+
+01:36:10.880 --> 01:36:13.040
+knowledge of no retained knowledge of the language no retained
+
+01:36:13.360 --> 01:36:15.600
+knowledge of like what he was doing before pirate even coding
+
+01:36:15.840 --> 01:36:18.800
+a complex enough game yeah he probably is but it's not like a
+
+01:36:19.040 --> 01:36:22.080
+problem it's just going to add little bits of time I don't think
+
+01:36:22.239 --> 01:36:22.800
+this This is better.
+
+01:36:25.440 --> 01:36:26.400
+I just don't think this is better.
+
+01:36:38.239 --> 01:36:40.480
+But you managed to make this entertaining. Oh, well, thank you.
+
+01:36:50.639 --> 01:36:53.600
+He did spend more time replying to comments than working on his
+
+01:36:54.080 --> 01:36:55.360
+game. That is so true, actually.
+
+01:36:56.560 --> 01:36:57.360
+What a loser.
+
+01:36:58.800 --> 01:36:59.440
+What a loser.
+
+01:37:04.480 --> 01:37:06.480
+Okay. All right. I will
+
+01:37:08.639 --> 01:37:11.040
+probably end the stream here. All right, I think that's it for
+
+01:37:11.199 --> 01:37:11.360
+us tonight.
+
+01:37:12.639 --> 01:37:15.280
+See what's going on. Yeah, that was a good stream. I like that
+
+01:37:15.440 --> 01:37:17.920
+stream. That was a fun stream. I enjoyed it. Thank you everyone
+
+01:37:18.159 --> 01:37:21.360
+for being here. Good, good, good, good times. Okay, is being
+
+01:37:21.520 --> 01:37:22.159
+based right now.
+
+01:37:23.920 --> 01:37:29.199
+Oh, subsidized. Oh, see I think this is a this is a smart thing
+
+01:37:29.440 --> 01:37:30.880
+to do. I'll accept the cookies.
+
+01:37:32.480 --> 01:37:34.080
+I think I think grocerers
+
+01:37:36.000 --> 01:37:37.040
+I don't know. I think
+
+01:37:40.000 --> 01:37:41.760
+I think we're getting hosed right now and I think the government
+
+01:37:42.000 --> 01:37:44.400
+needs to step in in most of the West and just be like, "Hey,
+
+01:37:44.960 --> 01:37:48.080
+corporations, you go [&nbsp;__&nbsp;] yourselves. We're start
+
+01:37:48.239 --> 01:37:48.239
+competing."
+
+01:37:54.560 --> 01:37:54.880
+okay guys,
+
+01:37:58.080 --> 01:37:58.080
+wream.
+
+01:37:59.440 --> 01:37:59.440
+Um,
+
+01:38:01.360 --> 01:38:02.960
+there's a chance to do some stuff in the Discord later.
+
+01:38:05.440 --> 01:38:09.280
+We'll see. We'll see. We'll see. We'll see. We'll see. All right.
+
+01:38:09.520 --> 01:38:10.000
+Have a good night, everybody.
+
+01:38:11.360 --> 01:38:12.239
+I'll talk to y'all later.
+
+01:38:13.440 --> 01:38:13.440
+Later.
+
+01:38:15.360 --> 01:38:16.320
+Later. Later.
+
+01:38:18.000 --> 01:38:20.159
+Talk to y'all later. Good night. All right. Good night. Good
+
+01:38:20.239 --> 01:38:22.800
+night. Good night. Good night. Perhaps Barbie versus Mal round
+
+01:38:23.040 --> 01:38:26.400
+nine. Yeah, we'll see. I talk to you later. Mal's timed out,
+
+01:38:26.639 --> 01:38:28.560
+though, so see you guys later. Bye.
