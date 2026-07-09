@@ -125,7 +125,7 @@ Source naming rule: prefer metadata when available. Use the channel/uploader nam
 
 Duplicate handling rule: many later videos are review streams or clip reviews of earlier videos. Treat those as secondhand by default. Do not add a new EX entry when the underlying event, tactic, and key wording are already covered. Prefer the canonical source with the clearest evidence: original/primary footage first, then earliest upload, then best audio/transcript quality. A review video can become a separate example only if it adds a distinct tactic move, such as new permission framing, narrative laundering, audience routing, minimization, or a separate denial/reversal. In that case, note the relationship in `**Notes:**`, e.g. `secondhand review of EX-####; added for new laundering frame`.
 
-When adding examples, assign the next available `EX-####` ID. Current highest: `EX-0099`.
+When adding examples, assign the next available `EX-####` ID. Current highest: `EX-0101`.
 
 ---
 
@@ -254,9 +254,9 @@ Do not read raw transcripts unless explicitly asked to process them.
 - Purple Parry Gaming triage pass — EX-0091–EX-0096 documented (bank declared **uncapped** at this point)
 - **Local high-fidelity re-transcription + verification pass (2026-06-16):** all 54 live KuihmanLive videos re-transcribed via the youtube-clipper whisper+diarize pipeline (outputs in `transcripts/kuihman-live/_transcripts/`, gitignored). Bank entries from the auto-caption scans are being verified verbatim against these local transcripts and carry "wording verified" notes as checked (so far: gi1M, I697f4pNk48, hPba9Hu2ltg, iaGkqiDHY24, 5P--7ZRZaz8 → 27 entries). **Correction made:** EX-0081 had a wrong timestamp (16:41 → 58:30) and a fabricated "deserve to sweat" quote, both fixed. Net-new scan of the rest of the channel yielded no new entries (off-topic DeOrio/H3/commentary drama or already covered).
 
-**Active examples:** EX-0001–EX-0015, EX-0018, EX-0021, EX-0026–EX-0099 minus the 3 duplicates below (88 active)
+**Active examples:** EX-0001–EX-0015, EX-0018, EX-0021, EX-0026–EX-0101 minus the 3 duplicates below (90 active)
 **Retired IDs (do not reuse):** EX-0016, EX-0017, EX-0019, EX-0020, EX-0022–EX-0025 (removed); EX-0052, EX-0058, EX-0080 (flagged in place as duplicates of EX-0004, EX-0010, EX-0039 respectively)
-**Next available ID:** EX-0100
+**Next available ID:** EX-0102
 **Score audit:** `docs/tactic-example-score-audit.md`
 **Actor/entity register:** `docs/actor-aliases.md`
 **Actor classification queue:** `docs/actor-classification-queue.md`
