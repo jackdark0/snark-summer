@@ -117,17 +117,20 @@ Earmark rule: preserve every example scored 3 or higher for possible future use.
 | EX-0104 | Isolated Demands for Rigor | 4 | Self-admitted "skitso" theory accepted while viewer correction dismissed as fabrication; verified verbatim, pairs with EX-0103. |
 | EX-0105 | Permission Structures | 5 | Rapist analogy built then formally disclaimed to license publishing without consent; textbook deniability move, verified verbatim. |
 | EX-0106 | Narrative Laundering | 4 | Contested allegation inserted as settled background in a subordinate clause; verified verbatim, strong laundering illustration. |
+| EX-0107 | Schrodinger's Joke | 5 | First-person account of maintaining the joke/serious escape hatch; dual-transcript verified, diarized attribution to JSTLK. |
+| EX-0108 | Victim Reversal (DARVO) | 5 | Campaign side reframes its own outlet's disappearance as Destiny-driven persecution; dual-transcript verified, hedge preserved. |
+| EX-0109 | Always on Offense | 5 | Accusation about his own moderator deflected to the target, named live by the interlocutor; dual-transcript verified. |
 
 ## Score-5 Coverage
 
 | Tactic | Score-5 examples |
 |---|---|
-| Always on Offense | EX-0002, EX-0031, EX-0045 |
+| Always on Offense | EX-0002, EX-0031, EX-0045, EX-0109 (5) |
 | Isolated Demands for Rigor | EX-0009, EX-0029, EX-0042, EX-0104 (4) |
-| Schrodinger's Joke | EX-0030, EX-0039 (EX-0052 retired — dup of EX-0004), EX-0103 (4) |
+| Schrodinger's Joke | EX-0030, EX-0039 (EX-0052 retired — dup of EX-0004), EX-0103 (4), EX-0107 (5) |
 | Unilateral Principles | EX-0036, EX-0043, EX-0054 |
 | No-Win Framing | EX-0007, EX-0028, EX-0049, EX-0055, EX-0102 (4) |
-| Victim Reversal (DARVO) | EX-0014, EX-0044, EX-0056 |
+| Victim Reversal (DARVO) | EX-0014, EX-0044, EX-0056, EX-0108 (5) |
 | Moving Goalposts | EX-0005, EX-0027, EX-0032 |
 | Permission Structures | EX-0037, EX-0038, EX-0053, EX-0105 (5) |
 | Maximize Yours, Minimize Theirs | EX-0015, EX-0026, EX-0033 |
@@ -140,12 +143,12 @@ Earmark rule: preserve every example scored 3 or higher for possible future use.
 
 | Tactic | Earmarked examples |
 |---|---|
-| Always on Offense | EX-0002 (5), EX-0031 (5), EX-0045 (5), EX-0068 (4), EX-0077 (4), EX-0078 (4), EX-0091 (4) |
+| Always on Offense | EX-0002 (5), EX-0031 (5), EX-0045 (5), EX-0068 (4), EX-0077 (4), EX-0078 (4), EX-0091 (4), EX-0109 (5) |
 | Isolated Demands for Rigor | EX-0001 (4), EX-0009 (5), EX-0029 (5), EX-0042 (5), EX-0062 (4), EX-0079 (4), EX-0104 (4) |
-| Schrodinger's Joke | EX-0004 (4), EX-0030 (5), EX-0039 (5), EX-0066 (4), EX-0088 (4), EX-0089 (4), EX-0103 (4) |
+| Schrodinger's Joke | EX-0004 (4), EX-0030 (5), EX-0039 (5), EX-0066 (4), EX-0088 (4), EX-0089 (4), EX-0103 (4), EX-0107 (5) |
 | Unilateral Principles | EX-0006 (4), EX-0036 (5), EX-0043 (5), EX-0054 (5), EX-0070 (4), EX-0081 (4), EX-0097 (4) |
 | No-Win Framing | EX-0007 (5), EX-0028 (5), EX-0049 (5), EX-0055 (5), EX-0069 (4), EX-0082 (4), EX-0102 (4) |
-| Victim Reversal (DARVO) | EX-0014 (5), EX-0044 (5), EX-0050 (4), EX-0056 (5), EX-0067 (4), EX-0084 (4), EX-0095 (4) |
+| Victim Reversal (DARVO) | EX-0014 (5), EX-0044 (5), EX-0050 (4), EX-0056 (5), EX-0067 (4), EX-0084 (4), EX-0095 (4), EX-0108 (5) |
 | Moving Goalposts | EX-0005 (5), EX-0027 (5), EX-0032 (5), EX-0060 (4), EX-0071 (4), EX-0083 (4) |
 | Permission Structures | EX-0021 (3), EX-0037 (5), EX-0038 (5), EX-0047 (4), EX-0053 (5), EX-0059 (4), EX-0064 (4), EX-0094 (4), EX-0105 (5) |
 | Maximize Yours, Minimize Theirs | EX-0008 (4), EX-0015 (5), EX-0026 (5), EX-0033 (5), EX-0065 (4), EX-0072 (4) |

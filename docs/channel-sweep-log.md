@@ -64,3 +64,64 @@ Probed during a channel sweep. **Not ingested** — these are third-party snark 
 | `BWy2GMGAiiQ` | Destiny is Actually a Terrible Debater | 1:15 | grooming-narrative; no Dooby |
 
 If revisited: `xRztQM-ayzw` is the one worth a full ingest (snark-side characterization of Dooby), but it's commentary *about* him, not first-person.
+
+---
+
+## 2026-07-25 — JSTLK Kick chat archive (new source type)
+
+First non-YouTube, non-transcript source in the corpus: **chat replay**, not video.
+
+`kick.com/jstlk` (channel id `1083396`, 8,903 followers) confirmed as JSTLK's Kick
+channel. Aliases `jto` / `jtock` / `jaystalk` do not exist on Kick; a `justtalk`
+account exists but is empty and unrelated.
+
+**Why chat and not VODs.** Kick expires VODs after ~4 weeks but retains chat for
+12+ months (verified back to 2025-07-25; 540 days returns nothing). So for almost
+all of JSTLK's Kick history the video is already unrecoverable and the chat is the
+only surviving record. That inverts the usual archive-attrition problem — here the
+window is closing on material we can still get.
+
+**Archive:** `chat/jstlk/YYYY-MM-DD.jsonl.gz`, one gzipped JSONL file per UTC day,
+`{"t":null,"ts":"...","u":"...","m":"..."}`. `chat/` is gitignored like
+`transcripts/`. Re-runs merge and dedupe on (ts, user, message), so it is
+idempotent. Kick emote tokens `[emote:<id>:<name>]` are rewritten to bare names.
+
+**Tooling** (in the youtube-clipper plugin):
+- `kick_chat_archive.py <slug> --mode backfill|update` — channel-wide walker with
+  resume, checkpointing, and a per-channel lock.
+- `chat_replay.py <vod-url>` — single-VOD chat for YouTube/Twitch/Kick.
+
+**Scheduled:** `Snark Kick Chat Weekly` (Windows task, Mondays 13:00) runs
+`scripts/kick_chat_weekly.cmd`, which does an incremental `--mode update` per
+channel and appends to `chat/_weekly.log`. Add channels to the `CHANNELS` var.
+
+**Status:** initial full backfill in progress. Not analyzed or banked yet, and no
+EX entries derive from it.
+
+**Scope caveat.** Unlike transcripts, which capture the tracked actor speaking,
+chat logs capture thousands of uninvolved third-party chatters. Worth deciding
+what the retention/analysis boundary is before this feeds any published artifact.
+
+### 720p VOD archive — added 2026-07-25
+
+Decision: archive JSTLK's Kick VODs as video, not just transcripts, and sift for
+relevance after the fact.
+
+**Location:** `C:\kick-archive\jstlk\` (outside the vault, not gitignored because
+it is not under a repo). Each VOD gets `YYYY-MM-DD_<slug-title>_<uuid8>.mp4` plus a
+`.meta.json` sidecar carrying the real title, uuid, start time, duration and views —
+titles contain emoji and punctuation, so filenames are slugified and the sidecar is
+the authoritative record.
+
+**Cost, measured on this channel:** 6.4 streamed h/day (~2,340 h/yr). Kick GiB per
+hour: 1080p 2.77 · 720p 0.957 · 480p 0.562 · 360p 0.264 · 160p 0.096. At 720p that
+is ~2.2 TiB/yr. Initial backlog was 27 VODs / ~155 GiB. Runway on C: is roughly
+7 months; `--min-free-gb 100` stops the run at the floor instead of filling the OS
+drive. For contrast, transcript + chat alone is ~0.4 GiB/yr.
+
+**Cadence:** the weekly task has ~3 weeks of margin against Kick's ~4-week expiry.
+If it is disabled for a month, that video is unrecoverable and only chat survives.
+
+**Not yet done:** nothing here is transcribed, diarized, or banked. Transcribing the
+full archive would be ~323 GPU-hours/yr on the 2060, which competes with existing
+transcribe jobs — decide a relevance filter before committing the card to it.

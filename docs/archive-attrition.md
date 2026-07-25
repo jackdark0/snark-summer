@@ -27,6 +27,16 @@ The channel still exists under the same ID `UCKnch9nDXjDnOxp4kCmxBMQ` with 4,250
 
 Archived span was 2025-04-08 to 2026-06-16, roughly 40-56 uploads per month with no gaps, so this was an all-at-once switch rather than a gradual cleanup.
 
+### What the campaign side says about it
+
+On 2026-07-24, roughly five weeks after the last archived upload, Stardust asked JSTLK directly on stream why the channel went dark, pressing him on the grounds that "you would know, you're, you know, you employ him."
+
+He first said "I don't know. Why?", then: "I assume deleted his channel because of the prolific doxing and life ruination campaign Destiny keeps threatening, right?" — closing with "That really sucks for Ryle, huh?"
+
+Worth holding carefully. It is offered as an **assumption**, not knowledge, by someone positioned to know, and it is the only on-record explanation we have. It is a claim about motive, not a confirmed cause, and it does not tell us whether the videos were deleted or privatized (our probes say privatized). Banked as EX-0108 for the reversal move. Source: `xSqfq8VXx3U` at 1:17:28, local diarized transcript plus the YouTube auto-caption track.
+
+The useful factual residue: someone close to the channel treats the wipe as deliberate and self-initiated, which is consistent with the all-at-once pattern in the archive.
+
 What we still hold:
 
 - 631 `info.json` metadata records

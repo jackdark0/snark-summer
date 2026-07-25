@@ -1365,3 +1365,44 @@
 **What happened:** While recounting the unrelated history of Destiny's canvassing operations, Parry drops the characterization into a subordinate clause as settled background: "people were quite upset at Destiny and they tried cancing one of his events in OA. And some of that shitty and this is as well before Destiny was found out to be as much of a sexual predator as he was." The segment's actual topic is a PAC's initials; the "sexual predator" framing is not argued, sourced, or returned to.
 **Why it fits:** A contested allegation is inserted as an assumed, already-adjudicated fact ("was found out to be"), in passing, inside a story about something else. Because it is never presented as the claim under discussion it invites no scrutiny and cannot be answered, yet it sets the framing for everything downstream. That is the laundering step: the workshopped conclusion arrives as common knowledge rather than as an argument.
 **Notes:** narrative_cluster: `sexual-misconduct`. Monologue segment; attribution to Parry is clean. Wording verified verbatim against `transcripts/purple-parry-gaming/processed/20260720-Z5P-7rRC7H4.txt`. Shortly after this passage in the same stream, five people in a screenshot are collectively "deemed as crazy psychos" (Tactic 13 territory, not separately banked).
+
+---
+
+### EX-0107 | Schrodinger's Joke
+**Source:** Stardust IRL - Talking to JSTLK // Other stuff later / YouTube Live
+**Date:** 2026-07-24
+**Timestamp:** 19:07
+**Clip URL:** https://www.youtube.com/live/xSqfq8VXx3U?t=1147
+**Status:** TIMESTAMP
+
+**What happened:** Twenty minutes into a direct conversation, Stardust puts the persona to JSTLK: "you recognize your penguin avatar severely clashes with your angry personality... You sound like a psychopath with that." He answers that it is "a performance." She presses that it does not read as one — "it doesn't sound like one. It sounds like you're like actually mad." JSTLK then describes the maintenance routine: "I quite regularly stop in the middle of it and say, 'Oh, guys, if you think I'm actually mad right now,' like because I will get messaged by somebody, I'll say, 'No, we're just hamming it up. We're having fun.'"
+**Why it fits:** This is the mechanism behind Tactic 3 stated in the first person. The hostility is delivered in earnest and is understood by at least some of the audience as earnest — he concedes people message him believing he is actually mad — and the "we're just hamming it up" break is the escape hatch that retroactively reclassifies it as a bit. He is not describing occasional comedy; he is describing a standing practice of keeping both readings available.
+**Notes:** narrative_cluster: `uncategorized`. Speaker attribution from local diarization (`SPEAKER_17` = JSTLK, `SPEAKER_08` = Stardust; identified by self-reference and by JSTLK answering as the person whose avatar and persona are under discussion). Wording verified against **two independent transcripts**: the local whisper large-v3 diarization (`transcripts/stardust-irl/_transcripts/xSqfq8VXx3U.diarized.txt`) and the YouTube auto-caption track. Timestamp is the diarized one; the auto-caption track places it at 19:16. Unusual value as a self-description rather than a live instance of the tactic.
+
+---
+
+### EX-0108 | Victim Reversal (DARVO)
+**Source:** Stardust IRL - Talking to JSTLK // Other stuff later / YouTube Live
+**Date:** 2026-07-24
+**Timestamp:** 1:17:28
+**Clip URL:** https://www.youtube.com/live/xSqfq8VXx3U?t=4648
+**Status:** TIMESTAMP
+
+**What happened:** Stardust asks why the Ryle Kittenhouse channel went dark, and presses for a real answer on the grounds that he would know: "I wanted to ask you and get like a full answer from you because you would know, you're, you know, you employ him." JSTLK first says "I don't know. Why?", then answers: "I assume deleted his channel because of the prolific doxing and life ruination campaign Destiny keeps threatening, right?" He refers to "the prolific doxing from DGG / doxx.gg" and "the life ruination campaign that they're planning to... undergo," closing with "That really sucks for Ryle, huh?" Stardust immediately counters, "I mean, it sucks that he beats women, right?"
+**Why it fits:** The channel that ran much of the campaign's Destiny coverage removes itself from the internet, and the disappearance is immediately reframed as persecution — the campaign's own side cast as the party facing doxing and "life ruination." Asked a direct factual question by someone who notes he employs the person in question, he supplies an assumption that converts an unexplained self-deletion into evidence of the target's aggression. The reversal is doing the work that a factual answer would not.
+**Notes:** narrative_cluster: `lawsuit`; `platform-manipulation`. Speaker attribution from local diarization (`SPEAKER_17` = JSTLK). **Verified against two independent transcripts**, and the wording differs between them: the YouTube auto-caption track carries the hedge "I assume," which the whisper pass dropped, and renders the garbled middle clause as "the prolific doxing from DG doc.gg GG" where whisper produced "the right thing from dgg docs.gg." The quoted core above is what both transcripts agree on; the hedge is taken from the auto-caption track and the garbled clause is *(approximate)*. Timestamp is the diarized one; auto-captions place it at 1:17:32.
+
+**Documentary value beyond the tactic:** this is the campaign side's own on-record account of the `@ryle_kittenhouse` wipe recorded in `docs/archive-attrition.md`, given roughly five weeks after the channel's last archived upload (2026-06-16). Note it is offered as an assumption, not knowledge, by someone positioned to know. Treat as a claim about motive, not a confirmed cause.
+
+---
+
+### EX-0109 | Always on Offense
+**Source:** Stardust IRL - Talking to JSTLK // Other stuff later / YouTube Live
+**Date:** 2026-07-24
+**Timestamp:** 3:19:16
+**Clip URL:** https://www.youtube.com/live/xSqfq8VXx3U?t=11956
+**Status:** TIMESTAMP
+
+**What happened:** Stardust puts a specific accusation about JSTLK's own moderator to him: "Seba should not have been messaging those family members and you should not have Seba as a moderator still... you had a guy who doxed her family members and harassed her." His reply is "that is none of my business." She names the move in real time as he makes it: "you are deflecting, you are deflecting to Destiny, you are deflecting to Destiny, you're deflecting to Destiny, you are deflecting." He continues into exactly that: "That other person doxed her by using facial recognition software that required the facial picture that Destiny published... It was Destiny's choice to intentionally post multiple pieces of PII and then say Kiwi Farms find her. Go ahead and try to find her."
+**Why it fits:** The question is about his own moderator's conduct and his responsibility for retaining him. Neither is addressed. The response disclaims jurisdiction ("none of my business") and then relocates causation onto the target, so that the doxing becomes something Destiny brought about. Every branch of the reply routes back to the target's sins rather than the conduct raised.
+**Notes:** narrative_cluster: `association`. Speaker attribution from local diarization (`SPEAKER_17` = JSTLK, `SPEAKER_08` = Stardust). Wording verified against both the local whisper diarization and the YouTube auto-caption track; auto-captions place the passage at 3:19:22 and spell the third party "Blav"/"Blab" inconsistently, so no name is quoted for that person here. Stardust naming the deflection as it happens is what makes this a clean example rather than an inference. The substantive dispute over who published what is **not** adjudicated by this entry.

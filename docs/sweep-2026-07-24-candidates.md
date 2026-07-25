@@ -85,6 +85,20 @@ This is a **different kind of source** from the rest of the corpus. Most tracked
 
 Two further title-matched streams are members-only and could not be pulled: `dU4ndjGzm2I`, `qCE18cPd0Es`.
 
+### Diarization result for xSqfq8VXx3U (2026-07-25)
+
+Run through the local whisper large-v3 + pyannote pipeline; 65 min wall on the RTX 2060. Output in `transcripts/stardust-irl/_transcripts/`.
+
+- 3,837 segments, **20 speaker labels**, divergence vs YouTube captions 7.9%
+- Three labels carry 95% of the audio: `SPEAKER_08` (61%, 4h07m) and `SPEAKER_05` (9.5%) are both **Stardust**, split across two labels; `SPEAKER_17` (25%, 1h41m) is **JSTLK**. The remaining 15 labels are crosstalk fragments of a few seconds each.
+- Identification came from content, not voiceprints: Stardust narrates joining JSTLK's call and doing her makeup and mods her own chat; JSTLK answers as the person whose avatar, persona and moderator are under discussion.
+
+**The real limitation is crosstalk, not the label count.** 1,488 of 3,837 segments (39%) are flagged overlapping, and merged turns interleave both speakers mid-sentence — one labelled JSTLK turn contains his enumeration of her claims *and* her interjected "yeah" replies. Sentence-level attribution inside those turns is not reliable.
+
+Working rule applied: bank only from internally-coherent single-voice turns, and cross-check every quote against the independent YouTube auto-caption track before it goes in the bank. That second check earned its keep — it recovered the hedge "I assume" that whisper dropped from the Ryle answer, which changes how EX-0108 has to be read.
+
+Yielded **EX-0107, EX-0108, EX-0109**. A fourth strong candidate at 4:56:52 (JSTLK on nobody deserving to be doxed, which pairs against his "that is none of my business" on his own moderator for a Unilateral Principles entry) was **rejected** — too crosstalk-merged to quote cleanly.
+
 **Attribution gate before any EX entry from these.** Auto-captions mark speaker changes with `>>` but carry no speaker identity, and these are multi-party streams running 3–7 hours. Quoting JSTLK or Kuihman from them without diarization would repeat the EX-0081 failure (a wrong timestamp plus a quote that turned out not to exist). Run the whisper+diarize pipeline on a target stream first and work from the `.diarized.txt`. That is why nothing from Stardust was banked in this pass despite being the densest material in the sweep.
 
 Best first candidate for diarization: `6L029RAy80w` (Kuihman 248 hits, JSTLK 195) or `xSqfq8VXx3U` (the JSTLK conversation, both parties, only two main voices so diarization should be cleanest).
@@ -93,16 +107,21 @@ Best first candidate for diarization: `6L029RAy80w` (Kuihman 248 hits, JSTLK 195
 
 - [x] Went to the source for the Stardust/JSTLK conversation instead of waiting on secondhand captions — see the StardustIRL section above.
 - [ ] Re-pull captions for the two 2026-07-24 secondhand uploads once YouTube generates them: `aiden-underground` STARDUST VS JSTLK + WHICKTENT???, `purple-parry-gaming` Stardust vs Jstlk. Lower priority now that the first-person source is archived.
-- [ ] Diarize `6L029RAy80w` or `xSqfq8VXx3U` so JSTLK/Kuihman quotes can be attributed and banked.
+- [x] Diarized `xSqfq8VXx3U` -> EX-0107..EX-0109. See the diarization result section above.
+- [ ] Diarize `6L029RAy80w` next (Kuihman 248 hits, JSTLK 195) — likely the richest remaining Kuihman-attributable source. Expect the same crosstalk caveat.
+- [ ] Delete `transcripts/stardust-irl/_transcripts/xSqfq8VXx3U.audio.wav` (780MB cache) once no further passes are needed; the source video is public and re-downloadable.
 - [ ] Decide whether Stardust needs an entry in `docs/actor-aliases.md` beyond the current register line, and whether StardustIRL becomes a permanently tracked channel.
 - [ ] Regenerate the airtime analysis once the new captions are in; current tables predate this batch. Note `actor_airtime.py` has no `stardust-irl` entry in its ADVERSARY/COMPARISON maps yet.
 
 ## Ingested from this sweep
 
-EX-0102 through EX-0106, all TIMESTAMP status, all from single-speaker monologue segments where attribution is unambiguous:
+EX-0102 through EX-0109, all TIMESTAMP status. EX-0102..0106 come from single-speaker monologue segments on adversary channels; EX-0107..0109 come from the diarized JSTLK conversation and are the project's first entries quoting a named coordinator at length in his own voice.
 
 | Entry | Tactic | Source | Timestamp |
 |---|---|---|---|
+| EX-0107 | Schrodinger's Joke | **JSTLK** via Stardust IRL 2026-07-24 | 19:07 |
+| EX-0108 | Victim Reversal (DARVO) | **JSTLK** via Stardust IRL 2026-07-24 | 1:17:28 |
+| EX-0109 | Always on Offense | **JSTLK** via Stardust IRL 2026-07-24 | 3:19:16 |
 | EX-0102 | No-Win Framing | Kuihman 2026-07-22 | 7:15 |
 | EX-0103 | Schrodinger's Joke | Purple Parry 2026-07-04 | 3:26:40 |
 | EX-0104 | Isolated Demands for Rigor | Purple Parry 2026-07-04 | 3:29:59 |

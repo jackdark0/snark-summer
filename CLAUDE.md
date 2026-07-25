@@ -125,7 +125,7 @@ Source naming rule: prefer metadata when available. Use the channel/uploader nam
 
 Duplicate handling rule: many later videos are review streams or clip reviews of earlier videos. Treat those as secondhand by default. Do not add a new EX entry when the underlying event, tactic, and key wording are already covered. Prefer the canonical source with the clearest evidence: original/primary footage first, then earliest upload, then best audio/transcript quality. A review video can become a separate example only if it adds a distinct tactic move, such as new permission framing, narrative laundering, audience routing, minimization, or a separate denial/reversal. In that case, note the relationship in `**Notes:**`, e.g. `secondhand review of EX-####; added for new laundering frame`.
 
-When adding examples, assign the next available `EX-####` ID. Current highest: `EX-0106`.
+When adding examples, assign the next available `EX-####` ID. Current highest: `EX-0109`.
 
 ---
 
@@ -254,13 +254,15 @@ Do not read raw transcripts unless explicitly asked to process them.
 - Purple Parry Gaming triage pass — EX-0091–EX-0096 documented (bank declared **uncapped** at this point)
 - **Local high-fidelity re-transcription + verification pass (2026-06-16):** all 54 live KuihmanLive videos re-transcribed via the youtube-clipper whisper+diarize pipeline (outputs in `transcripts/kuihman-live/_transcripts/`, gitignored). Bank entries from the auto-caption scans are being verified verbatim against these local transcripts and carry "wording verified" notes as checked (so far: gi1M, I697f4pNk48, hPba9Hu2ltg, iaGkqiDHY24, 5P--7ZRZaz8 → 27 entries). **Correction made:** EX-0081 had a wrong timestamp (16:41 → 58:30) and a fabricated "deserve to sweat" quote, both fixed. Net-new scan of the rest of the channel yielded no new entries (off-topic DeOrio/H3/commentary drama or already covered).
 
+- **JSTLK diarization pass (2026-07-25):** `xSqfq8VXx3U` (Stardust IRL, "Talking to JSTLK", 6h46m) run through the local whisper+diarize pipeline so a named coordinator could be quoted safely. Yielded **EX-0107–EX-0109**, the project's first entries sourced from JSTLK speaking first-person at length. Diarization reported 20 speaker labels but three carry 95% of the audio: `SPEAKER_08`/`SPEAKER_05` = Stardust (host, split across two labels), `SPEAKER_17` = JSTLK. **1,488 of 3,837 segments are flagged crosstalk (39%)**, and merged turns interleave both speakers mid-sentence, so only internally-coherent single-voice turns were banked and every quote was cross-checked against the independent YouTube auto-caption track. Do not quote this transcript at sentence level without that second check.
+
 - **Channel re-scrape (2026-07-24):** first sweep since 2026-06-17. All 8 tracked channels re-enumerated and diffed against the local archive; **94 new videos pulled** (92 with captions). Ranked ingest queue in `docs/sweep-2026-07-24-candidates.md`, sweep record in `docs/channel-sweep-log.md`. Nothing ingested into the bank yet.
 
 **Source availability:** channels privatize content, and the local archive is authoritative — **never delete from `transcripts/` to match a live channel listing, and never treat a missing video as one that was hallucinated.** Losses are tracked in `docs/archive-attrition.md`. Biggest one: `@ryle_kittenhouse` renamed itself to `justtalk_archive` and privatized its **entire 631-video catalog**, so our copy is the only accessible one and it is single-copy on one machine. 14 bank entries (EX-0041–EX-0056) cite now-dead Ryle links and carry a `**Source status:**` line pointing at the local transcript that still verifies the quote.
 
-**Active examples:** EX-0001–EX-0015, EX-0018, EX-0021, EX-0026–EX-0106 minus the 3 duplicates below (95 active)
+**Active examples:** EX-0001–EX-0015, EX-0018, EX-0021, EX-0026–EX-0109 minus the 3 duplicates below (98 active)
 **Retired IDs (do not reuse):** EX-0016, EX-0017, EX-0019, EX-0020, EX-0022–EX-0025 (removed); EX-0052, EX-0058, EX-0080 (flagged in place as duplicates of EX-0004, EX-0010, EX-0039 respectively)
-**Next available ID:** EX-0107
+**Next available ID:** EX-0110
 **Score audit:** `docs/tactic-example-score-audit.md`
 **Actor/entity register:** `docs/actor-aliases.md`
 **Actor classification queue:** `docs/actor-classification-queue.md`
