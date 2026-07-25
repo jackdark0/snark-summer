@@ -128,6 +128,39 @@ So the Kuihman keyword density that made this look attractive is people *discuss
 
 Also of note: the corpus renders Kuihman as **"Queeman"/"Queenman"** and JSTLK as **"Jay Stock"/"Jtock"** in both whisper and auto-captions. Neither name appears spelled correctly anywhere in either transcript. Any future keyword tooling needs those variants or it will silently miss both actors.
 
+### PKP6bGriRTI screened and rejected without diarizing (2026-07-25)
+
+The "BIG DEBATE: Destiny, Dan, JSTLK, Kuihman, Chudlogic" title lists who is in the video **being watched**, not who is on the call. Its own opening gives it away:
+
+> "What are they debating about? Oh, we'll have to find out... the full thing is up probably on Chud Logic's — Here, let's see. Hello chat... What are they debating about? I don't really know quite myself."
+
+Worse than `6L029RAy80w` for our purposes: it is a hybrid, a played debate plus live callers later ("I'm letting you in. Hello? Can you hear me?"), so the audio mixes a multi-speaker recording with a multi-speaker call. Cost to determine this: about two minutes of grepping captions, against the ~40 minutes of GPU the previous rejection cost.
+
+### Whole-corpus screen — the Stardust seam is exhausted
+
+`scripts/presence_screen.py <channel-slug> [actor ...]` runs the check cheaply over every archived video on a channel. Results for `stardust-irl`, showing mentions/second-person-addresses:
+
+| video | react | live | kuihman | jstlk | note |
+|---|---|---|---|---|---|
+| 20260724-xSqfq8VXx3U | 5 | 4 | 12/0 | **48/7** | real conversation, already banked |
+| 20260522-6L029RAy80w | 11 | 3 | 85/0 | 40/0 | react — diarized, nothing usable |
+| 20260515-PKP6bGriRTI | 5 | 2 | 23/2 | 5/0 | watch-along, rejected on the screen |
+| 20260529-Ib33d0swWB4 | 5 | 0 | 35/0 | 31/0 | react |
+| 20260602-LYW3pBnc4e8 | 1 | 2 | 5/0 | 65/0 | JSTLK discussed, never addressed |
+| 20260516-1bLOjfDkwOE | 2 | 1 | 9/0 | 0/0 | react |
+| 20260721-BhFrTq8RLww | 5 | 2 | 2/0 | 10/0 | react |
+| 20260224-75V4BUtKnxM | 0 | 2 | 12/0 | 4/1 | watch-along of a Chudlogic debate |
+| others | | | 0/0 | 0/0 | Libcon/panel, off-topic |
+
+**`xSqfq8VXx3U` was the only genuine first-person conversation in the set, and it is already banked as EX-0107–EX-0109.** There is no Kuihman-attributable source here at all: he is discussed constantly and addressed never, except inside recordings of other people's debates.
+
+Two limits on the screen, both observed rather than assumed, and both noted in the script:
+
+- The react/live composite misfires on hybrids. `xSqfq8VXx3U` scores REACT despite being the one that worked, because it has react segments too. Treat the verdict as a hint and the second-person column as the evidence.
+- Second-person address is necessary but not sufficient. When the played video is itself a debate, the recording contains people addressing your actor directly — `PKP6bGriRTI` shows "Queenman, you're lost" spoken *inside the VOD*. High mentions with zero address reliably means absent; non-zero address means read the opening two minutes before committing GPU time.
+
+**Where a Kuihman first-person source would actually come from:** his own channel. `kuihman-live` is already archived (505 videos, 14 new this sweep) and is solo commentary, where attribution needs no diarization at all — that is how EX-0102 was banked. The diarization detour was worth trying for JSTLK, who has no comparable archived channel here, but for Kuihman the cheaper path was always the one already in the corpus.
+
 **Attribution gate before any EX entry from these.** Auto-captions mark speaker changes with `>>` but carry no speaker identity, and these are multi-party streams running 3–7 hours. Quoting JSTLK or Kuihman from them without diarization would repeat the EX-0081 failure (a wrong timestamp plus a quote that turned out not to exist). Run the whisper+diarize pipeline on a target stream first and work from the `.diarized.txt`. That is why nothing from Stardust was banked in this pass despite being the densest material in the sweep.
 
 Both `xSqfq8VXx3U` and `6L029RAy80w` have now been diarized; results and the selection rule that came out of them are in the two sections above.
@@ -138,7 +171,8 @@ Both `xSqfq8VXx3U` and `6L029RAy80w` have now been diarized; results and the sel
 - [ ] Re-pull captions for the two 2026-07-24 secondhand uploads once YouTube generates them: `aiden-underground` STARDUST VS JSTLK + WHICKTENT???, `purple-parry-gaming` Stardust vs Jstlk. Lower priority now that the first-person source is archived.
 - [x] Diarized `xSqfq8VXx3U` -> EX-0107..EX-0109. See the diarization result section above.
 - [x] Diarized `6L029RAy80w` — **negative result, nothing banked**. It is a react stream; Kuihman is not present. See the section above.
-- [ ] Still no Kuihman-attributable first-person source. `PKP6bGriRTI` (BIG DEBATE: Destiny, Dan, JSTLK, Kuihman, Chudlogic) is the remaining candidate — the title implies participation rather than reaction, but verify presence before diarizing.
+- [x] Screened `PKP6bGriRTI` — **rejected without diarizing**, it is a watch-along. Whole `stardust-irl` corpus screened with `scripts/presence_screen.py`; `xSqfq8VXx3U` was the only real conversation and is already banked. No further diarization targets on this channel.
+- [ ] For Kuihman first-person, work `kuihman-live` directly — solo commentary needs no diarization (that is how EX-0102 was banked). 14 new videos from this sweep are unread.
 - [ ] Delete the two `.audio.wav` caches in `transcripts/stardust-irl/_transcripts/` (~1.5GB total) when done; both source videos are public.
 - [ ] Decide whether Stardust needs an entry in `docs/actor-aliases.md` beyond the current register line, and whether StardustIRL becomes a permanently tracked channel.
 - [ ] Regenerate the airtime analysis once the new captions are in; current tables predate this batch. Note `actor_airtime.py` has no `stardust-irl` entry in its ADVERSARY/COMPARISON maps yet.
