@@ -66,7 +66,9 @@ This is a queue, not an ingest. Nothing here has been read, quoted, or added to 
 
 Followed up on the two caption-less 2026-07-24 uploads (both secondhand coverage of a Stardust/JSTLK conversation) by going to the source. `@StardustIRL` (`UC89YtRSTserHOSo_KTVBvlw`, 3,050 subs) had the conversation itself, with captions. 12 of her on-topic streams are now archived in `transcripts/stardust-irl/`.
 
-This is a **different kind of source** from the rest of the corpus. Most tracked channels are adversary hosts talking *about* the arc. These are streams where JSTLK, Kuihman and Chudlogic are **present and speaking first-person**, hosted target-side.
+This is a **different kind of source** from the rest of the corpus. Most tracked channels are adversary hosts talking *about* the arc; some of these are streams where a coordinator is **present and speaking first-person**, hosted target-side.
+
+**Corrected 2026-07-25:** an earlier draft of this line claimed JSTLK, Kuihman and Chudlogic are all present across these streams. That was inferred from titles and keyword density and is wrong. Diarizing two of them showed `xSqfq8VXx3U` really is a JSTLK conversation, but `6L029RAy80w` is a **react stream** where Kuihman is only being replayed. Presence has to be checked per video, not assumed from the title.
 
 | Date | ID | Duration | Destiny time | % | Heaviest actors | Title |
 |---|---|---|---|---|---|---|
@@ -99,17 +101,45 @@ Working rule applied: bank only from internally-coherent single-voice turns, and
 
 Yielded **EX-0107, EX-0108, EX-0109**. A fourth strong candidate at 4:56:52 (JSTLK on nobody deserving to be doxed, which pairs against his "that is none of my business" on his own moderator for a Unilateral Principles entry) was **rejected** — too crosstalk-merged to quote cleanly.
 
+### Diarization result for 6L029RAy80w (2026-07-25) — NEGATIVE, nothing banked
+
+Run on the strength of its keyword profile (Kuihman 248 hits, JSTLK 195, 32.9% Destiny mention-time). 39 min wall. **No entries came out of it, and the reason is worth recording so the next person does not spend the GPU time again.**
+
+**Neither Kuihman nor JSTLK is present.** This is a react/watch-along stream. The participants are playing Kuihman's VODs and talking over them:
+
+- 1:23:55 — "Are you watching Queeman VODs instead of Dicker's VODs? Yeah, I thought I'd return the favor, right, since he used to do that to me."
+- 3:44:45 — "I legit forgot we were watching Queeman... Queeman is terrible at reacting to things."
+- 1:58:47 — "is jay stock alive right now... jay stock didn't want to call into the stream yesterday" — JSTLK is in chat at most, not on the call.
+
+So the Kuihman keyword density that made this look attractive is people *discussing and replaying* him, not him speaking.
+
+**That creates a confound diarization cannot solve.** Any Kuihman speech in the audio is played VOD content, and pyannote assigns it speaker labels indistinguishable from live participants. A turn can look perfectly clean and still be a recording of someone who was never in the room. Attributing a quote to a named person here would need manual audio review, not a transcript pass.
+
+**The mess is measurable**, compared against the 1v1 `xSqfq8VXx3U`:
+
+| | xSqfq8VXx3U (1v1) | 6L029RAy80w (react) |
+|---|---|---|
+| labels covering 95% of words | 3 | 7 |
+| total labels | 20 | 44 |
+| low-confidence segments | 35 | **647** |
+| divergence vs YouTube captions | 7.9% | 11.2% |
+
+**Selection rule going forward:** diarize conversations, not reactions. Before spending an hour of GPU, check that the people you want to quote are *in the call*. Keyword density does not distinguish "he is talking" from "they are talking about him," and for this corpus — where most channels are commentary over played clips — the second is the common case. A title like "Talking to X" is a much better signal than a high mention count.
+
+Also of note: the corpus renders Kuihman as **"Queeman"/"Queenman"** and JSTLK as **"Jay Stock"/"Jtock"** in both whisper and auto-captions. Neither name appears spelled correctly anywhere in either transcript. Any future keyword tooling needs those variants or it will silently miss both actors.
+
 **Attribution gate before any EX entry from these.** Auto-captions mark speaker changes with `>>` but carry no speaker identity, and these are multi-party streams running 3–7 hours. Quoting JSTLK or Kuihman from them without diarization would repeat the EX-0081 failure (a wrong timestamp plus a quote that turned out not to exist). Run the whisper+diarize pipeline on a target stream first and work from the `.diarized.txt`. That is why nothing from Stardust was banked in this pass despite being the densest material in the sweep.
 
-Best first candidate for diarization: `6L029RAy80w` (Kuihman 248 hits, JSTLK 195) or `xSqfq8VXx3U` (the JSTLK conversation, both parties, only two main voices so diarization should be cleanest).
+Both `xSqfq8VXx3U` and `6L029RAy80w` have now been diarized; results and the selection rule that came out of them are in the two sections above.
 
 ## Follow-ups
 
 - [x] Went to the source for the Stardust/JSTLK conversation instead of waiting on secondhand captions — see the StardustIRL section above.
 - [ ] Re-pull captions for the two 2026-07-24 secondhand uploads once YouTube generates them: `aiden-underground` STARDUST VS JSTLK + WHICKTENT???, `purple-parry-gaming` Stardust vs Jstlk. Lower priority now that the first-person source is archived.
 - [x] Diarized `xSqfq8VXx3U` -> EX-0107..EX-0109. See the diarization result section above.
-- [ ] Diarize `6L029RAy80w` next (Kuihman 248 hits, JSTLK 195) — likely the richest remaining Kuihman-attributable source. Expect the same crosstalk caveat.
-- [ ] Delete `transcripts/stardust-irl/_transcripts/xSqfq8VXx3U.audio.wav` (780MB cache) once no further passes are needed; the source video is public and re-downloadable.
+- [x] Diarized `6L029RAy80w` — **negative result, nothing banked**. It is a react stream; Kuihman is not present. See the section above.
+- [ ] Still no Kuihman-attributable first-person source. `PKP6bGriRTI` (BIG DEBATE: Destiny, Dan, JSTLK, Kuihman, Chudlogic) is the remaining candidate — the title implies participation rather than reaction, but verify presence before diarizing.
+- [ ] Delete the two `.audio.wav` caches in `transcripts/stardust-irl/_transcripts/` (~1.5GB total) when done; both source videos are public.
 - [ ] Decide whether Stardust needs an entry in `docs/actor-aliases.md` beyond the current register line, and whether StardustIRL becomes a permanently tracked channel.
 - [ ] Regenerate the airtime analysis once the new captions are in; current tables predate this batch. Note `actor_airtime.py` has no `stardust-irl` entry in its ADVERSARY/COMPARISON maps yet.
 
