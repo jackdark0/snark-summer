@@ -1,4 +1,11 @@
-clips/
+# clips/* rather than clips/ so the exception below can re-include a subdirectory
+# (git cannot re-include anything inside an excluded directory).
+clips/*
+# Exception: the Ryle Kittenhouse channel privatized its entire catalog, so these
+# clips are the only surviving video and cannot be re-downloaded. Keep them
+# tracked so `git clean -xdf` can't remove them. See clips/ryle-kittenhouse/PROTECTED.md
+!clips/ryle-kittenhouse/
+
 __pycache__/
 *.pyc
 
