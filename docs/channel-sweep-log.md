@@ -24,7 +24,17 @@ First sweep since 2026-06-17 (whick-tv had been topped up to 2026-07-03). Enumer
 | ryle-kittenhouse | 631 | 0 | **631** | whole channel privatized + renamed |
 | whick-tv | 504 | 30 | 0 | |
 
-Two 2026-07-24 uploads (`aiden-underground` STARDUST VS JSTLK + WHICKTENT???, `purple-parry-gaming` Stardust vs Jstlk) have no auto-captions yet. Re-pull them in a day or two.
+Two 2026-07-24 uploads (`aiden-underground` STARDUST VS JSTLK + WHICKTENT???, `purple-parry-gaming` Stardust vs Jstlk) had no auto-captions yet. Rather than wait, the underlying conversation was pulled from the source channel — see StardustIRL below.
+
+### StardustIRL — new archive, 2026-07-25
+
+`@StardustIRL` / `UC89YtRSTserHOSo_KTVBvlw` (3,050 subs). **12 on-topic streams archived** to `transcripts/stardust-irl/`; 2 more are members-only. Not previously tracked.
+
+Distinct from the rest of the corpus: these are streams where JSTLK, Kuihman and Chudlogic appear and speak **first-person**, hosted target-side, rather than adversary hosts narrating the arc. Densest material in the whole sweep — `xSqfq8VXx3U` (Talking to JSTLK, 6h46m) and `6L029RAy80w` (THE GIRLS ARE STILL FIGHTING PART 3, 6h28m) each run 32.9% Destiny mention-time, with Kuihman at 248 keyword hits in the latter.
+
+Nothing banked from it yet. These are 3–7 hour multi-party streams and auto-captions carry no speaker identity, so quoting a named coordinator needs diarization first. Full table and the attribution gate are in `docs/sweep-2026-07-24-candidates.md`.
+
+Not yet added to the tracked-channel list at the top of this file, or to the ADVERSARY/COMPARISON maps in `scripts/actor_airtime.py` — decide that before the next sweep.
 
 **The archive was never a full mirror.** The diff surfaced ~46 un-archived videos that sit *below* each channel's high-water mark, dated 2023–2024, i.e. a pre-existing historical gap rather than new uploads. These were deliberately not fetched, since "since our last scrape" means new material. Counts: whick-tv 22, liquid-sonic 12, kuihman-live 11, purple-parry-gaming 1. Note this contradicts the "full `/videos`+`/streams` pull" claim in `docs/airtime-analysis/README.md`; the airtime denominators are a filtered set, not the whole channel. Ranking conclusions are probably unaffected (they were shown invariant to filtered→full), but the wording should be corrected.
 

@@ -62,8 +62,51 @@ This is a queue, not an ingest. Nothing here has been read, quoted, or added to 
 
 **Kuihman 2026-07-22 is the densest single item.** `Destiny's Tie Was WAY TOO LONG!` runs 64.2% Destiny mention-time, the highest density in the batch, though the video is short.
 
+## StardustIRL — new source, added 2026-07-25
+
+Followed up on the two caption-less 2026-07-24 uploads (both secondhand coverage of a Stardust/JSTLK conversation) by going to the source. `@StardustIRL` (`UC89YtRSTserHOSo_KTVBvlw`, 3,050 subs) had the conversation itself, with captions. 12 of her on-topic streams are now archived in `transcripts/stardust-irl/`.
+
+This is a **different kind of source** from the rest of the corpus. Most tracked channels are adversary hosts talking *about* the arc. These are streams where JSTLK, Kuihman and Chudlogic are **present and speaking first-person**, hosted target-side.
+
+| Date | ID | Duration | Destiny time | % | Heaviest actors | Title |
+|---|---|---|---|---|---|---|
+| 2026-07-24 | xSqfq8VXx3U | 6h46m | 133m49s | 32.9% | jstlk 183, stardust 173, lawsuit 109 | Talking to JSTLK // Other stuff later |
+| 2026-05-22 | 6L029RAy80w | 6h28m | 127m52s | 32.9% | kuihman 248, jstlk 195, snark 113 | THE GIRLS ARE STILL FIGHTING. PART 3. |
+| 2026-05-15 | PKP6bGriRTI | 4h56m | 55m20s | 18.7% | stardust 69, kuihman 50 | BIG DEBATE: Destiny, Dan, JSTLK, Kuihman, Chudlogic, and more |
+| 2026-05-29 | Ib33d0swWB4 | 6h38m | 45m01s | 11.3% | lonerbox 188, snark 138, jstlk 118, lawsuit 117 | THE GIRLS ARE FIGHTING. [Hunter Biden, Sewer Snark, Etc] |
+| 2026-06-02 | LYW3pBnc4e8 | 3h11m | 28m44s | 15.0% | jstlk 247, stardust 78, notsoerudite 55 | THE GIRLS ARE FIGHTING. [JSTLK RAN] |
+| 2026-07-17 | tz3e7v3YYk8 | 3h10m | 25m04s | 13.1% | stardust 54 | Libcon Day 2 (with DGG) |
+| 2026-05-16 | 1bLOjfDkwOE | 4h03m | 21m57s | 9.0% | stardust 82, dooby 60, kuihman 28 | The Sewer Snark Community (JSTLK, Chudlogic, Kuihman, & More) |
+| 2026-07-21 | BhFrTq8RLww | 2h07m | 19m22s | 15.2% | stardust 76, snark 71, jstlk 33 | ADDRESSING THE ALLEGATIONS [SNARKING] |
+| 2026-02-24 | 75V4BUtKnxM | 3h47m | 11m05s | 4.9% | stardust 34, kuihman 34 | Chudlogic vs. Nick Deorio // Talking smack about Kuihman |
+| 2026-07-17 | lsTYcM8j1FY | 2h30m | 3m19s | 2.2% | stardust 37 | DC DGG-GENERATES (Libcon Night 1) |
+| 2026-04-17 | CaZrgIhXSX0 | 2h21m | 2m44s | 1.9% | stardust 78 | LIVE on Whick's Panel! Politics, Liberalism, & More |
+| 2026-07-17 | avpOrzP6UFE | 0h12m | 0m00s | 0.0% | — | DC DGG-GENERATES (Libcon Night 1) — short duplicate |
+
+Two further title-matched streams are members-only and could not be pulled: `dU4ndjGzm2I`, `qCE18cPd0Es`.
+
+**Attribution gate before any EX entry from these.** Auto-captions mark speaker changes with `>>` but carry no speaker identity, and these are multi-party streams running 3–7 hours. Quoting JSTLK or Kuihman from them without diarization would repeat the EX-0081 failure (a wrong timestamp plus a quote that turned out not to exist). Run the whisper+diarize pipeline on a target stream first and work from the `.diarized.txt`. That is why nothing from Stardust was banked in this pass despite being the densest material in the sweep.
+
+Best first candidate for diarization: `6L029RAy80w` (Kuihman 248 hits, JSTLK 195) or `xSqfq8VXx3U` (the JSTLK conversation, both parties, only two main voices so diarization should be cleanest).
+
 ## Follow-ups
 
-- [ ] Re-pull captions for the two 2026-07-24 uploads once YouTube generates them: `aiden-underground` STARDUST VS JSTLK + WHICKTENT???, `purple-parry-gaming` Stardust vs Jstlk.
-- [ ] Decide whether Stardust needs an entry in `docs/actor-aliases.md` beyond the current register line.
-- [ ] Regenerate the airtime analysis once the new captions are in; current tables predate this batch.
+- [x] Went to the source for the Stardust/JSTLK conversation instead of waiting on secondhand captions — see the StardustIRL section above.
+- [ ] Re-pull captions for the two 2026-07-24 secondhand uploads once YouTube generates them: `aiden-underground` STARDUST VS JSTLK + WHICKTENT???, `purple-parry-gaming` Stardust vs Jstlk. Lower priority now that the first-person source is archived.
+- [ ] Diarize `6L029RAy80w` or `xSqfq8VXx3U` so JSTLK/Kuihman quotes can be attributed and banked.
+- [ ] Decide whether Stardust needs an entry in `docs/actor-aliases.md` beyond the current register line, and whether StardustIRL becomes a permanently tracked channel.
+- [ ] Regenerate the airtime analysis once the new captions are in; current tables predate this batch. Note `actor_airtime.py` has no `stardust-irl` entry in its ADVERSARY/COMPARISON maps yet.
+
+## Ingested from this sweep
+
+EX-0102 through EX-0106, all TIMESTAMP status, all from single-speaker monologue segments where attribution is unambiguous:
+
+| Entry | Tactic | Source | Timestamp |
+|---|---|---|---|
+| EX-0102 | No-Win Framing | Kuihman 2026-07-22 | 7:15 |
+| EX-0103 | Schrodinger's Joke | Purple Parry 2026-07-04 | 3:26:40 |
+| EX-0104 | Isolated Demands for Rigor | Purple Parry 2026-07-04 | 3:29:59 |
+| EX-0105 | Permission Structures | AidenUnderground 2026-07-22 | 2:25:30 |
+| EX-0106 | Narrative Laundering | Purple Parry 2026-07-20 | 27:18 |
+
+Everything else in the Tier A/B tables above is still unread. The limiting factor is not signal, it is speaker attribution: the highest-density passages are multi-party debate and call-in segments where auto-captions cannot tell you who is talking.
