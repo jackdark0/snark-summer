@@ -5,6 +5,31 @@ Project-level record of channels probed/swept and their disposition (archived, i
 ## locally archived channels (captions/metadata on disk under `transcripts/`)
 `aiden-underground` · `kuihman-live` · `liquid-sonic` · `mrow-live` · `notsoerudite` · `purple-parry-gaming` · `ryle-kittenhouse` · `whick-tv`. Plus session ingests: `dooby-fbi-interviews` (the 4 Dooby videos), `whick-callin-2025AUG26`. (`transcripts/` is gitignored — local only.)
 
+Channels delete and privatize content, so the local archive is treated as authoritative and is never pruned to match a live listing. Availability losses are tracked in `docs/archive-attrition.md`. As of 2026-07-24 the `ryle-kittenhouse` catalog is public nowhere and exists only here.
+
+---
+
+## 2026-07-24 — re-scrape of all tracked channels
+
+First sweep since 2026-06-17 (whick-tv had been topped up to 2026-07-03). Enumerated `/videos` + `/streams` for all 8 archived channels with `yt-dlp --flat-playlist`, diffed against `transcripts/<channel>/raw/`, and pulled captions + metadata for everything newer than each channel's high-water mark. **94 new videos fetched, 92 with captions.** Availability losses are recorded in `docs/archive-attrition.md`.
+
+| Channel | Archived before | New fetched | Now private | Notes |
+|---|---|---|---|---|
+| aiden-underground | 52 | 16 | 13 | privatized block 2026-03-27→05-05 |
+| kuihman-live | 505 | 14 | 0 | `/streams` tab now merged into `/videos` |
+| liquid-sonic | 2 | 3 | 0 | still a partial pull, see below |
+| mrow-live | 47 | 1 | 1 | |
+| notsoerudite | 113 | 2 | 0 | 15 members-only, not pullable |
+| purple-parry-gaming | 373 | 28 | 0 | 7 members-only, 1 age-gated |
+| ryle-kittenhouse | 631 | 0 | **631** | whole channel privatized + renamed |
+| whick-tv | 504 | 30 | 0 | |
+
+Two 2026-07-24 uploads (`aiden-underground` STARDUST VS JSTLK + WHICKTENT???, `purple-parry-gaming` Stardust vs Jstlk) have no auto-captions yet. Re-pull them in a day or two.
+
+**The archive was never a full mirror.** The diff surfaced ~46 un-archived videos that sit *below* each channel's high-water mark, dated 2023–2024, i.e. a pre-existing historical gap rather than new uploads. These were deliberately not fetched, since "since our last scrape" means new material. Counts: whick-tv 22, liquid-sonic 12, kuihman-live 11, purple-parry-gaming 1. Note this contradicts the "full `/videos`+`/streams` pull" claim in `docs/airtime-analysis/README.md`; the airtime denominators are a filtered set, not the whole channel. Ranking conclusions are probably unaffected (they were shown invariant to filtered→full), but the wording should be corrected.
+
+Liquid Sonic remains the weak spot flagged in the airtime caveats: 5 archived of 39 listed. Still not safe to quote its percentage.
+
 ---
 
 ## external / off-archive channels probed — PARKED (not ingested)
