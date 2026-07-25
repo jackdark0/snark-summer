@@ -36,12 +36,24 @@ What we still hold:
 
 This is now the project's only route to that channel's content.
 
-Copies as of 2026-07-25, both on the same machine:
+### What is preserved where
 
-- working copy: `transcripts/ryle-kittenhouse/` (gitignored)
-- vault backup: `C:\Users\User\Desktop\research-memes-BACKUP-20260716\misc-cringe\daliban\snark-summer\transcripts\ryle-kittenhouse\` — verified same file counts (2,499 raw, 621 processed)
+Commit `37e1520` had already force-added most of the Ryle text archive before the blanket `transcripts/` ignore took effect, so the analysis-critical material is **already off-machine on GitHub**:
 
-So there is redundancy against accidental deletion but **no off-machine copy**. A drive failure still loses the whole thing. Getting one copy onto external or cloud storage remains the highest-value follow-up from the sweep.
+| Asset | Local | On GitHub | Desktop backup |
+|---|---|---|---|
+| processed reading transcripts | 621 | **621** | 621 |
+| `clean.vtt` (deduped, timestamped) | 621 | **621** | 621 |
+| `ryle-metadata.tsv` (id, date, duration, views, title, url, description) | yes | **yes** | yes |
+| clips (MP4) | 6 | **6** (added 2026-07-25) | 6 |
+| per-video `info.json` | 632 | 41 | 632 |
+| raw `en.vtt` / `en-orig.vtt` | 621 / 620 | 40 / 40 | 621 / 620 |
+
+Desktop backup path: `C:\Users\User\Desktop\research-memes-BACKUP-20260716\misc-cringe\daliban\snark-summer\transcripts\ryle-kittenhouse\`.
+
+**Assessment:** every quote in the example bank can be re-verified from GitHub alone, because the processed transcripts and the timestamped `clean.vtt` set are both complete there. What is *not* off-machine is the bulk per-video `info.json` metadata and the pre-dedup raw captions — but `ryle-metadata.tsv` carries the same fields that the bank actually uses (title, date, duration, url), and `clean.vtt` supersedes the raw captions for analysis. So a disk failure would cost provenance detail and re-derivation convenience, not the evidence.
+
+Earlier drafts of this doc called the archive single-copy. That was wrong on two counts: there is a Desktop backup, and the important part was already pushed.
 
 Ten archived videos never had captions pulled and are metadata-only; those are unrecoverable now.
 
@@ -90,6 +102,7 @@ Pulling these needs `--cookies-from-browser` against a signed-in account, and me
 
 ## Follow-ups
 
-- [ ] Back up `transcripts/ryle-kittenhouse/` somewhere off this machine. It is single-copy and the source is gone.
+- [x] Confirm off-machine preservation. Processed transcripts, `clean.vtt`, `ryle-metadata.tsv` and the clips are all on GitHub; a Desktop backup holds the full raw set too.
+- [ ] Optional: push the remaining 591 `info.json` records so per-video provenance survives a disk failure. Low priority — `ryle-metadata.tsv` already covers the fields the bank cites.
 - [ ] Re-verify aiden and mrow privatized IDs on the next sweep to catch anything that goes public again.
 - [ ] Decide whether any EX bank entry cites a now-private video. If so, note the source as privatized so the dead link is not read as a fabricated citation.
