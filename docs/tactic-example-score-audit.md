@@ -112,22 +112,27 @@ Earmark rule: preserve every example scored 3 or higher for possible future use.
 | EX-0096 | Cross-Community Infiltration | 4 | Creator-to-audience reporting signal moves a dispute into platform enforcement; capped until audio verification. |
 | EX-0097 | Unilateral Principles | 4 | Verified-wording self-exempting standard on "calling out" vs doxing; crosstalk caveat (score backfilled 2026-06-24 — adjust if desired). |
 | EX-0098 | Narrative Laundering | 3 | Verified speaker/wording, but indirect: Dooby launders snark-chat chatter against a Destiny-adjacent target (ZipZip) while disclaiming it; defensive recount, earmark-level not flagship. |
+| EX-0102 | No-Win Framing | 4 | Both-ways framing verified verbatim in solo commentary; clean attribution, no clip yet. |
+| EX-0103 | Schrodinger's Joke | 4 | Explicit retreat hatch ("some may be hyperbolic for jokes") alongside asserted allegation; verified verbatim, monologue. |
+| EX-0104 | Isolated Demands for Rigor | 4 | Self-admitted "skitso" theory accepted while viewer correction dismissed as fabrication; verified verbatim, pairs with EX-0103. |
+| EX-0105 | Permission Structures | 5 | Rapist analogy built then formally disclaimed to license publishing without consent; textbook deniability move, verified verbatim. |
+| EX-0106 | Narrative Laundering | 4 | Contested allegation inserted as settled background in a subordinate clause; verified verbatim, strong laundering illustration. |
 
 ## Score-5 Coverage
 
 | Tactic | Score-5 examples |
 |---|---|
 | Always on Offense | EX-0002, EX-0031, EX-0045 |
-| Isolated Demands for Rigor | EX-0009, EX-0029, EX-0042 |
-| Schrodinger's Joke | EX-0030, EX-0039 (EX-0052 retired — dup of EX-0004) |
+| Isolated Demands for Rigor | EX-0009, EX-0029, EX-0042, EX-0104 (4) |
+| Schrodinger's Joke | EX-0030, EX-0039 (EX-0052 retired — dup of EX-0004), EX-0103 (4) |
 | Unilateral Principles | EX-0036, EX-0043, EX-0054 |
-| No-Win Framing | EX-0007, EX-0028, EX-0049, EX-0055 |
+| No-Win Framing | EX-0007, EX-0028, EX-0049, EX-0055, EX-0102 (4) |
 | Victim Reversal (DARVO) | EX-0014, EX-0044, EX-0056 |
 | Moving Goalposts | EX-0005, EX-0027, EX-0032 |
-| Permission Structures | EX-0037, EX-0038, EX-0053 |
+| Permission Structures | EX-0037, EX-0038, EX-0053, EX-0105 (5) |
 | Maximize Yours, Minimize Theirs | EX-0015, EX-0026, EX-0033 |
 | Fragmentation | EX-0003, EX-0035, EX-0040 |
-| Narrative Laundering | EX-0011, EX-0041, EX-0057 |
+| Narrative Laundering | EX-0011, EX-0041, EX-0057, EX-0106 (4) |
 | Cross-Community Infiltration | EX-0010, EX-0018 (EX-0058 retired — dup of EX-0010) |
 | Paint Them as Crazy | EX-0012, EX-0013, EX-0034 |
 
@@ -136,16 +141,16 @@ Earmark rule: preserve every example scored 3 or higher for possible future use.
 | Tactic | Earmarked examples |
 |---|---|
 | Always on Offense | EX-0002 (5), EX-0031 (5), EX-0045 (5), EX-0068 (4), EX-0077 (4), EX-0078 (4), EX-0091 (4) |
-| Isolated Demands for Rigor | EX-0001 (4), EX-0009 (5), EX-0029 (5), EX-0042 (5), EX-0062 (4), EX-0079 (4) |
-| Schrodinger's Joke | EX-0004 (4), EX-0030 (5), EX-0039 (5), EX-0066 (4), EX-0088 (4), EX-0089 (4) |
+| Isolated Demands for Rigor | EX-0001 (4), EX-0009 (5), EX-0029 (5), EX-0042 (5), EX-0062 (4), EX-0079 (4), EX-0104 (4) |
+| Schrodinger's Joke | EX-0004 (4), EX-0030 (5), EX-0039 (5), EX-0066 (4), EX-0088 (4), EX-0089 (4), EX-0103 (4) |
 | Unilateral Principles | EX-0006 (4), EX-0036 (5), EX-0043 (5), EX-0054 (5), EX-0070 (4), EX-0081 (4), EX-0097 (4) |
-| No-Win Framing | EX-0007 (5), EX-0028 (5), EX-0049 (5), EX-0055 (5), EX-0069 (4), EX-0082 (4) |
+| No-Win Framing | EX-0007 (5), EX-0028 (5), EX-0049 (5), EX-0055 (5), EX-0069 (4), EX-0082 (4), EX-0102 (4) |
 | Victim Reversal (DARVO) | EX-0014 (5), EX-0044 (5), EX-0050 (4), EX-0056 (5), EX-0067 (4), EX-0084 (4), EX-0095 (4) |
 | Moving Goalposts | EX-0005 (5), EX-0027 (5), EX-0032 (5), EX-0060 (4), EX-0071 (4), EX-0083 (4) |
-| Permission Structures | EX-0021 (3), EX-0037 (5), EX-0038 (5), EX-0047 (4), EX-0053 (5), EX-0059 (4), EX-0064 (4), EX-0094 (4) |
+| Permission Structures | EX-0021 (3), EX-0037 (5), EX-0038 (5), EX-0047 (4), EX-0053 (5), EX-0059 (4), EX-0064 (4), EX-0094 (4), EX-0105 (5) |
 | Maximize Yours, Minimize Theirs | EX-0008 (4), EX-0015 (5), EX-0026 (5), EX-0033 (5), EX-0065 (4), EX-0072 (4) |
 | Fragmentation | EX-0003 (5), EX-0035 (5), EX-0040 (5), EX-0048 (3), EX-0063 (4), EX-0073 (4), EX-0092 (4) |
-| Narrative Laundering | EX-0011 (5), EX-0041 (5), EX-0051 (4), EX-0057 (5), EX-0074 (4), EX-0085 (4), EX-0098 (3) |
+| Narrative Laundering | EX-0011 (5), EX-0041 (5), EX-0051 (4), EX-0057 (5), EX-0074 (4), EX-0085 (4), EX-0098 (3), EX-0106 (4) |
 | Cross-Community Infiltration | EX-0010 (5), EX-0018 (5), EX-0046 (3), EX-0075 (4), EX-0086 (4), EX-0090 (4), EX-0096 (4) |
 | Paint Them as Crazy | EX-0012 (5), EX-0013 (5), EX-0034 (5), EX-0061 (4), EX-0076 (4), EX-0087 (4), EX-0093 (4) |
 

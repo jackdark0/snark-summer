@@ -451,6 +451,7 @@
 **Date:** 2026-05-19
 **Timestamp:** 12:20
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=740
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20260520-_-xdWrdI24I.txt`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** JTO describes his process for getting the "Destiny threatens to wipe communities off the internet" talking point into wider circulation: "I put out the segment today where I can put that up and walk through like how Destiny's talking about... how he says these communities all need to be wiped off the internet. Peace goes included... now it's attached to this and I can get that message out to more people that Destiny was basically threatening Pisco's community as well."
@@ -464,6 +465,7 @@
 **Date:** 2026-05-19
 **Timestamp:** 35:55 / 36:19
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=2155
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20260520-_-xdWrdI24I.txt`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** JTO says: "I'm going to make the assumption that Nick Andros probably didn't do anything that bad. That Shimu probably didn't do anything that bad." He extends total charity to his own allies with zero supporting evidence, then in the same breath demands that Stale 2000 engage with evidence against the adversary side: "dude, the facts are there. Just go watch the debate. Look into it."
@@ -477,6 +479,7 @@
 **Date:** 2026-05-19
 **Timestamp:** 20:26 / 20:41
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=1226
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20260520-_-xdWrdI24I.txt`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** JTO: "I don't like there's there's a big difference between just mass reporting someone you don't like and then mass reporting someone who's causing like actual tangible harm." He frames his own coordinated mass flagging of Destiny as the principled kind while dismissing any reciprocal reporting as unjustified — and earlier in the stream admits he didn't want to do it publicly because "I don't want to get mass reporting back."
@@ -490,6 +493,7 @@
 **Date:** 2026-05-19
 **Timestamp:** 31:01 / 31:31
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=1861
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20260520-_-xdWrdI24I.txt`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** JTO: "He makes up that I've had some hand in it or I've done something back to him or that something like untoward has happened because of me. Literally no ev no literally no evidence of it." He then immediately pivots to: "I do think he should be banned. I think he should be demonetized. I don't think he should have a platform where he's making money." This is said in the same stream where JTO admits organizing mass reporting campaigns (see EX-0043, EX-0045).
@@ -503,6 +507,7 @@
 **Date:** 2026-05-19
 **Timestamp:** 12:34 / 12:58
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=754
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20260520-_-xdWrdI24I.txt`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** The stream is ostensibly JTO's response to Stale 2000's video criticizing JTO's mass reporting campaign. Rather than addressing the accusations, JTO immediately pivots to offense: "I can get that message out to more people that Destiny was basically threatening Pisco's community as well. He's made again Destiny has said explicitly like, you know, I will harass report everything to just get rid of you. So, it's like if he's doing things in that process that are not just to but actively harmful, what is the argument against reporting him? There's none." Every question about JTO's conduct becomes a Destiny accusation.
@@ -520,6 +525,7 @@
 **Date:** 2025-06-01
 **Timestamp:** 0:00
 **Clip URL:** https://youtu.be/Y91C-2onTSs?t=0
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20250601-Y91C-2onTSs.txt`. Local clip retained at `clips/ryle-kittenhouse/EX-0046.mp4`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** The video is packaged as `DGGer's Guide to the Destiny Content Nuke`, aimed at Destiny's own audience rather than only the channel's existing viewers. In the opening, the auto-caption transcript describes the segment as a condensed tool for DGGers thinking about leaving the orbit and says it is meant to assist in deprogramming (auto-caption approximate). It then repackages a longer Ryan Beard video into a shorter allegation brief.
@@ -533,6 +539,7 @@
 **Date:** 2025-04-14
 **Timestamp:** 1:09:17
 **Clip URL:** https://youtu.be/Cjmf97AGdTI?t=4157
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20250414-Cjmf97AGdTI.txt`. Local clip retained at `clips/ryle-kittenhouse/EX-0047.mp4`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** In a discussion about alleged doxing and threats, JSTLK says that going to YouTube or sending packets to future political collaborators would be justified by the target's conduct, while also saying he had not really thought it through and was anti-flagging in general (auto-caption approximate). The same segment frames the escalation as a response to an insane extent of prior conduct.
@@ -546,6 +553,7 @@
 **Date:** 2025-07-24
 **Timestamp:** 5:05 / 6:19
 **Clip URL:** https://youtu.be/Z31osFs0rCk?t=305
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20250724-Z31osFs0rCk.txt`. Local clip retained at `clips/ryle-kittenhouse/EX-0048.mp4`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** Responding to WillyMac's claim that JSTLK retweeted dox information, JSTLK narrows the conduct to retweeting criticism of doxing that happened to sit near alleged dox material, emphasizes that he is broadly against doxing, and redirects blame toward Destiny because Destiny's earlier quote-tweet allegedly had much larger reach (auto-caption approximate).
@@ -559,6 +567,7 @@
 **Date:** 2026-05-19
 **Timestamp:** 14:26 / 14:50 / 15:00 / 16:14
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=866
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20260520-_-xdWrdI24I.txt`. Local clip retained at `clips/ryle-kittenhouse/EX-0049.mp4`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** In response to criticism of a reporting or mass-flagging campaign, JSTLK restates the critic's anti-reporting position as a demand that everyone "live by his standards." He then asks: "if you don't report no matter what, but then how do you stop people from doing this to you?" and answers that the only way is "engaging the same tactics." He says he acted once Destiny "went after my community explicitly."
@@ -572,6 +581,7 @@
 **Date:** 2026-05-24
 **Timestamp:** 34:00 / 34:51 / 35:22
 **Clip URL:** https://youtu.be/E7lH52HZzAg?t=2040
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20260524-E7lH52HZzAg.txt`. Local clip retained at `clips/ryle-kittenhouse/EX-0050.mp4`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** During a discussion of whether calling reports is platform weaponization, JSTLK rejects that label and frames the reporting target as someone who admitted malice, threatened to dox people, and was trying to harm JSTLK's community, livelihood, and safety (auto-caption approximate). The segment recasts mass reporting as a defensive response to an attack on his community.
@@ -585,6 +595,7 @@
 **Date:** 2026-05-16
 **Timestamp:** 25:27 / 25:38 / 26:20
 **Clip URL:** https://youtu.be/uZ5Fe_k-xfQ?t=1527
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20260516-uZ5Fe_k-xfQ.txt`. Local clip retained at `clips/ryle-kittenhouse/EX-0051.mp4`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** While reacting to allegations about Snark Discord coordination, JSTLK describes a pipeline where tweets are workshopped, posted, boosted through retweets and engagement, and paired with talking points for people who argue the line elsewhere (auto-caption approximate). He then mocks the charge by comparing it to ordinary community boosting.
@@ -617,6 +628,7 @@
 **Date:** 2026-05-19
 **Timestamp:** 12:50 / 12:58
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=770
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20260520-_-xdWrdI24I.txt`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** JSTLK argues that if Destiny is doing things that are not merely against TOS but "actively harmful," then "what is the argument against reporting him? There's none."
@@ -630,6 +642,7 @@
 **Date:** 2026-05-19
 **Timestamp:** 14:26 / 14:42 / 15:00
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=866
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20260520-_-xdWrdI24I.txt`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** JSTLK rejects a critic's anti-reporting position by saying the critic "expects us all to live by his standards." He then says the practical response is "engaging the same tactics."
@@ -656,6 +669,7 @@
 **Date:** 2026-05-19
 **Timestamp:** 14:07 / 15:59 / 16:14
 **Clip URL:** https://youtu.be/_-xdWrdI24I?t=847
+**Source status:** PRIVATED 2026-07-24 — channel @ryle_kittenhouse (now `justtalk_archive`) privatized its entire catalog; the YouTube link above is dead. Quote verifiable against local transcript `transcripts/ryle-kittenhouse/processed/20260520-_-xdWrdI24I.txt`. See `docs/archive-attrition.md`.
 **Status:** CLIP
 
 **What happened:** Responding to criticism of his reporting campaign, JSTLK says he did not flag Destiny when only he or a few people were targeted. He says the line was crossed when Destiny "went after my community explicitly."
@@ -1286,3 +1300,68 @@
 **What happened:** Counterpoints/Connor publicized a report to Miami PD + CPS framed as protecting Brit's children (see EX-0099) — but his own report document doxed the people in it. North: "the Brit was fully doxed in this document when it was initially released," and a second voice on the call confirms "there was a full, full government name" before it was later edited out. Separately, Whick reads a viewer account on stream: "I remember in the doc Connor included an alleged FBI agent's full personal cell phone number, and when I told him 'yo I want to censor that,' his reply was 'oh no I doxed the FBI's number, boo hoo.'"
 **Why it fits:** The report is presented as a principled child-safety act, and across the broader arc Counterpoints condemns Destiny's side for doxing/harassment — yet his own document fully doxes Brit (the mother of the very children he claims to protect, government name included) and publishes an FBI agent's personal cell number, waving off his own doxing as a joke ("boo hoo"). The anti-doxing / "for the kids" principle binds his opponents but not himself.
 **Notes:** narrative_cluster: `association`; `sexual-misconduct`. Speakers: North (SPEAKER_01) for the "Brit fully doxed / full government name" claim; the FBI-number detail is **second-hand** — Whick reading a viewer's recollection (SPEAKER_07), so treat as **UNVERIFIED** until the doc is checked. Both hinge on the original (since-edited) document; North says he retains a copy of the original. Related: EX-0099 (Counterpoints / Permission Structures — publicizing the report); `docs/dirt-scan.md`.
+
+---
+
+### EX-0102 | No-Win Framing
+**Source:** Kuihman - Destiny's Tie Was WAY TOO LONG! / YouTube
+**Date:** 2026-07-22
+**Timestamp:** 7:15
+**Clip URL:** https://youtu.be/5S5OazyfL3o?t=435
+**Status:** TIMESTAMP
+
+**What happened:** Covering Destiny being refused entry to the College Democrats convention, Kuihman plays the door footage and narrates over it: "So this is literally just like a Karen video. This is like an anti- masker freakout video. This is literally calling the manager. This is one of the most embarrassing things you could post online." He immediately adds the second half: "And here's the thing. You went there knowing this was a very likely possibility and it's just totally embarrassing for you to pull this out... You went there to agitate to piss people off. That was your goal." Earlier in the same stream (around 4:12) he pre-frames the attendance itself: "you're an idiot self snitching like that."
+**Why it fits:** Both available responses are pre-interpreted as negative. Attending is "going there to agitate"; objecting to being excluded is a "Karen video" and "one of the most embarrassing things you could post online." No conduct is left that would read as legitimate, so the exclusion becomes self-justifying regardless of what the target does.
+**Notes:** narrative_cluster: `uncategorized`. Solo commentary over played clips, so speaker attribution is unambiguous (Kuihman is the only host voice; `>>` marks clip audio). Wording verified verbatim against the local auto-caption transcript `transcripts/kuihman-live/processed/20260722-5S5OazyfL3o.txt`. Surfaced by the 2026-07-24 sweep; not a livestream (`was_live=false`).
+
+---
+
+### EX-0103 | Schrodinger's Joke
+**Source:** Purple Parry Gaming - Whick Vs Jstlk / Kino Casino Vs Angry Joe / Sony Vs Stop Killing Games / YouTube Live
+**Date:** 2026-07-04
+**Timestamp:** 3:26:40
+**Clip URL:** https://www.youtube.com/live/WV4i06m2R4I?t=12400
+**Status:** TIMESTAMP
+
+**What happened:** Relaying a set of sexual allegations about Destiny, Parry installs a retreat hatch mid-claim: "everything I said is true to Nugget... I'm not even being hyperbolic. Some may be hyperbolic for jokes. But no, as far as I know, all of that was claimed how true it is." He then concedes he has no primary evidence — "You know, I haven't seen the DMs... I've seen him claim that, but, you know, maybe he was exaggerating" — before continuing into a sex-tape and blackmail narrative carried entirely on "apparently."
+**Why it fits:** The accusation is asserted and disclaimed in the same breath. "Some may be hyperbolic for jokes" preserves the option to reclassify any specific claim as a joke if challenged, while the surrounding delivery presents the whole package as substantially true. The listener receives the allegation; the speaker keeps deniability on each component.
+**Notes:** narrative_cluster: `sexual-misconduct`. Monologue segment with no speaker-change markers in the passage, so attribution to Parry is clean. Wording verified verbatim against `transcripts/purple-parry-gaming/processed/20260704-WV4i06m2R4I.txt`. The underlying allegations are relayed hearsay and are **not** treated here as established; the entry documents the rhetorical move, not the claim. Related: EX-0104 (same stream, adjacent segment).
+
+---
+
+### EX-0104 | Isolated Demands for Rigor
+**Source:** Purple Parry Gaming - Whick Vs Jstlk / Kino Casino Vs Angry Joe / Sony Vs Stop Killing Games / YouTube Live
+**Date:** 2026-07-04
+**Timestamp:** 3:29:59
+**Clip URL:** https://www.youtube.com/live/WV4i06m2R4I?t=12599
+**Status:** TIMESTAMP
+
+**What happened:** Three minutes after conceding he has not seen the source material (EX-0103), Parry states a conclusion as an apparent finding: "it seems like Destiny is taking advantage of a mentally ill woman um and engaging in a roleplay to do with um abuse of each each other's children." Prompted by a chat claim he cannot corroborate, he responds "I do not remember that. Did that happen? That's insane. If Destiny said that, that's actually insane," and characterizes his own supporting theory as "a bit of a, you know, skitso that I do believe in." When a viewer pushes back on the timeline he switches standards instantly: "Well, now I think you're making [expletive] up."
+**Why it fits:** The evidentiary bar moves depending on direction. His own chain — unseen DMs, "apparently," an admittedly "skitso" theory — is enough to reach a child-abuse-adjacent conclusion about the target, while a viewer's contrary claim is dismissed as fabrication on the spot. Rigor is demanded only of the correction.
+**Notes:** narrative_cluster: `sexual-misconduct`; `uncategorized`. Monologue plus read-aloud chat; attribution to Parry is clean. Wording verified verbatim against `transcripts/purple-parry-gaming/processed/20260704-WV4i06m2R4I.txt`. Related: EX-0103 (same stream, the hedge that precedes this).
+
+---
+
+### EX-0105 | Permission Structures
+**Source:** AidenUnderground - Destiny/Hasan Event Drama I Stardust I New JAR Vid / YouTube Live
+**Date:** 2026-07-22
+**Timestamp:** 2:25:30
+**Clip URL:** https://www.youtube.com/live/IcsbOwaF2Ec?t=8730
+**Status:** TIMESTAMP
+
+**What happened:** Arguing that a victim's account should be published without their consent, Aiden builds an extended hypothetical about a serial rapist whose victims stay silent, concluding "you need to tell one of the victims, 'Yo, what happened to you was [expletive] up, but I'm going to come forward about this with or without your consent because more people are going to be raped if I don't.'" He then disclaims the comparison he just constructed: "Am I saying that Destiny is just as bad as this just a rapist character I came up with? Of course not. I'm just using it as an example to say eventually the victim story, even without their consent, needs to come out."
+**Why it fits:** The disclaimer arrives only after the analogy has done its work. The rapist frame is placed next to the target and then formally withdrawn, which lets the speaker deny having made the comparison while the audience keeps it. It simultaneously licenses a specific action — publishing a person's account over their objection — by routing it through a scenario where refusal would be monstrous.
+**Notes:** narrative_cluster: `sexual-misconduct`. Monologue segment; attribution to Aiden is clean. Wording verified verbatim against `transcripts/aiden-underground/processed/20260722-IcsbOwaF2Ec.txt`. Compare the "deniability engine" pattern in `docs/dooby/`.
+
+---
+
+### EX-0106 | Narrative Laundering
+**Source:** Purple Parry Gaming - They Killed His AI Girlfriend... / Solskibidi Is A Loser / Destiny: Too Evil For Democrats? / YouTube Live
+**Date:** 2026-07-20
+**Timestamp:** 27:18
+**Clip URL:** https://www.youtube.com/live/Z5P-7rRC7H4?t=1638
+**Status:** TIMESTAMP
+
+**What happened:** While recounting the unrelated history of Destiny's canvassing operations, Parry drops the characterization into a subordinate clause as settled background: "people were quite upset at Destiny and they tried cancing one of his events in OA. And some of that shitty and this is as well before Destiny was found out to be as much of a sexual predator as he was." The segment's actual topic is a PAC's initials; the "sexual predator" framing is not argued, sourced, or returned to.
+**Why it fits:** A contested allegation is inserted as an assumed, already-adjudicated fact ("was found out to be"), in passing, inside a story about something else. Because it is never presented as the claim under discussion it invites no scrutiny and cannot be answered, yet it sets the framing for everything downstream. That is the laundering step: the workshopped conclusion arrives as common knowledge rather than as an argument.
+**Notes:** narrative_cluster: `sexual-misconduct`. Monologue segment; attribution to Parry is clean. Wording verified verbatim against `transcripts/purple-parry-gaming/processed/20260720-Z5P-7rRC7H4.txt`. Shortly after this passage in the same stream, five people in a screenshot are collectively "deemed as crazy psychos" (Tactic 13 territory, not separately banked).
